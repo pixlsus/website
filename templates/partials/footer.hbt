@@ -1,0 +1,43 @@
+		<section class="footer">
+			<div class="container">
+				<div class="row clearfix">
+					<div id="navlinks" class="column two-thirds flow-opposite">
+						<div class="links-title">More</div>
+						<div class="navlink"><a href="/">Home</a></div>
+						<div class="navlink"><a href="/blog/">Blog</a></div>
+						<div class="navlink"><a href="/articles/">Articles</a></div>
+						<div class="navlink"><a href="/software/">Software</a></div>
+						<div class="navlink"><a href="//discuss.pixls.us">Discuss</a></div>
+					</div>
+					<div class="column third">
+						<div class="site-name">PIXLS.US</div>
+						<p class="site-slogan">Free/Open Source Photography</p>
+
+                        <div id='social-icons'>
+                            <a href="https://plus.google.com/b/115344273324079495662/115344273324079495662/about">
+                                <img src="/images/social/g+.png" alt="social logo google+"/>
+                            </a>
+							<a href="https://www.flickr.com/groups/pixlsus/">
+								<img src="/images/social/flickr.png" alt="flickr logo"/>
+							</a>
+                            <a href="https://twitter.com/pixlsus">
+                                <img src="/images/social/twitter.png" alt="twitter logo"/>
+                            </a>
+                            <img src="/images/social/youtube.png" alt="youtube logo"/>
+                        </div>
+
+					</div>
+				</div>
+
+				<div class="cc-row row clearfix">
+                    <div class="cc-info">
+                        <p>
+                        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/images/cc/by-sa.png" /></a><br />Unless otherwise noted content on this site, <span property="dct:title">PIXLS.US</span> by <a href="http://blog.patdavid.net" property="cc:attributionName" rel="cc:attributionURL">Pat David</a>, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+                    </p>
+                    </div>
+				</div>
+
+			</div>
+		</section>
+
+

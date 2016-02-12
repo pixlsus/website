@@ -1,0 +1,150 @@
+/*
+ * Specifically for styling index.html
+ *
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+ */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Roboto+Slab:400,700);
+
+/*
+ * TESTING
+ * This adds the image to the center of the rule
+hr:after {
+	background: url('/images/bitcams/bitcam-1.svg') no-repeat top center;
+	content: "";
+	display: block;
+	height: 50px;
+	position: relative;
+	top: -25px;
+	background-size: contain;
+}
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: #777;
+}
+
+header {
+	background-color: whitesmoke;
+    padding: 1rem 0;
+    /*
+	-moz-box-shadow: inset 0 -20px 20px -20px rgba(50,50,50,0.5);
+	-webkit-box-shadow: inset 0 -20px 20px -20px rgba(50,50,50,0.5);
+	box-shadow: inset 0 -20px 20px -20px rgba(50,50,50,0.5);
+    */
+}
+
+header#bar {
+    padding: 0;
+    box-shadow: none;
+}
+
+.intro h1, section h1, section h2 {
+	font-family: "Roboto Slab", Arvo, "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 2rem;
+}
+
+header img {
+    /*
+	width: 250px;
+	margin-top: 1.5rem;
+	background-color: rgba(255, 163, 0, 0.8);
+    */
+}
+
+header a {
+    text-decoration: none;
+}
+
+#about-header {
+    font-family: Oswald;
+    font-size: 5rem;
+    margin-top: -1rem;
+    color: #555;
+    text-transform: uppercase;
+}
+
+#logo-header {
+    margin: 0 auto;
+    width: 200px;
+}
+
+@media (min-width: 40rem){
+    #about-header {
+        display: inline;
+        font-size: 9rem;
+    }
+
+    #logo-header {
+        display: inline;
+        height: 8rem;
+        width: auto;
+    }
+}
+
+#pixls-blender {
+		background-image: url('https://lh5.googleusercontent.com/-VScF_Hq-YE8/VAOA5mdIchI/AAAAAAAARYs/uj6xLzvyRiY/s1920/pixls-background.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+}
+
+@media (max-width: 40rem){
+	section#img-patdavid {
+		height: 300px;
+	}
+}
+
+section#about-patdavid {
+	padding: initial;
+}
+
+.bitcam {
+	width: 75px;
+	margin-top: 1.5rem;
+	opacity: 0.75;
+}
+
+section.footer {
+	background-color: whitesmoke;
+	-moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.5);
+	box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.5);
+
+}
+
+section.person {
+    padding: 0;
+}
+
+div.person {
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.person-name {
+    margin: 3rem 0 2rem 0;
+    font-family: Oswald;
+    font-weight: 300;
+}
+
+img.natural {
+     width: initial;
+     max-width: 100%;
+     display: inline;
+}
+
+#navlogo {
+     line-height: 0em;
+}
+
+#mission {
+    font-size: 1.5rem;
+    max-width: 35rem;
+}

@@ -1,0 +1,79 @@
+/*
+ * Specifically for styling index.html
+ *
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+ */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Roboto+Slab:400,700);
+
+/*
+ * TESTING
+ * This adds the image to the center of the rule
+hr:after {
+	background: url('/images/bitcams/bitcam-1.svg') no-repeat top center;
+	content: "";
+	display: block;
+	height: 50px;
+	position: relative;
+	top: -25px;
+	background-size: contain;
+}
+*/
+
+header {
+	background-color: slategray;
+	-moz-box-shadow: inset 0 -20px 20px -20px rgba(50,50,50,0.5);
+	-webkit-box-shadow: inset 0 -20px 20px -20px rgba(50,50,50,0.5);
+	box-shadow: inset 0 -20px 20px -20px rgba(50,50,50,0.5);
+}
+
+.intro h1, section h1, section h2 {
+	font-family: "Roboto Slab", Arvo, "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 2rem;
+}
+
+header img {
+	width: 250px;
+	margin-top: 1.5rem;
+	background-color: rgba(255, 163, 0, 0.8);
+}
+
+#img-patdavid {
+	background-image: url('https://lh3.googleusercontent.com/-GkKqZhlz7YA/U_IWqqkLDYI/AAAAAAAARMI/Wcu4JLy3m1g/s2048/Pat-David-Headshot-Crop-2048-Q60.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+}
+
+#pixls-blender {
+		background-image: url('https://lh5.googleusercontent.com/-VScF_Hq-YE8/VAOA5mdIchI/AAAAAAAARYs/uj6xLzvyRiY/s1920/pixls-background.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+}
+
+@media (max-width: 40rem){
+	section#img-patdavid {
+		height: 300px;
+	}
+}
+
+section#about-patdavid {
+	padding: initial;
+}
+
+.bitcam {
+	width: 75px;
+	margin-top: 1.5rem;
+	opacity: 0.75;
+}
+
+section.footer {
+	background-color: slategray;
+	color: #fff;
+	-moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.5);
+	box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.5);
+
+}

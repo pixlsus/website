@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html lang="en" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+	<title>PIXLS.US - {{#if title}} {{ title }} {{/if}}</title>
+
+    {{#if title}}
+        <meta itemprop="name" content="{{title}}" />
+        <meta property="og:title" content="{{title}}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="PIXLS.US" />
+    {{/if}}
+        {{#if title}}<meta itemprop="headline" content="{{title}}" />{{/if}}
+    {{#if author}}
+        <meta itemprop="author" content="{{ author }}" />
+        <meta property="og:author" content="{{ author }}" />
+    {{/if}}
+    {{#if date}}
+        <meta itemprop="datePublished" content="{{ date }}" />
+        <meta property="og:published_time" content="{{ date }}" />
+    {{/if}}
+    {{#if lede-img}}
+        <meta itemprop="image" content="https://pixls.us/{{this.path}}/{{lede-img}}" />
+        <meta property="og:image" content="https://pixls.us/{{this.path}}/{{lede-img}}" />
+    {{/if}}
+
+    <link href="https://pixls.us/feed.xml" rel="alternate" type="application/rss+xml" title="Pixls.us Feed" />
+
+    {{!-- Adding a canonical URL --}}
+    {{#if canonical}}
+    <link rel="canonical" href="{{ canonical }}" />
+    <meta property="og:url" content="{{ canonical }}" />
+    <meta property="url" content="{{ canonical }}" />
+    {{else}}
+    <link rel="canonical" href="https://pixls.us/{{ this.path }}/" />
+    <meta property="og:url" content="https://pixls.us/{{ this.path}}/" />
+    <meta property="url" content="https://pixls.us/{{ this.path}}/" />
+    {{/if}}
+
+    <link rel="stylesheet" href="/styles/normalize.css"/>
+    <link rel="stylesheet" href="/styles/grid.css"/>
+    <link rel="stylesheet" href="/styles/article.css"/>
+    <link rel="stylesheet" href="/styles/topnav.css"/>
+    <link rel="stylesheet" href="/styles/push-menu.css"/>
+    <link rel="stylesheet" href="/styles/prism.css"/>
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    
+
+    {{#if stylesheet}}<link rel="stylesheet" href="{{stylesheet}}"/>{{/if}}
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style type="text/css" media="all">
+		{{#if lede-img}} #lede { background-image: url('{{{ lede-img }}}'); } {{/if}}
+		{{#if lede-style}} #lede { {{ lede-style }} } {{/if}}
+	</style>
+
+	{{! Google Analytics }}
+	{{>analytics}}
+
+  </head>
+
+  <body>
+
+        {{>topnav}}
+        {{>push-menu}}
+
+        <div id="pushPage">
+
+            {{! Article Lede (maybe img + title + subtitle) }}
+            <section id="lede" class="example {{#if lede-img}}lede-img{{else}}lede{{/if}}">
+                    {{!--
+                    <div class="container">
+                    {{#if title}} <h1 class="article-title">{{ title }}</h1> {{/if}}
+                    {{#if sub-title}} <p>{{ sub-title }}</p> {{/if}}
+                    </div>
+                    --}}
+                    {{#if lede-attribution}}<div class="lede-attr">{{{lede-attribution}}}</div>{{/if}}
+            </section>
+
+            <!-- Main content area -->
+            <div class="row clearfix">
+                <div class="container">
+                    <div class="column two-thirds">
+                        <div id="main" class="article-title">
+                        <!-- Begin article content -->
+                            <h1 id="title">{{ title }}</h1>
+                            {{#if sub-title}} <p id="subtitle">{{ sub-title }}</p> {{/if}}
+                            {{!-- 
+                            {{#if author}} <p class="author-name">{{ author }}</p> {{/if}}
+                            {{#if date}} <p class="article-date">{{{niceDate date}}}</p> {{/if}}
+                            --}}
+                        </div>
+                    </div>
+                </div>
+
+                {{!-- Pre-chunk contents based on the <!-- FULL-WIDTH --> tag --}}
+                {{!-- So we can break out rows to full page width --}}
+                {{chunk-pre contents}}
+
+                {{#each chunks}}
+                    {{#is_even @index}}
+
+                        <div class="container">
+                            <div class="column two-thirds">
+                                {{{this}}}
+                            </div>
+                        </div>
+
+                    {{else}}
+
+                        {{{this}}}
+
+                    {{/is_even}}
+                {{/each}}
+
+                
+                <!-- End article content -->
+            </div>
+
+                <!-- Author info under post -->
+            <div class="row clearfix">
+                <div class="container">
+                    <div class="author-end column two-thirds">
+                        <span class="byline">Written by:</span>
+                        <div class="author-box">
+                            {{#if author-img}}
+                            <img src="{{author-img}}" alt="{{ author }}"/>
+                            {{ else }}
+                            <img src="https://lh3.googleusercontent.com/-zfWc9BQ-oGw/AAAAAAAAAAI/AAAAAAAAKgc/gGSESRvbR9E/s150/photo.jpg" alt="Pat David Headshot"/>
+                            {{/if}}
+                            <div class="author-box-info">
+                                {{! should link to page of authors posts }}
+                                <div class="author-name">{{#if author}} 
+                                    {{#if author-url}}
+                                    <a href="{{ author-url}}" title="{{ author }}" rel="author">{{ author }}</a>
+                                    {{ else }}
+                                    {{ author }}
+                                    {{/if}}
+                                {{/if}}</div>
+                                {{#if author-email}} <div class="author-email"> {{ author-email }} </div> {{/if}}
+                                {{#if author-bio}} <div class="author-bio"> {{{ author-bio }}} </div> {{/if}}
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Author info under post -->
+
+                {{!-- PREV/NEXT Links for Blog Posts
+                <!-- Next/Prev post links -->
+                <div class="container">
+                    <div id="nextPrev" class="column two-thirds">
+                        <div class="column half">
+                            {{#if this.next}}
+                            <a href="/{{this.next.path}}">
+                                <div>&larr;PREVIOUSLY</div>
+                                <span id="prevTitle">{{this.next.title}}</span>
+                            </a>
+                            {{else}}
+                                &nbsp;
+                            {{/if}}
+                        </div>
+                        <div class="column half next">
+                            {{#if this.previous}}
+                            <a href="/{{this.previous.path}}">
+                                <div>NEXT UP&rarr;</div>
+                                <span id="nextTitle">{{this.previous.title}}</span>
+                            </a>
+                            {{else}}
+                                &nbsp;
+                            {{/if}}
+                        </div>
+                    </div>
+                </div>
+                --}}
+
+            </div>
+
+            <div class="camrule">
+                <img src="/images/bitcams/bitcam-1.svg" alt="bit camera" class="camrule-img" />
+            </div>
+
+
+            {{#if nodiscuss}}
+            {{else}}
+            <div class="row clearfix">
+                <div class="container">
+                    <div id="discourse-comments" class="column two-thirds"></div>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+              var discourseUrl = "https://discuss.pixls.us/",
+              discourseEmbedUrl = 'https://pixls.us/{{ this.path }}/';
+
+              (function() {
+                var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+                  d.src = discourseUrl + 'javascripts/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+              })();
+            </script>
+            {{/if}}
+
+            {{>footer}}
+
+        </div>
+
+        <script src="/js/window-scroll.js"></script>
+        <script src="/js/push-menu.js"></script>
+        <script src="/js/prism.js"></script>
+        <script src="/js/img-compare.js"></script>
+		<script src="/js/img-swap.js"></script>
+	</body>
+</html>
+

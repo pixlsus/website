@@ -1,0 +1,12 @@
+<div id="pushMenu">
+	<div class="push-sitename">PIXLS.US</div>
+    <div class="navlink"><a href="/">HOME</a></div>
+    <div class="navlink"><a href="/blog/">BLOG</a></div>
+    <div class="navlink"><a href="/articles/">ARTICLES</a></div>
+    <div class="navlink"><a href="/software/">SOFTWARE</a></div>
+    <div class="navlink"><a href="//discuss.pixls.us">DISCUSS</a></div>
+    <div class="navlink"><a href="/about/">ABOUT</a></div>
+    <div id="pushMenu-TOC">
+    </div>
+</div>
+

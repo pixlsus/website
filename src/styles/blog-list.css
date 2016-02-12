@@ -1,0 +1,179 @@
+#lede {
+    padding: 1rem 0;
+    margin-bottom: 0;
+}
+
+#logo-header {
+    background-color: slategray;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#blog-header {
+    font-family: Oswald;
+    font-size: 5rem;
+    font-size: 6.2rem;
+    margin-top: -1rem;
+    color: #555;
+    text-transform: uppercase;
+}
+
+@media (min-width: 40rem){
+    #logo-header{
+        display: inline;
+        height: 8rem;
+        width: auto;
+    }
+
+    #blog-header{
+        display: inline;
+        font-size: 9rem;
+    }
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 auto;
+    max-width: 33rem;
+}
+
+.post {
+    text-align: left;
+}
+
+#posts > .row.clearfix {
+    /* margin: 2rem auto; */
+    padding: 3rem 0;
+}
+
+#posts > .row.clearfix:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+#posts > .row.clearfix:first-child{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#posts > .row.clearfix:last-child{
+    margin-bottom: 0;
+}
+
+@media (min-width: 40rem){
+    #posts > .row.clearfix:nth-child(odd) > .column {
+        float: right;
+    }
+}
+
+.date {
+    font-family: Oswald;
+    color: #888;
+    max-width: 33rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.date small{
+    font-weight: 300;
+}
+
+.more {
+    font-family: Oswald;
+    margin-top: 1rem;
+    float: right;
+	text-transform: uppercase;
+}
+
+blockquote {
+    border: solid 1px #ccc;
+    border-left: solid 5px #aaa;
+	padding: 0 0.5em;
+    -webkit-box-shadow: 0 6px 4px -5px #ccc;
+    -moz-box-shadow: 0 6px 4px -5px #ccc;
+    box-shadow: 0 6px 4px -5px #ccc;
+    max-width: 33rem;
+    margin: 0 auto;
+}
+
+blockquote::before {
+    /* content: open-quote; */
+}
+
+blockquote > p {
+    margin: 1em auto !important;
+    color: #666;
+}
+
+figure img {
+    width: 100%;
+}
+
+#posts {
+    padding: 0;
+    padding-top: 4rem;
+}
+
+section.footer {
+    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.5);
+    border-top: 0;
+}
+
+.site-name, .links-title {
+    font-family: Oswald;
+	font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+pre {
+		background-color: #f8f8f8;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		border: 1px solid #ddd;
+		white-space: pre;
+		font-family: consolas, "Liberation Mono", Courier, monospace;
+		font-size: 0.8em;
+		padding: 0.3em;
+        max-width: 33rem;
+        margin: 0 auto !important;
+}
+
+pre code {
+		-moz-border-radius: none;
+		-webkit-border-radius: none;
+		border-radius: none;
+		border: none;
+		white-space: pre;
+		padding: 0;
+        background-color: initial;
+}
+
+.fluid-vid {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+    max-width: 33rem;
+    margin: 0 auto;
+}
+
+.fluid-vid iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#pages {
+    font-family: Oswald, League Gothic, Arial;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.pageArrow {
+    font-size: 3rem;
+}

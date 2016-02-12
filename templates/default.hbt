@@ -1,0 +1,17 @@
+{{debug}}
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>{{#if title }} {{ title }} | {{/if}} Test Metalsmith Page</title>
+	<link rel="stylesheet" type="text/css" href="/styles/style.css" />
+	<link href="{{link 'styles/style.css'}}" /> {{! this gets full url }}
+	<link rel="canonical" href="{{link path}}" />
+</head>
+<body>
+	<div class="main-wrapper">
+		<h1>Title: {{ title }}</h1>
+		{{{ contents }}}
+	</div>
+</body>
+</html>

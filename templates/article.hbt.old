@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<title>Pixls.us - {{#if title}} {{ title }} {{/if}}</title>
+
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/grid.css">
+    <link rel="stylesheet" href="/styles/article.css">
+    <link rel="stylesheet" href="/styles/nav.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style type="text/css" media="all">
+		{{#if lede-img}} #lede { background-image: url('{{{ lede-img }}}'); } {{/if}}
+		{{#if sub-title}} .article-title h1{ margin-bottom: 0; } 
+		.article-title h4 { margin-bottom: 1.5em; }
+		{{/if}}
+	</style>
+  </head>
+
+  <body>
+	  	<!--
+		<header id='bar' class="clearfix">
+			<div class="container">
+				<h1>Pixls.us</h1>
+			</div>
+		</header>
+		-->
+
+		<!-- Article Lede (maybe img + title + subtitle) -->
+		<section id="lede" class="example {{#if lede-img}}lede-img{{else}}lede{{/if}}">
+			<div class="container">
+                {{!--
+				{{#if title}} <h1 class="article-title">{{ title }}</h1> {{/if}}
+				{{#if sub-title}} <p>{{ sub-title }}</p> {{/if}}
+                --}}
+			</div>
+		</section>
+
+		<!-- Main content area -->
+		<div class="container">
+			<div class="row clearfix">
+				<div class="column two-thirds">
+					<div id="main" class="article-title">
+					<!-- Begin article content -->
+						<h1 id="title">{{ title }}</h1>
+						{{#if sub-title}} <h4>{{ sub-title }}</h4> {{/if}}
+						{{{ contents }}}
+					<!-- End article content -->
+					</div>
+				</div>
+			</div>
+			<!-- Author info under post -->
+			{{! ## TODO: Fix so mobile view has centered info stacked }}
+			<div class="row clearfix">
+				<div class="column two-thirds">
+					<span>Written by:</span>
+					<div class="author-box">
+						<div class="author-box-image">
+							<img src="https://lh3.googleusercontent.com/-zfWc9BQ-oGw/AAAAAAAAAAI/AAAAAAAAKgc/gGSESRvbR9E/s100/photo.jpg"/>
+						</div>
+						<div class="author-box-info">
+							{{! should link to page of authors posts }}
+							<div>{{#if author}} {{ author }} {{/if}}</div>
+							{{#if author-email}} <div> {{ author-email }} </div> {{/if}}
+							{{#if author-bio}} <div> {{{ author-bio }}} </div> {{/if}}
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer Links etc... -->
+		<section class="footer">
+			<div class="container">
+				<div class="row clearfix">
+					<div class="column fourth">
+						<h2>A Heading Two</h2>
+						<p>A paragraph of information</p>
+					</div>
+					<div class="column fourth">
+						<p>Para in the second column.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
+

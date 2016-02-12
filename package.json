@@ -1,0 +1,26 @@
+{
+  "name": "Pixlsus-Website",
+  "version": "0.0.1",
+  "description": "Hoping this works?",
+  "author": "Pat David et al.",
+  "license": "Not sure yet... cc?",
+  "devDependencies": {
+    "handlebars": "^2.0.0-alpha.2",
+    "metalsmith": "^0.6.0",
+    "metalsmith-atom": "0.0.4",
+    "metalsmith-clean": "0.0.0",
+    "metalsmith-collections": "^0.4.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.3.0",
+    "metalsmith-templates": "^0.4.0",
+    "rimraf": "^2.4.4"
+  },
+  "dependencies": {
+    "metalsmith-branch": "0.0.4",
+    "metalsmith-clean": "0.0.0",
+    "metalsmith-more": "^0.2.0",
+    "metalsmith-paginate": "^0.3.0",
+    "metalsmith-pagination": "^1.0.0",
+    "metalsmith-path": "^0.1.0"
+  }
+}

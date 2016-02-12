@@ -1,0 +1,68 @@
+#notice {
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#blog-header {
+    font-size: 5rem;
+    margin-top: 0;
+}
+
+#articles {
+    padding: 0;
+}
+
+
+.article-entry {
+    font-family: 'Robot Slab', Arvo, 'Open Sans', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0rem;
+    height: 33vh;
+    display: block;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    text-align: right;
+    overflow: hidden;
+}
+
+/* ipad portrait */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+    .article-entry{
+        height: 340px;
+    }
+}
+
+/* ipad landscape */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+    .article-entry{
+        height: 256px;
+    }
+}
+
+.article-entry > span, .article-entry > h2 {
+    position: absolute;
+    bottom: 1rem;
+    right: 0.5rem;
+    width: 96%;
+    padding-top: 100%;
+    color: #eeeeee;
+    font-family: Oswald, "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+.article-entry > span:hover, .article-entry > h2:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 40rem){
+    .article-entry {
+        font-size: 2rem;
+        margin-bottom: 0rem;
+    }
+    #blog-header {
+        font-size: 9rem;
+    }
+}
+

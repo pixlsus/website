@@ -1,0 +1,373 @@
+/*
+ * Specifically for styling index.html
+ *
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+ */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Roboto+Slab:400,700);
+
+/*
+ * TESTING
+ * This adds the image to the center of the rule
+hr:after {
+	background: url('/images/bitcams/bitcam-1.svg') no-repeat top center;
+	content: "";
+	display: block;
+	height: 50px;
+	position: relative;
+	top: -25px;
+	background-size: contain;
+}
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: #777;
+}
+
+header {
+	background-color: whitesmoke;
+    padding: 1rem 0;
+    /*
+	-moz-box-shadow: inset 0 -20px 20px -20px rgba(50,50,50,0.5);
+	-webkit-box-shadow: inset 0 -20px 20px -20px rgba(50,50,50,0.5);
+	box-shadow: inset 0 -20px 20px -20px rgba(50,50,50,0.5);
+    */
+}
+
+header#bar {
+    padding: 0;
+    box-shadow: none;
+}
+
+.intro h1, section h1, section h2 {
+	font-family: "Roboto Slab", Arvo, "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 2rem;
+}
+
+section h2 {
+    font-size: 1.5rem;
+}
+
+header img {
+    /*
+	width: 250px;
+	margin-top: 1.5rem;
+	background-color: rgba(255, 163, 0, 0.8);
+    */
+}
+
+header a {
+    text-decoration: none;
+}
+
+#about-header {
+    font-family: Oswald;
+    font-size: 4rem;
+    /* margin-top: -1rem; */
+    color: #555;
+    text-transform: uppercase;
+}
+
+#logo-header {
+    margin: 0 auto;
+    width: 200px;
+}
+
+@media (min-width: 40rem){
+    #about-header {
+        display: inline;
+        font-size: 7.5rem;
+    }
+
+    #logo-header {
+        display: inline;
+        height: 6.6rem;
+        width: auto;
+    }
+}
+@media (min-width: 64rem){
+    #about-header {
+        font-size: 9rem;
+    }
+    #logo-header {
+        height: 8rem;
+    }
+}
+
+#pixls-blender {
+		background-image: url('https://lh5.googleusercontent.com/-VScF_Hq-YE8/VAOA5mdIchI/AAAAAAAARYs/uj6xLzvyRiY/s1920/pixls-background.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+}
+
+@media (max-width: 40rem){
+	section#img-patdavid {
+		height: 300px;
+	}
+}
+
+section#about-patdavid {
+	padding: initial;
+}
+
+.bitcam {
+	width: 75px;
+	margin-top: 1.5rem;
+	opacity: 0.75;
+}
+
+section.footer {
+	background-color: whitesmoke;
+	-moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.5);
+	box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.5);
+
+}
+
+section.person {
+    padding: 0;
+}
+
+div.person {
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.person-name {
+    margin: 3rem 0 2rem 0;
+    font-family: Oswald;
+    font-weight: 300;
+}
+
+img.natural {
+     width: initial;
+     max-width: 100%;
+     display: inline;
+}
+
+#navlogo {
+     line-height: 0em;
+}
+
+.column.third > h2 {
+    border-bottom: solid 1px #eee;
+    margin-bottom: 1rem;
+}
+
+.sw-entry {
+
+    padding-bottom: 1.5rem;
+    font-size: 1.3rem;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.sw-entry p {
+    font-size: 0.85rem;
+}
+
+.sw-entry img {
+    height: 45px;
+    width: auto;
+    display: inline;
+    vertical-align: middle;
+    margin: 0 0.35rem;
+}
+
+.sw-entry > a:before {
+    content: "";
+    width: 45px;
+    height: 45px;
+    display: block;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+    display: inline-block;
+    vertical-align: bottom;
+    display: none;
+}
+
+.sw-entry .fa {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+
+@media (min-width: 64rem){
+    .sw-entry > a:before {
+        content: "";
+        display: inline;
+        margin-right: initial;
+        margin-left: -50px;
+        position: absolute;
+    }
+    
+    .sw-entry {
+        margin-bottom: 0;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .sw-entry .fa {
+        font-size: 1rem;
+        display: inline;
+    }
+
+}
+
+
+.sw-entry.darktable > a:before {
+    background: url('software-logos.png') 0 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.rawtherapee > a:before {
+    background: url('software-logos.png') -45px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.ufraw > a:before {
+    background: url('software-logos.png') -89px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.photivo > a:before {
+    background: url('software-logos.png') -135px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.gimp > a:before {
+    background: url('software-logos.png') -180px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.imagemagick > a:before {
+    background: url('software-logos.png') -225px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.krita > a:before {
+    background: url('software-logos.png') -270px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.gmic > a:before {
+    background: url('software-logos.png') -315px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.hugin > a:before {
+    background: url('software-logos.png') -360px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.luminancehdr > a:before {
+    background: url('software-logos.png') -405px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.magiclantern > a:before {
+    background: url('software-logos.png') -450px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.blender > a:before {
+    background: url('software-logos.png') -495px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.lensfun > a:before {
+    background: url('software-logos.png') -540px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.digikam > a:before {
+    background: url('software-logos.png') -585px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.rapidphotodownloader > a:before {
+    background: url('software-logos.png') -630px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.vips > a:before {
+    background: url('software-logos.png') -675px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.hdrmerge > a:before {
+    background: url('software-logos.png') -720px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.filmulator > a:before {
+    background: url('software-logos.png') -767px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.airnef > a:before {
+    background: url('software-logos.png') -812px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.gthumb > a:before {
+    background: url('software-logos.png') -857px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.macrofusion > a:before {
+    background: url('software-logos.png') -902px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.graphicsmagick > a:before {
+    background: url('software-logos.png') -947px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.entangle > a:before {
+    background: url('software-logos.png') -992px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.dispcalgui > a:before {
+    background: url('software-logos.png') -1037px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.film-emulator > a:before {
+    background: url('software-logos.png') -1082px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.forensically > a:before {
+    background: url('software-logos.png') -1127px 0 no-repeat;
+	display:inline-block;
+}
+
+
+
+@media (min-width: 40rem){
+    .sw-entry {
+        font-size: 1.4rem;
+    }
+    .sw-entry > a:before{
+        display: block !important;
+    }
+}
+
+.sw-entry .fa {
+    margin-left: 0.5rem;
+    color: #ccc;
+}
+
+i.fa.fa-nix-win-osx:after { /* linux, win, osx */
+    content: "\f17c\00a0\f17a\00a0\f179";
+    font-family: FontAwesome;
+}
+i.fa.fa-nix-win:after { /* linux, win */
+    content: "\f17c\00a0\f17a";
+    font-family: FontAwesome;
+}
+i.fa.fa-nix-osx:after { /* linux, osx */
+    content: "\f17c\00a0\f179";
+    font-family: FontAwesome;
+}
+i.fa.fa-win-osx:after { /* win, osx */
+    content: "\f17a\00a0\f179";
+    font-family: FontAwesome;
+}
+
+p.sw-desc {
+    font-size: 1rem;
+    margin-bottom: 0;
+    display: none;
+}
+
+.left-align {
+    text-align: left;
+}

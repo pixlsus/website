@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>PIXLS.US - {{#if title}} {{ title }} {{/if}}</title>
+
+        <link href="http://pixls.us/blog/feed.xml" rel="alternate" type="application/rss+xml" title="Pixls.us Blog Feed" />
+
+        <link rel="stylesheet" href="/styles/normalize.css">
+        <link rel="stylesheet" href="/styles/grid.css">
+        <link rel="stylesheet" href="/styles/prism.css"/>
+        <link rel="stylesheet" href="/styles/article.css">
+        <link rel="stylesheet" href="/styles/topnav.css">
+        <link rel="stylesheet" href="/styles/blog-list.css">
+        <link rel="stylesheet" href="/styles/push-menu.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <style type="text/css" media="all">
+            {{#if lede-img}} #lede { background-image: url('{{{ lede-img }}}'); } {{/if}}
+            #logo-header {
+            }
+        </style>
+
+        {{! Google Analytics }}
+        {{>analytics}}
+
+    </head>
+
+    <body>
+     
+        {{>topnav}}
+        {{>push-menu}}
+
+        <div id="pushPage">
+
+		{{! Article Lede (maybe img + title + subtitle) }}
+		<section id="lede" class="example {{#if lede-img}}lede-img{{else}}lede{{/if}}">
+			<div class="container">
+                <a href="/"><img id="logo-header" src="/images/logo/px-logo-url-250.png"/></a>
+                <div id="blog-header">Blog</div>
+			</div>
+		</section>
+
+
+        <section id="posts">
+        {{#each collections.blogposts}}
+        {{!-- debug collections.blogposts --}}
+        {{abPath this}}
+        <div class="row clearfix post">
+            <div class="column third">
+                <img src="{{lede-path 'post' lede-img}}"/>
+            </div>
+            <div class="column two-thirds">
+                <div class="container">
+                    <h2><a href="/{{path}}">{{title}}</a></h2>
+                    <div class="date"><small>{{{niceDate this.date}}}</small></div>
+                    {{#if less}}
+                        {{{less}}}
+                        <div class="more"><a href="/{{path}}">Continue Reading &rarr;</a></div>
+                    {{else}}
+                        {{{contents}}}
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+        {{#unless @last}}
+        {{/unless}}
+        {{/each}}
+    </section>
+
+
+		<div class="camrule">
+			<img src="/images/bitcams/bitcam-1.svg" alt="bit camera" class="camrule-img" />
+		</div>
+		
+        {{>footer}}
+
+    </div>
+        <script src="/js/window-scroll.js"></script>
+        <script src="/js/push-menu.js"></script>
+		<script src="/js/img-swap.js"></script>
+        <script src="/js/prism.js"></script>
+	</body>
+</html>
+

@@ -1,0 +1,7 @@
+    <header id='bar' class="clearfix nav-down">
+        <a href="#navlinks" id='nav-anchor'>
+            <!-- <div id='navlogo'>px</div> -->
+            <img id='navimg' src="/images/ic_menu_black_36dp.png" alt="PIXLS.US Navigation"  />
+        </a>
+    </header>
+
