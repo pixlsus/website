@@ -111,8 +111,8 @@ I've setup a [Github Pixls organization][git-org] so that we can begin to share 
 [git-org]: https://github.com/pixlsus
 [@paperdigits]: https://discuss.pixls.us/users/paperdigits/activity
 
-At the moment there is only the single repository [_Presentations_][pres] as we are figuring out structure. I've uploaded my slides and notes from the LGM2015 _State of the Libre Graphics_ presentation announcing PIXLS. If you're on [Github][] and want to join us just let me know!
+At the moment there is only the single repository [_Presentations_][pres] as we are figuring out structure. I've uploaded my slides and notes from the [LGM2015 _State of the Libre Graphics_][lgm2015] presentation announcing PIXLS. If you're on [Github][] and want to join us just let me know!
 
 [pres]: https://github.com/pixlsus/Presentations
 [Github]: http://www.github.com
-
+[lgm2015]: https://github.com/pixlsus/Presentations/tree/master/LGM2015_State_Of
