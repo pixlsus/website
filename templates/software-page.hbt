@@ -38,7 +38,7 @@
 
 			<section class="row clearfix" style="border-top: 1px solid #eee;">
 				<div class="container">
-					<h1>F/OSS Projects</h1>
+					<h1>Free Software Projects</h1>
                     <p>A selection of Free/Libre Open Source Software projects related to photography.</p>
 
                     <div class="column half ">                
@@ -257,6 +257,10 @@
 					</div>
                     <div class="sw-entry gthumb">
 						<a href="https://wiki.gnome.org/Apps/gthumb">gThumb</a>
+						<i class="fa fa-linux"></i>
+					</div>
+                    <div class="sw-entry shotwell">
+						<a href="https://wiki.gnome.org/Apps/Shotwell">Shotwell</a>
 						<i class="fa fa-linux"></i>
 					</div>
                     {{!-- <div class="sw-entry">Enfuse/Enblend

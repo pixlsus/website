@@ -328,6 +328,10 @@ img.natural {
     background: url('software-logos.png') -1127px 0 no-repeat;
 	display:inline-block;
 }
+.sw-entry.shotwell > a:before {
+    background: url('software-logos.png') -1172px 0 no-repeat;
+	display:inline-block;
+}
 
 
 
