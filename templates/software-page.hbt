@@ -263,20 +263,18 @@
 						<a href="https://wiki.gnome.org/Apps/Shotwell">Shotwell</a>
 						<i class="fa fa-linux"></i>
 					</div>
-                    {{!-- <div class="sw-entry">Enfuse/Enblend
-					</div> --}}
+                    <div class="sw-entry dispcalgui">
+						<a href="http://displaycal.net">DisplayCAL</a>
+						<i class="fa fa-nix-win-osx"></i>
+                        <p>
+                           Open Source Display Calibration and Characterization powered by Argyll CMS. 
+                        </p>
+					</div>
                     <div class="sw-entry">
 						<a href="http://www.argyllcms.com/">Argyll CMS</a>
 						<i class="fa fa-nix-win-osx"></i>
                         <p>
                             An ICC compatible color management system.
-                        </p>
-					</div>
-                    <div class="sw-entry dispcalgui">
-						<a href="http://dispcalgui.hoech.net/">dispcalGUI</a>
-						<i class="fa fa-linux"></i>
-                        <p>
-                            GUI for the display calibration and profiling tools of Argyll CMS.
                         </p>
 					</div>
                     <div class="sw-entry">
