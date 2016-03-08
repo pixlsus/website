@@ -25,11 +25,11 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="205.62364"
-     inkscape:cy="247.8209"
+     inkscape:zoom="0.125"
+     inkscape:cx="1401.9993"
+     inkscape:cy="29.714793"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1-2"
+     inkscape:current-layer="layer1-5"
      showgrid="true"
      units="px"
      inkscape:snap-bbox="true"
@@ -269,94 +269,87 @@
          id="rect4512"
          style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#0d91ff;fill-opacity:1;stroke:none;stroke-width:1.22439384;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
       <g
-         id="g4682"
-         transform="translate(502.39651,3.2026106e-6)"
-         inkscape:export-xdpi="54"
-         inkscape:export-ydpi="54">
+         id="g19690">
         <rect
            width="297.41428"
            height="297.41428"
-           x="-433.96078"
-           y="55.083626"
+           x="68.435722"
+           y="55.08363"
            id="rect4684"
-           style="fill:#778899;stroke:#323232;stroke-width:8.83399391;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1" />
+           style="fill:#778899;fill-opacity:1;stroke:#323232;stroke-width:8.83399391;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
         <g
-           id="g4797"
-           transform="matrix(0.94517854,0,0,0.94517854,-15.638019,10.963327)">
+           id="g4686"
+           transform="matrix(1.1999052,0,0,-1.1999052,-7508.41,8402.4014)"
+           style="fill:#323232;fill-opacity:1">
           <g
-             style="fill:#323232;fill-opacity:1"
-             transform="matrix(1.2695011,0,0,-1.2695011,-8458.8976,8878.1513)"
-             id="g4686">
-            <g
-               style="fill:#323232;fill-opacity:1"
-               transform="translate(0,39.301213)"
-               id="g4688">
-              <flowRoot
-                 transform="matrix(4.6968594,0,0,-4.6968594,-33789.036,48622.644)"
-                 id="flowRoot4690"
-                 xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"><flowRegion
-                   id="flowRegion4692"><rect
-                     width="334.46152"
-                     height="190.21173"
-                     x="8542.5566"
-                     y="8866.3018"
-                     id="rect4694"
-                     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1" /></flowRegion><flowPara
-                   id="flowPara4696"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1">p</flowPara></flowRoot>              <flowRoot
-                 transform="matrix(4.6968594,0,0,-4.6968594,-33681.034,48622.644)"
-                 id="flowRoot4698"
-                 xml:space="preserve"
-                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"><flowRegion
-                   id="flowRegion4700"><rect
-                     width="334.46152"
-                     height="190.21173"
-                     x="8542.5566"
-                     y="8866.3018"
-                     id="rect4702"
-                     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1" /></flowRegion><flowPara
-                   id="flowPara4704"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1">x</flowPara></flowRoot>            </g>
-          </g>
-          <g
-             style="fill:#323232;fill-opacity:1"
-             transform="matrix(0.9951968,0,0,0.9951968,-501.35354,-94.66707)"
-             id="g4706">
+             id="g4688"
+             transform="translate(0,39.301213)"
+             style="fill:#323232;fill-opacity:1">
             <flowRoot
-               transform="matrix(0.99999066,0,0,0.99999066,0.00202778,94.515124)"
-               id="flowRoot4708"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"
                xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"><flowRegion
-                 id="flowRegion4710"><rect
-                   width="326.34482"
-                   height="87.563606"
-                   x="87.002632"
-                   y="273.6922"
-                   id="rect4712"
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1" /></flowRegion><flowPara
-                 id="flowPara4714"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1">PIXLS</flowPara></flowRoot>            <flowRoot
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"
+               id="flowRoot4690"
+               transform="matrix(4.6968594,0,0,-4.6968594,-33789.036,48622.644)"><flowRegion
+                 id="flowRegion4692"><rect
+                   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                   id="rect4694"
+                   y="8866.3018"
+                   x="8542.5566"
+                   height="190.21173"
+                   width="334.46152" /></flowRegion><flowPara
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                 id="flowPara4696">p</flowPara></flowRoot>            <flowRoot
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"
                xml:space="preserve"
-               id="flowRoot4716"
-               transform="matrix(0.99999066,0,0,0.99999066,180.81684,94.515124)"><flowRegion
-                 id="flowRegion4718"><rect
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
-                   id="rect4720"
-                   y="273.6922"
-                   x="87.002632"
-                   height="87.563606"
-                   width="326.34482" /></flowRegion><flowPara
+               id="flowRoot4698"
+               transform="matrix(4.6968594,0,0,-4.6968594,-33681.034,48622.644)"><flowRegion
+                 id="flowRegion4700"><rect
+                   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                   id="rect4702"
+                   y="8866.3018"
+                   x="8542.5566"
+                   height="190.21173"
+                   width="334.46152" /></flowRegion><flowPara
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                 id="flowPara4704">x</flowPara></flowRoot>          </g>
+        </g>
+        <g
+           id="g4706"
+           transform="matrix(0.94063866,0,0,0.94063866,12.889883,-78.513953)"
+           style="fill:#323232;fill-opacity:1">
+          <flowRoot
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"
+             xml:space="preserve"
+             id="flowRoot4708"
+             transform="matrix(0.99999066,0,0,0.99999066,0.00202778,94.515124)"><flowRegion
+               id="flowRegion4710"><rect
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
-                 id="flowPara4722">US</flowPara></flowRoot>            <rect
-               style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#323232;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-               id="rect4724"
-               width="7.2237468"
-               height="7.279315"
-               x="261.25067"
-               y="416.60535" />
-          </g>
+                 id="rect4712"
+                 y="273.6922"
+                 x="87.002632"
+                 height="87.563606"
+                 width="326.34482" /></flowRegion><flowPara
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+               id="flowPara4714">PIXLS</flowPara></flowRoot>          <flowRoot
+             transform="matrix(0.99999066,0,0,0.99999066,180.81684,94.515124)"
+             id="flowRoot4716"
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"><flowRegion
+               id="flowRegion4718"><rect
+                 width="326.34482"
+                 height="87.563606"
+                 x="87.002632"
+                 y="273.6922"
+                 id="rect4720"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1" /></flowRegion><flowPara
+               id="flowPara4722"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1">US</flowPara></flowRoot>          <rect
+             y="416.60535"
+             x="261.25067"
+             height="7.279315"
+             width="7.2237468"
+             id="rect4724"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#323232;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
         </g>
       </g>
       <g
@@ -513,6 +506,216 @@
          transform="translate(-389.10542,-271.42855)"
          id="layer1-2"
          inkscape:label="Layer 1" />
+      <g
+         inkscape:export-ydpi="54"
+         inkscape:export-xdpi="54"
+         transform="translate(502.39651,367.49792)"
+         id="g13587">
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#323232;stroke-width:8.83399391;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect13589"
+           y="55.083626"
+           x="-433.96078"
+           height="297.41428"
+           width="297.41428" />
+        <g
+           transform="matrix(0.94517854,0,0,0.94517854,-15.638019,10.963327)"
+           id="g13591">
+          <g
+             id="g13593"
+             transform="matrix(1.2695011,0,0,-1.2695011,-8458.8976,8915.9509)"
+             style="fill:#323232;fill-opacity:1">
+            <g
+               id="g13595"
+               transform="translate(0,39.301213)"
+               style="fill:#323232;fill-opacity:1">
+              <flowRoot
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"
+                 xml:space="preserve"
+                 id="flowRoot13597"
+                 transform="matrix(4.6968594,0,0,-4.6968594,-33789.036,48622.644)"><flowRegion
+                   id="flowRegion13599"><rect
+                     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                     id="rect13601"
+                     y="8866.3018"
+                     x="8542.5566"
+                     height="190.21173"
+                     width="334.46152" /></flowRegion><flowPara
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                   id="flowPara13603">p</flowPara></flowRoot>              <flowRoot
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"
+                 xml:space="preserve"
+                 id="flowRoot13605"
+                 transform="matrix(4.6968594,0,0,-4.6968594,-33681.034,48622.644)"><flowRegion
+                   id="flowRegion13607"><rect
+                     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                     id="rect13609"
+                     y="8866.3018"
+                     x="8542.5566"
+                     height="190.21173"
+                     width="334.46152" /></flowRegion><flowPara
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                   id="flowPara13611">x</flowPara></flowRoot>            </g>
+          </g>
+        </g>
+      </g>
+      <rect
+         rx="91.08252"
+         ry="0"
+         y="13.899348"
+         x="5.117085"
+         height="1566.0913"
+         width="2369.9258"
+         id="rect13661"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.98000004;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+      <g
+         id="g19713">
+        <g
+           style="fill:#323232;fill-opacity:1"
+           transform="matrix(7.016303,0,0,7.016303,-218.13949,-1888.7443)"
+           id="g19608">
+          <flowRoot
+             transform="matrix(0.99999066,0,0,0.99999066,0.00202778,94.515124)"
+             id="flowRoot19610"
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"><flowRegion
+               id="flowRegion19612"><rect
+                 width="326.34482"
+                 height="87.563606"
+                 x="87.002632"
+                 y="273.6922"
+                 id="rect19614"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1" /></flowRegion><flowPara
+               id="flowPara19616"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1">PIXLS</flowPara></flowRoot>          <flowRoot
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"
+             xml:space="preserve"
+             id="flowRoot19618"
+             transform="matrix(0.99999066,0,0,0.99999066,180.81684,94.515124)"><flowRegion
+               id="flowRegion19620"><rect
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                 id="rect19622"
+                 y="273.6922"
+                 x="87.002632"
+                 height="87.563606"
+                 width="326.34482" /></flowRegion><flowPara
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.90143204px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+               id="flowPara19624">US</flowPara></flowRoot>          <rect
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#323232;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+             id="rect19626"
+             width="7.2237468"
+             height="7.279315"
+             x="261.25067"
+             y="416.60535" />
+        </g>
+        <g
+           inkscape:export-ydpi="54"
+           inkscape:export-xdpi="54"
+           transform="translate(502.39651,732.54585)"
+           id="g19510">
+          <rect
+             style="fill:none;fill-opacity:1;stroke:#323232;stroke-width:8.83399391;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="rect19512"
+             y="55.083626"
+             x="-433.96078"
+             height="297.41428"
+             width="297.41428" />
+          <g
+             transform="matrix(0.94517854,0,0,0.94517854,-15.638019,10.963327)"
+             id="g19514">
+            <g
+               id="g19516"
+               transform="matrix(1.2695011,0,0,-1.2695011,-8458.8976,8915.9509)"
+               style="fill:#323232;fill-opacity:1">
+              <g
+                 id="g19518"
+                 transform="translate(0,39.301213)"
+                 style="fill:#323232;fill-opacity:1">
+                <flowRoot
+                   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"
+                   xml:space="preserve"
+                   id="flowRoot19520"
+                   transform="matrix(4.6968594,0,0,-4.6968594,-33789.036,48622.644)"><flowRegion
+                     id="flowRegion19522"><rect
+                       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                       id="rect19524"
+                       y="8866.3018"
+                       x="8542.5566"
+                       height="190.21173"
+                       width="334.46152" /></flowRegion><flowPara
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                     id="flowPara19526">p</flowPara></flowRoot>                <flowRoot
+                   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"
+                   xml:space="preserve"
+                   id="flowRoot19528"
+                   transform="matrix(4.6968594,0,0,-4.6968594,-33681.034,48622.644)"><flowRegion
+                     id="flowRegion19530"><rect
+                       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                       id="rect19532"
+                       y="8866.3018"
+                       x="8542.5566"
+                       height="190.21173"
+                       width="334.46152" /></flowRegion><flowPara
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                     id="flowPara19534">x</flowPara></flowRoot>              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         inkscape:export-ydpi="54"
+         inkscape:export-xdpi="54"
+         transform="translate(502.39651,1117.1937)"
+         id="g19536">
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#323232;stroke-width:8.83399391;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect19538"
+           y="55.083626"
+           x="-433.96078"
+           height="297.41428"
+           width="297.41428"
+           ry="148.70714" />
+        <g
+           transform="matrix(0.94517854,0,0,0.94517854,-15.638019,10.963327)"
+           id="g19540">
+          <g
+             id="g19542"
+             transform="matrix(1.2695011,0,0,-1.2695011,-8458.8976,8915.9509)"
+             style="fill:#323232;fill-opacity:1">
+            <g
+               id="g19544"
+               transform="translate(0,39.301213)"
+               style="fill:#323232;fill-opacity:1">
+              <flowRoot
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"
+                 xml:space="preserve"
+                 id="flowRoot19546"
+                 transform="matrix(4.6968594,0,0,-4.6968594,-33789.036,48622.644)"><flowRegion
+                   id="flowRegion19548"><rect
+                     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                     id="rect19550"
+                     y="8866.3018"
+                     x="8542.5566"
+                     height="190.21173"
+                     width="334.46152" /></flowRegion><flowPara
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                   id="flowPara19552">p</flowPara></flowRoot>              <flowRoot
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none"
+                 xml:space="preserve"
+                 id="flowRoot19554"
+                 transform="matrix(4.6968594,0,0,-4.6968594,-33681.034,48622.644)"><flowRegion
+                   id="flowRegion19556"><rect
+                     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                     id="rect19558"
+                     y="8866.3018"
+                     x="8542.5566"
+                     height="190.21173"
+                     width="334.46152" /></flowRegion><flowPara
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Arvo;-inkscape-font-specification:Arvo;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1"
+                   id="flowPara19560">x</flowPara></flowRoot>            </g>
+          </g>
+        </g>
+      </g>
     </g>
   </g>
   <style
