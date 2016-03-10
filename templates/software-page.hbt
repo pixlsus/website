@@ -270,6 +270,20 @@
                            Open Source Display Calibration and Characterization powered by Argyll CMS. 
                         </p>
 					</div>
+                    <div class="sw-entry exiv2">
+						<a href="http://www.exiv2.org/">Exiv2</a>
+						<i class="fa fa-nix-win-osx"></i>
+                        <p>
+                            Exiv2 is a C++ library and a command line utility to manage image metadata. It provides fast and easy read and write access to the Exif, IPTC and XMP metadata of digital images in various formats.
+                        </p>
+					</div>
+                    <div class="sw-entry nomacs">
+						<a href="http://nomacs.org">nomacs</a>
+						<i class="fa fa-nix-win-osx"></i>
+                        <p>
+                            nomacs is a free, open source image viewer, which supports multiple platforms. You can use it for viewing all common image formats including RAW and psd images.
+                        </p>
+					</div>
                     <div class="sw-entry">
 						<a href="http://www.argyllcms.com/">Argyll CMS</a>
 						<i class="fa fa-nix-win-osx"></i>
@@ -290,13 +304,6 @@
 						<i class="fa fa-nix-win-osx"></i>
                         <p>
                             Image processing in Java.
-                        </p>
-					</div>
-                    <div class="sw-entry exiv2">
-						<a href="http://www.exiv2.org/">Exiv2</a>
-						<i class="fa fa-nix-win-osx"></i>
-                        <p>
-                            Exiv2 is a C++ library and a command line utility to manage image metadata. It provides fast and easy read and write access to the Exif, IPTC and XMP metadata of digital images in various formats.
                         </p>
 					</div>
                     <div class="sw-entry">
