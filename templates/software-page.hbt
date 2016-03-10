@@ -292,6 +292,13 @@
                             Image processing in Java.
                         </p>
 					</div>
+                    <div class="sw-entry exiv2">
+						<a href="http://www.exiv2.org/">Exiv2</a>
+						<i class="fa fa-nix-win-osx"></i>
+                        <p>
+                            Exiv2 is a C++ library and a command line utility to manage image metadata. It provides fast and easy read and write access to the Exif, IPTC and XMP metadata of digital images in various formats.
+                        </p>
+					</div>
                     <div class="sw-entry">
 						<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a>
 						<i class="fa fa-nix-win-osx"></i>
