@@ -18,6 +18,10 @@
         <meta itemprop="image" content="https://pixls.us/images/pixls-background.jpg">
         <meta property="og:image" content="https://pixls.us/images/pixls-background.jpg">
     {{/if}}
+    {{#if snippet}}
+        <meta itemprop="description" content="{{snippet}}">
+        <meta property="og:description" content="{{snippet}}">
+    {{/if}}
 
     {{!-- Adding the RSS feed path here --}}
     <link href="https://pixls.us/blog/feed.xml" rel="alternate" type="application/rss+xml" title="Pixls.us Blog Feed" />

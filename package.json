@@ -21,6 +21,7 @@
     "metalsmith-more": "^0.2.0",
     "metalsmith-paginate": "^0.3.0",
     "metalsmith-pagination": "^1.0.0",
-    "metalsmith-path": "^0.1.0"
+    "metalsmith-path": "^0.1.0",
+    "metalsmith-snippet": "^2.0.0"
   }
 }

@@ -9,6 +9,7 @@ var Metalsmith	= require('metalsmith'),
     paginate    = require('metalsmith-pagination'),
     feed        = require('metalsmith-feed'),
     clean       = require('metalsmith-clean'),
+    snippet     = require('metalsmith-snippet'),
 	metadata	= require('./config.json'),
 	Handlebars	= require('handlebars'),
     rmdir       = require('rimraf'),
@@ -385,6 +386,10 @@ Metalsmith(__dirname)
 	}))
 	.use(hyphenate_urls)
     .use(more())
+    .use(snippet({
+        maxLength: 500,
+        stop: '<!-- more -->'
+    }))
 	.use(collections({
 		articles: {
             // Using a pattern to capture _all_ articles
