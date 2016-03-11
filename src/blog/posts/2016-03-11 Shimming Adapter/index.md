@@ -1,12 +1,12 @@
 ---
 date: 2016-03-11T13:03:48-06:00 
 title: Shimming an Adapter to be Parallel
-sub-title: Achieving perfect focus infinity
+sub-title: Achieving perfect infinity focus 
 
 lede-img: carvac-lede.jpg
 lede-img-thumb: th_carvac-lede.jpg
 lede-style: ""
-lede-attribution: "&copy; <a href='https://www.flickr.com/photos/carvac/'>Carlo Vaccari</a>"
+lede-attribution: "<a href='https://www.flickr.com/photos/carvac/'>Carlo Vaccari</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/3.0/' title='Creative Commons, by Attribution Share-Alike'>cba</a>"
 
 author: 'Carlo Vaccari'
 author-img: 'carvac.png'

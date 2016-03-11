@@ -7,7 +7,7 @@ sub-title: Also, wallpapers and darktable 2.0 creeps even closer!
 lede-img: lede_Mimir.jpg
 lede-img-thumb: th_lede_Mimir.jpg
 lede-style: ""
-lede-attribution: "<a href='https://www.flickr.com/photos/philipphaegi/21155753321'>Sitting Here, Making Fun</a> by <a href='https://www.flickr.com/photos/philipphaegi/'>Philipp Haegi</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cb</a>"
+lede-attribution: "<a href='https://www.flickr.com/photos/philipphaegi/21155753321'>Sitting Here, Making Fun</a> by <a href='https://www.flickr.com/photos/philipphaegi/'>Philipp Haegi</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a>"
 
 author: 'Pat David'
 author-img: ''
