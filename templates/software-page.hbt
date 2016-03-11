@@ -281,7 +281,14 @@
 						<a href="http://nomacs.org">nomacs</a>
 						<i class="fa fa-nix-win-osx"></i>
                         <p>
-                            nomacs is a free, open source image viewer, which supports multiple platforms. You can use it for viewing all common image formats including RAW and psd images.
+                        nomacs is a free, open source image viewer, which supports multiple platforms. You can use it for viewing all common image formats including RAW and psd images.
+                        </p>
+					</div>
+                    <div class="sw-entry geeqie">
+						<a href="http://geeqie.org">Geeqie</a>
+						<i class="fa fa-linux"></i>
+                        <p>
+                        Geeqie is a lightweight image viewer for Linux, BSDs and "compatibles".
                         </p>
 					</div>
                     <div class="sw-entry">
@@ -317,10 +324,6 @@
                     <div class="sw-entry">
 						<a href="http://gphoto.sourceforge.net/">gPhoto</a>
 						<i class="fa fa-nix-osx"></i>
-					</div>
-                    <div class="sw-entry">
-						<a href="http://geeqie.org">Geeqie</a>
-						<i class="fa fa-linux"></i>
 					</div>
                 </div>
 			</section>

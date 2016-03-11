@@ -340,6 +340,10 @@ img.natural {
     background: url('software-logos.png') -1262px 0 no-repeat;
 	display:inline-block;
 }
+.sw-entry.geeqie > a:before {
+    background: url('software-logos.png') -1307px 0 no-repeat;
+	display:inline-block;
+}
 /*
  * Add new software logo entries (from software-logos.png) here
  */
