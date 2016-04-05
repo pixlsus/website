@@ -98,7 +98,7 @@ If you don't want to create something from scratch, perhaps grabbing the files a
 
 Hopefully we can fill out the list fairly quickly (as it's a fairly limited subset of required shapes).  Even better would be if someone picked up the momentum to possibly create a nice lighting diagram application of some sort!
 
-The files that are there now are all license [Creative Commons By-Attribution, Share-Alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+The files that are there now are all licensed [Creative Commons By-Attribution, Share-Alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 
 [Free]: http://www.gnu.org/philosophy/free-sw.en.html
