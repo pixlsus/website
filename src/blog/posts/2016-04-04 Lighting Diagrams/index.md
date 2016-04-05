@@ -20,7 +20,7 @@ collection: blogposts
 template: blog-posts.hbt
 ---
 
-Community member [Eric Mesa][] asked on [the forums][] the other day if there might be some Free resources for photographers that want to build a lighting diagram of their work.  These are the simple diagrams that show how a shot might be set up with the locations of lights, what types of modifiers might be used, and where the camera/photographer might be positioned with respect to the subject.  These diagrams usually also include lighting power details and notes to help the production.
+Community member [Eric Mesa][] asked on [the forums][] the other day if there might be some Free resources for photographers that want to build a lighting diagram of their work.  These are the diagrams that show how a shot might be set up with the locations of lights, what types of modifiers might be used, and where the camera/photographer might be positioned with respect to the subject.  These diagrams usually also include lighting power details and notes to help the production.
 
 It turns out there wasn't really anything openly available and permissively licensed.  So we need to fix that...
 
@@ -62,9 +62,9 @@ I don't have much to start with but that shouldn't be a problem!  I already had 
 
 ## PIXLS.US Github Organization
 
-I already have a [GitHub organization][github] setup just for PIXLS.US:
+I already have a [GitHub organization][github] setup just for PIXLS.US, you can find the lighting-diagram assets there:
 
-https://github.com/pixlsus
+https://github.com/pixlsus/pixls-lighting-diagram
 
 Feel free to join the organization!
 
