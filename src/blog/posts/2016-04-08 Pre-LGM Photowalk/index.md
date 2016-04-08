@@ -73,7 +73,7 @@ Dot in the Leipzig Market from the 2014 Pre-LGM photowalk.
 Speaking of which, if you plan on attending and would like to explore some particular aspect of photography please feel free to let me know.  I'll do my best to match folks up based on interest.  I sincerely hope this will be a fun opportunity to learn some neat new things, make some new friends, and to maybe grab some great images at the same time!
 
 If there are any questions, please don't hesitate to reach out to me!  
-<patdavid@gmail.com>  
+`patdavid@gmail.com`   
 patdavid on irc://irc.gimp.org/#gimp
 
 
