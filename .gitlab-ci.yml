@@ -4,15 +4,14 @@ cache:
     paths:
         - node_modules/
 
-services:
-
-all_tests:
-    script:
-        - npm install
-        - node index.js
+#all_tests:
+#    script:
+#        - npm install
+#        - node index.js
 
 pages:
     script:
+        - npm install
         - node index.js
     artifacts:
         paths:
