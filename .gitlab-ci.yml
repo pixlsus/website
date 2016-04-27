@@ -10,3 +10,10 @@ all_tests:
     script:
         - npm install
         - node index.js
+
+pages:
+    script:
+        - node index.js
+    artifacts:
+        paths:
+            - build
