@@ -1,5 +1,9 @@
 image: node:4.2.2
 
+cache:
+    paths:
+        - node_modules/
+
 services:
 
 all_tests:
