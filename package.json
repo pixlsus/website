@@ -18,7 +18,6 @@
   "dependencies": {
     "metalsmith-branch": "0.0.4",
     "metalsmith-clean": "0.0.0",
-    "metalsmith-feed": "^0.2.0",
     "metalsmith-more": "^0.2.0",
     "metalsmith-paginate": "^0.3.0",
     "metalsmith-pagination": "^1.0.0",
