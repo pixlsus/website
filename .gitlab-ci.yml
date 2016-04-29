@@ -12,9 +12,11 @@ cache:
 pages:
     script:
         - npm install
-        - node index.js
+        - node build-gitlab.js
+        - mv build public
     artifacts:
         paths:
-            - build
-    except:
+            - public
+    only:
+    #except:
         - master
