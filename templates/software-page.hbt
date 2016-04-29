@@ -98,7 +98,7 @@
                             tone mapping algorithm.
                         </p>
                     </div>
-                    <div class="sw-entry">
+                    <div class="sw-entry photoflow">
 						<a href='http://aferrero2707.github.io/PhotoFlow/'>PhotoFlow</a>
 						<i class="fa fa-nix-win-osx"></i>
                         <p>
@@ -159,6 +159,13 @@
                             Application to provide a workflow for HDR imaging, creation and tone mapping.
                         </p>
                     </div>
+                    <div class="sw-entry hdrmerge">
+						<a href="http://jcelaya.github.io/hdrmerge/">HDRMerge</a>
+						<i class="fa fa-nix-win-osx"></i>
+                        <p>
+                            HDRMerge combines two or more raw images into a single raw with an extended dynamic range. 
+                        </p>
+					</div>
                     <div class="sw-entry film-emulator">
                         <a href="https://29a.ch/film-emulator/">Film Emulator</a>
                         <i class="fa fa-nix-win-osx"></i>
@@ -188,6 +195,13 @@
                             A GUI interface for using <a href='http://enblend.sourceforge.net/index.htm'>Enfuse</a> to blend images.
                         </p>
                     </div>
+                    <div class="sw-entry">
+						<a href="http://imagej.nih.gov/ij/">ImageJ</a>
+						<i class="fa fa-nix-win-osx"></i>
+                        <p>
+                            Image processing in Java.
+                        </p>
+					</div>
                     <div class="sw-entry vips">
 						<a href="http://www.vips.ecs.soton.ac.uk/">VIPS</a>
 						<i class="fa fa-nix-win-osx"></i>
@@ -251,10 +265,6 @@
 						<a href="http://www.damonlynch.net/rapid/">Rapid Photo Downloader</a>
 						<i class="fa fa-linux"></i>
 					</div>
-                    <div class="sw-entry hdrmerge">
-						<a href="http://jcelaya.github.io/hdrmerge/">HDRMerge</a>
-						<i class="fa fa-nix-win-osx"></i>
-					</div>
                     <div class="sw-entry gthumb">
 						<a href="https://wiki.gnome.org/Apps/gthumb">gThumb</a>
 						<i class="fa fa-linux"></i>
@@ -307,13 +317,6 @@
                         </p>
 					</div>
                     <div class="sw-entry">
-						<a href="http://imagej.nih.gov/ij/">ImageJ</a>
-						<i class="fa fa-nix-win-osx"></i>
-                        <p>
-                            Image processing in Java.
-                        </p>
-					</div>
-                    <div class="sw-entry">
 						<a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a>
 						<i class="fa fa-nix-win-osx"></i>
 					</div>
@@ -325,7 +328,46 @@
 						<a href="http://gphoto.sourceforge.net/">gPhoto</a>
 						<i class="fa fa-nix-osx"></i>
 					</div>
+                    <div class="sw-entry opendronemap">
+						<a href="http://opendronemap.github.io/odm/">OpenDroneMap</a>
+						<i class="fa fa-linux"></i>
+                        <p>
+                            OpenDroneMap is an open source toolkit for processing aerial drone imagery.
+                        </p>
+					</div>
                 </div>
+
+                <div class='column third'>
+                    <h2>Web Galleries</h2>
+
+                    <div class="sw-entry">
+						<a href="http://www.thregr.org/~wavexx/software/fgallery/index.html">fgallery</a>
+						<i class="fa fa-nix-win-osx"></i>
+                        <p>
+                            “fgallery” is a static photo gallery generator with no frills that has a stylish, 
+                            minimalist look. “fgallery” shows your photos, and nothing else.
+                        </p>
+					</div>
+                    <div class="sw-entry">
+						<a href="http://coppermine-gallery.net/">coppermine gallery</a>
+						<i class="fa fa-nix-win-osx"></i>
+                        <p>
+                            Coppermine is a multi-purpose fully-featured and integrated web picture 
+                            gallery script written in PHP using GD or ImageMagick as image library 
+                            with a MySQL backend.
+                        </p>
+					</div>
+                    <div class="sw-entry">
+						<a href="http://galleryproject.org/">Gallery</a>
+						<i class="fa fa-nix-win-osx"></i>
+                        <p>
+                            Gallery is a web based software that lets you manage your photos
+                            on your own website.<br>
+                            Out of maintenance since 2014.
+                        </p>
+					</div>
+                </div>
+
 			</section>
 
             {{!--
