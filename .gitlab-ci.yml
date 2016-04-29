@@ -17,6 +17,6 @@ pages:
     artifacts:
         paths:
             - public
-    only:
-    #except:
+    #only:
+    except:
         - master
