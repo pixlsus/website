@@ -52,15 +52,6 @@
                 <div class="row clearfix">
                     <div class="container">
 
-                        <!-- START: NOTICE -->
-                        <div class='column full' style='margin-bottom: 1rem; margin-top:-1rem;'>
-                            <p style='padding:0.5rem; border: dashed 2px red;'>
-                                <b>NOTICE:</b> The forums (discuss.pixls.us) are down for the moment while we upgrade the
-                                server and do some security patching.  We'll be right back!
-                            </p>
-                        </div>
-                        <!-- END: NOTICE -->
-
                         <div class="column third">
                             <a class="nav-icons-big" id="nav-icons-articles" href="/articles/">
                                 {{!-- <img src="/images/icons/articles.png" class="bignav" alt="PIXLS.US articles icon" > --}}
