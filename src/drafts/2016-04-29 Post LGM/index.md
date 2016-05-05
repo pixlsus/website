@@ -32,7 +32,11 @@ It had been a couple of years since I had an opportunity to travel and meet with
 
 I was going to be going to the photowalk before the meeting kicked off again this year and this time I decided to pack some bigger off-camera lighting modifiers for everyone to play with.  Here's a neat travelling photographer pro-tip: most airlines will let you carry on an umbrella as a "freebie" item.  They just don't specify that it _has_ to be an umbrella to keep the rain off you.  So I carried on my big Photek Softlighter II (luckily my light stands fit in my checked luggage).  Just be sure not to leave it behind somewhere - which I was paranoid about for most of my trip.  Luckily I was only changing planes in Atlanta.
 
+--ATLANTA AIRPORT IMAGE-- 
 
+A couple of (_bad_) movies and hours later I was in Heathrow.  I figured it wouldn't be much trouble getting through border control.  I may have been a little optimistic about it.  The __Border Force__ agent was quite nice and _super_ inquisitive.  So much so that I actually began to worry at some point (I think I must have spent almost 20 minutes talking to her).
+
+She kept asking what I was coming to London for and I kept trying to explain to her what a "_Libre Graphics Meeting_" was.  This was almost a tragic comedy as I think she was seriously considering denying me entry at some point (maybe not - but it certianly felt that way to me at the time).  The idea of Free Software did not seem to compute to her and I was sorry I had even made the passing mention.  She also asked about my umbrella, which led to another series of questions that I'm sure didn't help my case (why are folks so suspicious of photographers in general?).
 
 * Explaining Free Software to border control at Heathrow.
 
