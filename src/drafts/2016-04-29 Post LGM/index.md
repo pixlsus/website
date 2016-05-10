@@ -25,7 +25,12 @@ What a blast!
 
 This trip report is long overdue, but I wanted to process some of my images to share with everyone before I posted.
 
-It had been a couple of years since I had an opportunity to travel and meet with the GIMP team again (Leipzig was awesome) so I was really looking forward to this trip.  I missed the opportunity to head up to the great white North for last years meeting in Toronto.
+It had been a couple of years since I had an opportunity to travel and meet with the [GIMP][] team again ([Leipzig][] was awesome) so I was really looking forward to this trip.  I missed the opportunity to head up to the great white North for last years meeting in Toronto.
+
+[GIMP]: https://www.gimp.org
+[Leipzig]: https://www.flickr.com/photos/patdavid/albums/72157643712169045 
+
+<!-- more -->
 
 
 
@@ -62,10 +67,43 @@ They have some really neat things going on at the gallery and space so be sure t
 
 
 ### Going for a Walk with Friends
-This is one of my favorite things about being able to attend LGM.  I get to take a stroll and talk about photography with friends that I only usually get to interact with through an IRC window.
+This is one of my favorite things about being able to attend LGM.  I get to take a stroll and talk about photography with friends that I only usually get to interact with through an IRC window. I also feel like I can finally contribute something back to these awesome people that provide software I use every day.
 
-* Pick some images of Mairi.
-* Photo of Liam by Simon!
+**[schumaml image of Mairi]**
+
+We meandered through the park and chatted a bit about various things.  Simon had brought along his external flash and wanted to play with off-camera lighting.  So we convinced Liam to stand in front of a tree for us and Simon ended up taking one of my favorite images from the entire trip.
+
+**[Photo of Liam by Simon!]**
+
+We even managed to run into **[Barrie Minney(sp?)]** while on our way back to the Commons building.  Aryeom and I started talking a little bit while walking when we crossed paths with some locals hanging out in the park.  One man in particular was quite outgoing and let Aryeom take his photo, leading to another fun image!
+
+**[Aryeom image of man against tree]**
+
+Upon returning to the Commons building we experimented with some of the pretty window light coming into the building along with some black panels and a model (Mairi).  This was quite fun as we were experimenting with various setups for the black panels and speedlights.  Everyone had a chance to try some shots out and to direct Mairi (who was _super_ patient and accommodating while we played).
+
+**[Mairi natural light]**
+
+<figure>
+<figcaption>
+I was having so much fun talking and trying things out with everyone that I didn't even take that many photos of my own!
+</figcaption>
+</figure>
+
+Towards the end of our day I decided to try getting my big Softlighter out and to try a few shots of Mairi in the lane outside the Commons building.  Luckily Michael Schumacher grabbed an image of us while we were trying some shots with Mairi outside.
+
+**[schumaml photo of lighting setup]**
+
+<figure>
+<figcaption>
+A nice behind-the-scenes image from schumaml of the lighting setup used below.<br>
+Yes, that's <a href='http://www.darktable.org'>darktable</a> developer hanatos bracing the light from the wind for me!
+</figcaption>
+</figure>
+
+I loved the lane receding in the background and thought it might make for some fun images of Mairi.  I had two YN-560 flashes in the Softlighter both firing around &frac34; power.  I had to balance the ambient sky with the softlighter so needed the extra power of a second flash (it also helps to keep the cycle times down).
+
+**[Pick some images of Mairi]**
+
 
 ## LGM
 
@@ -81,6 +119,5 @@ http://lwn.net/Articles/684279/
 [lgm2016]: http://www.libregraphicsmeeting.org/2016/
 
 
-<!-- more -->
 
 
