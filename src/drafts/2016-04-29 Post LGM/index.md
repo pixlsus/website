@@ -42,9 +42,14 @@ Passport? Check! Magazine? Check! Ready to head to London!
 </figcaption>
 </figure>
 
-I was going to the photowalk before the meeting kicked off again this year and this time I decided to pack some bigger off-camera lighting modifiers for everyone to play with.  Here's a neat travelling photographer pro-tip: most airlines will let you carry on an umbrella as a "freebie" item.  They just don't specify that it _has_ to be an umbrella to keep the rain off you.  So I carried on my big Photek Softlighter II (luckily my light stands fit in my checked luggage).  Just be sure not to leave it behind somewhere - which I was paranoid about for most of my trip.  Luckily I was only changing planes in Atlanta.
+I was going to the pre-LGM photowalk again this year so this time I decided to pack some bigger off-camera lighting modifiers for everyone to play with.  Here's a neat travelling photographer pro-tip: most airlines will let you carry on an umbrella as a "freebie" item.  They just don't specify that it _has_ to be an umbrella to keep the rain off you.  So I carried on my big Photek Softlighter II (luckily my light stands fit in my checked luggage).  Just be sure not to leave it behind somewhere - which I was paranoid about for most of my trip.  Luckily I was only changing planes in Atlanta.
 
-**--ATLANTA AIRPORT IMAGE--**
+<figure>
+<img src='ATL.jpg' alt='Atlanta Airport International Terminal'>
+<figcaption>
+The new 'futristic' looking Atlanta airport international terminal.
+</figcaption>
+</figure>
 
 A couple of (_bad_) movies and hours later I was in Heathrow.  I figured it wouldn't be much trouble getting through border control.  
 
@@ -52,7 +57,7 @@ I may have been a little optimistic about that.
 
 The __Border Force__ agent was quite nice and _super_ inquisitive.  So much so that I actually began to worry at some point (I think I must have spent almost 20 minutes talking to her) that she might not let me in!
 
-She kept asking what I was coming to London for and I kept trying to explain to her what a "_Libre Graphics Meeting_" was.  This was almost a tragic comedy.  The idea of Free Software did not seem to compute to her and I was sorry I had even made the passing mention.  She also asked about my umbrella, which led to another series of questions that I'm sure didn't help my case (why are folks so suspicious of photographers in general?).
+She kept asking what I was coming to London for and I kept trying to explain to her what a "_Libre Graphics Meeting_" was.  This was almost a tragic comedy.  The idea of Free Software did not seem to compute to her and I was sorry I had even made the passing mention.  Her attention then turned to my umbrella and photography.  What was I there to photograph?  Who?  Why?  (Come to think of it, I should start asking myself those same questions more often...)
 
 In the end I think she got bored with my answers and figured that I was far too awkward to be a threat to anything.
 
@@ -137,12 +142,12 @@ ISO200
 </figcaption>
 </figure>
 
-The day was quite a bit of fun and I really enjoyed being able to just hang out with everyone and take some neat photos.
+The day was awesome and I really enjoyed being able to just hang out with everyone and take some neat photos.  The evening at the pub was pretty great also (I got to hang out with Barrie and his friend and have a couple of pints).
 
 
 
 ## LGM
-It never fails to amaze me how every year the LGM organizers manage to put together such a great meeting for everyone.  The venue was great and the people are just fantastic at the University of Westminster.
+It never fails to amaze me how every year the LGM organizers manage to put together such a great meeting for everyone.  The venue was great and the people were just fantastic at the University of Westminster.
 
 <figure class='big-vid'>
 <img src='LGM_Auditorium.jpg' alt='LGM Auditorium'>
@@ -151,10 +156,14 @@ Our very own Andrea Ferrero (@Carmelo_DrRaw) presenting <a href='http://aferrero
 </figcaption>
 </figure>
 
+
 ### Presentation
 Link/embed slide deck (or choice slides).  
 include Nate's article: 
 http://lwn.net/Articles/684279/
+
+
+### Exhibition
 
 ### Portraits
 
