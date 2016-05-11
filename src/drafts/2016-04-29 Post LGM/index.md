@@ -42,7 +42,7 @@ Passport? Check! Magazine? Check! Ready to head to London!
 </figcaption>
 </figure>
 
-I was going to the pre-LGM photowalk again this year so this time I decided to pack some bigger off-camera lighting modifiers for everyone to play with.  Here's a neat travelling photographer pro-tip: most airlines will let you carry on an umbrella as a "freebie" item.  They just don't specify that it _has_ to be an umbrella to keep the rain off you.  So I carried on my big Photek Softlighter II (luckily my light stands fit in my checked luggage).  Just be sure not to leave it behind somewhere - which I was paranoid about for most of my trip.  Luckily I was only changing planes in Atlanta.
+I was going to attend the pre-LGM photowalk again this year so this time I decided to pack some bigger off-camera lighting modifiers for everyone to play with.  Here's a neat travelling photographer pro-tip: most airlines will let you carry on an umbrella as a "freebie" item.  They just don't specify that it _has_ to be an umbrella to keep the rain off you.  So I carried on my big Photek Softlighter II (luckily my light stands fit in my checked luggage).  Just be sure not to leave it behind somewhere (which I was paranoid about for most of my trip).  Luckily I was only changing planes in Atlanta.
 
 <figure>
 <img src='ATL.jpg' alt='Atlanta Airport International Terminal'>
@@ -109,7 +109,7 @@ I was having so much fun talking and trying things out with everyone that I didn
 </figcaption>
 </figure>
 
-Towards the end of our day I decided to try getting my big Softlighter out and to try a few things in the lane outside the Commons building.  Luckily Michael Schumacher grabbed an image of us while we were testing some shots with Mairi outside.
+Towards the end of our day I decided get my big Softlighter out and to try a few things in the lane outside the Commons building.  Luckily Michael Schumacher grabbed an image of us while we were testing some shots with Mairi outside.
 
 <figure>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/schumaml/26395969771/in/dateposted/" title="IMGP6108"><img src="https://farm2.staticflickr.com/1612/26395969771_b4a404b072_z.jpg" width="640" height="426" alt="IMGP6108"></a>
@@ -117,7 +117,6 @@ Towards the end of our day I decided to try getting my big Softlighter out and t
 A nice behind-the-scenes image from schumaml of the lighting setup used below.<br>
 Yes, that's <a href='http://www.darktable.org'>darktable</a> developer hanatos bracing the umbrella from the wind for me!<br>
 <i>Photo by [Michael Schumacher](https://www.flickr.com/photos/schumaml/25858162683/in/dateposted/) </i><span class='cc'><a href='https://creativecommons.org/licenses/by-nc-sa/2.0/'>cbna</a></span>
-
 </figcaption>
 </figure>
 
@@ -128,10 +127,7 @@ I loved the lane receding in the background and thought it might make for some f
 <figcaption>
 Mairi waiting patiently while we set things up.<br>
 <i>Mairi Finsbury</i> <span class='cc'><a href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a></span><br>
-50mm 
-<i style='font-family:serif;'>f</i>/8.0 
-<sup style='margin-right:-0.1rem;'>1</sup>&frasl;<sub style='margin-left:-0.1rem;'>200</sub> 
-ISO200
+50mm <i style='font-family:serif;'>f</i>/8.0 <sup style='margin-right:-0.1rem;'>1</sup>&frasl;<sub style='margin-left:-0.1rem;'>200</sub> ISO200
 </figcaption>
 </figure>
 
@@ -142,7 +138,7 @@ ISO200
 </figcaption>
 </figure>
 
-The day was awesome and I really enjoyed being able to just hang out with everyone and take some neat photos.  The evening at the pub was pretty great also (I got to hang out with Barrie and his friend and have a couple of pints).
+The day was awesome and I really enjoyed being able to just hang out with everyone and take some neat photos.  The evening at the pub was pretty great also (I got to hang out with Barrie and his friend and have a couple of pints - _thanks again Barrie_!).
 
 
 
@@ -156,8 +152,45 @@ Our very own Andrea Ferrero (@Carmelo_DrRaw) presenting <a href='http://aferrero
 </figcaption>
 </figure>
 
+The opening "_State of the Libre Graphics_" presentation was done by our (the GIMP teams) very own João Bueno who did a fantastic job! João will also be the local organizer for the 2017 LGM in Rio.
+
+Thanks to contributions from community members [Kees Guequierre][], [Jonas Wagner][], and [Philipp Haegi][] I had some great images to use for the PIXLS.US community slides for the "_State of the Libre Graphics_".  If anyone is curious, here is what I submitted:
+
+[Kees Guequierre]: https://www.flickr.com/photos/andabata 
+[Jonas Wagner]: https://29a.ch/ 
+[Philipp Haegi]: https://www.flickr.com/photos/philipphaegi 
+
+<figure>
+<img src='PIXLS-0.min.png' alt='PIXLS State of Libre Graphics 0'>
+<figcaption>
+</figcaption>
+</figure>
+
+<figure>
+<img src='PIXLS-1.min.png' alt='PIXLS State of Libre Graphics 0'>
+<figcaption>
+</figcaption>
+</figure>
+
+<figure>
+<img src='PIXLS-2.min.png' alt='PIXLS State of Libre Graphics 0'>
+<figcaption>
+</figcaption>
+</figure>
+
+These slides can be found on our [Github PIXLS.US Presentations][gh] page (along with all of our other presentations that relate to PIXLS.US and promoting the community).
+
+[gh]: https://github.com/pixlsus/Presentations
+
+Speaking of presentations...
+
 
 ### Presentation
+I was given some time to talk about and present our community to everyone at the meeting.
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/patdavid/albums/72157668276522285" title="LGM2016 PIXLS.US Presentation"><img src="https://farm8.staticflickr.com/7116/26864395042_62177a54de_z.jpg" width="640" height="480" alt="LGM2016 PIXLS.US Presentation"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
 Link/embed slide deck (or choice slides).  
 include Nate's article: 
 http://lwn.net/Articles/684279/
@@ -170,6 +203,31 @@ http://lwn.net/Articles/684279/
 ## GIMP Visit?
 
 [lgm2016]: http://www.libregraphicsmeeting.org/2016/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
