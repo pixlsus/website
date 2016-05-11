@@ -186,49 +186,47 @@ Speaking of presentations...
 
 
 ### Presentation
-I was given some time to talk about and present our community to everyone at the meeting.
+I was given some time to talk about and present our community to everyone at the meeting. (See embedded slide show below):
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/patdavid/albums/72157668276522285" title="LGM2016 PIXLS.US Presentation"><img src="https://farm8.staticflickr.com/7116/26864395042_62177a54de_z.jpg" width="640" height="480" alt="LGM2016 PIXLS.US Presentation"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
+I started by looking at what my primary motivation was to begin the site and what the state of free software photography was like at that time (or not like).  Mainly that the majority of resources online for photographers that were high quality (and focused on high-quality results) were usually aimed at proprietary software users.  Worse still, in some cases these websites locked away their best tutorials and learning content behind paywalls and subscriptions.  I finished by looking at what was done to build this site and forum as a community for everyone to learn and share with each other freely.
 
-Link/embed slide deck (or choice slides).  
-include Nate's article: 
-http://lwn.net/Articles/684279/
+I think the presentation went well and people seemed to be interested in what we were doing!  We even got an article by Nate Willis at [LWN.net][], [_"Refactoring the open-source photography community"_][lwn]:
+
+[LWN.net]: http://lwn.net
+[lwn]: http://lwn.net/Articles/684279/
+
+<figure>
+<img src='04-lgm-david-sm.jpg' alt='Pat David presenting on PIXLS.US at LGM 2016'>
+<figcaption>
+A photo of me I <i>don't</i> hate! :)
+</figcaption>
+</figure>
 
 
 ### Exhibition
+A nice change this year was the inclusion of an exhibition space to display works by LGM members and artists.  We even got an opportunity to hang a couple of prints (for some reason they really wanted my quad-print of pippin).  I was particularly happy that we were able to print and display the [_Green Tiger Beetle_][gtb] by community member [Kees Guequierre][]:
+
+[gtb]: https://www.flickr.com/photos/andabata/20025243436
+
+<figure>
+<img src='hanatos-houz-lgm.jpg' alt='hanatos and houz at LGM'>
+<figcaption>
+Hanatos and houz inspecting the prints at the exhibition.
+</figcaption>
+</figure>
+
+<figure>
+<img src='lgm-exhibition.jpg' alt='View of the LGM Exhibition'>
+<figcaption>
+View of the Exhibition.  Well attended!
+</figcaption>
+</figure>
+
 
 ### Portraits
 
 ## GIMP Visit?
 
 [lgm2016]: http://www.libregraphicsmeeting.org/2016/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
