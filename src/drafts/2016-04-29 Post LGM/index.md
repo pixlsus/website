@@ -3,10 +3,10 @@ date: 2016-04-29T16:12:46-06:00
 title: Post Libre Graphics Meeting
 sub-title: What a trip!
 
-lede-img: at_thomaskirche.jpg
-lede-img-thumb: th_at_thomaskirche.jpg
+lede-img: Mairi-Finsbury.jpg
+lede-img-thumb: th_Mairi-Finsbury.jpg
 lede-style: ""
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/13855619523'>At Thomaskirche</a> by Pat David <span class='cc'><a href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a></span>"
+lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/26581376895'>Mairi Finsbury</a> by Pat David <span class='cc'><a href='https://creativecommons.org/licenses/by-sa/3.0/'>cba</a></span>"
 
 author: 'Pat David'
 author-img: ''
@@ -87,7 +87,7 @@ This is one of my favorite things about being able to attend LGM.  I get to take
 <a href="https://www.flickr.com/photos/schumaml/25858162683/in/dateposted/" title="IMGP6089"><img src="https://farm2.staticflickr.com/1443/25858162683_47061b2074_z.jpg" width="640" height="426" alt="IMGP6089"></a>
 <figcaption>
 Mairi between Simon and myself (I'm holding a reflector for him).<br>
-Photo by [Michael Schumacher](https://www.flickr.com/photos/schumaml/25858162683/in/dateposted/) <span class='cc'><a href='https://creativecommons.org/licenses/by-nc-sa/2.0/'>cbna</a></span>
+Photo by [Michael Schumacher](https://www.flickr.com/photos/schumaml/25858162683/in/dateposted/) <span class='cc'>[cbna][]</span>
 </figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ Upon returning to the Commons building we experimented with some of the pretty w
 <a href="https://www.flickr.com/photos/patdavid/26059429014/in/dateposted-public/" title="Mairi Natural Light"><img src="https://farm2.staticflickr.com/1456/26059429014_97732806b6_c.jpg" width="598" height="800" alt="Mairi Natural Light"></a>
 <figcaption>
 I was having so much fun talking and trying things out with everyone that I didn't even take that many photos of my own!  This is one of my only images of Mairi inside the Commons.<br>
-<i>Mairi Natural Light</i> <span class='cc'><a href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a></span>
+<i>Mairi Natural Light</i> <span class='cc'>[cba][]</span>
 </figcaption>
 </figure>
 
@@ -119,7 +119,7 @@ Towards the end of our day I decided get my big Softlighter out and to try a few
 <figcaption>
 A nice behind-the-scenes image from schumaml of the lighting setup used below.<br>
 Yes, that's <a href='http://www.darktable.org'>darktable</a> developer hanatos bracing the umbrella from the wind for me!<br>
-<i>Photo by [Michael Schumacher](https://www.flickr.com/photos/schumaml/25858162683/in/dateposted/) </i><span class='cc'><a href='https://creativecommons.org/licenses/by-nc-sa/2.0/'>cbna</a></span>
+<i>Photo by [Michael Schumacher](https://www.flickr.com/photos/schumaml/25858162683/in/dateposted/) </i><span class='cc'>[cbna][]</span>
 </figcaption>
 </figure>
 
@@ -129,7 +129,7 @@ I loved the lane receding in the background and thought it might make for some f
 <a href="https://www.flickr.com/photos/patdavid/26581376895/in/dateposted-public/" title="Mairi Finsbury"><img src="https://farm2.staticflickr.com/1565/26581376895_a716383b7e_z.jpg" width="640" height="360" alt="Mairi Finsbury"></a>
 <figcaption>
 Mairi waiting patiently while we set things up.<br>
-<i>Mairi Finsbury</i> <span class='cc'><a href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a></span><br>
+<i>Mairi Finsbury</i> <span class='cc'>[cba][]</span><br>
 50mm <i style='font-family:serif;'>f</i>/8.0 <sup style='margin-right:-0.1rem;'>1</sup>&frasl;<sub style='margin-left:-0.1rem;'>200</sub> ISO200
 </figcaption>
 </figure>
@@ -137,7 +137,7 @@ Mairi waiting patiently while we set things up.<br>
 <figure>
 <a href="https://www.flickr.com/photos/patdavid/26365329850/in/dateposted-public/" title="Mairi Finsbury Park (In the Lane)"><img src="https://farm2.staticflickr.com/1443/26365329850_3b9e044e57_z.jpg" width="640" height="640" alt="Mairi Finsbury Park (In the Lane)"></a>
 <figcaption>
-<i>Mairi Finsbury Park (In the Lane)</i> <span class='cc'><a href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a></span>
+<i>Mairi Finsbury Park (In the Lane)</i> <span class='cc'>[cba][]</span>
 </figcaption>
 </figure>
 
@@ -151,7 +151,7 @@ It never fails to amaze me how every year the LGM organizers manage to put toget
 <figure class='big-vid'>
 <img src='LGM_Auditorium.jpg' alt='LGM Auditorium'>
 <figcaption>
-Our very own Andrea Ferrero (@Carmelo_DrRaw) presenting <a href='http://aferrero2707.github.io/PhotoFlow/' title='PhotoFlow website'>PhotoFlow</a>!
+Andrea Ferrero (@Carmelo_DrRaw) presenting <a href='http://aferrero2707.github.io/PhotoFlow/' title='PhotoFlow website'>PhotoFlow</a>!
 </figcaption>
 </figure>
 
@@ -191,11 +191,13 @@ Speaking of presentations...
 ### Presentation
 I was given some time to talk about and present our community to everyone at the meeting. (See embedded slides below):
 
+<figure>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/patdavid/albums/72157668276522285" title="LGM2016 PIXLS.US Presentation"><img src="https://farm8.staticflickr.com/7116/26864395042_62177a54de_z.jpg" width="640" height="480" alt="LGM2016 PIXLS.US Presentation"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</figure>
 
 I started by looking at what my primary motivation was to begin the site and what the state of free software photography was like at that time (or not like).  Mainly that the majority of resources online for photographers that were high quality (and focused on high-quality results) were usually aimed at proprietary software users.  Worse still, in some cases these websites locked away their best tutorials and learning content behind paywalls and subscriptions.  I finished by looking at what was done to build this site and forum as a community for everyone to learn and share with each other freely.
 
-I think the presentation went well and people seemed to be interested in what we were doing!  We even got an article by Nate Willis at [LWN.net][], [_"Refactoring the open-source photography community"_][lwn]:
+I think the presentation went well and people seemed to be interested in what we were doing!  Nate Willis even published an article about the presentation at [LWN.net][], [_"Refactoring the open-source photography community"_][lwn]:
 
 [LWN.net]: http://lwn.net
 [lwn]: http://lwn.net/Articles/684279/
@@ -229,7 +231,28 @@ View of the Exhibition.  Well attended!
 
 
 ### Portraits
+In Leipzig I thought it would be nice to offer portraits/headshots of folks that attended the meeting.  I think it's a great opportunity to get a (hopefully) nice photograph that people can use in social media, avatars, websites, etc.  Here's a sample of portraits from LGM2014 of the GIMP team that sat for me:
 
-## GIMP Visit?
+<a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/patdavid/albums/72157644439419931" title="GIMPers"><img src="https://farm3.staticflickr.com/2900/14075907755_5224004a7c_z.jpg" width="640" height="640" alt="GIMPers"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+In 2014 I was lucky that houz had brought along an umbrella and stand to use, so this time I figured it was only fair that I bring along some gear myself.  I had the Softlighter setup on the last couple of days for anyone that was interested in sitting for us.  I say us because Marek Kubica (@Leonidas) from the community was right there to shoot with me!  He took quite a few and managed the subjects very well - he was conversational, engaged, and managed to get some great personality from them.
+
+<figure>
+<a  href="https://www.flickr.com/photos/103724284@N02/26526026171/in/pool-libregfx/" title="Still don&#x27;t know your name"><img src="https://farm2.staticflickr.com/1515/26526026171_fbf23edb01_z.jpg" width="640" height="396" alt="Still don&#x27;t know your name"></a>
+<figcaption>
+A sample portrait by [Marek Kubica][marek] <span class='cc'>[cba][]</span>
+</figcaption>
+</figure>
+
+<figure>
+<a href="https://www.flickr.com/photos/103724284@N02/26526017851/in/pool-libregfx/" title="Better with glasses"><img src="https://farm2.staticflickr.com/1562/26526017851_dc57d13f50_z.jpg" width="640" height="396" alt="Better with glasses"></a>
+<figcaption>
+[Better with glasses](https://www.flickr.com/photos/103724284@N02/26526017851) by [Marek Kubica][marek] <span class='cc'>[cba][]</span>
+</figcaption>
+</figure>
+
+[marek]: https://www.flickr.com/photos/103724284@N02/
 
 [lgm2016]: http://www.libregraphicsmeeting.org/2016/
+[cba]: https://creativecommons.org/licenses/by-sa/2.0/
+[cbna]: https://www.flickr.com/photos/103724284@N02/26526017851 
