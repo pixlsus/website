@@ -93,11 +93,14 @@ Photo by [Michael Schumacher](https://www.flickr.com/photos/schumaml/25858162683
 
 We meandered through the park and chatted a bit about various things.  Simon had brought along his external flash and wanted to play with off-camera lighting.  So we convinced Liam to stand in front of a tree for us and Simon ended up taking one of my favorite images from the entire trip.  This was Liam standing in front of the tree under the shade with me holding the flash slightly above him and to the camera right.
 
-**[Photo of Liam by Simon!]**
+<figure>
+<img src='liam_by_nomis-500.jpg' alt='Liam by nomis'>
+<figcaption>
+Liam by Simon
+</figcaption>
+</figure>
 
 We even managed to run into Barrie Minney while on our way back to the Commons building.  Aryeom and I started talking a little bit while walking when we crossed paths with some locals hanging out in the park.  One man in particular was quite outgoing and let Aryeom take his photo, leading to another fun image!
-
-**[Aryeom image of man against tree]**
 
 Upon returning to the Commons building we experimented with some of the pretty window light coming into the building along with some black panels and a model (Mairi).  This was quite fun as we were experimenting with various setups for the black panels and speedlights.  Everyone had a chance to try some shots out and to direct Mairi (who was _super_ patient and accommodating while we played).
 
@@ -186,7 +189,7 @@ Speaking of presentations...
 
 
 ### Presentation
-I was given some time to talk about and present our community to everyone at the meeting. (See embedded slide show below):
+I was given some time to talk about and present our community to everyone at the meeting. (See embedded slides below):
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/patdavid/albums/72157668276522285" title="LGM2016 PIXLS.US Presentation"><img src="https://farm8.staticflickr.com/7116/26864395042_62177a54de_z.jpg" width="640" height="480" alt="LGM2016 PIXLS.US Presentation"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
