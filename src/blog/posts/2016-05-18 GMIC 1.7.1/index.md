@@ -245,7 +245,7 @@ How the decompression of an HaldCLUT now works in G'MIC, from a set of colored k
 
 Thus, _G'MIC_ doesn't need to store all the color data from a _HaldCLUT_, but only a sparse sampling of it (i.e. a sequence of `{ rgb_keypoint, new_rgb_color }`).
 Depending on the geometric complexity of the _HaldCLUTs_ to encode, more or less keypoints are necessary (roughly from _30_ to _2000_).
-As a result, the storage of the _300+_ _HaldCLUTs_ in _G'MIC_ requires now only _850 Kio_ of data (instead of _85 Mio_), that is a compression gain of _99%_ !
+As a result, the storage of the _300+_ _HaldCLUTs_ in _G'MIC_ requires now only _850 KiB_ of data (instead of _85 MiB_), that is a compression gain of _99%_ !
 That makes the whole _HaldCLUT_ data storable in a single file that is easy to ship with the _G'MIC_ package. Now, a user can then apply all the _G'MIC_ color transformations
 while being offline (previously, each _HaldCLUT_ had to be downloaded separately from the _G'MIC_ server when requested).
 
@@ -497,3 +497,4 @@ Meanwhile, feel the power of _free software_ for image processing!
 * [G'MIC plug-in for GIMP](http://gmic.eu/gimp.shtml)
 * [Introduction to the CLI interface of G'MIC](http://gmic.eu/tutorial/basics.shtml)
 * [Technical reference documentation](http://gmic.eu/reference.shtml)
+* [G'MIC 1.7.1 release article on linuxfr.org](https://linuxfr.org/news/g-mic-1-7-1-quand-les-fleurs-bourgeonnent-les-filtres-d-images-foisonnent)
