@@ -1,3 +1,4 @@
+<img src='/src/images/pixls.us-logo-250px.png' width='100'>
 
 PIXLS.US Website
 ================
