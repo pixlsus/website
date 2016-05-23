@@ -16,9 +16,6 @@ To build the site, you'll need:
     Currently,
     * `node --version` shows: `v4.4.4`.
     * `npm --version` is `2.15.1`  
-* [The site](https://github.com/pixlsus/website)
-    * `git clone https://github.com/pixlsus/website.git`
-
 
 Once you've installed Node.js, you can clone the site, then use Node Package Manager
 to install the rest of the dependencies:
@@ -29,6 +26,28 @@ to install the rest of the dependencies:
 
 This command should install all of the required dependencies for building the site.
 If you want to see exactly what they all are, take a look inside the [package.json][] file.
+
+
+```json
+"dependencies": {
+	"handlebars": "^2.0.0-alpha.2",
+	"metalsmith": "^0.6.0",
+	"metalsmith-atom": "0.0.4",
+	"metalsmith-branch": "0.0.4",
+	"metalsmith-clean": "0.0.0",
+	"metalsmith-collections": "^0.4.0",
+	"metalsmith-markdown": "^0.2.1",
+	"metalsmith-more": "^0.2.0",
+	"metalsmith-paginate": "^0.3.0",
+	"metalsmith-pagination": "^1.0.0",
+	"metalsmith-path": "^0.2.0",
+	"metalsmith-permalinks": "^0.3.0",
+	"metalsmith-snippet": "^2.0.0",
+	"metalsmith-templates": "^0.4.0",
+	"rimraf": "^2.4.4"
+}
+```
+
 
 There will likely be some warnings declared until I finish upgrading and testing packages.
 
