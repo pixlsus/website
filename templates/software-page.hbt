@@ -366,6 +366,14 @@
                             Out of maintenance since 2014.
                         </p>
 					</div>
+                    <div class="sw-entry resourcespace">
+						<a href="http://www.resourcespace.org/">ResourceSpace</a>
+						<i class="fa fa-nix-win-osx"></i>
+                        <p>
+                            ResourceSpace open source digital asset management software is the 
+                            simple, fast, & free way to organise your digital assets
+                        </p>
+					</div>
                 </div>
 
 			</section>
