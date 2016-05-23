@@ -28,7 +28,7 @@ This command should install all of the required dependencies for building the si
 If you want to see exactly what they all are, take a look inside the [package.json][] file.
 
 
-```json
+```javascript
 "dependencies": {
 	"handlebars": "^2.0.0-alpha.2",
 	"metalsmith": "^0.6.0",
