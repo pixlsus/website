@@ -31,8 +31,17 @@ In [Chrome][] the [MarkView][] extension is known to work.
         In Chrome, go to: `chrome://extensions/` to see all of your extensions.  
         Find the MarkView extesion in the list and make sure the option to __"Allow access to file URLs"__ is _checked_:
         ![MarkView Extension Chrome List](src/about/meta/chrome-extensions-markview.png)
-
-
+2. Download the combined CSS file for pixls blogposts and save it somewhere easy to find:  
+https://raw.githubusercontent.com/patdavid/markview-css/master/pixls-blogpost.css
+3. Add the CSS as an option in MarkView.
+    * From the `chrome://extensions` MarkView entry, click **Options**.  
+    Alternatively, from the MarkView icon on the Chrome toolbar, Right-Click and choose **Options**.
+    * Under the section _"Custom Styling Instructions"_:
+    ![MarkView Custom Styling](src/about/meta/add-theme.png)
+    * Find **"Add Theme CSS into Selection"** and click the _"Choose File"_ button.
+    * Choose the `pixls-blogpost.css` file you downloaded in the previous step and click the _"Add Theme"_ button.
+4. Select a "Document Theme".
+    ![MarkView Choose Theme](src/about/meta/choose-theme.png)
 
 
 
