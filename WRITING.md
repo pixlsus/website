@@ -30,7 +30,7 @@ In [Chrome][] the [MarkView][] extension is known to work.
     * Allow it to work on local files:
         In Chrome, go to: `chrome://extensions/` to see all of your extensions.  
         Find the MarkView extesion in the list and make sure the option to __"Allow access to file URLs"__ is _checked_:
-        ![MarkView Extension Chrome List](/src/about/meta/chrome-extensions-markview.png)
+        ![MarkView Extension Chrome List](src/about/meta/chrome-extensions-markview.png)
 
 
 
