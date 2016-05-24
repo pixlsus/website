@@ -143,16 +143,7 @@ To use them, add the class `cc` to your element then use the appropriate text to
 ```
 <strong>Icons Font</strong><br>
 Logo and icons in an embeddable TTF.<br>
-<small><strong>a</strong>: SA<br>
-<strong>b</strong>: BY<br>
-<strong>c</strong>: CC Circle<br>
-<strong>d</strong>: ND<br>
-<strong>n</strong>: NC<br>
-<strong>m</strong>: Sampling<br>
-<strong>s</strong>: Share<br>
-<strong>r</strong>: Remix<br>
-<strong>C</strong>: CC Full Logo</small><br>
-<a href="http://mirrors.creativecommons.org/presskit/cc-icons.ttf">ttf</a>
+<small><strong>a</strong>: SA, <strong>b</strong>: BY, <strong>c</strong>: CC Circle, <strong>d</strong>: ND, <strong>n</strong>: NC,<br> <strong>m</strong>: Sampling, <strong>s</strong>: Share, <strong>r</strong>: Remix, <strong>C</strong>: CC Full Logo</small> <br><a href="http://mirrors.creativecommons.org/presskit/cc-icons.ttf">The ttf font file.</a>
 
 
 [webclient]: http://webchat.freenode.net/?channels=%23pixls.us&uio=MTY9dHJ1ZSYyPXRydWUmOT10cnVl02
