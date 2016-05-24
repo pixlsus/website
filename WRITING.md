@@ -127,6 +127,33 @@ If you want to embed a _big_ version of the video, you can wrap it in two sets o
 </div>
 ```
 
+This also works for other services that use `<iframe>` to embed things (like Google Maps or OpenStreetMap).
+
+
+
+### Creative Commons Icons
+We _are_ a community dedicated to Free Software photography after all - so it makes sense that we might want to release our images with permissive licensing as well!  We include the [Creative Commons][] icon fonts on the site (https://creativecommons.org/about/downloads/).
+
+To use them, add the class `cc` to your element then use the appropriate text to show the desired icon. The below `<span>` will display the CC logo, By-Attribution, Share-Alike:
+
+```html
+<span class='cc'>
+    cba
+</span>
+```
+<strong>Icons Font</strong><br>
+Logo and icons in an embeddable TTF.<br>
+<small><strong>a</strong>: SA<br>
+<strong>b</strong>: BY<br>
+<strong>c</strong>: CC Circle<br>
+<strong>d</strong>: ND<br>
+<strong>n</strong>: NC<br>
+<strong>m</strong>: Sampling<br>
+<strong>s</strong>: Share<br>
+<strong>r</strong>: Remix<br>
+<strong>C</strong>: CC Full Logo</small><br>
+<a href="http://mirrors.creativecommons.org/presskit/cc-icons.ttf">ttf</a>
+
 
 [webclient]: http://webchat.freenode.net/?channels=%23pixls.us&uio=MTY9dHJ1ZSYyPXRydWUmOT10cnVl02
 [wiki topic on discuss]: https://discuss.pixls.us/t/new-upcoming-pixls-us-posts-wiki/1393
@@ -134,3 +161,4 @@ If you want to embed a _big_ version of the video, you can wrap it in two sets o
 [Chrome]: https://www.google.com/chrome/browser/desktop/
 [MarkView]: https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim
 [Markdown Viewer]: https://addons.mozilla.org/en-US/firefox/addon/markdown-viewer/
+[Creative Commons]: http://creativecommons.org/
