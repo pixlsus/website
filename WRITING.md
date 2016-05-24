@@ -38,14 +38,13 @@ In [Chrome][] the [MarkView][] extension is known to work.
 3. Add the CSS as an option in MarkView.
     * From the `chrome://extensions` MarkView entry, click **Options**.  
     Alternatively, from the MarkView icon on the Chrome toolbar, Right-Click and choose **Options**.
-    * Under the section _"Custom Styling Instructions"_:
+    * Under the section _"Custom Styling Instructions"_:  
     ![MarkView Custom Styling](src/about/meta/add-theme.png)
     * Find **"Add Theme CSS into Selection"** and click the _"Choose File"_ button.
     * Choose the `pixls-blogpost.css` file you downloaded in the previous step and click the _"Add Theme"_ button.
 
 4. Select a "Document Theme".
-    * In the section _"Selection"_, under **"Document Theme** the drop-down should have an entry for `pixls-blogpost` now.  Choose that theme.
-
+    * In the section _"Selection"_, under **"Document Theme** the drop-down should have an entry for `pixls-blogpost` now.  Choose that theme.  
     ![MarkView Choose Theme](src/about/meta/choose-theme.png)
 
 
