@@ -18,7 +18,7 @@ To build the site, you'll need:
     * `node --version` shows: `v4.4.4`.
     * `npm --version` is `2.15.1`  
 
-Once you've installed Node.js, you can clone the site, then use Node Package Manager
+Once you've installed Node.js, you can clone the site, then use Node Package Manager (npm)
 to install the rest of the dependencies:
 
     $ git clone https://github.com/pixlsus/website.git
