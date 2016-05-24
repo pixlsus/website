@@ -1,7 +1,9 @@
 var Metalsmith	= require('metalsmith'),
 	collections	= require('metalsmith-collections'),
 	permalinks	= require('metalsmith-permalinks'),
-	templates	= require('metalsmith-templates'),
+	//templates	= require('metalsmith-templates'),
+    layouts     = require('metalsmith-layouts'),
+    //inPlace     = require('metalsmith-in-place'),
 	markdown	= require('metalsmith-markdown'),
     branch      = require('metalsmith-branch'),
     more        = require('metalsmith-more'),
@@ -113,7 +115,7 @@ Handlebars.registerHelper('abPathTest', function(obj, rss){
 
 Handlebars.registerHelper('debug', function(optionalValue){
     console.log( this );
-        })
+})
 
 Handlebars.registerHelper('rssDate', function(date){
     var currentDate = new Date(date);
@@ -448,16 +450,21 @@ Metalsmith(__dirname)
     .use(paginate({
         'collections.blogposts':{
             perPage: 10,
-            //template: 'test.hbt'
-            template: 'blog-list-pages.hbt',
-            first: '/blog/index.html',
-            path: '/blog/page-:num.html',
+            //template: 'blog-list-pages.hbt',
+            layout: 'blog-list-pages.hbt',
+            first: 'blog/index.html',
+            path: 'blog/page-:num.html',
+            noPageOne: true,
             pageMetadata: {
                 title: 'Blog'
             }
         }
     }))
-    .use(templates('handlebars'))
+    //.use(templates('handlebars'))
+    .use( layouts({
+        engine: 'handlebars',
+        directory: 'templates'
+    }))
     .destination('./build')
 	//.build();
     .build(function(err) {
