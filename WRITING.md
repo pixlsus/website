@@ -39,9 +39,7 @@ In [Chrome][] the [MarkView][] extension is known to work.
     * From the `chrome://extensions` MarkView entry, click **Options**.  
     Alternatively, from the MarkView icon on the Chrome toolbar, Right-Click and choose **Options**.
     * Under the section _"Custom Styling Instructions"_:
-
     ![MarkView Custom Styling](src/about/meta/add-theme.png)
-
     * Find **"Add Theme CSS into Selection"** and click the _"Choose File"_ button.
     * Choose the `pixls-blogpost.css` file you downloaded in the previous step and click the _"Add Theme"_ button.
 
