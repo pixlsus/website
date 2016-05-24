@@ -63,6 +63,7 @@ The Hard Way
 ------------
 Actually clone this repository and install the necessary packages to build it.  Check the [README.md](./README.md) file.  We will also be writing a CONTRIBUTING.md file soon for further details.
 
+<hr>
 
 
 Writing
@@ -109,7 +110,7 @@ The reason for this is that videos share the same styling to make them large as 
 
 
 ### Video
-Embedded videos, like Youtube, can be inserted directly if they are wrapped in a `<div class='fluid-vid'>` tag.  The `class='fluid-vid'` is to ensure that the iframe video is responsive with the rest of the site to various browser widths.
+Embedded videos, like Youtube, can be inserted directly if they are wrapped in a `<div class='fluid-vid'>` tag.  This is to ensure that the iframe video is responsive with the rest of the site across various browser widths.
 
 ```html
 <div class='fluid-vid'>
