@@ -11,7 +11,7 @@ lede-img-thumb: "th_Tacky.jpg"
 author: "Pat David"
 author-bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 I took a bit of a break from writing articles to [work on](//pixls.us/blog/2015/04/a-forum) getting [the forums](https://discuss.pixls.us) up and running.

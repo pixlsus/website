@@ -8,7 +8,7 @@ lede-attribution: "Into the Fog by <a href='http://blog.patdavid.net'>Pat David<
 author: "Pat David"
 author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 Sometimes I get into weird OCD mode where I need to have something for better or worse.

@@ -9,7 +9,7 @@ lede-style: "background-size: cover; background-repeat: no-repeat;"
 author: "Pat David"
 author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 For the curious, and to serve as an introduction, I thought I'd make a few notes about how this site is built and what I'm currently obsessing over.

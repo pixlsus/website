@@ -8,7 +8,7 @@ lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/16101646308/'
 author: "Pat David"
 author-bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 After much hard work, that basically consisted of me annoying darix as often as possible, I am glad to say that we finally have a [Discourse](http://discourse.org) instance set up!

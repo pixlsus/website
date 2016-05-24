@@ -20,7 +20,7 @@ author-fb: ""
 author-bio: "This post was originally published on the <a href='http://www.darktable.org/2015/07/why-dont-you-provide-a-windows-build/'>darktable blog</a>.<br/>It is republished here with permission. (<a class='cc' href='http://creativecommons.org/licenses/by-nc-sa/3.0/' target='_blank'>cbna</a>)"
 
 collection: blogposts 
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 Due to the heated debate lately, a short foreword:

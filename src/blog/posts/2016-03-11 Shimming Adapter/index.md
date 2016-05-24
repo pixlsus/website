@@ -14,7 +14,7 @@ author-url: ''
 author-bio: "Carlo is the creator of the <a href='https://github.com/CarVac/filmulator-gui'>Filmulator</a> project and owns too many manual lenses.<br>You can find his photography on <a href='https://www.flickr.com/photos/carvac/'>Flickr</a> and his <a href='https://github.com/CarVac'>projects on Github</a>."
 
 collection: blogposts 
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 Some of you may know I exclusively use Contax manual focus lenses on my Canon cameras. I have had one reliable adapter from the start, that just happened to be perfect in every way: perfectly parallel, and lets my lenses focus *exactly* to infinity, and none of my lenses hit the mirror on my 5D.

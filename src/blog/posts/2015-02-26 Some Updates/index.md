@@ -8,7 +8,7 @@ lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/16270435838/'
 author: "Pat David"
 author-bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 I hate when things take me away for a little while, but won't make any apologies just yet for having little activity here!

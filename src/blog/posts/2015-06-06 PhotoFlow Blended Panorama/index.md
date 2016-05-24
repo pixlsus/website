@@ -18,7 +18,7 @@ author-fb: ""
 author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 
 collection: blogposts 
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 After quite a bit of back and forth I am quite happy to be able to announce that the latest tutorial is up: [A Blended Panorama with PhotoFlow](/articles/a-blended-panorama-with-photoflow/)!

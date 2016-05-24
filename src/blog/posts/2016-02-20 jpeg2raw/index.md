@@ -14,7 +14,7 @@ author-gplus: ""
 author-fb: ""
 author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 collection: blogposts 
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 [Mike Howard][], the host and creator of the [jpeg2RAW podcast][] reached out to me last week to see if I might be able to come on the show to talk about Free Software Photography and what we've been up to here. 

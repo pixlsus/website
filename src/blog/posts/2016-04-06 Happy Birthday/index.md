@@ -17,7 +17,7 @@ author-fb: ""
 author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts 
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 For some reason I was checking my account on the forums earlier today and noticed that it was created in April, 2015.  On further inspection it looks like my, and @darix, accounts were created on April 2<sup>nd</sup> 2015.

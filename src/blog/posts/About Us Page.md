@@ -8,7 +8,7 @@ lede-attribution: "Rolf Steinort by <a href='http://blog.patdavid.net'>Pat David
 author: "Pat David"
 author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 I've started working a bit on the "About" page for the site.

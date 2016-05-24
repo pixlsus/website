@@ -17,7 +17,7 @@ author-fb: ""
 author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts 
-template: blog-posts.hbt
+layout: blog-posts.hbt
 
 ---
 

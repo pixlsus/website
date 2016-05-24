@@ -17,7 +17,7 @@ author-fb: ""
 author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts 
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 It's that time of year again!  The weather is turning mild, the days are smelling fresh, and a bunch of photography nerds are all going to get together in a new country to roam around and (_possibly_) annoy locals by taking a _ton_ of photographs! It's the Pre-[_Libre Graphics Meeting_][lgm2016] photowalk of 2016!

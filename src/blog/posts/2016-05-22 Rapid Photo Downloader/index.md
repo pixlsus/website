@@ -12,7 +12,7 @@ author-img:
 author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 Community member [Damon Lynch][] happens to make an awesome program called [Rapid Photo Downloader][RPD] in his "spare" time.  In fact you may have heard mention of it as part of [Riley Brandt's][riley] [_"The Open Source Photography Course"_][ospc]<sup>*</sup>.  It is a program that specializes in downloading photo and video from media in as efficient a manner as possible while extending the process with extra functionality.

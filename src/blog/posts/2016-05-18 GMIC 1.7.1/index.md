@@ -12,7 +12,7 @@ author-img: /images/authors/david-tschumperle.png
 author-bio: "I am <a title='David Tschumperlé' href='https://tschumperle.users.greyc.fr/' >David Tschumperlé</a>, a permanent researcher working in the field of image processing in a daily basis, since 1999. I work for the <a title='CNRS' href='http://www.cnrs.fr/' >CNRS</a> institute, more particularly in the <a title='Equipe Image du GREYC' href='https://www.greyc.fr/image' >Image Group </a>at the <a title='Laboratoire GREYC' href='http://www.greyc.fr' >GREYC</a> laboratory in Caen/France."
 
 collection: blogposts
-template: blog-posts.hbt
+layout: blog-posts.hbt
 
 ---
 

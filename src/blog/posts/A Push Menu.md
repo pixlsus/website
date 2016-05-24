@@ -7,7 +7,7 @@ lede-style: "background-size: cover; background-repeat: no-repeat;"
 author: "Pat David"
 author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 So, I've had the idea in my head for a while that it would be nice to get the navigation out of the way.

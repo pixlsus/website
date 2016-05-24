@@ -8,7 +8,7 @@ lede-attribution: "Death Throes of an Insect by <a href='http://blog.patdavid.ne
 author: "Pat David"
 author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 I'm working my way through some of the suggestions I've received from many folks.

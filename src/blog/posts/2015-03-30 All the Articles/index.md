@@ -8,7 +8,7 @@ lede-attribution: "<a href='https://www.flickr.com/photos/astroporn/4869858064/'
 author: "Pat David"
 author-bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 I spent a little time struggling conceptually with how I wanted to categorize the different types of content I am planning for this site.
@@ -57,7 +57,7 @@ sub-title: "My God, It's Full of Articles"
 lede-img: "M31 - Adam Evans.jpg"
 author: "Pat David"
 collection: blogposts
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 ```
 

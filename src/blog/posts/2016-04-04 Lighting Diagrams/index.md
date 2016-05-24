@@ -17,7 +17,7 @@ author-fb: ""
 author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts 
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 Community member [Eric Mesa][] asked on [the forums][] the other day if there might be some Free resources for photographers that want to build a lighting diagram of their work.  These are the diagrams that show how a shot might be set up with the locations of lights, what types of modifiers might be used, and where the camera/photographer might be positioned with respect to the subject.  These diagrams usually also include lighting power details and notes to help the production.

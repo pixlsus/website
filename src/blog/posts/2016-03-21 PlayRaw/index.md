@@ -17,7 +17,7 @@ author-fb: ""
 author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts 
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 On the old [RawTherapee][] forums they used to have a contest sharing a single raw file amongst the members to see how everyone would approach processing from the same starting point.  They called it **PlayRaw**.  This seemed to really bring out some great work from the community so I thought it might be fun to start doing something similar again here.
