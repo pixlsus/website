@@ -18,19 +18,24 @@ The easy way doesn't require you to do anything fancy.
 
 Articles/posts for the site are written in [Markdown][].  These are just plain text files with some very lightweight markup to denote a few things (see the link for a basic Markdown introduction).
 
-In order to view your Markdown rendered as it would appear on the website, we can use a browser + an appropriate extension.
+In order to view your Markdown rendered as it would appear on the website, we can use a browser + an appropriate extension<sup>*</sup>.
+
+<sup>*</sup> You can also use any stand-alone text editor/previewer that you want.  There are many options available for all platforms, as well as some neat on-line versions like [dillinger.io][] and [stackedit.io][].
+
+[dillinger.io]: http://dillinger.io/
+[stackedit.io]: https://stackedit.io/
 
 
 ### Installing (Chrome)
 To preview everything as it would appear on the website, the extension will need to allow custom css as well.
 
-In [Chrome][] the [MarkView][] extension is known to work.
+In [Chrome][] the [MarkView][] extension is known to work.  It not only shows the Markdown with custom styling, but it also auto-refreshes the view in the browser every time the parsed Markdown file is saved, which is nice.
 
 1. Install [MarkView][].
     * Allow it to work on local files:
         In Chrome, go to: `chrome://extensions/` to see all of your extensions.  
         Find the MarkView extesion in the list and make sure the option to __"Allow access to file URLs"__ is _checked_:
-        ![MarkView Extension Chrome List](src/about/meta/chrome-extensions-markview.png)
+        ![MarkView Extension Chrome List](https://github.com/pixlsus/website/raw/master/src/about/meta/chrome-extensions-markview.png)
 
 2. Download the combined CSS file for pixls blogposts and save it somewhere easy to find:  
     https://raw.githubusercontent.com/patdavid/markview-css/master/pixls-blogpost.css
@@ -44,10 +49,83 @@ In [Chrome][] the [MarkView][] extension is known to work.
     * Choose the `pixls-blogpost.css` file you downloaded in the previous step and click the _"Add Theme"_ button.
 
 4. Select a "Document Theme".
-    * In the section _"Selection"_, under **"Document Theme** the drop-down should have an entry for `pixls-blogpost` now.  Choose that theme.  
+    * In the section _"Selection"_, under **"Document Theme** the drop-down should have an entry for `pixls-blogpost` now.  Choose that theme:  
     ![MarkView Choose Theme](src/about/meta/choose-theme.png)
 
 
+
+### Installing (Firefox)
+After losing over an hour looking around, I don't see any really viable Firefox solution to live-previewing Markdown files while using custom CSS to match the pixls.us website.  The best option I could find right now appears to be [Markdown Viewer][],but it doesn't allow using custom styles or any auto-refreshing of the page on save.
+
+
+
+The Hard Way
+------------
+Actually clone this repository and install the necessary packages to build it.  Check the [README.md](./README.md) file.  We will also be writing a CONTRIBUTING.md file soon for further details.
+
+
+
+Writing
+-------
+Besides using normal Markdown there are a couple of things to keep in mind for formatting while writing.
+
+
+### Images
+Images on posts and articles are normally inserted wrapped with a `<figure>` tag.  This is for both formatting and to make available the use of a `<figcaption>` tag to caption the image with semantic markup.  Markdown is smart enough to allow you to write straight HTML when needed and will pass it through to the output.
+
+To include an image, with no caption:
+
+```html
+<figure>
+    <img src='IMAGE.png' alt='Alt-Text'>
+</figure>
+```
+
+To include an image _with_ a caption is straightforward:
+
+```html
+<figure>
+    <img src='IMAGE.png' alt='Alt-text'>
+    <figcaption>
+        This is a caption for my image!
+    </figcaption>
+</figure>
+```
+
+You can also include a plain `<img>` tag if you want but this is not recommended.
+
+#### Size/Width
+By default, the image will be constrained to the max-width of the `<p>` elements.  This means that at the moment the width of images will be constrained to a max of **640px**.
+
+Unless you add a class to the `<figure>` tag.  If you add `class='big-vid'` to the `<figure>` tag it will trigger a different style, allowing the image width to go up to **960px**:
+
+```html
+<figure class='big-vid'>
+    <img src='IMAGE.png' alt='Alt-Text'>
+</figure>
+```
+
+The reason for this is that videos share the same styling to make them large as well.
+
+
+### Video
+Embedded videos, like Youtube, can be inserted directly if they are wrapped in a `<div class='fluid-vid'>` tag.  The `class='fluid-vid'` is to ensure that the iframe video is responsive with the rest of the site to various browser widths.
+
+```html
+<div class='fluid-vid'>
+    <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/cvA9KmLg7sY?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+```
+
+If you want to embed a _big_ version of the video, you can wrap it in two sets of `<div>`'s: one for `fluid-vid` and another for `big-vid`:
+
+```html
+<div class='big-vid'>
+    <div class='fluid-vid'>
+        <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/cvA9KmLg7sY?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+```
 
 
 [webclient]: http://webchat.freenode.net/?channels=%23pixls.us&uio=MTY9dHJ1ZSYyPXRydWUmOT10cnVl02
@@ -55,3 +133,4 @@ In [Chrome][] the [MarkView][] extension is known to work.
 [Markdown]: https://daringfireball.net/projects/markdown/basics
 [Chrome]: https://www.google.com/chrome/browser/desktop/
 [MarkView]: https://chrome.google.com/webstore/detail/markview/iaddkimmopgchbbnmfmdcophmlnghkim
+[Markdown Viewer]: https://addons.mozilla.org/en-US/firefox/addon/markdown-viewer/
