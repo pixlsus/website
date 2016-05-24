@@ -13,7 +13,7 @@ tags:
     - build
     - log
     - reference
-template: article.hbt
+layout: article.hbt
 ---
 
 This is just a log of reference material for actually building this site.  It's mostly for my own reference and edification.  If you're reading this, good luck making sense of my notes...

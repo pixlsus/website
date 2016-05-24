@@ -18,7 +18,7 @@ tags:
     - Panorama
     - Technique
 stylesheet: index.css
-template: article.hbt
+layout: article.hbt
 #nodiscuss: true
 ---
 

@@ -25,7 +25,7 @@ tags:
     - tone-mapping
 
 stylesheet: index.css
-template: article.hbt
+layout: article.hbt
 
 ---
 

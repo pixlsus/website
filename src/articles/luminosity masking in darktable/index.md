@@ -17,7 +17,7 @@ tags:
     - Luminosity Mask
     - Landscape
 stylesheet: index.css
-template: article.hbt
+layout: article.hbt
 ---
 
 **Luminosity Masking**, the ability to create selections of your image based on its specific tones for ultra-targeted editing, is a relatively recent concept favoured by landscape photographers the world over.

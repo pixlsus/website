@@ -23,7 +23,7 @@ tags:
     - local-contrast
 
 stylesheet: index.css
-template: article.hbt
+layout: article.hbt
 #nodiscuss: true
 ---
 

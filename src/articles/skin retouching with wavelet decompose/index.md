@@ -20,7 +20,7 @@ tags:
     - Skin
     - Technique
 stylesheet: index.css
-template: article.hbt
+layout: article.hbt
 ---
 
 Skin retouching is a delicate art.

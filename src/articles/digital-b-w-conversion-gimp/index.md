@@ -17,7 +17,7 @@ tags:
     - conversion
     - GIMP
 stylesheet: index.css
-template: article.hbt
+layout: article.hbt
 ---
 
 Black and White photography is a big topic that deserves entire books devoted to the subject.
