@@ -94,7 +94,7 @@
                 -->
                 <div class="column half">
                     {{#if this.pagination.next}}
-                    <span class="pageArrow">&larr;</span><a href="{{this.pagination.next.path}}"> Older</a>
+                    <span class="pageArrow">&larr;</span><a href="/{{this.pagination.next.path}}"> Older</a>
                     {{else}}
                     &nbsp;
                     {{/if}}
@@ -102,7 +102,7 @@
 
                 <div class="column half">
                     {{#if this.pagination.previous}}
-                    <a href="{{this.pagination.previous.path}}">Newer </a><span class="pageArrow">&rarr;</span>
+                    <a href="/{{this.pagination.previous.path}}">Newer </a><span class="pageArrow">&rarr;</span>
                     {{else}}
                     {{/if}}
                 </div>
