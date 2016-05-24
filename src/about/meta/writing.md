@@ -1,5 +1,5 @@
 ---
-template: blog-posts.hbt
+layout: blog-posts.hbt
 ---
 
 Writing Content

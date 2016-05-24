@@ -2,7 +2,7 @@
 date: 2014-09-09T10:01:49-0500
 title: "About"
 author: Pat David
-template: about.hbt
+layout: about.hbt
 ---
 <h2>About Page</h2>
 <p>This is an about page.  Just testing something out here...</p>

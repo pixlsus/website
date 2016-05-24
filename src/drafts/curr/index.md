@@ -9,7 +9,7 @@ lede-img-thumb: th_Lede.jpg
 author: David Tschumperlé
 
 #collection: blogposts
-template: blog-posts.hbt
+layout: blog-posts.hbt
 
 ---
 

@@ -2,7 +2,7 @@
 title: "Blog"
 author: "Pat David"
 date: 2014-08-26
-template: blog-list.hbt
+layout: blog-list.hbt
 ---
 
 <p>This is a placeholder</p>
