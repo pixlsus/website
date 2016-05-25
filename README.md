@@ -6,6 +6,18 @@ PIXLS.US Website
 Yep, here it is.  Finally.
 
 
+Writing
+-------
+So you'd like to write some content for the site?  Awesome!
+
+All of our files are written in [Markdown][] and are usually self-contained in a single directory for convenience.
+
+I have started a guide to writing for the site that includes how to setup a preview environment easily and various small details about including images, videos, and more to be consistent with the site style and responsiveness.  You can find those details in the [WRITING.md][] file.
+
+[Markdown]: https://daringfireball.net/projects/markdown/basics
+[WRITING.md]: ./WRITING.md
+
+
 
 Requirements
 ------------
@@ -29,7 +41,9 @@ This command should install all of the required dependencies for building the si
 If you want to see exactly what they all are, take a look inside the [package.json][] file.
 
 
-There will likely be some warnings declared until I finish upgrading and testing packages.
+<del>There will likely be some warnings declared until I finish upgrading and testing packages.</del>  
+The site has been updated to all of the latest packages.  Any residual WARNings are due to packages calling old(er) dependencies.
+
 
 
 
