@@ -24,6 +24,10 @@ I have started a guide to writing for the site that includes how to setup a prev
 
 Building
 --------
+
+
+### Requirements
+
 The site is built using a static site generator, [metalsmith][].
 
 To build the site, you'll need:
@@ -50,8 +54,8 @@ The site has been updated to all of the latest packages.  Any residual WARNings 
 
 
 
-Building the Site
------------------
+### Building the Site
+
 Once the requirements are installed, the site can be built locally with:
 
     $ node index.js
