@@ -22,8 +22,8 @@ I have started a guide to writing for the site that includes how to setup a prev
 
 
 
-Requirements
-------------
+Building
+--------
 The site is built using a static site generator, [metalsmith][].
 
 To build the site, you'll need:
