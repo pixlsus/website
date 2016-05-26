@@ -31,5 +31,6 @@
     "metalsmith-permalinks": "^0.5.0",
     "metalsmith-snippet": "^2.0.0",
     "rimraf": "^2.4.4"
-  }
+  },
+  "test": "node index.js"
 }
