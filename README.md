@@ -1,9 +1,10 @@
-[![Build Status](https://travis-ci.org/pixlsus/website.svg?branch=master)](https://travis-ci.org/pixlsus/website)
 
 <img src='/src/images/pixls.us-logo-250px.png' width='100'>
 
 PIXLS.US Website
 ================
+
+[![Build Status](https://travis-ci.org/pixlsus/website.svg?branch=master)](https://travis-ci.org/pixlsus/website) 
 
 Yep, here it is.  Finally!
 
