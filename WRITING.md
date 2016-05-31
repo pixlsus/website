@@ -71,6 +71,22 @@ Writing
 Besides using normal Markdown there are a couple of things to keep in mind for formatting while writing.
 
 
+### Commands
+When commands need to be referenced there is a special class available called `Cmd` to provide different styling:
+
+```html
+<span class='Cmd'>Colors → Desaturate...</span>
+```
+
+
+### Aside
+Sometimes some text needs to be set _aside_ from the main writing.  There is an 'aside' class for this:
+
+```html
+<p class='aside'>This is some section of text that needs to be stylistically offset from the surrounding text.</p>
+```
+
+
 ### Images
 Images on posts and articles are normally inserted wrapped with a `<figure>` tag.  This is for both formatting and to make available the use of a `<figcaption>` tag to caption the image with semantic markup.  Markdown is smart enough to allow you to write straight HTML when needed and will pass it through to the output.
 
