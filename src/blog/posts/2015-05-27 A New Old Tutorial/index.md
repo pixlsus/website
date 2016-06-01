@@ -7,7 +7,7 @@ sub-title: "Revisiting an Open Source Portrait (Mairi)"
 lede-img: "Mairi Deux 3.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
 lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/8938851888/'>Mairi Deux 3</a> by <a href='https://www.flickr.com/photos/patdavid/'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cbn</a>"
-lede-img: "th_Mairi Deux 3.jpg"
+lede-img-thumb: "th_Mairi Deux 3.jpg"
 
 author: "Pat David"
 author-bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."

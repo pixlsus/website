@@ -4,7 +4,7 @@ title: Happy Birthday DISCUSS.PIXLS.US
 sub-title: Where did the time go?!
 
 lede-img: birthday-cake_1920.jpg
-lede-img-thumb: 
+lede-img-thumb: th_birthday-cake_1920.jpg
 lede-style: ""
 lede-attribution: ""
 
