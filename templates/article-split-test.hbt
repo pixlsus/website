@@ -16,6 +16,8 @@
 		.article-title h4 { margin-bottom: 1.5em; }
 		{{/if}}
 	</style>
+
+    {{>analytics}}
   </head>
 
   <body>
