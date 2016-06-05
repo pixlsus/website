@@ -378,28 +378,6 @@
 
 			</section>
 
-            {{!--
-            <section class="row clearfix">
-                <div class="container">
-                    <h2 id="raw-processing">Raw Processing</h2>
-                </div>
-                <div class="column half">
-                    <div class="container">
-                        <h3 id="darktable">darktable</h3>
-                    </div>
-                    <div class="container">
-                        <h3 id="rawtherapee">RawTherapee</h3>
-                    </div>
-                    <div class="container">
-                        <h3 id="rawtherapee">UFRaw</h3>
-                    </div>
-                </div>
-                <div class="column half">
-                </div>
-            </section>
-            --}}
-
-            
 			<section id="pixls-blender">
 			</section>
 
