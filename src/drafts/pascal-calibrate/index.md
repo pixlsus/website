@@ -32,7 +32,7 @@ layout: article.hbt
 
 **Attention:** This article is a work in progress, based on my own practical experience up until the time of writing, so you may want to check back periodically to see if it has been updated.
 
-This article outlines how you can calibrate and profile your display on Linux, assuming you have the right [equipment](http://argyllcms.com/doc/instruments.html) (either a colorimeter like for example the i1 Display Pro or a spectrophotometer like for example the ColorMunki Photo). For a general overview of what color management is and details about some of it’s parlance you may want to read [this](https://encrypted.pcode.nl/blog/2012/01/29/color-management-on-linux/) before continuing.
+This article outlines how you can calibrate and profile your display on Linux, assuming you have the right [equipment](http://argyllcms.com/doc/instruments.html) (either a colorimeter like for example the i1 Display Pro or a spectrophotometer like for example the ColorMunki Photo). For a general overview of what color management is and details about some of its parlance you may want to read [this](https://encrypted.pcode.nl/blog/2012/01/29/color-management-on-linux/) before continuing.
 
 <!-- more -->
 
@@ -62,9 +62,9 @@ Modern flat panel displays are comprised of two major components for purposes of
 
 ## Display Setup
 
-There are two main cases, there a laptop displays, which usually allow for little configuration, and regular desktop displays. For regular displays there are a few steps to prepare your display to be profiled, first you need to reset your display to it’s factory defaults. We leave the contrast at it’s default value. If your display has a feature called dynamic contrast you need to disable it, this is _critical_, if you’re unlucky enough to have a display for which this cannot be disabled, then there is no use in proceeding any further. Then we set the color temperature setting to custom and set the R/G/B values to equal values (often 100/100/100 or 255/255/255). As for the brightness, set it to a level which is comfortable for prolonged viewing, typically this means reducing the brightness from it’s default setting, this will often be somewhere around 25-50 on a 0-100 scale. Laptops are a different story, often you’ll be fighting different lighting conditions, so you may want to consider profiling your laptop at it’s full brightness. We’ll get back to the brightness setting later on.
+There are two main cases, there a laptop displays, which usually allow for little configuration, and regular desktop displays. For regular displays there are a few steps to prepare your display to be profiled, first you need to reset your display to its factory defaults. We leave the contrast at its default value. If your display has a feature called dynamic contrast you need to disable it, this is _critical_, if you’re unlucky enough to have a display for which this cannot be disabled, then there is no use in proceeding any further. Then we set the color temperature setting to custom and set the R/G/B values to equal values (often 100/100/100 or 255/255/255). As for the brightness, set it to a level which is comfortable for prolonged viewing, typically this means reducing the brightness from its default setting, this will often be somewhere around 25-50 on a 0-100 scale. Laptops are a different story, often you’ll be fighting different lighting conditions, so you may want to consider profiling your laptop at its full brightness. We’ll get back to the brightness setting later on.
 
-Before continuing any further, let the display settle for at least half an hour (as it’s color rendition may change while the backlight is warming up) and make sure the display doesn’t go into power saving mode during this time.
+Before continuing any further, let the display settle for at least half an hour (as its color rendition may change while the backlight is warming up) and make sure the display doesn’t go into power saving mode during this time.
 
 Another point worth considering is cleaning the display before starting the calibration and profiling process, do keep in mind that displays often have relatively fragile coatings, which may be deteriorated by traditional cleaning products, or easily scratched using regular cleaning cloths. There are specialist products [available](https://www.klearscreen.com/iKlear.aspx) for safely cleaning computer displays.
 
@@ -76,7 +76,7 @@ You may also want to consider dimming the ambient lighting while running the cal
 
 If you’re in a GNOME or Unity environment it’s highly recommend to use [GNOME Color Manager](https://projects.gnome.org/gnome-color-manager/) (with [colord](http://www.freedesktop.org/software/colord/) and [argyll](http://argyllcms.com/)). If you have recent versions (3.8.3, 1.0.5, 1.6.2 respectively), you can profile and setup your display completely graphically via the Color applet in System Settings. It’s fully wizard driven and couldn’t be much easier in most cases. This is what I personally use and recommend. The rest of this article focuses on the case where you are not using it.
 
-Xubuntu users in particular can get experimental packages for the latest [argyll](http://argyllcms.com/) and optionally [xiccd](https://github.com/agalakhov/xiccd) from my [xiccd-testing](https://launchpad.net/~pmjdebruijn/+archive/xiccd-testing) PPAs. If you’re using a different distribution you’ll need to source help from it’s respective community.
+Xubuntu users in particular can get experimental packages for the latest [argyll](http://argyllcms.com/) and optionally [xiccd](https://github.com/agalakhov/xiccd) from my [xiccd-testing](https://launchpad.net/~pmjdebruijn/+archive/xiccd-testing) PPAs. If you’re using a different distribution you’ll need to source help from its respective community.
 
 
 
@@ -105,7 +105,7 @@ First we’ll use argyll’s [dispcal](http://argyllcms.com/doc/dispcal.html) to
 
     $ dispcal -v -m -H -y l -q l -t 6500 -g 2.2 asus_eee_pc_1215p
 
-Next we’ll use argyll’s [targen](http://argyllcms.com/doc/targen.html) to generate measurement patches to determine it’s [gamut](https://en.wikipedia.org/wiki/Gamut):
+Next we’ll use argyll’s [targen](http://argyllcms.com/doc/targen.html) to generate measurement patches to determine its [gamut](https://en.wikipedia.org/wiki/Gamut):
 
     $ targen -v -d 3 -G -f 128 asus_eee_pc_1215p
 
@@ -171,11 +171,11 @@ First we’ll need to start [xiccd](https://github.com/agalakhov/xiccd) (in the 
 
     $ nohup xiccd &
 
-Then we can query [colord](http://www.freedesktop.org/software/colord/) for it’s list of available devices:
+Then we can query [colord](http://www.freedesktop.org/software/colord/) for its list of available devices:
 
     $ colormgr get-devices
 
-Next we need to query [colord](http://www.freedesktop.org/software/colord/) for it’s list of available profiles (or alternatively search by a profile’s full filename):
+Next we need to query [colord](http://www.freedesktop.org/software/colord/) for its list of available profiles (or alternatively search by a profile’s full filename):
 
     $ colormgr get-profiles
     $ colormgr find-profile-by-filename /usr/share/color/icc/asus_eee_pc_1215p.icc
@@ -229,7 +229,7 @@ As my other [article](https://encrypted.pcode.nl/blog/2012/01/29/color-managemen
 
 Firefox can do color management and it’s half-enabled by default, read [this](https://encrypted.pcode.nl/blog/2013/12/17/firefox-and-color-management/) to properly configure Firefox.
 
-GIMP for example has display color management disabled by default, you need to enable it via it’s preferences.
+GIMP for example has display color management disabled by default, you need to enable it via its preferences.
 
 Eye of GNOME has display color management enabled by default, but it has nasty corner case behaviors, for example when a file has no metadata no color management is done at all (instead of assuming sRGB input). Some of these issues seem to have been resolved on Ubuntu Trusty ([LP #272584](https://bugs.launchpad.net/ubuntu/+source/eog/+bug/272584)).
 
