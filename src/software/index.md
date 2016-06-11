@@ -88,6 +88,42 @@ layout: software-page.hbt
 				LightZone is raw processing software that lets the user build up a stack of tools which can be rearranged and readjusted.
 			</p>
         </div>
+		<!-- start web photo galleries list -->
+	     <h2>Web Galleries</h2>
+        <div class="sw-entry">
+            <a href="http://www.thregr.org/~wavexx/software/fgallery/index.html">fgallery</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                “fgallery” is a static photo gallery generator with no frills that has a stylish,
+                minimalist look. “fgallery” shows your photos, and nothing else.
+            </p>
+        </div>
+        <div class="sw-entry">
+            <a href="http://coppermine-gallery.net/">coppermine gallery</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                Coppermine is a multi-purpose fully-featured and integrated web picture
+                gallery script written in PHP using GD or ImageMagick as image library
+                with a MySQL backend.
+            </p>
+        </div>
+        <div class="sw-entry">
+            <a href="http://galleryproject.org/">Gallery</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                Gallery is a web based software that lets you manage your photos
+                on your own website.<br>
+                Out of maintenance since 2014.
+            </p>
+        </div>
+        <div class="sw-entry resourcespace">
+            <a href="http://www.resourcespace.org/">ResourceSpace</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                ResourceSpace open source digital asset management software is the
+                simple, fast, & free way to organise your digital assets
+            </p>
+        </div>
     </div>
     <div class="column third">
         <h2>Pixel Editing</h2>
@@ -343,44 +379,4 @@ layout: software-page.hbt
 			</p>
 		</div>
 	</div>
-
-    <div class='column third'>
-        <h2>Web Galleries</h2>
-
-        <div class="sw-entry">
-            <a href="http://www.thregr.org/~wavexx/software/fgallery/index.html">fgallery</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                “fgallery” is a static photo gallery generator with no frills that has a stylish,
-                minimalist look. “fgallery” shows your photos, and nothing else.
-            </p>
-        </div>
-        <div class="sw-entry">
-            <a href="http://coppermine-gallery.net/">coppermine gallery</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                Coppermine is a multi-purpose fully-featured and integrated web picture
-                gallery script written in PHP using GD or ImageMagick as image library
-                with a MySQL backend.
-            </p>
-        </div>
-        <div class="sw-entry">
-            <a href="http://galleryproject.org/">Gallery</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                Gallery is a web based software that lets you manage your photos
-                on your own website.<br>
-                Out of maintenance since 2014.
-            </p>
-        </div>
-        <div class="sw-entry resourcespace">
-            <a href="http://www.resourcespace.org/">ResourceSpace</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                ResourceSpace open source digital asset management software is the
-                simple, fast, & free way to organise your digital assets
-            </p>
-        </div>
-    </div>
-
 </section>
