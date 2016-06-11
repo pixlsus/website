@@ -209,7 +209,7 @@ img.natural {
         margin-left: -50px;
         position: absolute;
     }
-    
+
     .sw-entry {
         margin-bottom: 0;
         text-align: left;
@@ -354,6 +354,10 @@ img.natural {
 }
 .sw-entry.resourcespace > a:before {
     background: url('software-logos.png') -1442px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.opencamera > a:before {
+    background: url('software-logos.png') -1484px 0 no-repeat;
 	display:inline-block;
 }
 /*
