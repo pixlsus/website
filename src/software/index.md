@@ -54,11 +54,17 @@ layout: software-page.hbt
         <div class="sw-entry ufraw">
             <a href='http://ufraw.sourceforge.net/'>UFRaw</a>
             <i class="fa fa-nix-win-osx"></i>
-        </div>
+			<p>
+				UFRaw is a utility to read and manipulate raw images from digital cameras. It can be used on its own or as a Gimp plug-in.
+			</p>
+	    </div>
         <div class="sw-entry photivo">
             <a href='http://photivo.org/'>Photivo</a>
             <i class="fa fa-nix-win-osx"></i>
-        </div>
+			<p>
+				Photivo handles your RAW files, as well as your bitmap files, in a non-destructive 16 bit processing pipeline.
+			</p>
+	    </div>
         <div class="sw-entry filmulator">
             <a href="https://github.com/CarVac/filmulator-gui">Filmulator</a>
             <i class="fa fa-linux"></i>
@@ -78,6 +84,9 @@ layout: software-page.hbt
         <div class="sw-entry">
             <a href='http://lightzoneproject.org/'>Lightzone</a>
             <i class="fa fa-nix-win-osx"></i>
+			<p>
+				LightZone is raw processing software that lets the user build up a stack of tools which can be rearranged and readjusted.
+			</p>
         </div>
     </div>
     <div class="column third">
@@ -182,10 +191,14 @@ layout: software-page.hbt
         <div class="sw-entry graphicsmagick">
             <a href="http://www.graphicsmagick.org/">GraphicsMagick</a>
             <i class="fa fa-nix-win-osx"></i>
+			<p>GraphicsMagick is a collection of tools and libraries which support reading, writing, and manipulating an image in over 88 major formats.
         </div>
         <div class="sw-entry">
             <a href="http://www.kornelix.net/">Fotoxx</a>
             <i class="fa fa-linux"></i>
+			<p>
+				Fotoxx is a program for image editing and collection management.
+			</p>
         </div>
 
     </div>
@@ -233,14 +246,23 @@ layout: software-page.hbt
         <div class="sw-entry rapidphotodownloader">
             <a href="http://www.damonlynch.net/rapid/">Rapid Photo Downloader</a>
             <i class="fa fa-linux"></i>
+			<p>
+				Rapid Photo Downloader aims to get photos off your camera storage as fast as possible.
+			</p>
         </div>
         <div class="sw-entry gthumb">
             <a href="https://wiki.gnome.org/Apps/gthumb">gThumb</a>
             <i class="fa fa-linux"></i>
+			<p>
+				gThumb is an image viewer and browser. It also includes an importer tool for transferring photos from cameras.
+			</p>
         </div>
         <div class="sw-entry shotwell">
             <a href="https://wiki.gnome.org/Apps/Shotwell">Shotwell</a>
             <i class="fa fa-linux"></i>
+			<p>
+				Shotwell is a photo manager for GNOME 3.
+			</p>
         </div>
         <div class="sw-entry dispcalgui">
             <a href="http://displaycal.net">DisplayCAL</a>
@@ -288,14 +310,23 @@ layout: software-page.hbt
         <div class="sw-entry">
             <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a>
             <i class="fa fa-nix-win-osx"></i>
+			<p>
+				ExifTool is a platform-independent, command-line application for reading, writing, and editing metadata.
+			</p>
         </div>
         <div class="sw-entry">
             <a href="http://www.sentex.net/~mwandel/jhead/">jhead</a>
             <i class="fa fa-nix-win-osx"></i>
+			<p>
+				jhead reads and manipulates jpeg metadata.
+			</p>
         </div>
         <div class="sw-entry">
             <a href="http://gphoto.sourceforge.net/">gPhoto</a>
             <i class="fa fa-nix-osx"></i>
+			<p>
+				 gphoto2 is the command line (CLI) interface to libgphoto2.
+			</p>
         </div>
         <div class="sw-entry opendronemap">
             <a href="http://opendronemap.github.io/odm/">OpenDroneMap</a>
