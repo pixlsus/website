@@ -241,7 +241,43 @@ layout: software-page.hbt
 
 
     <div class="column third">
-        <h2>Other</h2>
+	    <h2>View, Sort, and Manage</h2>
+	    <div class="sw-entry digikam">
+            <a href="https://www.digikam.org/">Digikam</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                Advanced digital photo management application for importing and organizing photos.
+            </p>
+        </div>
+        <div class="sw-entry gthumb">
+            <a href="https://wiki.gnome.org/Apps/gthumb">gThumb</a>
+            <i class="fa fa-linux"></i>
+			<p>
+				gThumb is an image viewer and browser. It also includes an importer tool for transferring photos from cameras.
+			</p>
+        </div>
+        <div class="sw-entry shotwell">
+            <a href="https://wiki.gnome.org/Apps/Shotwell">Shotwell</a>
+            <i class="fa fa-linux"></i>
+			<p>
+				Shotwell is a photo manager for GNOME 3.
+			</p>
+        </div>
+        <div class="sw-entry nomacs">
+            <a href="http://nomacs.org">nomacs</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+            nomacs is a free, open source image viewer, which supports multiple platforms. You can use it for viewing all common image formats including RAW and psd images.
+            </p>
+        </div>
+        <div class="sw-entry geeqie">
+            <a href="http://geeqie.org">Geeqie</a>
+            <i class="fa fa-linux"></i>
+            <p>
+            Geeqie is a lightweight image viewer for Linux, BSDs and "compatibles".
+            </p>
+        </div>
+	    <h2>Other</h2>
 
         <div class="sw-entry magiclantern">
             <a href="http://magiclantern.fm">Magic Lantern</a>
@@ -258,13 +294,7 @@ layout: software-page.hbt
                 simulation, rendering, compositing, motion tracking, and more.
             </p>
         </div>
-        <div class="sw-entry digikam">
-            <a href="https://www.digikam.org/">Digikam</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                Advanced digital photo management application for importing and organizing photos.
-            </p>
-        </div>
+
         <div class="sw-entry airnef">
             <a href="http://www.testcams.com/airnef/">Airnef</a>
             <i class="fa fa-nix-win-osx"></i>
@@ -286,20 +316,6 @@ layout: software-page.hbt
 				Rapid Photo Downloader aims to get photos off your camera storage as fast as possible.
 			</p>
         </div>
-        <div class="sw-entry gthumb">
-            <a href="https://wiki.gnome.org/Apps/gthumb">gThumb</a>
-            <i class="fa fa-linux"></i>
-			<p>
-				gThumb is an image viewer and browser. It also includes an importer tool for transferring photos from cameras.
-			</p>
-        </div>
-        <div class="sw-entry shotwell">
-            <a href="https://wiki.gnome.org/Apps/Shotwell">Shotwell</a>
-            <i class="fa fa-linux"></i>
-			<p>
-				Shotwell is a photo manager for GNOME 3.
-			</p>
-        </div>
         <div class="sw-entry dispcalgui">
             <a href="http://displaycal.net">DisplayCAL</a>
             <i class="fa fa-nix-win-osx"></i>
@@ -312,20 +328,6 @@ layout: software-page.hbt
             <i class="fa fa-nix-win-osx"></i>
             <p>
                 Exiv2 is a C++ library and a command line utility to manage image metadata. It provides fast and easy read and write access to the Exif, IPTC and XMP metadata of digital images in various formats.
-            </p>
-        </div>
-        <div class="sw-entry nomacs">
-            <a href="http://nomacs.org">nomacs</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-            nomacs is a free, open source image viewer, which supports multiple platforms. You can use it for viewing all common image formats including RAW and psd images.
-            </p>
-        </div>
-        <div class="sw-entry geeqie">
-            <a href="http://geeqie.org">Geeqie</a>
-            <i class="fa fa-linux"></i>
-            <p>
-            Geeqie is a lightweight image viewer for Linux, BSDs and "compatibles".
             </p>
         </div>
         <div class="sw-entry">
