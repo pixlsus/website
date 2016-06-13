@@ -33,8 +33,6 @@ layout: software-page.hbt
     <div class="column full">
     <hr/>
     </div>
-
-
     <div class="column third">
         <h2>Raw Processing</h2>
         <div class="sw-entry darktable">
@@ -55,14 +53,14 @@ layout: software-page.hbt
             <a href='http://ufraw.sourceforge.net/'>UFRaw</a>
             <i class="fa fa-nix-win-osx"></i>
 			<p>
-				UFRaw is a utility to read and manipulate raw images from digital cameras. It can be used on its own or as a Gimp plug-in.
+				UFRaw is a utility to read and manipulate raw images from digital cameras. It can be used on its own or as a GIMP plug-in.
 			</p>
 	    </div>
         <div class="sw-entry photivo">
             <a href='http://photivo.org/'>Photivo</a>
             <i class="fa fa-nix-win-osx"></i>
 			<p>
-				Photivo handles your RAW files, as well as your bitmap files, in a non-destructive 16 bit processing pipeline.
+				Photivo handles your raw files, as well as your bitmap files, in a non-destructive 16 bit processing pipeline.
 			</p>
 	    </div>
         <div class="sw-entry filmulator">
@@ -94,8 +92,8 @@ layout: software-page.hbt
             <a href="http://www.thregr.org/~wavexx/software/fgallery/index.html">fgallery</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
-                “fgallery” is a static photo gallery generator with no frills that has a stylish,
-                minimalist look. “fgallery” shows your photos, and nothing else.
+                fgallery is a static photo gallery generator with no frills that has a stylish,
+                minimalist look. fgallery shows your photos, and nothing else.
             </p>
         </div>
         <div class="sw-entry">
@@ -121,7 +119,7 @@ layout: software-page.hbt
             <i class="fa fa-nix-win-osx"></i>
             <p>
                 ResourceSpace open source digital asset management software is the
-                simple, fast, & free way to organise your digital assets
+                simple, fast, and free way to organise your digital assets
             </p>
         </div>
     </div>
@@ -155,7 +153,7 @@ layout: software-page.hbt
             <i class="fa fa-nix-win-osx"></i>
             <p>
                 Full featured framework for image processing with different user interfaces,
-                including a GIMP plugin, to convert, manipulate, filter, and visualize image
+                including a GIMP plugin to convert, manipulate, filter, and visualize image
                 data.
             </p>
         </div>
@@ -170,7 +168,7 @@ layout: software-page.hbt
             <a href="http://qtpfsgui.sourceforge.net/">LuminanceHDR</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
-                Application to provide a workflow for HDR imaging, creation and tone mapping.
+                Application to provide a workflow for HDR imaging, creation, and tone mapping.
             </p>
         </div>
         <div class="sw-entry hdrmerge">
@@ -267,14 +265,14 @@ layout: software-page.hbt
             <a href="http://nomacs.org">nomacs</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
-            nomacs is a free, open source image viewer, which supports multiple platforms. You can use it for viewing all common image formats including RAW and psd images.
+            nomacs is a free, open source image viewer, which supports multiple platforms. You can use it for viewing all common image formats including raw and psd images.
             </p>
         </div>
         <div class="sw-entry geeqie">
             <a href="http://geeqie.org">Geeqie</a>
             <i class="fa fa-linux"></i>
             <p>
-            Geeqie is a lightweight image viewer for Linux, BSDs and "compatibles".
+            Geeqie is a lightweight image viewer for Linux, BSDs, and *compatibles*.
             </p>
         </div>
 	    <h2>Other</h2>
@@ -290,7 +288,7 @@ layout: software-page.hbt
             <a href="http://www.blender.org">Blender</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
-                3D creation suite supporting the entire 3D pipeline: modeling, rigging, anmiation,
+                3D creation suite supporting the entire 3D pipeline: modeling, rigging, animation,
                 simulation, rendering, compositing, motion tracking, and more.
             </p>
         </div>
@@ -299,14 +297,14 @@ layout: software-page.hbt
             <a href="http://www.testcams.com/airnef/">Airnef</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
-                Utility for downloading image and movies from wifi equipped Nikon cameras.
+                Utility for downloading image and movies from WiFi-equipped Nikon cameras.
             </p>
         </div>
         <div class="sw-entry entangle">
             <a href="http://entangle-photo.org/">Entangle</a>
             <i class="fa fa-linux"></i>
             <p>
-                Graphical interface for "tethered shooting".
+                Graphical interface for tethered shooting.
             </p>
         </div>
         <div class="sw-entry rapidphotodownloader">
@@ -377,7 +375,7 @@ layout: software-page.hbt
 			<a href="http://opencamera.sourceforge.net/">Open Camera</a>
 			<i class="fa fa-android"></i>
 			<p>
-				Open Camera is an Open Source Camera app for Android phones and tablets with advanced features.
+				Open Camera is an open source camera app for Android phones and tablets with advanced features.
 			</p>
 		</div>
 	</div>
