@@ -19,7 +19,7 @@ layout: software-page.hbt
             Commercial programs are mentioned here only as a point of reference for newcomers.  None of these projects aspire to be like (or really care about) the commercial offerings.
             </p>
         </div>
-                    <div class="column half ">
+        <div class="column half ">
             <p class="left-align">
             A solid option for raw processing, library management, and reasonable replacement for the commercial Lightroom, would be either <a href="https://www.darktable.org">darktable</a> or <a href="http://www.rawtherapee.com">RawTherapee</a>.
             </p>
@@ -304,7 +304,14 @@ layout: software-page.hbt
                 OpenDroneMap is an open source toolkit for processing aerial drone imagery.
             </p>
         </div>
-    </div>
+		<div class="sw-entry opencamera">
+			<a href="http://opencamera.sourceforge.net/">Open Camera</a>
+			<i class="fa fa-android"></i>
+			<p>
+				Open Camera is an Open Source Camera app for Android phones and tablets with advanced features.
+			</p>
+		</div>
+	</div>
 
     <div class='column third'>
         <h2>Web Galleries</h2>
