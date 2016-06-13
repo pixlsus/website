@@ -12,7 +12,7 @@ author: 'Pascal de Bruijn'  #required
 author-img: '/images/authors/pmjdebruijn.png'
 author-url: https://encrypted.pcode.nl
 author-twitter: ''
-author-bio: "Barely even a darktable developer anymore.<br><a href='http://opencamera.sourceforge.net/'>https://encrypted.pcode.nl</a>"
+author-bio: "Barely even a darktable developer anymore.<br><a href='https://encrypted.pcode.nl'>https://encrypted.pcode.nl</a>"
 
 canonical: https://encrypted.pcode.nl/blog/2013/11/24/display-color-profiling-on-linux/
 
