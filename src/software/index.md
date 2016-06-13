@@ -33,8 +33,6 @@ layout: software-page.hbt
     <div class="column full">
     <hr/>
     </div>
-
-
     <div class="column third">
         <h2>Raw Processing</h2>
         <div class="sw-entry darktable">
@@ -54,11 +52,17 @@ layout: software-page.hbt
         <div class="sw-entry ufraw">
             <a href='http://ufraw.sourceforge.net/'>UFRaw</a>
             <i class="fa fa-nix-win-osx"></i>
-        </div>
+			<p>
+				UFRaw is a utility to read and manipulate raw images from digital cameras. It can be used on its own or as a GIMP plug-in.
+			</p>
+	    </div>
         <div class="sw-entry photivo">
             <a href='http://photivo.org/'>Photivo</a>
             <i class="fa fa-nix-win-osx"></i>
-        </div>
+			<p>
+				Photivo handles your raw files, as well as your bitmap files, in a non-destructive 16 bit processing pipeline.
+			</p>
+	    </div>
         <div class="sw-entry filmulator">
             <a href="https://github.com/CarVac/filmulator-gui">Filmulator</a>
             <i class="fa fa-linux"></i>
@@ -78,6 +82,45 @@ layout: software-page.hbt
         <div class="sw-entry">
             <a href='http://lightzoneproject.org/'>Lightzone</a>
             <i class="fa fa-nix-win-osx"></i>
+			<p>
+				LightZone is raw processing software that lets the user build up a stack of tools which can be rearranged and readjusted.
+			</p>
+        </div>
+		<!-- start web photo galleries list -->
+	     <h2>Web Galleries</h2>
+        <div class="sw-entry">
+            <a href="http://www.thregr.org/~wavexx/software/fgallery/index.html">fgallery</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                fgallery is a static photo gallery generator with no frills that has a stylish,
+                minimalist look. fgallery shows your photos, and nothing else.
+            </p>
+        </div>
+        <div class="sw-entry">
+            <a href="http://coppermine-gallery.net/">coppermine gallery</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                Coppermine is a multi-purpose fully-featured and integrated web picture
+                gallery script written in PHP using GD or ImageMagick as image library
+                with a MySQL backend.
+            </p>
+        </div>
+        <div class="sw-entry">
+            <a href="http://galleryproject.org/">Gallery</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                Gallery is a web based software that lets you manage your photos
+                on your own website.<br>
+                Out of maintenance since 2014.
+            </p>
+        </div>
+        <div class="sw-entry resourcespace">
+            <a href="http://www.resourcespace.org/">ResourceSpace</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                ResourceSpace open source digital asset management software is the
+                simple, fast, and free way to organise your digital assets
+            </p>
         </div>
     </div>
     <div class="column third">
@@ -110,7 +153,7 @@ layout: software-page.hbt
             <i class="fa fa-nix-win-osx"></i>
             <p>
                 Full featured framework for image processing with different user interfaces,
-                including a GIMP plugin, to convert, manipulate, filter, and visualize image
+                including a GIMP plugin to convert, manipulate, filter, and visualize image
                 data.
             </p>
         </div>
@@ -125,7 +168,7 @@ layout: software-page.hbt
             <a href="http://qtpfsgui.sourceforge.net/">LuminanceHDR</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
-                Application to provide a workflow for HDR imaging, creation and tone mapping.
+                Application to provide a workflow for HDR imaging, creation, and tone mapping.
             </p>
         </div>
         <div class="sw-entry hdrmerge">
@@ -182,17 +225,57 @@ layout: software-page.hbt
         <div class="sw-entry graphicsmagick">
             <a href="http://www.graphicsmagick.org/">GraphicsMagick</a>
             <i class="fa fa-nix-win-osx"></i>
+			<p>GraphicsMagick is a collection of tools and libraries which support reading, writing, and manipulating an image in over 88 major formats.
         </div>
         <div class="sw-entry">
             <a href="http://www.kornelix.net/">Fotoxx</a>
             <i class="fa fa-linux"></i>
+			<p>
+				Fotoxx is a program for image editing and collection management.
+			</p>
         </div>
 
     </div>
 
 
     <div class="column third">
-        <h2>Other</h2>
+	    <h2>View, Sort, and Manage</h2>
+	    <div class="sw-entry digikam">
+            <a href="https://www.digikam.org/">Digikam</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                Advanced digital photo management application for importing and organizing photos.
+            </p>
+        </div>
+        <div class="sw-entry gthumb">
+            <a href="https://wiki.gnome.org/Apps/gthumb">gThumb</a>
+            <i class="fa fa-linux"></i>
+			<p>
+				gThumb is an image viewer and browser. It also includes an importer tool for transferring photos from cameras.
+			</p>
+        </div>
+        <div class="sw-entry shotwell">
+            <a href="https://wiki.gnome.org/Apps/Shotwell">Shotwell</a>
+            <i class="fa fa-linux"></i>
+			<p>
+				Shotwell is a photo manager for GNOME 3.
+			</p>
+        </div>
+        <div class="sw-entry nomacs">
+            <a href="http://nomacs.org">nomacs</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+            nomacs is a free, open source image viewer, which supports multiple platforms. You can use it for viewing all common image formats including raw and psd images.
+            </p>
+        </div>
+        <div class="sw-entry geeqie">
+            <a href="http://geeqie.org">Geeqie</a>
+            <i class="fa fa-linux"></i>
+            <p>
+            Geeqie is a lightweight image viewer for Linux, BSDs, and *compatibles*.
+            </p>
+        </div>
+	    <h2>Other</h2>
 
         <div class="sw-entry magiclantern">
             <a href="http://magiclantern.fm">Magic Lantern</a>
@@ -205,42 +288,31 @@ layout: software-page.hbt
             <a href="http://www.blender.org">Blender</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
-                3D creation suite supporting the entire 3D pipeline: modeling, rigging, anmiation,
+                3D creation suite supporting the entire 3D pipeline: modeling, rigging, animation,
                 simulation, rendering, compositing, motion tracking, and more.
             </p>
         </div>
-        <div class="sw-entry digikam">
-            <a href="https://www.digikam.org/">Digikam</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                Advanced digital photo management application for importing and organizing photos.
-            </p>
-        </div>
+
         <div class="sw-entry airnef">
             <a href="http://www.testcams.com/airnef/">Airnef</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
-                Utility for downloading image and movies from wifi equipped Nikon cameras.
+                Utility for downloading image and movies from WiFi-equipped Nikon cameras.
             </p>
         </div>
         <div class="sw-entry entangle">
             <a href="http://entangle-photo.org/">Entangle</a>
             <i class="fa fa-linux"></i>
             <p>
-                Graphical interface for "tethered shooting".
+                Graphical interface for tethered shooting.
             </p>
         </div>
         <div class="sw-entry rapidphotodownloader">
             <a href="http://www.damonlynch.net/rapid/">Rapid Photo Downloader</a>
             <i class="fa fa-linux"></i>
-        </div>
-        <div class="sw-entry gthumb">
-            <a href="https://wiki.gnome.org/Apps/gthumb">gThumb</a>
-            <i class="fa fa-linux"></i>
-        </div>
-        <div class="sw-entry shotwell">
-            <a href="https://wiki.gnome.org/Apps/Shotwell">Shotwell</a>
-            <i class="fa fa-linux"></i>
+			<p>
+				Rapid Photo Downloader aims to get photos off your camera storage as fast as possible.
+			</p>
         </div>
         <div class="sw-entry dispcalgui">
             <a href="http://displaycal.net">DisplayCAL</a>
@@ -254,20 +326,6 @@ layout: software-page.hbt
             <i class="fa fa-nix-win-osx"></i>
             <p>
                 Exiv2 is a C++ library and a command line utility to manage image metadata. It provides fast and easy read and write access to the Exif, IPTC and XMP metadata of digital images in various formats.
-            </p>
-        </div>
-        <div class="sw-entry nomacs">
-            <a href="http://nomacs.org">nomacs</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-            nomacs is a free, open source image viewer, which supports multiple platforms. You can use it for viewing all common image formats including RAW and psd images.
-            </p>
-        </div>
-        <div class="sw-entry geeqie">
-            <a href="http://geeqie.org">Geeqie</a>
-            <i class="fa fa-linux"></i>
-            <p>
-            Geeqie is a lightweight image viewer for Linux, BSDs and "compatibles".
             </p>
         </div>
         <div class="sw-entry">
@@ -288,14 +346,23 @@ layout: software-page.hbt
         <div class="sw-entry">
             <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a>
             <i class="fa fa-nix-win-osx"></i>
+			<p>
+				ExifTool is a platform-independent, command-line application for reading, writing, and editing metadata.
+			</p>
         </div>
         <div class="sw-entry">
             <a href="http://www.sentex.net/~mwandel/jhead/">jhead</a>
             <i class="fa fa-nix-win-osx"></i>
+			<p>
+				jhead reads and manipulates jpeg metadata.
+			</p>
         </div>
         <div class="sw-entry">
             <a href="http://gphoto.sourceforge.net/">gPhoto</a>
             <i class="fa fa-nix-osx"></i>
+			<p>
+				 gphoto2 is the command line (CLI) interface to libgphoto2.
+			</p>
         </div>
         <div class="sw-entry opendronemap">
             <a href="http://opendronemap.github.io/odm/">OpenDroneMap</a>
@@ -308,48 +375,8 @@ layout: software-page.hbt
 			<a href="http://opencamera.sourceforge.net/">Open Camera</a>
 			<i class="fa fa-android"></i>
 			<p>
-				Open Camera is an Open Source Camera app for Android phones and tablets with advanced features.
+				Open Camera is an open source camera app for Android phones and tablets with advanced features.
 			</p>
 		</div>
 	</div>
-
-    <div class='column third'>
-        <h2>Web Galleries</h2>
-
-        <div class="sw-entry">
-            <a href="http://www.thregr.org/~wavexx/software/fgallery/index.html">fgallery</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                “fgallery” is a static photo gallery generator with no frills that has a stylish,
-                minimalist look. “fgallery” shows your photos, and nothing else.
-            </p>
-        </div>
-        <div class="sw-entry">
-            <a href="http://coppermine-gallery.net/">coppermine gallery</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                Coppermine is a multi-purpose fully-featured and integrated web picture
-                gallery script written in PHP using GD or ImageMagick as image library
-                with a MySQL backend.
-            </p>
-        </div>
-        <div class="sw-entry">
-            <a href="http://galleryproject.org/">Gallery</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                Gallery is a web based software that lets you manage your photos
-                on your own website.<br>
-                Out of maintenance since 2014.
-            </p>
-        </div>
-        <div class="sw-entry resourcespace">
-            <a href="http://www.resourcespace.org/">ResourceSpace</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                ResourceSpace open source digital asset management software is the
-                simple, fast, & free way to organise your digital assets
-            </p>
-        </div>
-    </div>
-
 </section>
