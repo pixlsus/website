@@ -27,7 +27,6 @@ layout: software-page.hbt
             For pixel-editing and similar functionality to what you might find in Photoshop, <a href="http//www.gimp.org">GIMP</a> is an awesome option (even awesomer when extended with the <a href="http://gmic.eu">G'MIC</a> plugin).
             </p>
         </div>
-
     </div>
 
     <div class="column full">
@@ -237,7 +236,6 @@ layout: software-page.hbt
 
     </div>
 
-
     <div class="column third">
 	    <h2>View, Sort, and Manage</h2>
 	    <div class="sw-entry digikam">
@@ -275,24 +273,14 @@ layout: software-page.hbt
             Geeqie is a lightweight image viewer for Linux, BSDs, and *compatibles*.
             </p>
         </div>
-	    <h2>Other</h2>
-
-        <div class="sw-entry magiclantern">
-            <a href="http://magiclantern.fm">Magic Lantern</a>
-            <p>
-                Software add-on that runs from an SD/CF card and adds a host of new features to Canon EOS cameras
-                that weren&rsquo;t included from the factory.
-            </p>
-        </div>
-        <div class="sw-entry blender">
-            <a href="http://www.blender.org">Blender</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                3D creation suite supporting the entire 3D pipeline: modeling, rigging, animation,
-                simulation, rendering, compositing, motion tracking, and more.
-            </p>
-        </div>
-
+		<h2>Camera Utilities</h2>
+		<div class="sw-entry opencamera">
+			<a href="http://opencamera.sourceforge.net/">Open Camera</a>
+			<i class="fa fa-android"></i>
+			<p>
+				Open Camera is an open source camera app for Android phones and tablets with advanced features.
+			</p>
+		</div>
         <div class="sw-entry airnef">
             <a href="http://www.testcams.com/airnef/">Airnef</a>
             <i class="fa fa-nix-win-osx"></i>
@@ -307,25 +295,20 @@ layout: software-page.hbt
                 Graphical interface for tethered shooting.
             </p>
         </div>
-        <div class="sw-entry rapidphotodownloader">
-            <a href="http://www.damonlynch.net/rapid/">Rapid Photo Downloader</a>
-            <i class="fa fa-linux"></i>
+	    <div class="sw-entry digicamcontrol">
+			<a href="http://opencamera.sourceforge.net/">digiCamControl</a>
+			<i class="fa fa-windows"></i>
 			<p>
-				Rapid Photo Downloader aims to get photos off your camera storage as fast as possible.
+				An innovative and easy to use solution for complex camera control!
 			</p>
-        </div>
+		</div>
+
+	    <h2>Color and Profiling</h2>
         <div class="sw-entry dispcalgui">
             <a href="http://displaycal.net">DisplayCAL</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
                Open Source Display Calibration and Characterization powered by Argyll CMS.
-            </p>
-        </div>
-        <div class="sw-entry exiv2">
-            <a href="http://www.exiv2.org/">Exiv2</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                Exiv2 is a C++ library and a command line utility to manage image metadata. It provides fast and easy read and write access to the Exif, IPTC and XMP metadata of digital images in various formats.
             </p>
         </div>
         <div class="sw-entry">
@@ -341,6 +324,38 @@ layout: software-page.hbt
             <p>
                 A command line tool for generating camera profiles and to
                 perform tasks related to camera profiling.
+            </p>
+        </div>
+
+	    <h2>Other</h2>
+        <div class="sw-entry magiclantern">
+            <a href="http://magiclantern.fm">Magic Lantern</a>
+            <p>
+                Software add-on that runs from an SD/CF card and adds a host of new features to Canon EOS cameras
+                that weren&rsquo;t included from the factory.
+            </p>
+        </div>
+        <div class="sw-entry blender">
+            <a href="http://www.blender.org">Blender</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                3D creation suite supporting the entire 3D pipeline: modeling, rigging, animation,
+                simulation, rendering, compositing, motion tracking, and more.
+            </p>
+        </div>
+        <div class="sw-entry rapidphotodownloader">
+            <a href="http://www.damonlynch.net/rapid/">Rapid Photo Downloader</a>
+            <i class="fa fa-linux"></i>
+			<p>
+				Rapid Photo Downloader aims to get photos off your camera storage as fast as possible.
+			</p>
+        </div>
+
+        <div class="sw-entry exiv2">
+            <a href="http://www.exiv2.org/">Exiv2</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                Exiv2 is a C++ library and a command line utility to manage image metadata. It provides fast and easy read and write access to the Exif, IPTC and XMP metadata of digital images in various formats.
             </p>
         </div>
         <div class="sw-entry">
@@ -371,19 +386,5 @@ layout: software-page.hbt
                 OpenDroneMap is an open source toolkit for processing aerial drone imagery.
             </p>
         </div>
-		<div class="sw-entry opencamera">
-			<a href="http://opencamera.sourceforge.net/">Open Camera</a>
-			<i class="fa fa-android"></i>
-			<p>
-				Open Camera is an open source camera app for Android phones and tablets with advanced features.
-			</p>
-		</div>
-		<div class="sw-entry digicamcontrol">
-			<a href="http://opencamera.sourceforge.net/">digiCamControl</a>
-			<i class="fa fa-windows"></i>
-			<p>
-				An innovative and easy to use solution for complex camera control!
-			</p>
-		</div>
 	</div>
 </section>
