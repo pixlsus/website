@@ -360,6 +360,10 @@ img.natural {
     background: url('software-logos.png') -1484px 0 no-repeat;
 	display:inline-block;
 }
+.sw-entry.digicamcontrol > a:before {
+    background: url('software-logos.png') -1530px 0 no-repeat;
+	display:inline-block;
+}
 /*
  * Add new software logo entries (from software-logos.png) here
  */

@@ -378,5 +378,12 @@ layout: software-page.hbt
 				Open Camera is an open source camera app for Android phones and tablets with advanced features.
 			</p>
 		</div>
+		<div class="sw-entry digicamcontrol">
+			<a href="http://opencamera.sourceforge.net/">digiCamControl</a>
+			<i class="fa fa-windows"></i>
+			<p>
+				An innovative and easy to use solution for complex camera control!
+			</p>
+		</div>
 	</div>
 </section>
