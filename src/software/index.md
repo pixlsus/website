@@ -2,7 +2,7 @@
 date: 2015-05-12T10:17:08-05:00
 title: "Software"
 author: Pat David
-layout: software-page.hbt
+layout: page.hbt
 ---
 
 <section class="row clearfix" style="border-top: 1px solid #eee;">
