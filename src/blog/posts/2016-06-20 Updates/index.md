@@ -1,5 +1,5 @@
 ---
-date: 2016-06-20
+date: 2016-06-21T12:30:29-06:00 
 title: Sharing Galore 
 sub-title: or, Why This Community is Awesome
 
