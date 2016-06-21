@@ -409,3 +409,7 @@ p.sw-desc {
 .left-align {
     text-align: left;
 }
+
+.not-maintained {
+    color: #bd9090;
+}

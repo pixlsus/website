@@ -110,7 +110,7 @@ layout: page.hbt
             <p>
                 Gallery is a web based software that lets you manage your photos
                 on your own website.<br>
-                Out of maintenance since 2014.
+                <span class='not-maintained'>No longer maintained.</span>
             </p>
         </div>
         <div class="sw-entry resourcespace">
