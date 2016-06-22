@@ -296,7 +296,7 @@ layout: page.hbt
             </p>
         </div>
 	    <div class="sw-entry digicamcontrol">
-			<a href="http://opencamera.sourceforge.net/">digiCamControl</a>
+			<a href="http://digicamcontrol.com/">digiCamControl</a>
 			<i class="fa fa-windows"></i>
 			<p>
 				An innovative and easy to use solution for complex camera control!
