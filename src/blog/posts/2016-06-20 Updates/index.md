@@ -5,7 +5,7 @@ sub-title: or, Why This Community is Awesome
 
 lede-img: 2016-06-16_oak.jpg
 lede-img-thumb: th_2016-06-16_oak.jpg
-lede-attribution: ""
+lede-attribution: "<a href='https://discuss.pixls.us/t/old-oak-a-tutorial/1627'>Old Oak</a> by <a href='http://londonlight.org/zp/'>Morgan Hardwood</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/4.0/'>cba</a>"
 
 author: Pat David
 author-img: 
