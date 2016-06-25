@@ -15,8 +15,8 @@ var Metalsmith	= require('metalsmith'),
 	metadata	= require('./config.json'),
 	Handlebars	= require('handlebars'),
     rmdir       = require('rimraf'),
-    fs          = require('fs');
-
+    fs          = require('fs'),
+	sass = require('metalsmith-sass');
 //
 // Adding partial elements for templates
 // Google Analytics Code
@@ -464,6 +464,10 @@ Metalsmith(__dirname)
     .use( layouts({
         engine: 'handlebars',
         directory: 'templates'
+    }))
+    // use sass
+    .use(sass({
+      outputStyle: "expanded"
     }))
     .destination('./build')
 	//.build();
