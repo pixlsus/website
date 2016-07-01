@@ -121,6 +121,16 @@ layout: page.hbt
                 simple, fast, and free way to organise your digital assets
             </p>
         </div>
+
+        <div class="sw-entry">
+            <a href="https://pannellum.org/">Pannellum</a>
+            <i class="fa fa-nix-win-osx"></i>
+			<p>
+			Pannellum is a lightweight, free, and open source panorama viewer for the web. 
+            Built using HTML5, CSS3, JavaScript, and WebGL, it is plug-in free.	
+			</p>
+        </div>
+
     </div>
     <div class="column third">
         <h2>Pixel Editing</h2>
