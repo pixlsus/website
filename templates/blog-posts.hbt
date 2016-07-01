@@ -197,10 +197,10 @@
             {{>footer}}
 
         </div>
-
+				<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
         <script src="/js/window-scroll.js"></script>
         <script src="/js/push-menu.js"></script>
-		<script src="/js/img-swap.js"></script>
+				<script src="/js/img-swap.js"></script>
         <script src="/js/prism.js"></script>
 	</body>
 </html>

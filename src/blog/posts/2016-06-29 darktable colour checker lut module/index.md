@@ -1,12 +1,12 @@
 ---
-date: 2016-06-29T08:44:08-05:00 
+date: 2016-06-29T08:44:08-05:00
 title: Color Manipulation with the Colour Checker LUT Module
 sub-title: hanatos tinkering in darktable again...
 
 lede-img: darktable-lut-lede.jpg
 lede-img-thumb: th_darktable-lut-lede.jpg
-lede-attribution: 
-lede-style: 
+lede-attribution:
+lede-style:
 
 author: Johannes Hanika
 author-img: /images/authors/johannes_hanika.jpg
@@ -436,7 +436,3 @@ calibration though.
 * <a title="calibrate vignetting for lensfun" href="http://wilson.bronger.org/lens_calibration_tutorial/#id3">lensfun calibration</a>
 * <a title="perspective correction in darktable" href="http://www.darktable.org/2016/03/a-new-module-for-automatic-perspective-correction/">perspective correction in darktable</a>
 * <a title="fit basecurves for darktable" href="http://www.darktable.org/2013/10/about-basecurves/">fit basecurves for darktable</a>
-
-
-
-<script type='text/javascript' src='MathJax.js'></script>
