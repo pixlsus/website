@@ -45,12 +45,12 @@
     <link rel="stylesheet" href="/styles/prism.css"/>
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    
+
 
     {{#if stylesheet}}<link rel="stylesheet" href="{{stylesheet}}"/>{{/if}}
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<style type="text/css" media="all">
 		{{#if lede-img}} #lede { background-image: url('{{{ lede-img }}}'); } {{/if}}
 		{{#if lede-style}} #lede { {{ lede-style }} } {{/if}}
@@ -87,7 +87,7 @@
                         <!-- Begin article content -->
                             <h1 id="title">{{ title }}</h1>
                             {{#if sub-title}} <p id="subtitle">{{ sub-title }}</p> {{/if}}
-                            {{!-- 
+                            {{!--
                             {{#if author}} <p class="author-name">{{ author }}</p> {{/if}}
                             {{#if date}} <p class="article-date">{{{niceDate date}}}</p> {{/if}}
                             --}}
@@ -115,7 +115,7 @@
                     {{/is_even}}
                 {{/each}}
 
-                
+
                 <!-- End article content -->
             </div>
 
@@ -132,7 +132,7 @@
                             {{/if}}
                             <div class="author-box-info">
                                 {{! should link to page of authors posts }}
-                                <div class="author-name">{{#if author}} 
+                                <div class="author-name">{{#if author}}
                                     {{#if author-url}}
                                     <a href="{{ author-url}}" title="{{ author }}" rel="author">{{ author }}</a>
                                     {{ else }}
@@ -141,7 +141,7 @@
                                 {{/if}}</div>
                                 {{#if author-email}} <div class="author-email"> {{ author-email }} </div> {{/if}}
                                 {{#if author-bio}} <div class="author-bio"> {{{ author-bio }}} </div> {{/if}}
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -205,7 +205,7 @@
             {{>footer}}
 
         </div>
-
+				<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
         <script src="/js/window-scroll.js"></script>
         <script src="/js/push-menu.js"></script>
         <script src="/js/prism.js"></script>
@@ -213,4 +213,3 @@
 		<script src="/js/img-swap.js"></script>
 	</body>
 </html>
-
