@@ -439,4 +439,4 @@ calibration though.
 
 
 
-<script type='text/javascript' src='MathJax.js'></script>
+<script type='text/javascript' src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&ver=1.2.1'></script>
