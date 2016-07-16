@@ -35,13 +35,13 @@
     <meta property="og:url" content="https://pixls.us/{{ this.path }}/" >
     {{/if}}
 
-
-    <link rel="stylesheet" href="/styles/normalize.css"/>
-    <link rel="stylesheet" href="/styles/grid.css"/>
-    <link rel="stylesheet" href="/styles/blogpost.css"/>
-    <link rel="stylesheet" href="/styles/topnav.css"/>
-    <link rel="stylesheet" href="/styles/push-menu.css"/>
-    <link rel="stylesheet" href="/styles/prism.css"/>
+    <link rel="stylesheet" href="/styles/style.css"/>
+    <!-- <link rel="stylesheet" href="/styles/normalize.css"/> -->
+    <!-- <link rel="stylesheet" href="/styles/grid.css"/> -->
+    <!-- <link rel="stylesheet" href="/styles/blogpost.css"/> -->
+    <!-- <link rel="stylesheet" href="/styles/topnav.css"/> -->
+    <!-- <link rel="stylesheet" href="/styles/push-menu.css"/> -->
+    <!-- <link rel="stylesheet" href="/styles/prism.css"/> -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
