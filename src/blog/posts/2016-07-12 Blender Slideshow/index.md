@@ -30,17 +30,17 @@ _The Lady in the Roses_ by Brian Beck <a class='cc' href='https://creativecommon
 </figcaption>
 </figure>
 
-I figured this much Blender being talked about deserved at least a post to answer [@Fotonut][]'s question in greater detail.  I know that many community members likely abuse Blender in various ways as well - so please let me know if I get something way off!
+I figured this much Blender being talked about deserved at least a post to answer [@Fotonut][]'s question in greater detail.  I know that many community members likely abuse Blender in various ways as well &ndash; so please let me know if I get something way off!
 
 
 ## Enter Blender
 The reason that Blender was the first thing that popped into many folks minds when the question was posed is likely because it has been a go-to swiss-army knife of image and video creation for a long, long time.  For some it was the only viable video editing application for heavy use (not that there weren't other projects out there as well).  This is partly due to to the fact that it integrates so much capability into a single project.
 
-The part that we're interested in for the context of Fotonut's original question is the [Video Sequence Editor][vse] (VSE).  This is a very powerful (though often neglected) part of Blender that let's you arrange audio and video (and image!) assets along a timeline for rendering and some simple effects.  Which is actually perfect for creating a simple HD slideshow of images, as we'll see.
+The part that we're interested in for the context of Fotonut's original question is the [Video Sequence Editor][vse] (VSE).  This is a very powerful (though often neglected) part of Blender that lets you arrange audio and video (and image!) assets along a timeline for rendering and some simple effects.  Which is actually perfect for creating a simple HD slideshow of images, as we'll see.
 
 
 ### The Plan
-Blenders interface is likely to take some getting used to for newcomers (right-click!) but we'll be focusing on a _very_ small subset of the overall program - so hopefully nobody gets lost.  The overall plan will be:
+Blenders interface is likely to take some getting used to for newcomers (right-click!) but we'll be focusing on a _very_ small subset of the overall program&mdash;so hopefully nobody gets lost.  The overall plan will be:
 
 1. Setup the environment for video sequence editing
 2. Include assets (images) and how to manipulate them on the timeline
@@ -91,7 +91,7 @@ Which will turn the old F-Curve pane into the __Properties__ pane:
 </figure>
 
 
-You'll want to set the appropriate X and Y resolution for your intended output (don't forget to set the scaling from the default 50% to 100% now as well) as well as your intended framerate.  Common rates might be 23.976 (23.98), 25, 30, or even 60 frames per second.  If you're intended target is something like YouTube or an HD television you can probably safely use 30 or 60 (just remember that a higher frame rate means a longer render time!).
+You'll want to set the appropriate X and Y resolution for your intended output (don't forget to set the scaling from the default 50% to 100% now as well) as well as your intended framerate.  Common rates might be 23.976 (23.98), 25, 30, or even 60 frames per second.  If your intended target is something like YouTube or an HD television you can probably safely use 30 or 60 (just remember that a higher frame rate means a longer render time!).
 
 For our example I'm going to set the output resolution to 1920&nbsp;&times;&nbsp;1080 at 30fps.
 
@@ -139,7 +139,7 @@ When you do, you'll find that a strip now appears on the VSE window (purple in m
 <img src='add-first-image.jpg' alt='Blender VSE add image' width='960' height='540'>
 </figure>
 
-At this point we can use the handy add-on we installed previously by **Right-Clicking** on the purple strip to make sure it's activated and then hitting the "T" key on the keyboard.  This will automatically add a transform to the image that scales it to the correct aspect ratio for you.  A small green _Transform_ trip will appear above your purple image strip now:
+At this point we can use the handy add-on we installed previously by **Right-Clicking** on the purple strip to make sure it's activated and then hitting the "T" key on the keyboard.  This will automatically add a transform to the image that scales it to the correct aspect ratio for you.  A small green _Transform_ strip will appear above your purple image strip now:
 
 <figure>
 <img src='add-transform.jpg' alt='Blender VSE add transform strip' width='327' height='276'>
@@ -215,7 +215,7 @@ This will add a _Gamma Cross_ effect as a new strip that is locked to the two im
 
 At any time you can also use the hotkey "Alt-A" to view a render preview.  This may run slow if your machine is not super-fast, but it should run enough to give you a general sense of what you'll get.
 
-If you want to modify the transition effect by changing its length, you can just increase the overlap between the strips as desired (using the original image strip - if you try to drag the transform strip you'll find it locked to the original image strip and won't move).
+If you want to modify the transition effect by changing its length, you can just increase the overlap between the strips as desired (using the original image strip &mdash; if you try to drag the transform strip you'll find it locked to the original image strip and won't move).
 
 
 #### Repeat Repeat
@@ -233,7 +233,7 @@ You may notice on the VSE that there are vertical lines outside of which things 
 <img src='start-end.jpg' alt='Blender VSE start and end' width='640' height='201'>
 </figure>
 
-You'll need to set the **End** value to match your last output frame from your video sequence.  You can find this value by selecting the last strip in your sequence and pressing the "G" key - the start/end frame numbers of that last strip will be visible (you'll want the last frame value, of course).
+You'll need to set the **End** value to match your last output frame from your video sequence.  You can find this value by selecting the last strip in your sequence and pressing the "G" key: the start/end frame numbers of that last strip will be visible (you'll want the last frame value, of course).
 
 <figure>
 <img src='last-frame.jpg' alt='Blender VSE end frame' width='509' height='299'>
@@ -245,7 +245,7 @@ Current last frame of my video is 284
 In my example above, my anticipated last frame should be 284, but the last render frame is currently set to 250.  I would need to update that **End** frame to match my video to get output as expected.
 
 #### Render Format
-Back on the **Properties** panel (assuming you set the top-left panel back to **Properties** earlier - if not do so now), if we scroll down a bit we should see a section dedicated to _Output_.
+Back on the **Properties** panel (assuming you set the top-left panel back to **Properties** earlier&mdash;if not do so now), if we scroll down a bit we should see a section dedicated to _Output_.
 
 <figure>
 <img src='output-options.jpg' alt='Blender Properties Output Options' width='570' height='374'>
@@ -289,7 +289,7 @@ This may seem overly complicated, but in reality much of what I covered here is 
 
 While looking for information on some VSE shortcuts I _did_ run across a really interesting looking set of functions that I want to try out: [the Blender Velvets](http://blendervelvets.org/). I'm going to go off and give it a good look when I get a chance as there's quite a few interesting additions available. 
 
-For Blender users - did I miss anything?
+For Blender users: did I miss anything?
 
 [txlf]: http://2016.texaslinuxfest.org/ 
 [Blender]: http://www.blender.org
