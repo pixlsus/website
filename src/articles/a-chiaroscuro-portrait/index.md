@@ -128,19 +128,21 @@ In the end, I favored the last image in the sequence for a combination of the mo
 
 Having chosen the final image from the contact sheet, it’s now time to proceed with developing the image and retouching as needed.
 
-If you'd like to follow along you can download the raw .ORF file: [Mairi_Troisieme.ORF](Mairi_Troisieme.ORF) (13MB).
+If you'd like to follow along you can download the raw .ORF file: 
+
+[**Mairi_Troisieme.ORF**](Mairi_Troisieme.ORF) (13MB)
 
 This file is licensed [<img src='cc-by-nc-sa.png' height='15' style='display: inline; margin: 0; width: initial;'>](https://creativecommons.org/licenses/by-nc-sa/3.0/ "Creative Commons By-Attribution Non-Commercial Share-Alike")
-([Creative Commons, By-Attribution, Non-Commercial, Share-Alike](https://creativecommons.org/licenses/by-nc-sa/3.0/ "Creative Commons By-Attribution Non-Commercial Share-Alike")).
-
-This is the same image that I shared with everyone on the forums for a PlayRaw processing practice.  You can see how other folks approached processing this image [in the topic on discuss](https://discuss.pixls.us/t/playraw-mairi-troisieme/967).  If you decide to try this out for yourself, come share your results with us!
+([Creative Commons, By-Attribution, Non-Commercial, Share-Alike](https://creativecommons.org/licenses/by-nc-sa/3.0/ "Creative Commons By-Attribution Non-Commercial Share-Alike")), and is the same image that I shared with everyone on the forums for a PlayRaw processing practice.  You can see how other folks approached processing this image [in the topic on discuss](https://discuss.pixls.us/t/playraw-mairi-troisieme/967).  If you decide to try this out for yourself, come share your results with us!
 
 ### Raw Development
 
 There are various [Free raw processing tools](/software) available and for this tutorial I will be using the wonderful [darktable](http://www.darktable.org).
 
 <figure>
-<img src='dtbg_logo.png' alt='darktable logo'>
+<a href='http://www.darktable.org' title='darktable website'>
+    <img src='dtbg_logo.png' alt='darktable logo'>
+</a>
 </figure>
 
 #### Base Curve
@@ -319,7 +321,7 @@ The selections are made with the Free Select Tool with the “Feather edges” o
 
 A good starting point to consider is the forehead on the largest detail scale (5).  The basic workflow is to select a region of interest and a layer of detail, then to suppress the features on that detail level.  The method of suppressing features is a matter of personal taste but is usually done across the entire selection using a blur filter of some sort.
 
-A good first choice would be to use a gaussian blur (or Selective Gaussian Blur) to smooth the selection.  A better choice, if G’MIC is installed, is to use a bilateral blur for it’s edge-preserving properties.  The rest of these examples will use the bilateral blur for smoothing.
+A good first choice would be to use a gaussian blur (or Selective Gaussian Blur) to smooth the selection.  A better choice, if G’MIC is installed, is to use a bilateral blur for its edge-preserving properties.  The rest of these examples will use the bilateral blur for smoothing.
 
 Considering the forehead region:
 
@@ -476,7 +478,7 @@ to raise the blacks of the mask up to about mid-way or more.  This will isolate 
 
 #### Last Sharpening Pass + Grain
 
-Finally, using I like to apply a last pass of sharpening to the image, and to overlay some grain from a grain field I have to help add some structure to the image as well as mask any gradient issues when rebuilding the background.  For this particular image the grain step isn’t really needed as there’s already sufficient luma noise to provide it’s own structure.
+Finally, using I like to apply a last pass of sharpening to the image, and to overlay some grain from a grain field I have to help add some structure to the image as well as mask any gradient issues when rebuilding the background.  For this particular image the grain step isn’t really needed as there’s already sufficient luma noise to provide its own structure.
 
 Usually, I will use the smallest of the wavelet scales from the prior steps and sometimes the next largest scale as well (Wavelet scale 1 & 2).  I’ll leave Wavelet scale 1 at 100% opacity, and scale 2 usually around 50% opacity (to taste, of course).
 
@@ -488,4 +490,4 @@ Usually, I will use the smallest of the wavelet scales from the prior steps and 
 
 Minor touchups that could still be done might include darkening the chair in the bottom right corner, darkening the gradient in the bottom left corner, and possibly adding a slight white overlay to the eyes to subtly give them a small pop.
 
-As it stands now I think the image is strong with a pretty model and interesting interplay between light and shadows - nicely highlighting the features of the subject.
+As it stands now I think the image is a decent representation of a chiaroscuro portrait that mimics the style of a classical composition and interplay between light and shadows across the subject.
