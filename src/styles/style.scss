@@ -1,0 +1,115 @@
+//Testing import of existing css
+@import 'normalize';
+@import 'grid';
+@import 'prism';
+
+/* Consolidating article.css and blogpost.css
+============================================= */
+
+@import url(//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Oswald:300,400|Roboto+Slab:400,700);
+@font-face {
+	font-family: cc-icons;
+	src: url(/styles/cc-icons.ttf);
+}
+
+body {
+	font-family: Lora, serif;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /*-webkit-text-stroke: 0.15px;
+	 */
+	font-family: Oswald;
+	font-weight:400
+}
+
+/* article.css */
+/* Multiple headings in a row, space out */
+h2+h3, h3+h4, h4+h5, h5+h6 {
+    margin-top: 1rem;
+}
+
+/* article.css */
+/* space heading closer to following paras */
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p,
+h2+ul, h3+ul, h4+ul, h5+ul, h6+ul {
+    margin-top: 0.5rem;
+}
+
+/* bigger space between last para and next heading */
+p+h1, p+h2, p+h3, p+h4, p+h5, p+h6 {
+    margin-top: 2rem;
+}
+
+/* article.css */
+/* bigger spacing if last entry in para is a list to heading */
+ul+h1, ul+h2, ul+h3, ul+h4, ul+h5, ul+h6 {
+    margin-top: 2rem;
+}
+
+/* blogpost.css */
+a.header-link-alt {
+    color: inherit;
+}
+
+
+h4 {
+	text-transform: uppercase;
+}
+
+#title {
+	margin-bottom: 0;
+	font-size: 2rem;
+}
+
+p {
+	color: #555;
+    color: #666;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/* blogpost.css */
+.blog-posts p:first-of-type {
+    margin-top: 0;
+}
+
+.lede {
+	min-height: 150px;
+    background-color: #eee;
+    background-color: whitesmoke;
+	background-size: cover;
+	background-position: center;
+    margin-bottom: 1.5rem;
+}
+
+.lede-img {
+    position: relative;
+}
+
+.lede-attr {
+    font-family: Oswald;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #888;
+    position: absolute;
+    right: 0;
+    bottom: -1.5rem;
+    padding-right: 0.5rem;
+}
+
+blockquote {
+	padding: 0 0.5em;
+    border: solid 1px #ccc;
+    border-left: solid 5px #aaa;
+    -webkit-box-shadow: 0 6px 4px -5px #ccc;
+    -moz-box-shadow: 0 6px 4px -5px #ccc;
+    box-shadow: 0 6px 4px -5px #ccc;
+
+}
+
+blockquote > p {
+    margin: 1em auto !important;
+    color: #666;
+}

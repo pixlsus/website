@@ -6,9 +6,14 @@
 
         <link href="https://pixls.us/blog/feed.xml" rel="alternate" type="application/rss+xml" title="Pixls.us Blog Feed" />
 
+        <!-- 
         <link rel="stylesheet" href="/styles/normalize.css">
         <link rel="stylesheet" href="/styles/grid.css">
         <link rel="stylesheet" href="/styles/prism.css"/>
+        -->
+        
+        <link rel="stylesheet" href="/styles/style.css">
+
         <link rel="stylesheet" href="/styles/article.css">
         <link rel="stylesheet" href="/styles/topnav.css">
         <link rel="stylesheet" href="/styles/blog-list.css">

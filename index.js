@@ -1,10 +1,10 @@
-var Metalsmith	= require('metalsmith'),
-	collections	= require('metalsmith-collections'),
-	permalinks	= require('metalsmith-permalinks'),
-	//templates	= require('metalsmith-templates'),
+var Metalsmith  = require('metalsmith'),
+    collections = require('metalsmith-collections'),
+    permalinks  = require('metalsmith-permalinks'),
+    //templates = require('metalsmith-templates'),
     layouts     = require('metalsmith-layouts'),
     //inPlace     = require('metalsmith-in-place'),
-	markdown	= require('metalsmith-markdown'),
+    markdown    = require('metalsmith-markdown'),
     branch      = require('metalsmith-branch'),
     more        = require('metalsmith-more'),
     path        = require('metalsmith-path'), /* Add 'path' property to each files metadata */
@@ -12,8 +12,9 @@ var Metalsmith	= require('metalsmith'),
     //feed        = require('metalsmith-feed'),
     clean       = require('metalsmith-clean'),
     snippet     = require('metalsmith-snippet'),
-	metadata	= require('./config.json'),
-	Handlebars	= require('handlebars'),
+    sass        = require('metalsmith-sass'),
+    metadata    = require('./config.json'),
+    Handlebars  = require('handlebars'),
     rmdir       = require('rimraf'),
     fs          = require('fs');
 
@@ -32,7 +33,7 @@ Handlebars.registerPartial('push-menu', fs.readFileSync(__dirname + '/templates/
 Handlebars.registerPartial('topnav', fs.readFileSync(__dirname + '/templates/partials/topnav.hbt').toString());
 
 Handlebars.registerHelper('link', function(path) {
-	return metadata.baseUrl + '/' + path;
+    return metadata.baseUrl + '/' + path;
 })
 
 Handlebars.registerHelper('lede-path', function(rss, lede) {
@@ -161,19 +162,19 @@ Handlebars.registerHelper('niceDate', function(indate){
  * called "chunk" which is an array of those elements as objects
  */
 Handlebars.registerHelper('chunkTest', function(context) {
-	var chunkedArray = [];		// array to hold objects
-	var re = /(<img.*?full-width.*?>)/; // regex to find fill-width images
-	var chunked = this.contents.split(re); // split contents on regex
-	if( chunked[0].length == 0 ){ chunked.shift(); } // remove first el if it's nothing
+    var chunkedArray = [];      // array to hold objects
+    var re = /(<img.*?full-width.*?>)/; // regex to find fill-width images
+    var chunked = this.contents.split(re); // split contents on regex
+    if( chunked[0].length == 0 ){ chunked.shift(); } // remove first el if it's nothing
 
-	for ( var i = 0; i < chunked.length; i++ ){
-		if( chunked[i].match(re) == null ){
-			chunkedArray[i] = { data: chunked[i] };
-		}else{
-			chunkedArray[i] = { image: chunked[i] };
-		}
-	}
-	this.chunk = chunkedArray;
+    for ( var i = 0; i < chunked.length; i++ ){
+        if( chunked[i].match(re) == null ){
+            chunkedArray[i] = { data: chunked[i] };
+        }else{
+            chunkedArray[i] = { image: chunked[i] };
+        }
+    }
+    this.chunk = chunkedArray;
 });
 
 /*
@@ -242,31 +243,31 @@ Handlebars.registerHelper('limited', function(arr, limit) {
 
 // Metalsmith test function
 var dump = function(files, metalsmith, done){
-	//console.log("## FILES ##");
-	//console.log(files);
-	//console.log("##################################################");
-	//console.log(metalsmith.data.articles);
-	//console.log("##################################################");
+    //console.log("## FILES ##");
+    //console.log(files);
+    //console.log("##################################################");
+    //console.log(metalsmith.data.articles);
+    //console.log("##################################################");
     //console.log( files );
-	for( index in metalsmith.data.blogposts ){
-		//console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
-		//console.log(metalsmith.data.blogposts[index] );
-		//console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
-		
-	}
-	/*
-	for( index in files ){
-		console.log("Index: " + index);
-	}	
-	console.log( files['articles\\article-with-index\\index.html'] );
-	console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
-	console.log( files['articles\\article-with-index\\index.html'].contents.toString() );
-	var tmp = "This is a <em>strong</em> string of stuff to test buffer encoding to UTF-8";
-	files['articles\\article-with-index\\index.html'].tmp = new Buffer(tmp);
-	console.log( files['articles\\article-with-index\\index.html'] );
-	console.log( files['articles\\article-with-index\\index.html'].tmp.toString() );
-	*/
-	done();
+    for( index in metalsmith.data.blogposts ){
+        //console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+        //console.log(metalsmith.data.blogposts[index] );
+        //console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+        
+    }
+    /*
+    for( index in files ){
+        console.log("Index: " + index);
+    }   
+    console.log( files['articles\\article-with-index\\index.html'] );
+    console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+    console.log( files['articles\\article-with-index\\index.html'].contents.toString() );
+    var tmp = "This is a <em>strong</em> string of stuff to test buffer encoding to UTF-8";
+    files['articles\\article-with-index\\index.html'].tmp = new Buffer(tmp);
+    console.log( files['articles\\article-with-index\\index.html'] );
+    console.log( files['articles\\article-with-index\\index.html'].tmp.toString() );
+    */
+    done();
 }
 
 // Metalsmith plugin
@@ -345,35 +346,35 @@ var header_links_alt = function( files, metalsmith, done){
 //
 var hyphenate_urls = function( files, metalsmith, done ){
 
-	for (var file in files){
+    for (var file in files){
         
-		var tmp;
-		var tmp_path;
-		var tmp_file;
+        var tmp;
+        var tmp_path;
+        var tmp_file;
 
-		tmp = file.replace(/\\/g, "/"); // change all paths to forward slashes
-		
-		tmp_path = tmp.substring(0, tmp.lastIndexOf("/") + 1); // the path portion
-		tmp_file = tmp.substring( tmp.lastIndexOf("/") + 1, tmp.length); // file portion
+        tmp = file.replace(/\\/g, "/"); // change all paths to forward slashes
+        
+        tmp_path = tmp.substring(0, tmp.lastIndexOf("/") + 1); // the path portion
+        tmp_file = tmp.substring( tmp.lastIndexOf("/") + 1, tmp.length); // file portion
 
-		tmp_path = tmp_path.replace(/ /g, "-"); // replace space with hyphen in path
-		if( tmp_file.split(".").pop() == "html" ){ // if file is html, replace spaces
-			tmp_file = tmp_file.replace(/ /g, "-");
-		}
+        tmp_path = tmp_path.replace(/ /g, "-"); // replace space with hyphen in path
+        if( tmp_file.split(".").pop() == "html" ){ // if file is html, replace spaces
+            tmp_file = tmp_file.replace(/ /g, "-");
+        }
 
-		tmp = tmp_path + tmp_file; // combine
+        tmp = tmp_path + tmp_file; // combine
 
-		// If spaces in filename, replace
-		if( tmp !== file ){
-			//console.log( file );
-			files[tmp] = files[file];
-			delete files[file];
-		}
+        // If spaces in filename, replace
+        if( tmp !== file ){
+            //console.log( file );
+            files[tmp] = files[file];
+            delete files[file];
+        }
 
-		// Add "path" variable to object
-		files[tmp].path = tmp;
-	}
-	done();
+        // Add "path" variable to object
+        files[tmp].path = tmp;
+    }
+    done();
 }
 
 
@@ -382,25 +383,25 @@ var hyphenate_urls = function( files, metalsmith, done ){
 //
 Metalsmith(__dirname)
     .use(markdown({
-		smartypants: true,
-		gfm: true,
-		tables: true
-	}))
-	.use(hyphenate_urls)
+        smartypants: true,
+        gfm: true,
+        tables: true
+    }))
+    .use(hyphenate_urls)
     .use(more())
     .use(snippet({
         maxLength: 500,
         stop: '<!-- more -->'
     }))
-	.use(collections({
-		articles: {
+    .use(collections({
+        articles: {
             // Using a pattern to capture _all_ articles
-			pattern: 'articles/*/index.html',
+            pattern: 'articles/*/index.html',
             sortBy: 'date',
             reverse: true
-		},
+        },
         blogposts: {
-			//pattern: 'blog/posts/**/*.html',
+            //pattern: 'blog/posts/**/*.html',
             // using 'collections' metadata instead
             sortBy: 'date',
             reverse: true
@@ -416,7 +417,7 @@ Metalsmith(__dirname)
             reverse: true,
             refer: false
         }
-	}))
+    }))
     /*
     .use( function( files ) {
         console.log( files );
@@ -465,8 +466,11 @@ Metalsmith(__dirname)
         engine: 'handlebars',
         directory: 'templates'
     }))
+    .use( sass({
+        outputStyle: "expanded"
+    }))
     .destination('./build')
-	//.build();
+    //.build();
     .build(function(err) {
         if (err) {
                 console.log(err);

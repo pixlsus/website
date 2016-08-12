@@ -4,9 +4,14 @@
         <meta charset="utf-8">
         <title>PIXLS.US - Articles</title>
 
+        <!--
         <link rel="stylesheet" href="/styles/normalize.css">
         <link rel="stylesheet" href="/styles/grid.css">
         <link rel="stylesheet" href="/styles/prism.css"/>
+        -->
+
+        <link rel="stylesheet" href="/styles/style.css">
+
         <link rel="stylesheet" href="/styles/article.css">
         <link rel="stylesheet" href="/styles/topnav.css">
         <link rel="stylesheet" href="/styles/blog-list.css">
