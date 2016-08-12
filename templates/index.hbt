@@ -1,29 +1,28 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head itemscope itemtype="http://schema.org/WebSite">
-	<meta charset="utf-8">
-	<title itemprop='name'>PIXLS.US{{#if title}} - {{ title }} {{/if}}</title>
+  	<meta charset="utf-8">
+  	<title itemprop='name'>PIXLS.US{{#if title}} - {{ title }} {{/if}}</title>
 
     <link href="https://pixls.us/feed.xml" rel="alternate" type="application/rss+xml" title="Pixls.us Blog Feed" />
+
     <link rel="canonical" href="https://pixls.us" itemprop="url">
-		
-	<link rel="stylesheet" href="/styles/normalize.css">
-	<link rel="stylesheet" href="/styles/grid.css">
-                
 
-        <link rel="stylesheet" href="/styles/article.css">
-        <link rel="stylesheet" href="/styles/topnav.css">
-        <link rel="stylesheet" href="/styles/push-menu.css">
+		<link rel="stylesheet" href="/styles/style.css"/>
+  	<!-- <link rel="stylesheet" href="/styles/normalize.css"> -->
+  	<!-- <link rel="stylesheet" href="/styles/grid.css"> -->
+    <!-- <link rel="stylesheet" href="/styles/article.css"> -->
+    <!-- <link rel="stylesheet" href="/styles/topnav.css"> -->
+    <!-- <link rel="stylesheet" href="/styles/push-menu.css"> -->
+    <!-- <link rel="stylesheet" href="/styles/article-list.css"> -->
 
-        <link rel="stylesheet" href="/styles/article-list.css">
+  	<link rel="stylesheet" href="./index.css">
 
-		<link rel="stylesheet" href="./index.css">
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 		{{! Google Analytics Code Snippet }}
 		{{>analytics}}
-		</head>
+	</head>
 
 	<body>
 
@@ -43,7 +42,7 @@
 
                 <div class="lede-attr">
                     <a href='https://www.flickr.com/photos/80225884@N06/24571570113/'>
-                        Moonlit Mountains</a> by <a href="https://29a.ch/">Jonas Wagner</a> 
+                        Moonlit Mountains</a> by <a href="https://29a.ch/">Jonas Wagner</a>
                     <a class="cc" href="https://creativecommons.org/licenses/by-nc-sa/2.0/">ban</a></div>
 
             </section>
