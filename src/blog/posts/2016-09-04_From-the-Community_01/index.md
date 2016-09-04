@@ -1,30 +1,32 @@
 ---
 date: 2016-09-04
-title: From the Community #1
+title: From the Community
 
 lede-img: photography-tile.png
 lede-img-thumb: photography-tile.png
 lede-attribution:
-lede-style: 'background-size: contain;'
+lede-style: 'background-repeat: repeat;'
 
 author: Mica
 author-url: 'https://silentumbrella.com'
-author-img:
-author-bio:
+author-img: 'https://discuss.pixls.us/user_avatar/discuss.pixls.us/paperdigits/120/473_1.png'
+author-bio: 'Editor of many, many things.'
 
 collection: blogposts
 layout: blog-posts.hbt
 ---
 
-Welcome to the first installment of *From the Community*, a (hopefully) quarterly blog post to highlight a few of the things our community members `have been doing!
+Welcome to the first installment of *From the Community*, a (hopefully) quarterly blog post to highlight a few of the things our community members have been doing!
 
 <!-- more -->
 
-## Rapid Photo Downloader process model
+## Rapid Photo Downloader Process Model
 
 [Damon Lynch has a great write up of Rapid Photo Download's process model](https://discuss.pixls.us/t/the-rapid-photo-downloader-0-9-process-model/2114). Rapid Photo Downloader is built using python, so if you're looking for a good way to add threads to your python program, this write up has some good information for you!
 
-![rpd process model](https://discuss.pixls.us/uploads/default/original/2X/d/df9e6bdee90ed3288e4c79cab83943f5895bc05a.png)
+<figure class='big-vid'>
+    <img src='rpd-process-model.png' alt='rpd process model'>
+</figure>
 
 ## Community-built Software downloads page
 
@@ -36,11 +38,15 @@ Free Software development tends to move at a pretty good pace, so there is alway
 
 You can flip blocks:
 
-![gmic block flipping](https://discuss.pixls.us/uploads/default/original/2X/2/2bfc61ffe1022131c878549bb31deba90b261c93.png)
+<figure class='big-vid'>
+    <img src='gmic-block-flipping.png' alt='GMIC block flipping'>
+</figure>
 
 and warp your images:
 
-![gmic warp](https://discuss.pixls.us/uploads/default/original/2X/9/9aeb48fe0464b06b558eadbdebb46f1db8053fcc.png)
+<figure class='big-vid'>
+    <img src='gmic-warp.png' alt='GMIC image warping'>
+</figure>
 
 ## An Alternative to Watermarking
 
@@ -48,7 +54,9 @@ and warp your images:
 
 Here is an example image by @Morgan_Hardwood:
 
-![attribution example by @Morgan_Hardwood](https://discuss.pixls.us/uploads/default/original/2X/c/c28046cb9a21b2cfe9ec0ea5f8521385c1856ca3.jpg)
+<figure class='big-vid'>
+    <img src='attrib-bar.jpg' alt='attribution bar example'>
+</figure>
 
 ## Help Author a Tutorial for Beginners
 
