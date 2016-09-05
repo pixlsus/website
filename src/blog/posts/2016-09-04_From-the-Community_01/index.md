@@ -22,11 +22,13 @@ Welcome to the first installment of *From the Community*, a (hopefully) quarterl
 
 ## Rapid Photo Downloader Process Model
 
-[@damonlynch has a great write up of Rapid Photo Download's process model](https://discuss.pixls.us/t/the-rapid-photo-downloader-0-9-process-model/2114). Rapid Photo Downloader is built using python, so if you're looking for a good way to add threads to your python program, this write up has some good information for you, check it out!
+[@damonlynch has a great write up of Rapid Photo Download's process model](https://discuss.pixls.us/t/the-rapid-photo-downloader-0-9-process-model/2114). Rapid Photo Downloader is built using [Python][], so if you're looking for a good way to add threads to your Python program, this write up has some good information for you, check it out!
 
 <figure class='big-vid'>
     <img src='rpd-process-model.png' alt='rpd process model'>
 </figure>
+
+[Python]: https://www.python.org/
 
 ## Community-built Software downloads page
 
