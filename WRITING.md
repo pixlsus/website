@@ -166,6 +166,44 @@ A short blurb about the author.  This can include links and other information an
 _Aside_: this should probably be moved to a yaml file or other template partial so that it can be called for authors by name (including the `author-img` probably).
 
 
+#### Frontmatter example
+For a blog post:
+```
+date: 
+title: 
+sub-title: 
+
+lede-img:
+lede-img-thumb:
+lede-attribution:
+lede-style:
+
+author:
+author-img:
+author-bio:
+collection: blogposts
+layout:
+```
+
+Or an article:
+
+```
+date:
+title:
+sub-title:
+
+lede-img:
+lede-attribution:
+
+author:
+author-img:
+author-bio:
+type: "article"
+collection: tutorial
+layout: article.hbt
+```
+
+
 ### Commands
 When commands need to be referenced there is a special class available called `Cmd` to provide different styling:
 
