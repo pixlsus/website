@@ -126,8 +126,8 @@ layout: page.hbt
             <a href="https://pannellum.org/">Pannellum</a>
             <i class="fa fa-nix-win-osx"></i>
 			<p>
-			Pannellum is a lightweight, free, and open source panorama viewer for the web. 
-            Built using HTML5, CSS3, JavaScript, and WebGL, it is plug-in free.	
+			Pannellum is a lightweight, free, and open source panorama viewer for the web.
+            Built using HTML5, CSS3, JavaScript, and WebGL, it is plug-in free.
 			</p>
         </div>
 
@@ -206,8 +206,8 @@ layout: page.hbt
             <a href="https://free-astro.org/index.php/Siril">Siril</a>
             <i class="fa fa-nix-osx"></i>
             <p>
-		Siril is an astronomical image processing tool, able to convert, 
-		pre-process images, help aligning them automatically or manually, 
+		Siril is an astronomical image processing tool, able to convert,
+		pre-process images, help aligning them automatically or manually,
 		stack them and enhance final images.
             </p>
         </div>
@@ -403,6 +403,22 @@ layout: page.hbt
             <i class="fa fa-linux"></i>
             <p>
                 OpenDroneMap is an open source toolkit for processing aerial drone imagery.
+            </p>
+        </div>
+	</div>
+	<div class="sw-entry jpegclub">
+            <a href="http://jpegclub.org/">JPEG Club</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+				JPEGclub.org develops new JPEG features and maintains the Independent JPEG Group's (IJG) software.
+            </p>
+        </div>
+	</div>
+	<div class="sw-entry lepton">
+            <a href="https://github.com/dropbox/lepton">Lepton</a>
+            <i class="fa fa-linux"></i>
+            <p>
+				Lepton is a tool and file format for losslessly compressing JPEGs by an average of 22%.
             </p>
         </div>
 	</div>
