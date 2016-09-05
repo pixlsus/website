@@ -71,6 +71,101 @@ Writing
 Besides using normal Markdown there are a couple of things to keep in mind for formatting while writing.
 
 
+### Metadata (Frontmatter)
+Every markdown file requires that there be frontmatter included.
+If there will be any question on the characters being used, remember to escape them by enclosing the data in quotes.  In particular having things like colons (like CSS in `lede-style` for instance).
+
+Until I get my crap together more, it's probably safer to copy the frontmatter from the last post of the type you're using (and modify as needed).
+
+Required frontmatter include:
+
+* `date`
+* `title`
+* `author`
+* `layout`
+
+#### `date`
+The date metadata should be some form of [ISO 8601][].  It could technically be as sparse as a simple YYYY but more commonly:
+
+`date: 2016-07-12T08:36:55-05:00`  
+
+or
+
+`date: 2016-07-12`
+
+[ISO 8601]: https://en.wikipedia.org/wiki/ISO_8601
+
+
+#### `title`
+The article title.  Duh. :)
+
+If there are any odd characters it would be safer to enclose the title in double quotes...
+
+`title: "What're the best ways to help people? :)"`
+
+
+#### `author`
+The author name for the post.  This will appear at the bottom of the post.
+
+
+#### `layout`
+This specifies which type of template gets called for this post.  There are two main layout types we're using:
+
+* `layout: article.hbt` for articles
+* `layout: blog-posts.hbt` for blog posts
+
+----
+
+Other common frontmatter that is normally used (but _shouldn't_ break the site build if excluded) include:
+
+* `sub-title`
+* `lede-img`
+* `lede-img-attribution`
+* `lede-style`
+* `author-img`
+* `author-bio`
+
+#### `sub-title`
+The sub-title for the post.  Not needed, but have fun with it if you use it! :)
+
+#### `lede-img`
+The `lede-img` is the header image on posts.  Try to keep the image large in dimensions to accommodate bigger screen sizes (try to aim for a minimum of 1650px wide). Feel free to aggressively compress as neeeded.  I've been trying to target around no more than 300kb.
+
+
+#### `lede-img-thumb`
+The `lede-img-thumb` is the smaller thumbnail view of the `lede-img`.  It should be sized to around 1024px wide and also aggressively compressed to around 75kb-100kb at most.
+
+
+#### `lede-attribution`
+This should be html to attribute the source and license of the lede image.  For instance, the "Old Oak" lede image on the [Sharing Galore][sharing] uses the following metadata for attribution:
+```html
+lede-attribution: "<a href='https://discuss.pixls.us/t/old-oak-a-tutorial/1627'>Old Oak</a> by <a href='http://londonlight.org/zp/'>Morgan Hardwood</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/4.0/'>cba</a>"
+```
+[sharing]: https://pixls.us/blog/2016/06/sharing-galore/
+
+
+#### `lede-style`
+Just in case the lede image needs some slight modification to work well (centering and shifting) this will be injected into the page style (after the other styles). This should be normal CSS.
+
+`lede-style: 'background-position: 0 0;'`
+
+
+#### `author-img`
+This is the headshot or avatar for the author.  
+
+Normally this is 150px square.
+
+While this is not a _required_ metadata, if it's not specified it will default to Pat David's ugly mug.
+
+The image should be located at `src/images/authors/` but can be in the local directory.  The path should reflect its location.
+
+
+#### `author-bio`
+A short blurb about the author.  This can include links and other information and should be kept to a few sentences at most.
+
+_Aside_: this should probably be moved to a yaml file or other template partial so that it can be called for authors by name (including the `author-img` probably).
+
+
 ### Commands
 When commands need to be referenced there is a special class available called `Cmd` to provide different styling:
 
