@@ -50,7 +50,7 @@ and warp your images:
 
 ## An Alternative to Watermarking
 
-Watermarking is ugly and takes focus away from your image. [Why not try and add an attribution bar to your images?](https://discuss.pixls.us/t/annotation-with-imagemagick-watermark-ish/1813) In this post, [@patdavid][] lays out how to add a bar underneath your image with your name, the image title, and a little logo. [@David_Tschumperle][] followed that effort up with an alternate implementation using G'MIC instead of imagemagic. Lastly, [@vato][] rolled the imagemagick version into a bash script with the necessary parameters exposed as variables at the beginning of the script.
+Watermarking is ugly and takes focus away from your image. [Why not try and add an attribution bar to your images?](https://discuss.pixls.us/t/annotation-with-imagemagick-watermark-ish/1813) In this post, [@patdavid][] lays out how to add a bar underneath your image with your name, the image title, and a little logo. [@David_Tschumperle][] followed that effort up with an alternate implementation using G'MIC instead of imagemagic. Lastly, [@vato][] rolled the imagemagick version into a [bash script](https://discuss.pixls.us/t/annotation-with-imagemagick-watermark-ish/1813/6) with the necessary parameters exposed as variables at the beginning of the script.
 
 Here is an example image by [@Morgan_Hardwood][]:
 
