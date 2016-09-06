@@ -405,21 +405,20 @@ layout: page.hbt
                 OpenDroneMap is an open source toolkit for processing aerial drone imagery.
             </p>
         </div>
-	</div>
-	<div class="sw-entry jpegclub">
+        <div class="sw-entry jpegclub">
             <a href="http://jpegclub.org/">JPEG Club</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
 				JPEGclub.org develops new JPEG features and maintains the Independent JPEG Group's (IJG) software.
             </p>
         </div>
-	</div>
-	<div class="sw-entry lepton">
+        <div class="sw-entry lepton">
             <a href="https://github.com/dropbox/lepton">Lepton</a>
             <i class="fa fa-linux"></i>
             <p>
 				Lepton is a tool and file format for losslessly compressing JPEGs by an average of 22%.
             </p>
         </div>
+
 	</div>
 </section>
