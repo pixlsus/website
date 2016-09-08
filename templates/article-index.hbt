@@ -13,10 +13,16 @@
         <link rel="stylesheet" href="/styles/style.css">
 
         <link rel="stylesheet" href="/styles/article.css">
+
+        <!-- 
         <link rel="stylesheet" href="/styles/topnav.css">
+        -->
         <link rel="stylesheet" href="/styles/blog-list.css">
         <link rel="stylesheet" href="/styles/article-list.css">
+
+        <!--
         <link rel="stylesheet" href="/styles/push-menu.css">
+        -->
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
