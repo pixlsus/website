@@ -8,20 +8,20 @@
 
 @import url(//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Oswald:300,400|Roboto+Slab:400,700);
 @font-face {
-	font-family: cc-icons;
-	src: url(/styles/cc-icons.ttf);
+    font-family: cc-icons;
+    src: url(/styles/cc-icons.ttf);
 }
 
 body {
-	font-family: Lora, serif;
-	font-weight: 400;
+    font-family: Lora, serif;
+    font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
     /*-webkit-text-stroke: 0.15px;
-	 */
-	font-family: Oswald;
-	font-weight:400
+     */
+    font-family: Oswald;
+    font-weight:400
 }
 
 /* article.css */
@@ -76,11 +76,11 @@ p {
 }
 
 .lede {
-	min-height: 150px;
+    min-height: 150px;
     background-color: #eee;
     background-color: whitesmoke;
-	background-size: cover;
-	background-position: center;
+    background-size: cover;
+    background-position: center;
     margin-bottom: 1.5rem;
 }
 
