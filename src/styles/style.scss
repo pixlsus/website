@@ -55,19 +55,19 @@ a.header-link-alt {
 
 
 h4 {
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 #title {
-	margin-bottom: 0;
-	font-size: 2rem;
+    margin-bottom: 0;
+    font-size: 2rem;
 }
 
 p {
-	color: #555;
+    color: #555;
     color: #666;
-	margin-top: 1em;
-	margin-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 /* blogpost.css */
@@ -100,7 +100,7 @@ p {
 }
 
 blockquote {
-	padding: 0 0.5em;
+    padding: 0 0.5em;
     border: solid 1px #ccc;
     border-left: solid 5px #aaa;
     -webkit-box-shadow: 0 6px 4px -5px #ccc;
@@ -117,26 +117,26 @@ blockquote > p {
 
 
 figure {
-	margin: 1.5em auto;
-	display: table;
+    margin: 1.5em auto;
+    display: table;
 }
 
 figure.full-width {
-	width: 100%;
+    width: 100%;
 }
 @media (min-width: 40rem){
-	figure.full-width {
-		width: 100vw;
+    figure.full-width {
+        width: 100vw;
         width: 100%;
-	}
+    }
 }
 
 p img, figure img {
-	width: 100%;
+    width: 100%;
     width: initial;
-	max-width: 100%;
-	height: auto;
-	margin: 0 auto 0.5rem auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 0.5rem auto;
 }
 
 
@@ -146,19 +146,19 @@ figure.full-width > figcaption {
 }
 
 figcaption {
-	font-size: 0.85rem;
-	text-align: center;
-	line-height: 1.3em;
-	display: table-caption;
-	caption-side: bottom;
+    font-size: 0.85rem;
+    text-align: center;
+    line-height: 1.3em;
+    display: table-caption;
+    caption-side: bottom;
 }
 
 .lede-img {
-	background-size: cover;
+    background-size: cover;
     background-position: center;
     background-color: #eee;
     background-color: whitesmoke;
-	margin-bottom: 1.5em;
+    margin-bottom: 1.5em;
     min-height: 250px
 }
 @media (min-width: 40rem){
@@ -173,7 +173,7 @@ figcaption {
     font-size: 1.2rem;
     font-style: italic;
     color: lightslategray;
-	margin-left: 0;
+    margin-left: 0;
     margin-bottom: 1rem;
     margin-top: 0;
     font-weight: 400;
@@ -181,11 +181,11 @@ figcaption {
 
 
 .article-date {
-	font-size: 0.9rem;
-	font-family: Oswald;
-	font-weight: 300;
-	margin-top: -1em;
-	color: #aaa;
+    font-size: 0.9rem;
+    font-family: Oswald;
+    font-weight: 300;
+    margin-top: -1em;
+    color: #aaa;
 }
 
 .article-title .author-name {
@@ -198,36 +198,36 @@ figcaption {
 
 
 .footer {
-	background-color: #eee;
-	background-color: whitesmoke;
+    background-color: #eee;
+    background-color: whitesmoke;
     box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.5);
 }
 @media (min-width: 40rem){
     section.footer {
-    	text-align: left;
+        text-align: left;
     }
 }
 
 .footer h3 {
-	font-weight: 400;
-	font-size: 1.6rem;
+    font-weight: 400;
+    font-size: 1.6rem;
 }
 
 .navlink {
-	font-family: Oswald;
-	font-size: 1.4rem;
-	text-transform: uppercase;
+    font-family: Oswald;
+    font-size: 1.4rem;
+    text-transform: uppercase;
 }
 @media (min-width: 40rem){
-	.navlink {
-		margin-bottom: 0.8rem;
-	}
+    .navlink {
+        margin-bottom: 0.8rem;
+    }
 }
 @media (min-width: 64rem){
-	.navlink {
-		margin-bottom: 0;
-		font-size: 1.2rem;
-	}
+    .navlink {
+        margin-bottom: 0;
+        font-size: 1.2rem;
+    }
 }
 
 
@@ -235,25 +235,25 @@ figcaption {
  * Styling for navigation links on mobile
  */
 @media (max-width: 40rem){
-	#navlinks a {
-		display: block;
-		height: 100%;
-		display: table-cell;
-		vertical-align: middle;
-	}
-	
-	.navlink {
-		background-color: #ddd;
-		height: 60px;
-		margin-bottom: 2px;
-		display: table;
-		width: 100%;
-	}
+    #navlinks a {
+        display: block;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    .navlink {
+        background-color: #ddd;
+        height: 60px;
+        margin-bottom: 2px;
+        display: table;
+        width: 100%;
+    }
 }
 
 
 #social-icons {
-	margin-top: 1.7rem;
+    margin-top: 1.7rem;
 }
 
 #social-icons img {
@@ -261,7 +261,7 @@ figcaption {
         height: auto;
         display: inline;
         margin: 0 0.5rem 0.5rem auto;
-		opacity: 0.5;
+        opacity: 0.5;
 }
 
 @media (max-width: 64rem){
@@ -273,128 +273,128 @@ figcaption {
 
 /* Author Info Box at the end of Posts */
 div.post-end {
-	margin-bottom: 2.5em;
+    margin-bottom: 2.5em;
 }
 
 .byline {
-	font-family: Oswald;
-	font-weight: 300;
-	font-size: 0.9rem;
-	text-transform: uppercase;
+    font-family: Oswald;
+    font-weight: 300;
+    font-size: 0.9rem;
+    text-transform: uppercase;
 }
 
 div.author-box {
-	text-align: center;
+    text-align: center;
 }
 
 .author-box img {
-	width: 100px;
-	margin-bottom: 0.5rem;
+    width: 100px;
+    margin-bottom: 0.5rem;
 }
 
 .author-name {
-	font-family: Oswald;
-	font-weight: 400;
-	font-size: 1.2rem;
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 1.2rem;
 }
 
 .author-end {
-	border-top: solid 1px #ddd;
-	margin: 1.5rem 0;
+    border-top: solid 1px #ddd;
+    margin: 1.5rem 0;
 }
 
 .author-bio {
-	font-size: 0.9em;
+    font-size: 0.9em;
 }
 
 @media (min-width: 40rem){
-	div.author-box {
-		padding-left: 1em;
-		margin-top: 0.5em;
-		margin-bottom: 2.5em;
-		text-align: left;
-	}
+    div.author-box {
+        padding-left: 1em;
+        margin-top: 0.5em;
+        margin-bottom: 2.5em;
+        text-align: left;
+    }
 
-	div.author-box-image {
-		position: absolute;
-		width: 100px;
-	}
+    div.author-box-image {
+        position: absolute;
+        width: 100px;
+    }
 
-	.author-box img {
-		width: 150px;
-		float: left;
-		margin-right: 0.5rem;
-	}
+    .author-box img {
+        width: 150px;
+        float: left;
+        margin-right: 0.5rem;
+    }
 
-	div.author-box-image img {
-		width: 100%;
-	}
+    div.author-box-image img {
+        width: 100%;
+    }
 
-	div.author-box-info {
-		margin-left: 110px;
-		min-height: 100px;
-	}
+    div.author-box-info {
+        margin-left: 110px;
+        min-height: 100px;
+    }
 
 }
 
 
 .site-name, .links-title {
     font-family: Oswald;
-	font-size: 1.6rem;
+    font-size: 1.6rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
 }
 
 .site-slogan {
-	font-family: Oswald;
-	font-weight: 300;
+    font-family: Oswald;
+    font-weight: 300;
 }
 
 .cc-row {
-	text-align: center;
+    text-align: center;
 }
 @media (min-width: 40rem){
-	.cc-row {
-		margin-top: 3rem;
-	}
+    .cc-row {
+        margin-top: 3rem;
+    }
 }
 
 
 .cc {
-	font-family: cc-icons;
-	vertical-align: middle;
+    font-family: cc-icons;
+    vertical-align: middle;
 }
 
 .cc-info {
-	font-family: Oswald;
-	font-weight: 300;
-	font-size: 0.85rem;
+    font-family: Oswald;
+    font-weight: 300;
+    font-size: 0.85rem;
 }
 
 .cc-info img {
-	display: inline;
-	width: 88px;
-	margin: 0;
+    display: inline;
+    width: 88px;
+    margin: 0;
 }
 
 .camrule {
-	border-bottom: solid 1px #ccc;
-	display: none;
+    border-bottom: solid 1px #ccc;
+    display: none;
 }
 
 .camrule-img {
-	height: 40px;
-	height: 2rem;
-	width: auto;
-	margin: 0 auto;
-	margin-bottom: -20px;
+    height: 40px;
+    height: 2rem;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: -20px;
 }
 
 @media (min-width: 40rem){
-	ul {
-		display: block;
+    ul {
+        display: block;
         margin-left: 1rem;
-	}
+    }
 
     li > ul {
         margin-left: 0;
@@ -402,81 +402,81 @@ div.author-box {
 }
 
 #nextPrev {
-	font-family: Oswald;
-	color: #888;
-	font-weight: 300;
-	margin-bottom: 2rem;
+    font-family: Oswald;
+    color: #888;
+    font-weight: 300;
+    margin-bottom: 2rem;
 }
 
 #nextPrev a {
-	color: #7A94AE;
+    color: #7A94AE;
 }
 
 #nextPrev .column div {
-	font-weight: 400;
+    font-weight: 400;
 }
 
 #nextPrev .next {
-	text-align: right;
+    text-align: right;
 }
 
 #prevTitle {
-	margin-left: 1rem;
+    margin-left: 1rem;
 }
 
 #nextTitle {
-	margin-right: 1rem;
+    margin-right: 1rem;
 }
 
 pre {
-		background-color: #f8f8f8;
-		-moz-border-radius: 3px;
-		-webkit-border-radius: 3px;
-		border-radius: 3px;
-		border: 1px solid #ddd;
-		white-space: pre;
-		font-family: consolas, "Liberation Mono", Courier, monospace;
-		font-size: 0.8em;
-		padding: 0.3em;
+        background-color: #f8f8f8;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        border: 1px solid #ddd;
+        white-space: pre;
+        font-family: consolas, "Liberation Mono", Courier, monospace;
+        font-size: 0.8em;
+        padding: 0.3em;
 }
 
 pre code {
-		-moz-border-radius: 0;
-		-webkit-border-radius: 0;
-		border-radius: 0;
-		border: none;
-		white-space: pre;
-		padding: 0;
-		background-color: initial;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        border: none;
+        white-space: pre;
+        padding: 0;
+        background-color: initial;
 }
 
 .big-vid {
-	margin-left: -5%;
-	width: 110%;
+    margin-left: -5%;
+    width: 110%;
 }
 
 @media (min-width: 40rem){
-	.big-vid {
-		margin-left: 0;
-		width: 150%;
-	}
+    .big-vid {
+        margin-left: 0;
+        width: 150%;
+    }
 }
 
 .fluid-vid {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
     margin-bottom: 1em;
 }
 
 .fluid-vid iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 p.aside {
@@ -535,8 +535,8 @@ li {
 
 
 .social-section p {
-	font-size: 0.85rem;
-	text-transform: uppercase;
+    font-size: 0.85rem;
+    text-transform: uppercase;
 }
 
 
@@ -597,30 +597,30 @@ topnav.css
     transition: top 0.3s ease-in-out;
     background-color: rgba(112,128,144,0.95);
     /*
-	width: 55px;
+    width: 55px;
     height: 55px;
     */
     width: 45px;
     height: 45px;
-	overflow: hidden;
+    overflow: hidden;
     margin-left: 0.25em;
-	border: solid 2px rgb(50,50,50);
-	z-index: 6;
+    border: solid 2px rgb(50,50,50);
+    z-index: 6;
     top:10px;
     left:10px;
     margin-left: 0;
 }
 
 #navlogo {
-	font-size:2.1em; 
-	font-family: arvo; 
-	/*
-	position: relative; 
-	top: -11px; 
-	*/
-	line-height: 1em;
-	color: rgb(50,50,50);
-	height: 65px;
+    font-size:2.1em; 
+    font-family: arvo; 
+    /*
+    position: relative; 
+    top: -11px; 
+    */
+    line-height: 1em;
+    color: rgb(50,50,50);
+    height: 65px;
 }
 
 #header img {
@@ -643,7 +643,7 @@ topnav.css
 }
 
 #nav-anchor {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 #navimg {
@@ -714,17 +714,17 @@ body {
 
     #pushMenu .navlink {
         background-color: #222;
-		text-align: center;
-		display: table;
-		width: 100%;
+        text-align: center;
+        display: table;
+        width: 100%;
         height: 50px;
     }
 
-	#pushMenu .navlink a {
+    #pushMenu .navlink a {
         height: 100%;
         display: table-cell;
         vertical-align: middle;
-	}
+    }
 
     .push-sitename, .push-contents {
         color: #bbb;
