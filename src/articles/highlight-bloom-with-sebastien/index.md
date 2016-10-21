@@ -229,7 +229,7 @@ The intent with this filter is to further smooth the overall tones, simplify det
 <img src='tut-05-graphic-novel.jpg' alt='Graphic Novel' data-swap-src='tut-04-simple-local-contrast.jpg' width='640' height='815'>
 <figcaption>
 After applying the "Graphic novel" filter.  
-(Click to compare to the original image)
+(Click to compare to the local contrast result)
 </figcaption>
 </figure>
 
