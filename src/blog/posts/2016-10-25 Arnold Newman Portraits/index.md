@@ -22,7 +22,7 @@ Anyone that has spent any time around me would realize that I'm particularly fon
 <!-- more -->
 
 <figure>
-<img src='Newman_Self_Portrait.jpg' alt='Arnold Newman, Self Portrait, Baltimore MD, 1939' width='640' height='658'>
+<img src='Newman Self Portrait.jpg' alt='Arnold Newman, Self Portrait, Baltimore MD, 1939' width='640' height='658'>
 <figcaption>
 [Arnold Newman][newman], Self Portrait, Baltimore MD, 1939
 </figcaption>
@@ -37,7 +37,7 @@ Luckily it may have started defining what he _did_ want to do with his photograp
 Though he has felt that the term might be unnecessarily restrictive (and possibly overshadows his other pursuits including abstractions and photojournalism), there's no denying the impact of the results. Possibly his most famous portrait, of composer Igor Stravinsky, illustrates this wonderfully.  The overall tones are almost monotone (flat - pun intended, and likely intentional on behalf of Newman) and are dominated by the stark duality of the white wall with the black piano.
 
 <figure>
-<img src='Igor_Stravinsky,_New_York,_NY,_1946.jpg' alt='Igor Stravinsky by Arnold Newman' width='640' height='332'>
+<img src='Igor Stravinsky, New York, NY, 1946.jpg' alt='Igor Stravinsky by Arnold Newman' width='640' height='332'>
 <figcaption>
 _Igor Stravinsky, New York, NY, 1946_ by [Arnold Newman][newman]
 </figcaption>
@@ -48,14 +48,14 @@ Newman realized that the open lid of the piano _"...is like the shape of a music
 In a similar theme his portraits of both [Salador Dalí][dali] and [John F. Kennedy][kennedy] show a willingness to allow the crop to bring in different defining characteristics of his subjects. In the case of Dalí it allows an abstraction to hang there mimicking the pose of the artist himself. Kennedy is mostly the only organic form, striking a relaxed pose, while dwarfed by the imposing architecture and hard lines surrounding him.
 
 <figure>
-<img src='Salvador_Dali,_New_York,_NY,_1951.jpg' alt='Salvador Dali, New York, NY, 1951' width='572' height='780'>
+<img src='Salvador Dali, New York, NY, 1951.jpg' alt='Salvador Dali, New York, NY, 1951' width='572' height='780'>
 <figcaption>
 Salvador Dali, New York, NY, 1951 by [Arnold Newman][newman]
 </figcaption>
 </figure>
 
 <figure>
-<img src='John_F._Kennedy,_Washington_D.C.,_1953.jpg' alt='John F. Kennedy, Washington D.C., 1953' width='629' height='780'>
+<img src='John F. Kennedy, Washington D.C., 1953.jpg' alt='John F. Kennedy, Washington D.C., 1953' width='629' height='780'>
 <figcaption>
 John F. Kennedy, Washington D.C., 1953 by [Arnold Newman][newman]
 </figcaption>
@@ -64,7 +64,7 @@ John F. Kennedy, Washington D.C., 1953 by [Arnold Newman][newman]
 He manages to bring the same deft handling of placing his subjects in the context of their work with other photographers as well.  His portrait of [Ansel Adams][adams] shows the photographer just outside his studio with the surrounding wilderness not only visible around the frame but reflected in the glass of the doors behind him (and the photographers glasses). Perhaps an indication of the nature of Adams work being to capture natural scenes through glass? 
 
 <figure>
-<img src='Ansel_Adams,_1975.jpg' alt='Ansel Adams, 1975 by Arnold Newman' width='599' height='780'>
+<img src='Ansel Adams, 1975.jpg' alt='Ansel Adams, 1975 by Arnold Newman' width='599' height='780'>
 <figcaption>
 Ansel Adams, 1975 by [Arnold Newman][newman]
 </figcaption>
@@ -73,7 +73,7 @@ Ansel Adams, 1975 by [Arnold Newman][newman]
 For anyone familiar with the pioneer of another form of photography, Newman's portrait of (the usually camera shy) [Henri Cartier-Bresson][bresson] will instantly evoke a sense of the artists candid street images.  In it, Bresson appears to take the place of one of his subjects caught briefly on the streets in a fleeting moment. The portrait has an almost spontaneous feeling to it, (again) mirroring the style of the work of its subject.
 
 <figure>
-<img src='Henri_Cartier-Bresson,_New_York,_NY,_1947.jpg' alt='Henri Cartier-Bresson, New York, NY, 1947' width='640' height='454'>
+<img src='Henri Cartier-Bresson, New York, NY, 1947.jpg' alt='Henri Cartier-Bresson, New York, NY, 1947' width='640' height='454'>
 <figcaption>
 Henri Cartier-Bresson, New York, NY, 1947 by [Arnold Newman][newman]
 </figcaption>
@@ -82,7 +82,7 @@ Henri Cartier-Bresson, New York, NY, 1947 by [Arnold Newman][newman]
 Eight years after his portrait of surrealist painter Dali, Newman shot another famous (abstraction) artist, [Pablo Picasso][picasso]. This particular portrait is much more intimate and more classically composed, framing the subject as a headshot with little of the surrounding environment as before. I can't help but think that the placement of the hand being similar in both images is intentional; a nod to the unconventional views both artists brought to the world.
 
 <figure>
-<img src='Pablo_Picasso,Vallauris,_France,_1954.jpg' alt='Pablo Picasso,Vallauris, France, 1954' width='609' height='780'>
+<img src='Pablo Picasso,Vallauris, France, 1954.jpg' alt='Pablo Picasso,Vallauris, France, 1954' width='609' height='780'>
 <figcaption>
 Pablo Picasso,Vallauris, France, 1954 by [Arnold Newman][newman]
 </figcaption>
@@ -99,7 +99,7 @@ The eloquent [Gregory Heisler][heisler] had a wonderful discussion about Newman 
 Arnold Newman produced an amazing body of work that warrants some time and consideration for anyone interested in portraiture. These few examples simply do not do his [collection of portraits][portraits] justice.  If you have a few moments to peruse some amazing images head over to his website and have a look (I'm particularly fond of his extremely design-oriented portrait of chinese-american architect [I.M. Pei][pei]):
 
 <figure>
-<img src='I.M._Pei,_New_York,_NY,_1967.jpg' alt='I.M. Pei, New York, NY, 1967' width='640' height='773'>
+<img src='I.M. Pei, New York, NY, 1967.jpg' alt='I.M. Pei, New York, NY, 1967' width='640' height='773'>
 <figcaption>
 I.M. Pei, New York, NY, 1967 by [Arnold Newman][newman]
 </figcaption>
@@ -108,7 +108,7 @@ I.M. Pei, New York, NY, 1967 by [Arnold Newman][newman]
 Of historical interest is a look at Newman's contact sheet for the Stravinsky image showing various compositions and approaches to his subject with the piano. (I would have easily chosen the last image in the first row as my pick.) I have seen the second image in the second row cropped as indicated, which was also a very strong choice. I adore being able to investigate contact sheets from shoots like this - it helps me to humanize these amazing photographers while simultaneously allowing me an opportunity to learn a little about their thought process and how I might incorporate it into my own photography.
 
 <figure class='big-vid'>
-<img src='Igor_Stravinsky_contact.jpg' alt='Igor Stravinsky contact sheet' width='960' height='694'>
+<img src='Igor Stravinsky contact.jpg' alt='Igor Stravinsky contact sheet' width='960' height='694'>
 </figure>
 
 To close, a quote from his interview with _American Photo_ magazine back in 2000 that will likely remain relevant to photographers for a long time:
@@ -135,9 +135,3 @@ To close, a quote from his interview with _American Photo_ magazine back in 2000
 
 [1]: https://books.google.com/books?id=qWOpWDKpUjgC&pg=PA36#v=onepage&q&f=true
 
-
-<style>
-figure img {
-    max-height: 100vh;
-}
-</style>

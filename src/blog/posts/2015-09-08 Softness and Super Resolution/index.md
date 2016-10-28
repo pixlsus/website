@@ -143,14 +143,14 @@ Sample image, red boxes show 100% crop areas.
 
 Here is a 100% crop of the first area:
 <figure>
-<img src="crop-1-base.jpg" alt-"Superresolution crop #1 example" width="500" height="250" />
+<img src="crop-1-base.jpg" alt="Superresolution crop #1 example" width="500" height="250" />
 <figcaption>
 100% crop of the base image, straight upscale.
 </figcaption>
 </figure>
 
 <figure>
-<img src="crop-1-super.jpg" alt-"Superresolution crop #1 example result" width="500" height="250" />
+<img src="crop-1-super.jpg" alt="Superresolution crop #1 example result" width="500" height="250" />
 <figcaption>
 100% crop, super resolution process result.
 </figcaption>
@@ -158,14 +158,14 @@ Here is a 100% crop of the first area:
 
 The second area crop:
 <figure>
-<img src="crop-2-base.jpg" alt-"Superresolution crop #2 example " width="500" height="250" />
+<img src="crop-2-base.jpg" alt="Superresolution crop #2 example " width="500" height="250" />
 <figcaption>
 100% crop, super resolution process result.
 </figcaption>
 </figure>
 
 <figure>
-<img src="crop-2-super.jpg" alt-"Superresolution crop #2 example result" width="500" height="250" />
+<img src="crop-2-super.jpg" alt="Superresolution crop #2 example result" width="500" height="250" />
 <figcaption>
 100% crop, super resolution process result.
 </figcaption>
