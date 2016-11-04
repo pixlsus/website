@@ -33,7 +33,7 @@ For the example images included with this tutorial, the *focal length* is **12mm
 
 You can download a zip file of all of the sample _Beach Umbrellas_ images here:
 
-[Download **Outdoor_Beach_Umbrella.zip**](bracketed_images/Outdoor_Beach_Umbrella.zip) (62MB)
+[Download **Outdoor_Beach_Umbrella.zip**](Outdoor_Beach_Umbrella.zip) (62MB)
 
 Other sample images to try with this tutorial can be [found at the end of the post](#image-files).
 
@@ -136,7 +136,7 @@ With the output images, you can:
 - Lens: Samyang 12mm F2.0
 
 ### Indoor_Guitars 
-[**Download Indoor_Guitars.zip**](bracketed_images/Indoor_Guitars.zip) (75MB)
+[**Download Indoor_Guitars.zip**](Indoor_Guitars.zip) (75MB)
 
 - 5 brackets
 - &plusmn;0.3 EV increments
@@ -148,7 +148,7 @@ With the output images, you can:
 - shot in burst mode, handheld
 
 ### Outdoor_Beach_Umbrella
-[**Download Outdoor_Beach_Umbrella.zip**](bracketed_images/Outdoor_Beach_Umbrella.zip) (62MB)
+[**Download Outdoor_Beach_Umbrella.zip**](Outdoor_Beach_Umbrella.zip) (62MB)
 
 - 3 brackets
 - &plusmn;1 EV increments
@@ -160,7 +160,7 @@ With the output images, you can:
 - shot in burst mode, handheld
 
 ### Outdoor_Sunset_Over_Ocean
-[**Download Outdoor_Sunset_Over_Ocean.zip**](bracketed_images/Outdoor_Sunset_Over_Ocean.zip) (60MB)
+[**Download Outdoor_Sunset_Over_Ocean.zip**](Outdoor_Sunset_Over_Ocean.zip) (60MB)
 
 - 3 brackets
 - &plusmn;1 EV increments
