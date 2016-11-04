@@ -3,16 +3,13 @@ date: 2016-09-01
 title: "Aligning Images with Hugin"
 sub-title: "Easily process your bracketed exposures"
 
-lede-img: ""
-lede-attribution:
+lede-img: "hugin_lede.jpg"
+lede-attribution: "Beach Umbrellas by <a href='https://discuss.pixls.us/users/isaac/activity'>@isaac</a>"
 
-author: "" #required
-author-img: ""
-author-url: ""
-author-twitter: ""
-author-gplus: ""
-author-fb: ""
-author-bio: ""
+author: Mica
+author-url: 'https://silentumbrella.com'
+author-img: '/blog/2016/09/from-the-community-vol-1/paperdigits-author-avatar.png'
+author-bio: 'Editor of many, many things.'
 type: "article"
 collection: tutorial
 tags:
@@ -35,15 +32,16 @@ For the example images included with this tutorial, the *focal length* is **12mm
 
 These instructions were adapted from the [original forum post](https://discuss.pixls.us/t/only-a-small-testimony/2130/5) by [@Carmelo_DrRaw](https://discuss.pixls.us/users/Carmelo_DrRaw/activity); many thanks to him as well.
 
+We're going to align these bracked exposures so we can blend them:
+
+  <figure class="big-vid">
+    <a href="side-by-side-example.jpg">
+      <img src="side-by-side-example.jpg">
+    </a>
+  </figure>
+
 1. Select **Interface** → **Expert** to set the  interface to **Expert** mode. This will expose all of the options offered by Hugin.
 1. Select the **Add images...** button to load your bracketed images. Select your images from the file chooser dialog and click **Open**.
-1. Set the *Stack Size* by highlighting all the images, right click and select **Stack** → **Set stack size**. The size of the stack is the number of shots in your bracket. In this case, it is **3**.
-
-	<figure class="big-vid">
-      <a href="set_stack_size_hugin.png">
-        <img src="set_stack_size_hugin.png">
-      </a>
-    </figure>
 1. Set the optimal setting for aligning images:
   - Feature Matching Settings: Align image stack
   - Optimize Geometric: Custom parameters
@@ -61,6 +59,15 @@ These instructions were adapted from the [original forum post](https://discuss.p
       <img src="roll_x_y_hugin.png">
     </a>
   </figure>
+
+  Note that you do not need to select the parameters for the anchor image:
+
+  <figure class="big-vid">
+    <a href="anchor_image_hugin.png">
+      <img src="anchor_image_hugin.png">
+    </a>
+  </figure>
+
 1. Select **Optimize now!** and wait for the software to finish the calculations. Select **Yes** to apply the changes.
 1. Select the **Stitcher** tab.
 1. Select the **Calculate Field of View** button.
@@ -85,6 +92,14 @@ Hugin will output the following images:
 - a tif file blended by enfuse/enblend
 - an HDR image in the EXR format
 - the individual images after remapping and without any exposure correction that you can import into the GIMP as layers and blend manually.
+
+You can see the result of the image blended with enblend/enfuse:
+
+  <figure class="big-vid">
+    <a href="beach_umbrella_fused.jpg">
+      <img src="beach_umbrella_fused.jpg">
+    </a>
+  </figure>
 
 With the output images, you can:
 - edit the enfuse/enblend tif file further in the GIMP or RawTherapee
