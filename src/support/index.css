@@ -162,3 +162,7 @@ img.donate {
     display: inline;
     margin: 0 0 -0.75rem;
 }
+
+.row.donate {
+    margin-bottom: 2rem;
+}

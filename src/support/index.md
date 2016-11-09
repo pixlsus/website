@@ -46,6 +46,8 @@ layout: page.hbt
                 excessive and really helps the community. 
                 If just 30 people choose this funding level we can cover
                 all of our hosting costs each month!
+                Before you hit that link just remember that you really don't
+                <em>need</em> to, but the community will love you if you do! <i class="fa fa-heart" aria-hidden="true"></i>
             </p>
         </div>
         <div class='column half'>
