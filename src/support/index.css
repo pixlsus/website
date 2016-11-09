@@ -156,3 +156,9 @@ img.natural {
 .left-align {
     text-align: left;
 }
+
+img.donate {
+    width: initial;
+    display: inline;
+    margin: 0 0 -0.75rem;
+}

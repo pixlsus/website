@@ -35,16 +35,23 @@ layout: page.hbt
 </section>
 
 
-<div class='row clearfix'>
+<div class='row clearfix donate'>
     <div class='container'>
         <div class='column half'>
-            <h2>$1 per month</h2>
+            <a href='https://paypal.com' title='$1/mo Support!'>
+                <img src='/images/sponsor/1-mo.png' alt='$1/mo support graphic' class='donate'>
+            </a>
             <p class='left-align'>
-                First area.
+                This is a great funding level that hopefully won't be too
+                excessive and really helps the community. 
+                If just 30 people choose this funding level we can cover
+                all of our hosting costs each month!
             </p>
         </div>
         <div class='column half'>
-            <h2>$3 per month</h2>
+            <a href='https://paypal.com' title='$1/mo Support!'>
+                <img src='/images/sponsor/3-mo.png' alt='$1/mo support graphic' class='donate'>
+            </a>
             <p class='left-align'>
                 On the right side?  This would be $3.
             </p>
@@ -52,16 +59,20 @@ layout: page.hbt
     </div>
 </div>
 
-<div class='row clearfix' >
+<div class='row clearfix donate' >
     <div class='container'>
         <div class='column half'>
-            <h2>$5 per month</h2>
+            <a href='https://paypal.com' title='$1/mo Support!'>
+                <img src='/images/sponsor/5-mo.png' alt='$1/mo support graphic' class='donate'>
+            </a>
             <p class='left-align'>
                 First area.
             </p>
         </div>
         <div class='column half'>
-            <h2>$10 per month</h2>
+            <a href='https://paypal.com' title='$1/mo Support!'>
+                <img src='/images/sponsor/10-mo.png' alt='$1/mo support graphic' class='donate'>
+            </a>
             <p class='left-align'>
                 On the right side?  This would be $10.
             </p>
