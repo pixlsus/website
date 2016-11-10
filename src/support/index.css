@@ -166,3 +166,29 @@ img.donate {
 .row.donate {
     margin-bottom: 2rem;
 }
+
+.donate form {
+    margin-bottom: -0.75rem;
+    font-size: 0.8rem;
+}
+
+.donate form table {
+    margin: 0;
+}
+
+.donate-btn td {
+    padding: 0;
+}
+
+.donate-btn td input[name='submit'] {
+    margin-bottom: -0.4rem;
+}
+
+.attrib-desc {
+    font-size: 0.6rem;
+}
+
+.attrib-value input {
+    font-size: 0.7rem;
+    width: 168px;
+}
