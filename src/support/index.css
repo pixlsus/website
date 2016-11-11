@@ -192,3 +192,67 @@ img.donate {
     font-size: 0.7rem;
     width: 168px;
 }
+
+
+/*
+ *
+ * Cindy version
+ * 
+ */
+.cindy .row.clearfix {
+    margin-bottom: 1.5rem;
+}
+
+.cindy .column.half {
+    padding: 0.5rem 0.5rem 0;
+}
+
+.cindy .column.half div {
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: right;
+}
+
+.cindy .column.half div h2 {
+    text-align: left;
+}
+
+.cindy .column.half div:hover h2 {
+    color: #497bad;
+}
+
+.cindy .column.half div:hover p {
+    color: #666;
+}
+
+.cindy .column.half div p {
+    font-size: 0.85rem;
+    line-height: 1.35;
+}
+
+.cindy input[name='os0'] {
+    width: 100%;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.cindy input[type='submit']  {
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.9rem;
+}
+.cindy .column.half div:hover input[type='submit']  {
+    color: white;
+    background-color: #497bad;
+}
+
+.column.half ul {
+    margin-left: 0;
+    color: #777;
+    font-size: 0.9rem;
+}
