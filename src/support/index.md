@@ -34,11 +34,46 @@ layout: page.hbt
     </div>
 </section>
 
-<style>
-.column.full > form {
-    display: inline-block;
-}
-</style>
+<section>
+<div class='row clearfix'>
+    <div class='container'>
+        <div class="column half" style="padding-top: 0.5rem;">
+        <div style="background-color: whitesmoke; padding: 1rem; border-radius: 20px;">
+                <h2>Support $1 <span style="color: #777; font-size: 1.1rem;">per month</span></h2>
+                <p class="left-align" style=" font-size: 0.9rem;">
+                    This is a great funding level that hopefully won’t be too
+                    excessive and really helps the community. 
+                    If just 30 people choose this funding level we can cover
+                    all of our hosting costs each month!
+                    Before you hit that link just remember that you really don’t
+                    This is a great funding level that hopefully won’t be too
+                    excessive and really helps the community. 
+                    If just 30 people choose this funding level we can cover
+                    all of our hosting costs each month!
+                    Before you hit that link just remember that you really don’t
+                    <em>need</em> to, but the community will love you if you do! <i class="fa fa-heart" aria-hidden="true"></i>
+                </p>
+            </div>
+        </div>
+        <div class="column half" style="padding-top: 0.5rem;">
+        <div style="background-color: whitesmoke; padding: 1rem; border-radius: 20px;">
+                <h2>Support $3 <span style="color: #777; font-size: 1.1rem;">per month</span></h2>
+                <p class="left-align" style=" font-size: 0.9rem;">
+                    This is a great funding level that hopefully won’t be too
+                    excessive and really helps the community. 
+                    If just 30 people choose this funding level we can cover
+                    all of our hosting costs each month!
+                    Before you hit that link just remember that you really don’t
+                    <em>need</em> to, but the community will love you if you do! <i class="fa fa-heart" aria-hidden="true"></i>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</section>
+
 <section>
     <div class='row clearfix'>
         <div class='container'>

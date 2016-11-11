@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="1205.4983"
-     inkscape:cy="288.28109"
+     inkscape:cx="1075.9441"
+     inkscape:cy="-121.4018"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -389,6 +389,41 @@
            x="1212.6537"
            id="tspan5820"
            sodipodi:role="line">0</tspan></text>
+    </g>
+    <g
+       inkscape:export-ydpi="22.709999"
+       inkscape:export-xdpi="22.709999"
+       inkscape:export-filename="F:\Personal\github\pixlsus\website\src\images\sponsor\one-time.png"
+       inkscape:label="10-mo"
+       id="g5051"
+       transform="translate(0,293.7989)">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#323232;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         d="m 1000.141,1192.1834 688.5131,0 0,242.7989 -688.5131,0 z"
+         id="path5053" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:116.00466919px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="1062.7124"
+         y="1409.7889"
+         id="text5063"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5065"
+           x="1062.7124"
+           y="1409.7889">SPONSOR</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5067"
+         y="1295.0137"
+         x="1068.9532"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100.48609924px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="1295.0137"
+           x="1068.9532"
+           id="tspan5069"
+           sodipodi:role="line">ONE-TIME</tspan></text>
     </g>
   </g>
   <g
