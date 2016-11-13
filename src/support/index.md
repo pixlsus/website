@@ -141,7 +141,7 @@ layout: page.hbt
                 <h2>One-Time <span style="color: #777; font-size: 1.1rem;">Support</span></h2>
                 <p class="left-align" >
                     This is for those opportunities where you might have a little 
-                    funding that you're willing to support us with and don't want to
+                    something that you're willing to support us with and don't want to
                     fool with recurring subscriptions. Thank you <em>so much</em>
                     for helping us out!
                 </p>
