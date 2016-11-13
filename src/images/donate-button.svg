@@ -25,17 +25,56 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="319.3789"
-     inkscape:cy="289.0088"
+     inkscape:zoom="0.5"
+     inkscape:cx="1075.9441"
+     inkscape:cy="-121.4018"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1142"
-     inkscape:window-x="-4"
-     inkscape:window-y="-4"
-     inkscape:window-maximized="1" />
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     inkscape:object-nodes="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true">
+    <sodipodi:guide
+       position="1030.2131,650.76285"
+       orientation="0,1"
+       id="guide5708" />
+    <sodipodi:guide
+       position="1030.2131,650.76285"
+       orientation="1,0"
+       id="guide5714" />
+    <sodipodi:guide
+       position="1030.2133,464.70804"
+       orientation="0,1"
+       id="guide5718" />
+    <sodipodi:guide
+       position="1301.809,462.9561"
+       orientation="1,0"
+       id="guide5734" />
+    <sodipodi:guide
+       position="1658.5859,462.9561"
+       orientation="1,0"
+       id="guide5736" />
+    <sodipodi:guide
+       position="1158.7683,650.73403"
+       orientation="1,0"
+       id="guide5822" />
+    <sodipodi:guide
+       position="1144.7683,-168.22119"
+       orientation="1,0"
+       id="guide5900" />
+    <sodipodi:guide
+       position="2243.8374,681.634"
+       orientation="1,0"
+       id="guide6020" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -44,7 +83,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -116,5 +155,325 @@
          x="122.44951"
          y="830.50281"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:124.52124786px;line-height:125%;font-family:'Caviar Dreams';-inkscape-font-specification:'Caviar Dreams, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#404040;fill-opacity:1;stroke-width:3.779;stroke-miterlimit:4;stroke-dasharray:none">DONATE</tspan></text>
+    <g
+       id="1-mo"
+       inkscape:label="1-mo"
+       inkscape:export-filename="F:\Personal\github\pixlsus\website\src\images\sponsor\1-mo.png"
+       inkscape:export-xdpi="22.709999"
+       inkscape:export-ydpi="22.709999">
+      <path
+         style="fill:#ffffff;stroke:#323232;stroke-width:5;stroke-linecap:square;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         d="m 1000.141,373.22822 688.5131,0 0,242.79881 -688.5131,0 z"
+         id="path5444" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5502"
+         y="587.62708"
+         x="1134.9851"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:244.33978271px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="587.62708"
+           x="1134.9851"
+           id="tspan5504"
+           sodipodi:role="line">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:215.82206726px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4b4b4b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+         x="1014.4667"
+         y="567.94031"
+         id="text5616"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5618"
+           x="1014.4667"
+           y="567.94031">$</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:110.91059875px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="1296.3934"
+         y="587.72729"
+         id="text5620"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5622"
+           x="1296.3934"
+           y="587.72729">month</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5624"
+         y="494.74722"
+         x="1299.8726"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:67.22293854px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="494.74722"
+           x="1299.8726"
+           id="tspan5626"
+           sodipodi:role="line">per</tspan></text>
+    </g>
+    <g
+       id="3-mo"
+       inkscape:label="3-mo"
+       inkscape:export-filename="F:\Personal\github\pixlsus\website\src\images\sponsor\3-mo.png"
+       inkscape:export-xdpi="22.709999"
+       inkscape:export-ydpi="22.709999">
+      <path
+         id="path5738"
+         d="m 1000.141,639.41181 688.5131,0 0,242.79881 -688.5131,0 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;fill-opacity:1;stroke:#323232;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:244.33978271px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="1139.8767"
+         y="853.81067"
+         id="text5740"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5742"
+           x="1139.8767"
+           y="853.81067">3</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5744"
+         y="834.1239"
+         x="1014.4667"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:215.82206726px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4b4b4b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+         xml:space="preserve"><tspan
+           y="834.1239"
+           x="1014.4667"
+           id="tspan5746"
+           sodipodi:role="line">$</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5748"
+         y="853.91089"
+         x="1296.3934"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:110.91059875px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="853.91089"
+           x="1296.3934"
+           id="tspan5750"
+           sodipodi:role="line">month</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:67.22293854px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="1299.8726"
+         y="760.93079"
+         id="text5752"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5754"
+           x="1299.8726"
+           y="760.93079">per</tspan></text>
+    </g>
+    <g
+       id="5-mo"
+       inkscape:label="5-mo"
+       inkscape:export-filename="F:\Personal\github\pixlsus\website\src\images\sponsor\5-mo.png"
+       inkscape:export-xdpi="22.709999"
+       inkscape:export-ydpi="22.709999">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#323232;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         d="m 1000.141,915.18345 688.5131,0 0,242.79885 -688.5131,0 z"
+         id="path5756" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5758"
+         y="1129.5823"
+         x="1135.9396"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:244.33978271px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="1129.5823"
+           x="1135.9396"
+           id="tspan5760"
+           sodipodi:role="line">5</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:215.82206726px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4b4b4b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+         x="1014.4667"
+         y="1109.8955"
+         id="text5762"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5764"
+           x="1014.4667"
+           y="1109.8955">$</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:110.91059875px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="1296.3934"
+         y="1129.6825"
+         id="text5766"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5768"
+           x="1296.3934"
+           y="1129.6825">month</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5770"
+         y="1036.7024"
+         x="1299.8726"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:67.22293854px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="1036.7024"
+           x="1299.8726"
+           id="tspan5772"
+           sodipodi:role="line">per</tspan></text>
+    </g>
+    <g
+       id="10-mo"
+       inkscape:label="10-mo"
+       inkscape:export-filename="F:\Personal\github\pixlsus\website\src\images\sponsor\10-mo.png"
+       inkscape:export-xdpi="22.709999"
+       inkscape:export-ydpi="22.709999">
+      <path
+         id="path5800"
+         d="m 1000.141,1192.1834 688.5131,0 0,242.7989 -688.5131,0 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;fill-opacity:1;stroke:#323232;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:244.33978271px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="1134.9851"
+         y="1406.5823"
+         id="text5802"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5804"
+           x="1134.9851"
+           y="1406.5823">1</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5806"
+         y="1386.8955"
+         x="1014.4667"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:215.82206726px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4b4b4b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+         xml:space="preserve"><tspan
+           y="1386.8955"
+           x="1014.4667"
+           id="tspan5808"
+           sodipodi:role="line">$</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5810"
+         y="1407.1245"
+         x="1391.7509"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:81.71025085px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="1407.1245"
+           x="1391.7509"
+           id="tspan5812"
+           sodipodi:role="line">month</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:67.22293854px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="1393.804"
+         y="1335.7024"
+         id="text5814"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5816"
+           x="1393.804"
+           y="1335.7024">per</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5818"
+         y="1406.5823"
+         x="1212.6537"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:244.33978271px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="1406.5823"
+           x="1212.6537"
+           id="tspan5820"
+           sodipodi:role="line">0</tspan></text>
+    </g>
+    <g
+       inkscape:export-ydpi="22.709999"
+       inkscape:export-xdpi="22.709999"
+       inkscape:export-filename="F:\Personal\github\pixlsus\website\src\images\sponsor\one-time.png"
+       inkscape:label="10-mo"
+       id="g5051"
+       transform="translate(0,293.7989)">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#323232;stroke-width:5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         d="m 1000.141,1192.1834 688.5131,0 0,242.7989 -688.5131,0 z"
+         id="path5053" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:116.00466919px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#323232;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="1062.7124"
+         y="1409.7889"
+         id="text5063"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5065"
+           x="1062.7124"
+           y="1409.7889">SPONSOR</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5067"
+         y="1295.0137"
+         x="1068.9532"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100.48609924px;line-height:125%;font-family:Arvo;-inkscape-font-specification:'Arvo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#646464;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="1295.0137"
+           x="1068.9532"
+           id="tspan5069"
+           sodipodi:role="line">ONE-TIME</tspan></text>
+    </g>
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Spacing"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5712"
+       width="32.572258"
+       height="30.872831"
+       x="997.64093"
+       y="370.72653" />
+    <rect
+       y="587.65417"
+       x="997.64099"
+       height="30.872831"
+       width="32.572258"
+       id="rect5716"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5720"
+       width="32.572258"
+       height="30.872831"
+       x="1126.2523"
+       y="453.10046" />
+    <rect
+       y="556.75427"
+       x="1236.4368"
+       height="30.872831"
+       width="32.572258"
+       id="rect5722"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5724"
+       width="32.572258"
+       height="30.872831"
+       x="1269.009"
+       y="556.75427" />
+    <rect
+       y="556.78137"
+       x="1658.5844"
+       height="30.872831"
+       width="32.572258"
+       id="rect5732"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+  <style
+     id="style5407">.style0{fill:	none;stroke:	#323232;stroke-width:	8.83399391;stroke-linecap:	square;}.style1{font-size:	32.82439423px;line-height:	125%;font-family:	Arvo;-inkscape-font-specification:	Arvo;text-align:	start;letter-spacing:	0px;word-spacing:	0px;writing-mode:	lr-tb;text-anchor:	start;fill:	#323232;}.style2{font-size:	32.82439423px;line-height:	125%;font-family:	Arvo;-inkscape-font-specification:	Arvo;text-align:	start;writing-mode:	lr-tb;text-anchor:	start;}.style3{font-weight:	bold;font-size:	40px;line-height:	125%;font-family:	Arvo;-inkscape-font-specification:	'Arvo Bold';text-align:	start;letter-spacing:	0px;word-spacing:	0px;writing-mode:	lr-tb;text-anchor:	start;fill:	#323232;}.style4{font-size:	40px;line-height:	125%;font-family:	Arvo;-inkscape-font-specification:	Arvo;text-align:	start;writing-mode:	lr-tb;text-anchor:	start;}</style>
 </svg>
