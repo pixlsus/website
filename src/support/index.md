@@ -155,6 +155,21 @@ layout: page.hbt
                 </form>
             </div>
         </div>
+        <div class="column half">
+        <div>
+                <h2>Amazon <span style="color: #777; font-size: 1.1rem;">affiliate link</span></h2>
+                <p class='left-align'>
+                If you were going to purchase something from Amazon, you can
+                help us by using our 
+                <a href='https://www.amazon.com//ref=as_li_ss_tl?ref_=nav_custrec_signin&&linkCode=ll2&tag=pixls.us-20&linkId=418b8960b708accf468db7964fc2d4b5'>Amazon affiliate link</a>.
+                <br/>
+                It doesn't cost you anything, and we get a portion of the sale.
+                </p>
+                <p class='left-align'>
+                http://amzn.to/2eZ1Ik3
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 
