@@ -6,7 +6,7 @@ sub-title: A gorgeous set of film emulation for darktable
 lede-img: portra400_after.jpg
 #lede-img-thumb: th_beck-roses.jpg
 lede-attribution: "<a href='http://www.joaoalmeidaphotography.com/'>João Almeida</a>"
-lede-style: 'background-position: 0 100%;'
+lede-style: 'background-position: 0 0;'
 
 author: Pat David
 author-img: 
