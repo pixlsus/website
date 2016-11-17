@@ -79,7 +79,8 @@ If you see João around the forums stop and say hi (and maybe a thank you). Even
 ### Related Reading
 
 * [color manipulation with the colour checker lut module (darktable)](/blog/2016/06/color-manipulation-with-the-colour-checker-lut-module/)
-* [Pat David's film emulation LUTs](http://gmic.eu/film_emulation/)
+* [Pat David's film emulation LUTs (G'MIC)](http://gmic.eu/film_emulation/)
+* [Common Color Curves (Portra, Provia, Velvia) (RawTherapee)](https://discuss.pixls.us/t/common-color-curves-portra-provia-velvia/2154)
 * [Pascal's colormatch](https://github.com/pmjdebruijn/colormatch)
 
 [joao]: http://www.joaoalmeidaphotography.com/
