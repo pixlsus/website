@@ -16,7 +16,7 @@ collection: blogposts
 layout: blog-posts.hbt
 ---
 
-Photographer [João Almeida][joao] has created a wonderful set of film emulation presets for [darktable][] that he uses in his own workflow for personal and commisioned work. Even more wonderful is that he has graciously [released them for everyone to use][joao-emu].
+I realize that I'm a little late to this, but photographer [João Almeida][joao] has created a wonderful set of film emulation presets for [darktable][] that he uses in his own workflow for personal and commisioned work. Even more wonderful is that he has graciously [released them for everyone to use][joao-emu].
 
 <!-- more -->
 
