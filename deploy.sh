@@ -3,6 +3,7 @@
 echo "Build successful!"
 #echo $TRAVIS_BRANCH
 #echo $TRAVIS_PULL_REQUEST
+#echo $TRAVIS_BUILD_ID
 
 if ([ $TRAVIS_BRANCH == "master" ] && [ $TRAVIS_PULL_REQUEST == "false" ])
 then
@@ -19,7 +20,8 @@ then
     if [ $? -eq 0 ]
     then
         echo "rsync successful."
-        echo "Creating symlinks."
+        echo "todo: mv the dir into place"
+        echo "todo: Creating symlinks."
     else
         echo "rsync failed! :("
     fi
