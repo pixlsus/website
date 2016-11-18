@@ -16,7 +16,7 @@ then
     #eval "$(ssh-agent -s)"
     #ssh-add /tmp/deploy_rsa
     ls -lha
-    rsync --stats -PSauvhe "ssh -i /tmp/pixls_rsa -o StrictHostKeyChecking=no" build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/incoming
+    rsync --stats -PSauvhe "ssh -i /tmp/pixls_rsa -o StrictHostKeyChecking=no" build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/incoming/
     if [ $? -eq 0 ]
     then
         echo "rsync successful."
