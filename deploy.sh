@@ -16,12 +16,12 @@ then
     #eval "$(ssh-agent -s)"
     #ssh-add /tmp/deploy_rsa
     ls -lha
-    rsync -PSauve "ssh -i /tmp/pixls_rsa -o StrictHostKeyChecking=no" build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/
+    rsync -PSauve --stats "ssh -i /tmp/pixls_rsa -o StrictHostKeyChecking=no" build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/
     if [ $? -eq 0 ]
     then
         echo "rsync successful."
         echo "todo: mv the dir into place"
-        echo "todo: Creating symlinks."
+        echo "todo: Creating symlinks. (much later)"
     else
         echo "rsync failed! :("
     fi
