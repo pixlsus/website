@@ -44,6 +44,7 @@ Header set Cache-Control "max-age=14400, must-revalidate"
 </filesMatch>
 
 
+# Testing
 #<IfModule mod_expires.c>
 #	ExpiresActive On
 #	ExpiresByType image/png "access plus 10 seconds"
