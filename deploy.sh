@@ -16,6 +16,13 @@ then
     #ssh-add /tmp/deploy_rsa
     ls -lha
     rsync -PSauve "ssh -i /tmp/pixls_rsa -o StrictHostKeyChecking=no" build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/
+    if [ $? -eq 0 ]
+    then
+        echo "rsync successful."
+        echo "Creating symlinks."
+    else
+        echo "rsync failed! :("
+    fi
 else
     echo "Not publishing (not on master, or is a PR)."
 fi
