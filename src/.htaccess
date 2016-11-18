@@ -1,0 +1,54 @@
+Options -Indexes
+
+AddType image/svg+xml svg svgz
+AddEncoding gzip svgz
+
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .xml
+AddType 'text/xml;charset=UTF-8' xml
+
+
+# Force HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI}
+
+# To re-direct www.pixls.us -> pixls.us
+#RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://pixls.us%{REQUEST_URI} [R=301,L]
+
+#<If "%{HTTP_HOST} != 'pixls.us'">
+#	Redirect "/" "https://pixls.us/"
+#</If>
+
+#<ifModule mod_headers.c>
+#	Header set Connection keep-alive 
+#</ifModule>
+
+#<IfModule mod_deflate.c>
+#AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+#<IfModule>
+
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/svg
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+# 4 HOUR cache (max-age=14400)
+# <filesmatch ".(xml|txt|css)$">
+<filesMatch "topnav.css$">
+Header set Cache-Control "max-age=14400, must-revalidate"
+</filesMatch>
+
+
+#<IfModule mod_expires.c>
+#	ExpiresActive On
+#	ExpiresByType image/png "access plus 10 seconds"
+#</IfModule>
+
+#<IfModule mod_headers.c>
+#	Header always set Strict-Transport-Security "max-age=31536000"
+#</IfModule>
