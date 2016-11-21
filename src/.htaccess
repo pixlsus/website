@@ -3,6 +3,9 @@ Options -Indexes
 AddType image/svg+xml svg svgz
 AddEncoding gzip svgz
 
+# add entity tag
+FileETag MTime Size
+
 AddDefaultCharset UTF-8
 AddCharset UTF-8 .xml
 AddType 'text/xml;charset=UTF-8' xml
