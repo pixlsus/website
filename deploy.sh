@@ -32,7 +32,8 @@ then
 
 	# Get server epoch time into TIMEVAR
 	#TIMEVAR=$(ssh pixlsus@pixls.us 'date +%s')
-	TIMEVAR=$(ssh -i /tmp/pixls_rsa -o StrictHostKeyChecking=no pixlsus@pixls.us 'date +%Y%m%d%H%M')
+	#TIMEVAR=$(ssh -i /tmp/pixls_rsa -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'date +%Y%m%d%H%M')
+	TIMEVAR=$(ssh -o LogLevel=error pixlsus@pixls.us 'date +%Y%m%d%H%M')
 	if [ $? -eq 0 ]
 	then
 		echo "TIMEVAR: $TIMEVAR"
@@ -46,7 +47,7 @@ then
 	echo "NEWDIR: $NEWDIR"
 
 	# Get the current, active directory name
-	CURRDIR=$(ssh pixlsus@pixls.us 'cd ~/pixls-deploy/; find . -mindepth 1 -maxdepth 1 -type d -name pixls* -printf "%P\n"')
+	CURRDIR=$(ssh -o LogLevel=error pixlsus@pixls.us 'cd ~/pixls-deploy/; find . -mindepth 1 -maxdepth 1 -type d -name pixls* -printf "%P\n"')
 	if [ $? -eq 0 ]
 	then
 		echo "CURRDIR: $CURRDIR"
@@ -58,7 +59,7 @@ then
 
 	# Hardlink copy current directory to new directory
 	# (this is the dir we will rsync against/into
-	ssh pixlsus@pixls.us "cd ~/pixls-deploy/; cp -la $CURRDIR $NEWDIR"
+	ssh -o LogLevel=error pixlsus@pixls.us "cd ~/pixls-deploy/; cp -la $CURRDIR $NEWDIR"
 	if [ $? -eq 0 ]
 	then
 		echo "cp -al successful"
@@ -78,7 +79,7 @@ then
 		echo "rsync failed!"
 		# failed, so delete the directory
 		echo "cleaning up $NEWDIR"
-		ssh pixlsus@pixls.us "rm -r /home4/pixlsus/pixls-deploy/$NEWDIR"
+		ssh -o LogLevel=error pixlsus@pixls.us "rm -r /home4/pixlsus/pixls-deploy/$NEWDIR"
 		if [ $? -eq 0 ]
 		then
 			echo "Removed ~/pixls-deploy/$NEWDIR"
@@ -89,7 +90,7 @@ then
 	fi
 
 	# create symlink inside new directory to ~/files
-	ssh pixlsus@pixls.us "ln -s ~/files ~/pixls-deploy/$NEWDIR/files"
+	ssh -o LogLevel=error pixlsus@pixls.us "ln -s ~/files ~/pixls-deploy/$NEWDIR/files"
 	if [ $? -eq 0 ]
 	then
 		echo "ln -s ~/files ~/pixls-deploy/$NEWDIR/files"
@@ -101,7 +102,7 @@ then
 	fi
 
 	# create a temporary symlink to the new directory
-	ssh pixlsus@pixls.us "ln -s ~/pixls-deploy/$NEWDIR ~/public_html-tmp"
+	ssh -o LogLevel=error pixlsus@pixls.us "ln -s ~/pixls-deploy/$NEWDIR ~/public_html-tmp"
 	if [ $? -eq 0 ]
 	then
 		echo "ln -s successful"
@@ -111,7 +112,7 @@ then
 		echo "ln -s failed!"
 		# failed, so delete the directory
 		echo "cleaning up (rm -r $NEWDIR)"
-		ssh pixlsus@pixls.us 'rm -r /home4/pixlsus/pixls-deploy/$NEWDIR'
+		ssh -o LogLevel=error pixlsus@pixls.us 'rm -r /home4/pixlsus/pixls-deploy/$NEWDIR'
 		if [ $? -eq 0 ]
 		then
 			echo "Removed ~/pixls-deploy/$NEWDIR"
@@ -122,7 +123,7 @@ then
 	fi
 
 	# Now move tmp symlink to actual public_html
-	ssh pixlsus@pixls.us "mv -Tf ~/public_html-tmp ~/FAKE_public_html"
+	ssh -o LogLevel=error pixlsus@pixls.us "mv -Tf ~/public_html-tmp ~/FAKE_public_html"
 	if [ $? -eq 0 ]
 	then
 		echo "mv -Tf public_html-tmp FAKE_public_html successful"
@@ -136,8 +137,8 @@ then
 
 
 	# At the end, migrate and move old directories
-	ssh pixlsus@pixls.us rm -r "~/pixls-deploy/previous*"
-	ssh pixlsus@pixls.us mv "~/pixls-deploy/$CURRDIR" "~/pixls-deploy/${CURRDIR//pixls/previous}"
+	ssh -o LogLevel=error pixlsus@pixls.us rm -r "~/pixls-deploy/previous*"
+	ssh -o LogLevel=error pixlsus@pixls.us mv "~/pixls-deploy/$CURRDIR" "~/pixls-deploy/${CURRDIR//pixls/previous}"
 
 
 
