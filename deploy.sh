@@ -59,15 +59,15 @@ then
 	# Hardlink copy current directory to new directory
 	# (this is the dir we will rsync against/into
 
-	# ssh pixlsus@pixls.us "cd ~/pixls-deploy/; cp -la $CURRDIR $NEWDIR"
-	# if [ $? -eq 0 ]
-	# then
-	# 	echo "cp -al successful"
-	# else
-	# 	echo "exit code: $?"
-	# 	echo "cp -al failed!"
-	# 	exit 1
-	# fi
+	ssh pixlsus@pixls.us "cd ~/pixls-deploy/; cp -la $CURRDIR $NEWDIR"
+	if [ $? -eq 0 ]
+	then
+		echo "cp -al successful"
+	else
+		echo "exit code: $?"
+		echo "cp -al failed!"
+		exit 1
+	fi
 
 	# rsync into new directory, pixls-$TIMEVAR/
 	rsync -PSauve ssh --exclude='.DS_Store' build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/$NEWDIR/
