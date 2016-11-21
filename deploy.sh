@@ -76,7 +76,7 @@ then
 	fi
 
 	# rsync into new directory, pixls-$TIMEVAR/
-	rsync -PSauve ssh --exclude='.DS_Store' build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/$NEWDIR/
+	rsync -PSauvhe ssh --exclude='.DS_Store' build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/$NEWDIR/
 	if [ $? -eq 0 ]
 	then
 		echo "rsync successful."
@@ -129,13 +129,13 @@ then
 	fi
 
 	# Now move tmp symlink to actual public_html
-	ssh pixlsus@pixls.us "mv -Tf ~/public_html-tmp ~/FAKE_public_html"
+	ssh pixlsus@pixls.us "mv -Tf ~/public_html-tmp ~/public_html"
 	if [ $? -eq 0 ]
 	then
-		echo "mv -Tf public_html-tmp FAKE_public_html successful"
+		echo "mv -Tf ~/public_html-tmp ~/public_html successful"
 	else
 		echo "exit  code: $?"
-		echo "Failed to mv -Tf public_html FAKE_public_HTML!"
+		echo "Failed to mv -Tf ~/public_html-tmp ~/public_HTML!"
 		# failed, so handle it
 		echo "Check the symlinks and manually replace if needed"
 		exit 1

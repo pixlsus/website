@@ -61,6 +61,17 @@ else
     exit 1
 fi
 
+# create symlink inside new directory to ~/files
+ssh pixlsus@pixls.us "ln -s ~/files ~/pixls-deploy/$NEWDIR/files"
+if [ $? -eq 0 ]
+then
+    echo "ln -s ~/files ~/pixls-deploy/$NEWDIR/files"
+    echo "Created symlink to ~/files"
+else
+    echo "exit code: $?"
+    echo "ln -s for ~/files/ failed!"
+    echo "Check it manually!  Continuing..."
+fi
 
 # create a temporary symlink to the new directory
 ssh pixlsus@pixls.us "ln -s ~/pixls-deploy/$NEWDIR ~/public_html-tmp"
@@ -84,13 +95,13 @@ else
 fi
 
 # Now move tmp symlink to actual public_html
-ssh pixlsus@pixls.us "mv -Tf ~/public_html-tmp ~/FAKE_public_html"
+ssh pixlsus@pixls.us "mv -Tf ~/public_html-tmp ~/public_html"
 if [ $? -eq 0 ]
 then
-    echo "mv -Tf public_html-tmp FAKE_public_html successful"
+    echo "mv -Tf ~/public_html-tmp ~/public_html successful"
 else
     echo "exit  code: $?"
-    echo "Failed to mv -Tf public_html FAKE_public_HTML!"
+    echo "Failed to mv -Tf ~/public_html-tmp ~/public_html!"
     # failed, so handle it
     echo "Check the symlinks and manually replace if needed"
     exit 1
