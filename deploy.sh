@@ -101,7 +101,7 @@ then
 	# create symlink inside new directory to ~/files
 	echo "creating symlink to ~/files/..."
 	echo "NEWDIR: $NEWDIR"
-	ssh pixlsus@pixls.us "ln -s ~/files ~/pixls-deploy/$NEWDIR/files"
+	ssh pixlsus@pixls.us "ln -s ~/files/ ~/pixls-deploy/$NEWDIR/"
 	if [ $? -eq 0 ]
 	then
 		echo "ln -s ~/files ~/pixls-deploy/$NEWDIR/files"
