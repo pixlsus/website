@@ -136,7 +136,7 @@ With the output images, you can:
 - Lens: Samyang 12mm F2.0
 
 ### Indoor_Guitars 
-[**Download Indoor_Guitars.zip**](/articles/aligning-images-with-hugin/Indoor_Guitars.zip) (75MB)
+[**Download Indoor_Guitars.zip**](https://s3.amazonaws.com/pixls-files/Indoor_Guitars.zip) (75MB)
 
 - 5 brackets
 - &plusmn;0.3 EV increments
@@ -148,7 +148,7 @@ With the output images, you can:
 - shot in burst mode, handheld
 
 ### Outdoor_Beach_Umbrella
-[**Download Outdoor_Beach_Umbrella.zip**](/articles/aligning-images-with-hugin/Outdoor_Beach_Umbrella.zip) (62MB)
+[**Download Outdoor_Beach_Umbrella.zip**](https://s3.amazonaws.com/pixls-files/Outdoor_Beach_Umbrella.zip) (62MB)
 
 - 3 brackets
 - &plusmn;1 EV increments
@@ -160,7 +160,7 @@ With the output images, you can:
 - shot in burst mode, handheld
 
 ### Outdoor_Sunset_Over_Ocean
-[**Download Outdoor_Sunset_Over_Ocean.zip**](/articles/aligning-images-with-hugin/Outdoor_Sunset_Over_Ocean.zip) (60MB)
+[**Download Outdoor_Sunset_Over_Ocean.zip**](https://s3.amazonaws.com/pixls-files/Outdoor_Sunset_Over_Ocean.zip) (60MB)
 
 - 3 brackets
 - &plusmn;1 EV increments
