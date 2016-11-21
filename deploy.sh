@@ -58,7 +58,6 @@ then
 
 	# Hardlink copy current directory to new directory
 	# (this is the dir we will rsync against/into
-
 	ssh pixlsus@pixls.us "cd ~/pixls-deploy/; cp -la $CURRDIR $NEWDIR"
 	if [ $? -eq 0 ]
 	then
@@ -89,6 +88,17 @@ then
 		exit 1
 	fi
 
+	# create symlink inside new directory to ~/files
+	ssh pixlsus@pixls.us "ln -s ~/files ~/pixls-deploy/$NEWDIR/files"
+	if [ $? -eq 0 ]
+	then
+		echo "ln -s ~/files ~/pixls-deploy/$NEWDIR/files"
+		echo "Created symlink to ~/files"
+	else
+		echo "exit code: $?"
+		echo "ln -s for ~/files/ failed!"
+		echo "Check it manually!  Continuing..."
+	fi
 
 	# create a temporary symlink to the new directory
 	ssh pixlsus@pixls.us "ln -s ~/pixls-deploy/$NEWDIR ~/public_html-tmp"
