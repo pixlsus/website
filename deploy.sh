@@ -5,6 +5,11 @@ echo "Build successful!"
 #echo $TRAVIS_PULL_REQUEST
 #echo $TRAVIS_BUILD_ID
 
+touch ~/.ssh/config
+echo "Host *" > ~/.ssh/config
+echo "	StrictHostKeyChecking no" >> ~/.ssh/config
+echo "	LogLevel error" >> ~/.ssh/config
+
 if ([ $TRAVIS_BRANCH == "master" ] && [ $TRAVIS_PULL_REQUEST == "false" ])
 then
     echo "Publishing."
@@ -33,7 +38,8 @@ then
 	# Get server epoch time into TIMEVAR
 	#TIMEVAR=$(ssh pixlsus@pixls.us 'date +%s')
 	#TIMEVAR=$(ssh -i /tmp/pixls_rsa -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'date +%Y%m%d%H%M')
-	TIMEVAR=$(ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'date +%Y%m%d%H%M')
+	#TIMEVAR=$(ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'date +%Y%m%d%H%M')
+	TIMEVAR=$(ssh pixlsus@pixls.us 'date +%Y%m%d%H%M')
 	if [ $? -eq 0 ]
 	then
 		echo "TIMEVAR: $TIMEVAR"
