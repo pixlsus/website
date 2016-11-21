@@ -64,7 +64,10 @@ then
 	fi
 
 	# Hardlink copy current directory to new directory
-	# (this is the dir we will rsync against/into
+	# (this is the dir we will rsync against/into)
+	# If you're testing rsync speed vs. copying to an empty
+	# directory, then comment this section out.
+	# rsync below will just sync into an empty dir.
 	ssh pixlsus@pixls.us "cd ~/pixls-deploy/; cp -la $CURRDIR $NEWDIR"
 	if [ $? -eq 0 ]
 	then
@@ -145,7 +148,6 @@ then
 	# At the end, migrate and move old directories
 	ssh pixlsus@pixls.us rm -r "~/pixls-deploy/previous*"
 	ssh pixlsus@pixls.us mv "~/pixls-deploy/$CURRDIR" "~/pixls-deploy/${CURRDIR//pixls/previous}"
-
 
 
 ############################
