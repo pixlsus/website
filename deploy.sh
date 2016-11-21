@@ -32,7 +32,7 @@ then
 
 	# Get server epoch time into TIMEVAR
 	#TIMEVAR=$(ssh pixlsus@pixls.us 'date +%s')
-	TIMEVAR=$(ssh pixlsus@pixls.us 'date +%Y%m%d%H%M')
+	TIMEVAR=$(ssh -i /tmp/pixls_rsa -o StrictHostKeyChecking=no pixlsus@pixls.us 'date +%Y%m%d%H%M')
 	if [ $? -eq 0 ]
 	then
 		echo "TIMEVAR: $TIMEVAR"
