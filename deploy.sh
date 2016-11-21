@@ -13,8 +13,8 @@ then
         -in pixls_rsa.enc  \
         -out /tmp/pixls_rsa -d
     chmod 600 /tmp/pixls_rsa
-    #eval "$(ssh-agent -s)"
-    #ssh-add /tmp/deploy_rsa
+    eval "$(ssh-agent -s)"
+    ssh-add /tmp/deploy_rsa
 #    ls -lha
 #    rsync --stats -PSauvhe "ssh -i /tmp/pixls_rsa -o StrictHostKeyChecking=no" build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/incoming/
 #    if [ $? -eq 0 ]
