@@ -8,4 +8,4 @@ branches:
 
 after_success:
   - chmod +x deploy.sh
-  - time './deploy.sh'
+  - './deploy.sh'
