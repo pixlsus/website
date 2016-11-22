@@ -594,8 +594,8 @@ Remember that this is an inherently *destructive* process and should be used as 
 
 You can download the sample *Mairi* and *Nikki* GIMP .XCF files used to create the examples above here:
 
-* [Mairi](Mairi-Example.xcf.bz2) <sup>[**34.4MB**]</sup>
-* [Nikki](Nikki-Example.xcf.bz2) <sup>[**7.7MB**]</sup>
+* [Mairi](https://s3.amazonaws.com/pixls-files/Mairi-Example.xcf.bz2) <sup>[**34.4MB**]</sup>
+* [Nikki](https://s3.amazonaws.com/pixls-files/Nikki-Example.xcf.bz2) <sup>[**7.7MB**]</sup>
 
 These are compressed GIMP .xcf files (hence the .xcf.bz2 file extensions).
 They should open directly in GIMP (created in 2.8.14) without problem.
