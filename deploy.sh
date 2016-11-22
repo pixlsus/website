@@ -63,7 +63,7 @@ then
 	fi
 
 	# rsync into new directory, pixls-$TIMEVAR/
-	rsync -PSauvhe ssh -o StrictHostKeyChecking=no -o LogLevel=error build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/$NEWDIR/
+	rsync -PSauvhe "ssh -o StrictHostKeyChecking=no -o LogLevel=error" build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/$NEWDIR/
 	if [ $? -eq 0 ]
 	then
 		echo "rsync successful."
