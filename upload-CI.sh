@@ -37,8 +37,7 @@ then
     echo "cp -al successful"
 else
     echo "exit code: $?"
-    echo "cp -al failed!"
-    exit 1
+    echo "cp -al failed! ... Continuing"
 fi
 
 # rsync into new directory, pixls-$TIMEVAR/

@@ -5,11 +5,6 @@ echo "Build successful!"
 #echo $TRAVIS_PULL_REQUEST
 #echo $TRAVIS_BUILD_ID
 
-#touch ~/.ssh/config
-#echo "Writing ~/.ssh/config options"
-#echo "Host *" > ~/.ssh/config
-#echo "	StrictHostKeyChecking no" >> ~/.ssh/config
-#echo "	LogLevel error" >> ~/.ssh/config
 
 if ([ $TRAVIS_BRANCH == "master" ] && [ $TRAVIS_PULL_REQUEST == "false" ])
 then
@@ -21,17 +16,6 @@ then
     chmod 600 /tmp/pixls_rsa
     eval "$(ssh-agent -s)"
     ssh-add /tmp/pixls_rsa
-#    ls -lha
-#    rsync --stats -PSauvhe "ssh -i /tmp/pixls_rsa -o StrictHostKeyChecking=no" build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/incoming/
-#    if [ $? -eq 0 ]
-#    then
-#        echo "rsync successful."
-#        echo "todo: mv the dir into place"
-#        echo "todo: Creating symlinks. (much later)"
-#    else
-#        echo "rsync failed! :("
-#    fi
-############################
 
 	# This file is pure insanity.
 	# I apologize in advance if you're trying to do something with it.
@@ -39,7 +23,6 @@ then
 	# Get server epoch time into TIMEVAR
 	#TIMEVAR=$(ssh pixlsus@pixls.us 'date +%s')
 	#TIMEVAR=$(ssh -i /tmp/pixls_rsa -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'date +%Y%m%d%H%M')
-	#TIMEVAR=$(ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'date +%Y%m%d%H%M')
 	TIMEVAR=$(ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'date +%Y%m%d%H%M')
 	if [ $? -eq 0 ]
 	then
@@ -75,8 +58,8 @@ then
 		echo "cp -la $CURRDIR $NEWDIR ... success."
 	else
 		echo "exit code: $?"
-		echo "cp -al failed!"
-		exit 1
+		echo "cp -la $CURRDIR $NEWDIR ... failed!"
+		echo "Continuing...  (rsync will just xfer w/o deltas)"
 	fi
 
 	# rsync into new directory, pixls-$TIMEVAR/
