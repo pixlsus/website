@@ -6,6 +6,7 @@ echo "Build successful!"
 #echo $TRAVIS_BUILD_ID
 
 touch ~/.ssh/config
+echo "Writing ~/.ssh/config options"
 echo "Host *" > ~/.ssh/config
 echo "	StrictHostKeyChecking no" >> ~/.ssh/config
 echo "	LogLevel error" >> ~/.ssh/config
@@ -71,7 +72,7 @@ then
 	ssh pixlsus@pixls.us "cd ~/pixls-deploy/; cp -la $CURRDIR $NEWDIR"
 	if [ $? -eq 0 ]
 	then
-		echo "cp -al successful"
+		echo "cp -la $CURRDIR $NEWDIR ... success."
 	else
 		echo "exit code: $?"
 		echo "cp -al failed!"
@@ -79,7 +80,7 @@ then
 	fi
 
 	# rsync into new directory, pixls-$TIMEVAR/
-	rsync -PSauvhe ssh --exclude='.DS_Store' build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/$NEWDIR/
+	rsync -PSauvhe ssh build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/$NEWDIR/
 	if [ $? -eq 0 ]
 	then
 		echo "rsync successful."
@@ -99,24 +100,19 @@ then
 	fi
 
 	# create symlink inside new directory to ~/files
-	echo "creating symlink to ~/files/..."
-	echo "NEWDIR: $NEWDIR"
 	ssh pixlsus@pixls.us "ln -s ~/files/ ~/pixls-deploy/$NEWDIR/"
 	if [ $? -eq 0 ]
 	then
 		echo "ln -s ~/files ~/pixls-deploy/$NEWDIR/files"
-		echo "Created symlink to ~/files"
 	else
-		echo "exit code: $?"
-		echo "ln -s for ~/files/ failed!"
-		echo "Check it manually!  Continuing..."
+		echo "ln -s for ~/files/ failed! (Did it already exist from cp -la earlier?)"
 	fi
 
 	# create a temporary symlink to the new directory
 	ssh pixlsus@pixls.us "ln -s ~/pixls-deploy/$NEWDIR ~/public_html-tmp"
 	if [ $? -eq 0 ]
 	then
-		echo "ln -s successful"
+		echo "ln -s ~/pixls-deploy/$NEWDIR ~/public_html-tmp"
 		echo "created ~/public_html-tmp -> ~/pixls-deploy/$NEWDIR"
 	else
 		echo "exit  code: $?"
@@ -148,6 +144,7 @@ then
 
 
 	# At the end, migrate and move old directories
+	echo "Rotating previous directories"
 	ssh pixlsus@pixls.us rm -r "~/pixls-deploy/previous*"
 	ssh pixlsus@pixls.us mv "~/pixls-deploy/$CURRDIR" "~/pixls-deploy/${CURRDIR//pixls/previous}"
 
