@@ -5,11 +5,11 @@ echo "Build successful!"
 #echo $TRAVIS_PULL_REQUEST
 #echo $TRAVIS_BUILD_ID
 
-touch ~/.ssh/config
-echo "Writing ~/.ssh/config options"
-echo "Host *" > ~/.ssh/config
-echo "	StrictHostKeyChecking no" >> ~/.ssh/config
-echo "	LogLevel error" >> ~/.ssh/config
+#touch ~/.ssh/config
+#echo "Writing ~/.ssh/config options"
+#echo "Host *" > ~/.ssh/config
+#echo "	StrictHostKeyChecking no" >> ~/.ssh/config
+#echo "	LogLevel error" >> ~/.ssh/config
 
 if ([ $TRAVIS_BRANCH == "master" ] && [ $TRAVIS_PULL_REQUEST == "false" ])
 then
@@ -40,7 +40,7 @@ then
 	#TIMEVAR=$(ssh pixlsus@pixls.us 'date +%s')
 	#TIMEVAR=$(ssh -i /tmp/pixls_rsa -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'date +%Y%m%d%H%M')
 	#TIMEVAR=$(ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'date +%Y%m%d%H%M')
-	TIMEVAR=$(ssh pixlsus@pixls.us 'date +%Y%m%d%H%M')
+	TIMEVAR=$(ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'date +%Y%m%d%H%M')
 	if [ $? -eq 0 ]
 	then
 		echo "TIMEVAR: $TIMEVAR"
@@ -54,7 +54,7 @@ then
 	echo "NEWDIR: $NEWDIR"
 
 	# Get the current, active directory name
-	CURRDIR=$(ssh pixlsus@pixls.us 'cd ~/pixls-deploy/; find . -mindepth 1 -maxdepth 1 -type d -name pixls* -printf "%P\n"')
+	CURRDIR=$(ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'cd ~/pixls-deploy/; find . -mindepth 1 -maxdepth 1 -type d -name pixls* -printf "%P\n"')
 	if [ $? -eq 0 ]
 	then
 		echo "CURRDIR: $CURRDIR"
@@ -69,7 +69,7 @@ then
 	# If you're testing rsync speed vs. copying to an empty
 	# directory, then comment this section out.
 	# rsync below will just sync into an empty dir.
-	ssh pixlsus@pixls.us "cd ~/pixls-deploy/; cp -la $CURRDIR $NEWDIR"
+	ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us "cd ~/pixls-deploy/; cp -la $CURRDIR $NEWDIR"
 	if [ $? -eq 0 ]
 	then
 		echo "cp -la $CURRDIR $NEWDIR ... success."
@@ -80,7 +80,7 @@ then
 	fi
 
 	# rsync into new directory, pixls-$TIMEVAR/
-	rsync -PSauvhe ssh build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/$NEWDIR/
+	rsync -PSauvhe ssh -o StrictHostKeyChecking=no -o LogLevel=error build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/$NEWDIR/
 	if [ $? -eq 0 ]
 	then
 		echo "rsync successful."
@@ -89,7 +89,7 @@ then
 		echo "rsync failed!"
 		# failed, so delete the directory
 		echo "cleaning up $NEWDIR"
-		ssh pixlsus@pixls.us "rm -r /home4/pixlsus/pixls-deploy/$NEWDIR"
+		ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us "rm -r /home4/pixlsus/pixls-deploy/$NEWDIR"
 		if [ $? -eq 0 ]
 		then
 			echo "Removed ~/pixls-deploy/$NEWDIR"
@@ -100,7 +100,7 @@ then
 	fi
 
 	# create symlink inside new directory to ~/files
-	ssh pixlsus@pixls.us "ln -s ~/files/ ~/pixls-deploy/$NEWDIR/"
+	ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us "ln -s ~/files/ ~/pixls-deploy/$NEWDIR/"
 	if [ $? -eq 0 ]
 	then
 		echo "ln -s ~/files ~/pixls-deploy/$NEWDIR/files"
@@ -109,7 +109,7 @@ then
 	fi
 
 	# create a temporary symlink to the new directory
-	ssh pixlsus@pixls.us "ln -s ~/pixls-deploy/$NEWDIR ~/public_html-tmp"
+	ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us "ln -s ~/pixls-deploy/$NEWDIR ~/public_html-tmp"
 	if [ $? -eq 0 ]
 	then
 		echo "ln -s ~/pixls-deploy/$NEWDIR ~/public_html-tmp"
@@ -119,7 +119,7 @@ then
 		echo "ln -s failed!"
 		# failed, so delete the directory
 		echo "cleaning up (rm -r $NEWDIR)"
-		ssh pixlsus@pixls.us 'rm -r /home4/pixlsus/pixls-deploy/$NEWDIR'
+		ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'rm -r /home4/pixlsus/pixls-deploy/$NEWDIR'
 		if [ $? -eq 0 ]
 		then
 			echo "Removed ~/pixls-deploy/$NEWDIR"
@@ -130,7 +130,7 @@ then
 	fi
 
 	# Now move tmp symlink to actual public_html
-	ssh pixlsus@pixls.us "mv -Tf ~/public_html-tmp ~/public_html"
+	ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us "mv -Tf ~/public_html-tmp ~/public_html"
 	if [ $? -eq 0 ]
 	then
 		echo "mv -Tf ~/public_html-tmp ~/public_html successful"
@@ -145,8 +145,8 @@ then
 
 	# At the end, migrate and move old directories
 	echo "Rotating previous directories"
-	ssh pixlsus@pixls.us rm -r "~/pixls-deploy/previous*"
-	ssh pixlsus@pixls.us mv "~/pixls-deploy/$CURRDIR" "~/pixls-deploy/${CURRDIR//pixls/previous}"
+	ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us rm -r "~/pixls-deploy/previous*"
+	ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us mv "~/pixls-deploy/$CURRDIR" "~/pixls-deploy/${CURRDIR//pixls/previous}"
 
 
 ############################
