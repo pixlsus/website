@@ -6,6 +6,8 @@ node_js:
 #  only:
 #    - master
 
+# Adding npm/node_modules
+# and our build/ dir to cache
 cache:
     directories:
         - node_modules
