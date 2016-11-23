@@ -6,6 +6,10 @@ node_js:
 #  only:
 #    - master
 
+cache:
+    directories:
+        - node_modules
+
 after_success:
   - chmod +x deploy.sh
   - './deploy.sh'
