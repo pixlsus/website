@@ -2,9 +2,9 @@ language: node_js
 node_js:
   - "node" 
 
-branches:
-  only:
-    - master
+#branches:
+#  only:
+#    - master
 
 after_success:
   - chmod +x deploy.sh
