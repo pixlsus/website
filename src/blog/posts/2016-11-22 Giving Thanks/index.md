@@ -70,7 +70,9 @@ There is also a one-time contribution option as well.
 
 We also have an [Amazon Affiliate][] link option.  If you're not familiar with it, you simply click the link to go to Amazon.com.  Then anything you buy for the next 24 hours will give us some small percentage of your purchase price.  It doesn't affect the price of what you're buying at all. So if you were going to purchase something from Amazon anyway, and don't mind - then by all means use our link first to help out!
 
+
 * * *
+
 
 ## 1000 Users
 This week we also finally hit 1,000 users registered on [discuss][]! Which is just bananas to me.  I am super thankful for each and every member of the community that has taken the time to participate, share, and generally make one of the better parts of my day catching up on what's been going on.  You all rock!
@@ -79,9 +81,17 @@ This week we also finally hit 1,000 users registered on [discuss][]! Which is ju
 <iframe width="560" height="315" src="https://www.youtube.com/embed/StTqXEQ2l-Y" frameborder="0" allowfullscreen></iframe>
 </div>
 
-### Mica
+While we're talking about a number "1" with bunch of zeros after it, we recently made some neat improvements to the forums...
+
+
+## Amazon S3 Uploads
+We are a photography community and it seemed stupid to have to restrict users from uploading full quality images or raw files.  Previously it was a concern because the server the forums are hosted on have limited disk space (40GB).  Luckily, [Discourse][] has an option for storing all uploads to the forum on [Amazon S3][] buckets.
+
+
 
 ## Travis CI Automation
+
+## Mica
 
 [Thanksgiving]:https://en.wikipedia.org/wiki/Thanksgiving_(United_States) 
 [g+]: https://plus.google.com/+DimitriosPsychogios
@@ -90,3 +100,5 @@ This week we also finally hit 1,000 users registered on [discuss][]! Which is ju
 [midi]: https://discuss.pixls.us/t/midi-controller-for-darktable/2582
 [discuss]: https://discuss.pixls.us
 [Amazon Affiliate]: https://www.amazon.com//ref=as_li_ss_tl?ref_=nav_custrec_signin&&linkCode=ll2&tag=pixls.us-20&linkId=418b8960b708accf468db7964fc2d4b5 "Go to Amazon.com using our affiliate link"
+[Discourse]: http://www.discourse.org/
+[Amazon S3]: https://aws.amazon.com/s3/ 
