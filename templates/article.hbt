@@ -4,8 +4,11 @@
     <meta charset="utf-8">
 	<title>PIXLS.US - {{#if title}} {{ title }} {{/if}}</title>
 
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@pixlsus">
     {{#if title}}
         <meta itemprop="name" content="{{title}}" />
+        <meta name="twitter:title" content="{{title}}">
         <meta property="og:title" content="{{title}}" />
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="PIXLS.US" />
@@ -22,6 +25,21 @@
     {{#if lede-img}}
         <meta itemprop="image" content="https://pixls.us/{{this.path}}/{{lede-img}}" />
         <meta property="og:image" content="https://pixls.us/{{this.path}}/{{lede-img}}" />
+        <meta name="twitter:image" content="https://pixls.us/{{this.path}}/{{lede-img}}">
+        {{ else }}
+        <meta itemprop="image" content="https://pixls.us/images/pixls-background.jpg">
+        <meta property="og:image" content="https://pixls.us/images/pixls-background.jpg">
+        <meta name="twitter:image" content="https://pixls.us/images/pixls-background.jpg">
+    {{/if}}
+    {{#if snippet}}
+        <meta itemprop="description" content="{{snippet}}">
+        <meta property="og:description" content="{{snippet}}">
+        <meta name="twitter:description" content="{{snippet}}">
+    {{/if}}
+    {{#if author-twitter}}
+        <meta name="twitter:creator" content="{{author-twitter}}">
+        {{else}}
+        <meta name="twitter:creator" content="@patdavid">
     {{/if}}
 
     <link href="https://pixls.us/feed.xml" rel="alternate" type="application/rss+xml" title="Pixls.us Feed" />

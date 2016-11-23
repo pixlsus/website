@@ -4,6 +4,13 @@
 	<meta charset="utf-8">
 	<title itemprop='name'>PIXLS.US{{#if title}} - {{ title }} {{/if}}</title>
 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@pixlsus">
+    <meta name="twitter:title" content="PIXLS.US - Free/Open Source Photography ">
+    <meta name="twitter:image" content="https://pixls.us/images/pixls-background.jpg">
+    <meta name="twitter:description" content="To provide tutorials, workflows and a showcase for high-quality photography using Free/Open Source Software.">
+    <meta name="twitter:creator" content="@patdavid">
+
     <link href="https://pixls.us/feed.xml" rel="alternate" type="application/rss+xml" title="Pixls.us Blog Feed" />
     <link rel="canonical" href="https://pixls.us" itemprop="url">
 		
