@@ -10,7 +10,7 @@ lede-style: ""
 author: '@McCap'
 author-url: 'https://discuss.pixls.us/users/mccap/activity'
 author-img: 'https://discuss.pixls.us/user_avatar/discuss.pixls.us/mccap/180/3395_1.png'
-author-bio: '<i class="fa fa-globe"></i> <a href="https://www.flickr.com/photos/147159025@N07/">Flickr</a>'
+author-bio: '<i class="fa fa-globe"></i> <a href="https://www.flickr.com/photos/147159025@N07/">Flickr</a><br>Hobby photographer with a momentary maniacal tendency to learn postprocessing.'
 type: "article"
 collection: tutorial
 tags:
@@ -163,13 +163,16 @@ We will be applying all the following steps to this picture, taken in Akihabara,
 
  <span class='Cmd'>Layer → New from Visible</span>
 
-13. Raise the shadows using the tone curve again.
+13. Raise and slightly crush the shadows using the tone curve.
 
  <figure>
        <img src='Curves_raiseshadows.png' alt='Raise the shadow curve' width='372' height='526'>
  </figure>
 
-14. Optional: Adjust saturation to taste. I didn't use this step on this picture but on some it may be worth trying. If there are predominantly white lights and the colors come mainly from other objects, the residual will be washed out.
+14. Optional: Adjust saturation to taste. If there are predominantly white lights and the
+colors come mainly from other objects, the residual will be washed out, as is
+the case with this picture. In this case I liked the desaturated look. But feel
+free to bring all the color back.
 
 The final result:
 
@@ -181,3 +184,20 @@ The final result:
     </figcaption>
 </figure>
 
+
+## Addendum
+If you wanted to get get even more aggressive with the color you can split-tone while crushing and lifting the shadows in step 13.
+
+<figure>
+<img src='Curves_lift+aggressive.png' alt='GIMP Curves Lift Shadows Aggressive Toning' width='372' height='526'>
+</figure>
+
+This can lead to a much stronger final effect with more saturation and a heavy complementary split toning:
+
+<figure class="big-vid">
+    <img src="Akihabara_aggressive.jpg" alt="The final image!" width="960" height="590" data-swap-src="Akihabara_base.jpg">
+    <figcaption>
+    A more aggressive color treatment.<br>
+    (Click to compare to original.)
+    </figcaption>
+</figure>
