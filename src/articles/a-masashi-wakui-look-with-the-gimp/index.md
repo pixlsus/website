@@ -115,7 +115,7 @@ We will be applying all the following steps to this picture, taken in Akihabara,
      </a>
  </figure>
 
-6. Apply the _wavelet decompose_ filter to the "blended" layer and choose 8 as number of detail scales.  Set the G'MIC _output_ mode to "New layer(s)" (see below).
+6. Apply the _wavelet decompose_ filter to the "blended" layer and choose 9 as number of detail scales.  Set the G'MIC _output_ mode to "New layer(s)" (see below).
 
  <span class='Cmd'>Filters → G'MIC<br>
  Details → Split Details [wavelets]</span>
@@ -143,7 +143,7 @@ We will be applying all the following steps to this picture, taken in Akihabara,
      </a>
  </figure>
 
-9. Turn on the __blended [scale #7]__ layer, set the mode to _grain&nbsp;merge_, and see how the lights start shining. Adjust opacity to taste.
+9. Turn on the __blended [scale #8]__ layer, set the mode to _grain&nbsp;merge_, and see how the lights start shining. Adjust opacity to taste.
 
  <figure class="big-vid">
      <a href="Akihabara_scale_8.jpg">
@@ -171,33 +171,17 @@ We will be applying all the following steps to this picture, taken in Akihabara,
 
 14. Optional: Adjust saturation to taste. If there are predominantly white lights and the
 colors come mainly from other objects, the residual will be washed out, as is
-the case with this picture. In this case I liked the desaturated look. But feel
-free to bring all the color back.
+the case with this picture. 
+
+ I noticed that the reds and yellows were very dominant compared to greens and blues.  So using the **Hue-Saturation** dialog I raised the master saturation by _+70_ and lowered the yellow saturation by _-50_ and lowered the red saturation by _-40_ all using an overlap of _60_.
 
 The final result:
 
 <figure class="big-vid">
-      <img src="Akihabara_raisedshadows_sm.jpg" alt="The final image!" width="960" height="590" data-swap-src="Akihabara_base.jpg">
+      <img src="Akihabara_final_sm.jpg" alt="The final image!" width="960" height="590" data-swap-src="Akihabara_base.jpg">
     <figcaption>
     The final result.  (Click to compare to original.)<br>
-    <a href="Akihabara_raisedshadows.jpg">Download the full size result.</a>
+    <a href="Akihabara_final.jpg">Download the full size result.</a>
     </figcaption>
 </figure>
 
-
-## Addendum
-If you wanted to get get even more aggressive with the color you can split-tone while crushing and lifting the shadows in step 13.
-
-<figure>
-<img src='Curves_lift+aggressive.png' alt='GIMP Curves Lift Shadows Aggressive Toning' width='372' height='526'>
-</figure>
-
-This can lead to a much stronger final effect with more saturation and a heavy complementary split toning:
-
-<figure class="big-vid">
-    <img src="Akihabara_aggressive.jpg" alt="The final image!" width="960" height="590" data-swap-src="Akihabara_base.jpg">
-    <figcaption>
-    A more aggressive color treatment.<br>
-    (Click to compare to original.)
-    </figcaption>
-</figure>
