@@ -20,6 +20,8 @@ Yes, there really is art outside photography. :)
 
 The history and evolution of painting has undergone a similar transformation as most things adapting to a digital age. As photographers, we adapted techniques and tools commonly used in the darkroom to software, and found new ways to extend what was possible to help us achieve a vision.  Just as we tried to adapt skills to a new environment, so too did traditional artists, like painters. 
 
+<!-- more -->
+
 <figure>
 <img src='patdavid-by-deveze.jpg' alt='Pat David Painting by Gustavo Deveze'/>
 <figcaption>
@@ -30,9 +32,7 @@ The history and evolution of painting has undergone a similar transformation as 
 [deveze-web]: http://www.deveze.com.ar/ "Gustavo Deveze's website"
 [My headshot]: https://pixls.us/images/Pat-David-Headshot-Crop-2048-Q60.jpg "Pat David's Headshot"
 
-Not only emulating the results of various techniques, but pushing forward the boundaries of what is possible by leveraging these new tools.  These new _Free Software_ tools.
-
-<!-- more -->
+These artists adapted by not only emulating the results of various techniques, but by pushing forward the boundaries of what was possible through these new (_Free Software_) tools.
 
 
 ## Impetus
@@ -41,12 +41,11 @@ Digital painting discussions with Free Software lacks a good outlet for collabor
 
 Due to this, both [Americo Gobbo][] and [Elle Stone][] reached out to us to see if we could create a new category in the community about Digital Painting with a focus on promoting serious discussion around techniques, processes, and associated tools.
 
-Both of them have been working hard on advancing the capabilities and quality of various Free Software tools for years now, and they bring with them the interest of many other painters who want to help accelerate the growth and adoption of Free Software projects for painting (and more). A little background about them:
+Both of them have been working hard on advancing the capabilities and quality of various Free Software tools for years now.  Americo brings with him the interest of other painters who want to help accelerate the growth and adoption of Free Software projects for painting (and more) in a high-quality and professional capacity. A little background about them:
 
 **[Americo Gobbo][]** studied Fine Arts in Bologna, Italy. Today he lives and works in Brazil, where he continues to develop studies and create experimentation with painting and drawing mainly within the digital medium in which he tries to replicate the traditional effects and techniques from the real world to the virtual.
 
-**[Elle Stone][]** is an amateur photographer with a long-standing interest in the history of photography and print making, and in combining painting and photography. She's been contributing to GIMP development since 2012, mostly in the areas of color management and proper color mixing and
-blending.
+**[Elle Stone][]** is an amateur photographer with a long-standing interest in the history of photography and print making, and in combining painting and photography. She's been contributing to GIMP development since 2012, mostly in the areas of color management and proper color mixing and blending.
 
 [Americo Gobbo]: http://americogobbo.com.br
 [Elle Stone]: http://ninedegreesbelow.com/ 
@@ -94,4 +93,4 @@ The new Digital Painting category is for discussing painting techniques, process
 
 * Combining painting and photography: Long before digital image editing artists already used photographs as aids to and part of making paintings and illustrations, and photographers incorporated painting techniques into their photographic processing and printmaking.
 
-* An important goal is also to encourage artists to submit tutorials and videos on using free software for painting, and also to submit high quality finished works made with these software.
+* An important goal is also to encourage artists to submit tutorials and videos about Digital Painting with Free Software and to also submit high-quality finished works.
