@@ -23,7 +23,7 @@ The history and evolution of painting has undergone a similar transformation as 
 <!-- more -->
 
 <figure>
-<img src='patdavid-by-deveze.jpg' alt='Pat David Painting by Gustavo Deveze'/>
+<img src='patdavid-by-deveze.jpg' alt='Pat David Painting by Gustavo Deveze' width='400' height='470'>
 <figcaption>
 [My headshot][], as painted by [Gustavo Deveze][deveze-web]
 </figcaption>
@@ -46,7 +46,7 @@ Both of them have been working hard on advancing the capabilities and quality of
 **[Americo Gobbo][]** studied Fine Arts in Bologna, Italy. Today he lives and works in Brazil, where he continues to develop studies and create experimentation with painting and drawing mainly within the digital medium in which he tries to replicate the traditional effects and techniques from the real world to the virtual.
 
 <figure>
-<img src='Imaginary Landscape - Americo Gobbo.png' alt='Imaginary Landscape Painting by Americo Gobbo'>
+<img src='Imaginary Landscape - Americo Gobbo.png' alt='Imaginary Landscape Painting by Americo Gobbo' width='610' height='377'>
 <figcaption>
 Imaginary Landscape - Wet sketches, experiments on GIMP 2.9.+ <br>
 [Americo Gobbo][], 2016. 
@@ -56,7 +56,7 @@ Imaginary Landscape - Wet sketches, experiments on GIMP 2.9.+ <br>
 **[Elle Stone][]** is an amateur photographer with a long-standing interest in the history of photography and print making, and in combining painting and photography. She's been contributing to GIMP development since 2012, mostly in the areas of color management and proper color mixing and blending.
 
 <figure>
-<img src='Leaves in May - Elle Stone.jpg' alt='Leaves in May Image by Elle Stone'>
+<img src='Leaves in May - Elle Stone.jpg' alt='Leaves in May Image by Elle Stone' width='480' height='626'>
 <figcaption>
 Leaves in May, GIMP-2.9 (GIMP-CCE)<br> 
 [Elle Stone][], 2016.
@@ -88,13 +88,13 @@ Website: http://www.deveze.com.ar
  * Facebook: https://www.facebook.com/gustavo.deveze
 
 <figure>
-<img src='https://lh3.googleusercontent.com/qv3Sxhr3FO15Y__MqARw8t3Dc_08YTtNTMYhFtx0xjkEU6u1myCqTGvkg7y7NDhSem_Mf-M6LQ=w640' title="Cudgels and Bootlickers: The Emperor's happiness - Gustavo Deveze" alt="Cudgels and Bootlickers: The Emperor's happiness - Gustavo Deveze">
+<img src="The Emperor's happiness.jpg" title="Cudgels and Bootlickers: The Emperor's happiness - Gustavo Deveze" alt="Cudgels and Bootlickers: The Emperor's happiness - Gustavo Deveze" width='640' height='640'>
 <figcaption>Cudgels and Bootlickers: The Emperor's happiness - [Gustavo Deveze][deveze-web].
 </figcaption>
 </figure>
 
 <figure>
-<img src='https://lh3.googleusercontent.com/l8XTknAbMt634SDuvGJwpYiZLIda5YH4kHfuT6jHMT5g7_5GGPDF8Ga8HfEEfoSwFc6i877XLA=w640'  title="Let's be clear: the village's idiot is not tall... - Gustavo Deveze" alt="Let's be clear: the village's idiot is not tall... - Gustavo Deveze">
+<img src="Let's be clear.jpg"  title="Let's be clear: the village's idiot is not tall... - Gustavo Deveze" alt="Let's be clear: the village's idiot is not tall... - Gustavo Deveze" width='640' height='640'>
 <figcaption>Let's be clear: the village's idiot is not tall... - [Gustavo Deveze][deveze-web].
 </figcaption>
 </figure>
