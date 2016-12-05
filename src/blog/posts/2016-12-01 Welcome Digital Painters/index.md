@@ -88,13 +88,13 @@ Website: http://www.deveze.com.ar
  * Facebook: https://www.facebook.com/gustavo.deveze
 
 <figure>
-<img src="The Emperor's happiness.jpg" title="Cudgels and Bootlickers: The Emperor's happiness - Gustavo Deveze" alt="Cudgels and Bootlickers: The Emperor's happiness - Gustavo Deveze" width='640' height='640'>
+<img src="The Emperors happiness.jpg" title="Cudgels and Bootlickers: The Emperor's happiness - Gustavo Deveze" alt="Cudgels and Bootlickers: The Emperor's happiness - Gustavo Deveze" width='640' height='640'>
 <figcaption>Cudgels and Bootlickers: The Emperor's happiness - [Gustavo Deveze][deveze-web].
 </figcaption>
 </figure>
 
 <figure>
-<img src="Let's be clear.jpg"  title="Let's be clear: the village's idiot is not tall... - Gustavo Deveze" alt="Let's be clear: the village's idiot is not tall... - Gustavo Deveze" width='640' height='640'>
+<img src="Lets be clear.jpg"  title="Let's be clear: the village's idiot is not tall... - Gustavo Deveze" alt="Let's be clear: the village's idiot is not tall... - Gustavo Deveze" width='640' height='640'>
 <figcaption>Let's be clear: the village's idiot is not tall... - [Gustavo Deveze][deveze-web].
 </figcaption>
 </figure>
