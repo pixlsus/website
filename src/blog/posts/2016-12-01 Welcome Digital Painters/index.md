@@ -3,9 +3,9 @@ date: 2016-12-01T08:38:20-06:00
 title: Welcome Digital Painters
 sub-title: You mean there's art outside photography?
 
-lede-img: Thanksgiving-Brownscombe-1123.jpg
-lede-img-thumb: th_Thanksgiving-Brownscombe-1123.jpg
-lede-attribution: ""
+lede-img: lede_Fisherman.jpg
+lede-img-thumb: th_lede_Fisherman.jpg
+lede-attribution: "Fisherman by <a href='http://www.deveze.com.ar/'>Gustavo Deveze</a>, 2016"
 lede-style: ''
 
 author: Pat David
@@ -45,7 +45,23 @@ Both of them have been working hard on advancing the capabilities and quality of
 
 **[Americo Gobbo][]** studied Fine Arts in Bologna, Italy. Today he lives and works in Brazil, where he continues to develop studies and create experimentation with painting and drawing mainly within the digital medium in which he tries to replicate the traditional effects and techniques from the real world to the virtual.
 
+<figure>
+<img src='Imaginary Landscape - Americo Gobbo.png' alt='Imaginary Landscape Painting by Americo Gobbo'>
+<figcaption>
+Imaginary Landscape - Wet sketches, experiments on GIMP 2.9.+ <br>
+[Americo Gobbo][], 2016. 
+</figcaption>
+</figure>
+
 **[Elle Stone][]** is an amateur photographer with a long-standing interest in the history of photography and print making, and in combining painting and photography. She's been contributing to GIMP development since 2012, mostly in the areas of color management and proper color mixing and blending.
+
+<figure>
+<img src='Leaves in May - Elle Stone.jpg' alt='Leaves in May Image by Elle Stone'>
+<figcaption>
+Leaves in May, GIMP-2.9 (GIMP-CCE)<br> 
+[Elle Stone][], 2016.
+</figcaption>
+</figure>
 
 [Americo Gobbo]: http://americogobbo.com.br
 [Elle Stone]: http://ninedegreesbelow.com/ 
@@ -55,28 +71,33 @@ Both of them have been working hard on advancing the capabilities and quality of
 
 ## Artists
 
-There are some amazing artists in the community that are producing wonderful works. Let's meet a few!
+With this introductory post to the new Digital painting category forum we feature Gustavo Deveze, who is a Visual Artist using free software. Deveze's work is characterized by mixing different medias and techniques. With future posts we want to continue featuring artists using free software.
 
-[Examples of digital painters who are interested.  Name/bio + artwork to showcase a hello!]
-[I am preparing the examples of interested artists > Name/bio + artwork showcase]
 
 ### Gustavo Deveze
-A short bio/introduction.
+
+Gustavo Deveze is a visual artist and lives in Buenos Aires. He trained as a draftsman at the National School of Fine Arts "Manuel Belgrano", and filmmaker at [IDAC - Instituto de Arte Cinematográfica](http://idac.edu.ar/) in Avellaneda, Argentina.
+
+His works utilize different materials and supports and he is published by different publishers. Although in the last years he works mainly in digital format and with free software.
+He has participated in national and international shows and exhibitions of graphics and cinema with many awards. His last exposition can be seen on issuu.com:
+https://issuu.com/gustavodeveze/docs/inadecuado2edicion
+
+Website: http://www.deveze.com.ar
+ * Blog: http://jeneverito.blogspot.com.ar/
+ * Google+: https://plus.google.com/107589083968107443043
+ * Facebook: https://www.facebook.com/gustavo.deveze
 
 <figure>
-<img src='https://lh3.googleusercontent.com/qv3Sxhr3FO15Y__MqARw8t3Dc_08YTtNTMYhFtx0xjkEU6u1myCqTGvkg7y7NDhSem_Mf-M6LQ=w640' alt='Sample Image'>
-<figcaption>
-Cudgels and Bootlickers: The Emperor's happiness
+<img src='https://lh3.googleusercontent.com/qv3Sxhr3FO15Y__MqARw8t3Dc_08YTtNTMYhFtx0xjkEU6u1myCqTGvkg7y7NDhSem_Mf-M6LQ=w640' title="Cudgels and Bootlickers: The Emperor's happiness - Gustavo Deveze" alt="Cudgels and Bootlickers: The Emperor's happiness - Gustavo Deveze">
+<figcaption>Cudgels and Bootlickers: The Emperor's happiness - [Gustavo Deveze][deveze-web].
 </figcaption>
 </figure>
 
 <figure>
-<img src='https://lh3.googleusercontent.com/l8XTknAbMt634SDuvGJwpYiZLIda5YH4kHfuT6jHMT5g7_5GGPDF8Ga8HfEEfoSwFc6i877XLA=w640' alt='Sample Image'>
-<figcaption>
-Let's be clear: the village's idiot is not tall..
+<img src='https://lh3.googleusercontent.com/l8XTknAbMt634SDuvGJwpYiZLIda5YH4kHfuT6jHMT5g7_5GGPDF8Ga8HfEEfoSwFc6i877XLA=w640'  title="Let's be clear: the village's idiot is not tall... - Gustavo Deveze" alt="Let's be clear: the village's idiot is not tall... - Gustavo Deveze">
+<figcaption>Let's be clear: the village's idiot is not tall... - [Gustavo Deveze][deveze-web].
 </figcaption>
 </figure>
-
 
 
 ## Digital Painting Category
@@ -94,3 +115,11 @@ The new Digital Painting category is for discussing painting techniques, process
 * Combining painting and photography: Long before digital image editing artists already used photographs as aids to and part of making paintings and illustrations, and photographers incorporated painting techniques into their photographic processing and printmaking.
 
 * An important goal is also to encourage artists to submit tutorials and videos about Digital Painting with Free Software and to also submit high-quality finished works.
+
+
+## Say Hello!
+Please feel free to stop into the new [Digital Painting category][dp-forum], introduce yourself, and say hello! I look forward to seeing what our fellow artists are up to.
+
+<small>All images not otherwise specified are licensed [CC-BY-NC-SA][]</small>
+[CC-BY-NC-SA]: https://creativecommons.org/licenses/by-nc-sa/4.0/ 
+[dp-forum]: https://discuss.pixls.us/c/digital-painting
