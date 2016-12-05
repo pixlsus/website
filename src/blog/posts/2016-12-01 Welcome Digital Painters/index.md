@@ -1,5 +1,5 @@
 ---
-date: 2016-12-01T08:38:20-06:00 
+date: 2016-12-05T15:50:29-06:00 
 title: Welcome Digital Painters
 sub-title: You mean there's art outside photography?
 
