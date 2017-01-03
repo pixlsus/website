@@ -11,12 +11,12 @@ author-img: ""
 author-url: "http://blog.patdavid.net"
 author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.  I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.  Sometimes they meet."
 type: "article"
-collection: tutorial 
+collection: tutorial
 tags:
     - B&W
     - conversion
     - GIMP
-stylesheet: index.css
+stylesheet: digital-b-w-conversion-gimp
 layout: article.hbt
 ---
 

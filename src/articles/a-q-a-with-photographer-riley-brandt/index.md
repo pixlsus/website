@@ -21,14 +21,14 @@ tags:
     - darktable
     - GIMP
 
-stylesheet: index.css
+stylesheet: qa-riley-brandt
 layout: article.hbt
 #nodiscuss: true
 ---
 
 
 [Riley Brandt] is a full-time photographer (*and sometimes videographer*) at the [University of Calgary].
-He previously worked for the weekly (Calgary) local magazine [Fast Forward Weekly (FFWD)] as well as [Sophia Models International], 
+He previously worked for the weekly (Calgary) local magazine [Fast Forward Weekly (FFWD)] as well as [Sophia Models International],
 and his work has been published in many places from the *Wall Street Journal* to *Der Spiegel* (and [more](http://www.rileybrandt.com/about/)).
 
 <figure>
