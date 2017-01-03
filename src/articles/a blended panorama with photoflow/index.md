@@ -17,7 +17,7 @@ tags:
     - Hugin
     - Panorama
     - Technique
-stylesheet: index.css
+stylesheet: blended-panorama-photoflow
 layout: article.hbt
 #nodiscuss: true
 ---

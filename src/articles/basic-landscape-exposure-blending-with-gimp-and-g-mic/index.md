@@ -23,7 +23,7 @@ tags:
     - G'MIC
     - Technique
 
-stylesheet: index.css
+stylesheet: basic-landcape-exposure-blending
 layout: article.hbt
 
 #nodiscuss: true

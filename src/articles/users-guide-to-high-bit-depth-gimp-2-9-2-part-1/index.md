@@ -26,7 +26,7 @@ tags:
     - high-bit-depth
     - color-management
 
-stylesheet: index.css
+stylesheet: gimp-high-bit-depth-part-1
 layout: article.hbt
 #nodiscuss: true
 ---
