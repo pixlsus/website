@@ -26,13 +26,13 @@ tags:
     - high-bit-depth
     - color-management
 
-stylesheet: index.css
+stylesheet: gimp-high-bit-depth-part-2
 layout: article.hbt
 #nodiscuss: true
 ---
 
 <p class='aside'>
-This is Part 2 of a two-part guide to high bit depth editing in GIMP 2.9.2 with Elle Stone.  
+This is Part 2 of a two-part guide to high bit depth editing in GIMP 2.9.2 with Elle Stone.
 The first part of this article can be found here: [*Part 1*](/articles/users-guide-to-high-bit-depth-gimp-2-9-2-part-1/).
 </p>
 

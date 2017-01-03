@@ -21,7 +21,7 @@ tags:
     - tutorial
     - curves
 
-stylesheet: index.css
+stylesheet: basic-color-curves
 layout: article.hbt
 #nodiscuss: true
 ---

@@ -19,7 +19,7 @@ tags:
     - Retouching
     - Skin
     - Technique
-stylesheet: index.css
+stylesheet: skin-retouching-wavelet-decompose
 layout: article.hbt
 ---
 

@@ -22,12 +22,12 @@ tags:
     - details
     - local-contrast
 
-stylesheet: index.css
+stylesheet: freaky-details
 layout: article.hbt
 #nodiscuss: true
 ---
 
-German photographer/digital artist/photoshop trainer [Calvin Hollywood](http://www.calvinhollywood-blog.com) has a rather unique style to his photography. It's a sort of edgy, gritty, hyper-realistic result, almost a blend between illustration and photography.  
+German photographer/digital artist/photoshop trainer [Calvin Hollywood](http://www.calvinhollywood-blog.com) has a rather unique style to his photography. It's a sort of edgy, gritty, hyper-realistic result, almost a blend between illustration and photography.
 
 <figure>
 <a href="http://www.calvinhollywood-blog.com/portfolio/">
