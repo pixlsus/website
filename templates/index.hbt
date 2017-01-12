@@ -6,19 +6,48 @@
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@pixlsus">
-    <meta name="twitter:title" content="PIXLS.US - Free/Open Source Photography ">
-    <meta name="twitter:image" content="https://pixls.us/images/pixls-background.jpg">
-    <meta name="twitter:description" content="To provide tutorials, workflows and a showcase for high-quality photography using Free/Open Source Software.">
-    <meta name="twitter:creator" content="@patdavid">
 
-    <link href="https://pixls.us/feed.xml" rel="alternate" type="application/rss+xml" title="Pixls.us Blog Feed" />
+		<meta itemprop="name" content="PIXLS.US - Free/Open Source Photography " />
+    <meta name="twitter:title" content="PIXLS.US - Free/Open Source Photography ">
+    <meta property="og:title" content="PIXLS.US - Free/Open Source Photography " />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="PIXLS.US" />
+		<meta itemprop="headline" content="PIXLS.US - Free/Open Source Photography " />
+
+		{{#if author}}
+      <meta itemprop="author" content="{{ author }}" />
+			<meta property="og:author" content="{{ author }}" />
+    {{/if}}
+    {{#if date}}
+      <meta itemprop="datePublished" content="{{ date }}" />
+			<meta property="og:published_time" content="{{ date }}" />
+    {{/if}}
+
+    <meta itemprop="image" content="https://pixls.us/images/pixls-background.jpg">
+    <meta property="og:image" content="https://pixls.us/images/pixls-background.jpg">
+    <meta name="twitter:image" content="https://pixls.us/images/pixls-background.jpg">
+
+    <meta itemprop="description" content="To provide tutorials, workflows and a showcase for high-quality photography using Free/Open Source Software.">
+    <meta property="og:description" content="To provide tutorials, workflows and a showcase for high-quality photography using Free/Open Source Software.">
+    <meta name="twitter:description" content="To provide tutorials, workflows and a showcase for high-quality photography using Free/Open Source Software.">
+
+    {{#if author-twitter}}
+        <meta name="twitter:creator" content="{{author-twitter}}">
+        {{else}}
+        <meta name="twitter:creator" content="@patdavid">
+    {{/if}}
+
+
     <link rel="canonical" href="https://pixls.us" itemprop="url">
-		
+    <meta property="og:url" content="https://pixls.us" />
+    <meta property="url" content="https://pixls.us" />
+
+		<link href="https://pixls.us/feed.xml" rel="alternate" type="application/rss+xml" title="Pixls.us Blog Feed" />
     <!--
-	<link rel="stylesheet" href="/styles/normalize.css">
-	<link rel="stylesheet" href="/styles/grid.css">
+		<link rel="stylesheet" href="/styles/normalize.css">
+		<link rel="stylesheet" href="/styles/grid.css">
     -->
-    
+
     <link rel="stylesheet" href="/styles/style.css">
 
     <link rel="stylesheet" href="/styles/article.css">
@@ -30,7 +59,7 @@
     <link rel="stylesheet" href="/styles/article-list.css">
 
     <link rel="stylesheet" href="./index.css">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{! Google Analytics Code Snippet }}
@@ -55,7 +84,7 @@
 
                 <div class="lede-attr">
                     <a href='https://www.flickr.com/photos/80225884@N06/24571570113/'>
-                        Moonlit Mountains</a> by <a href="https://29a.ch/">Jonas Wagner</a> 
+                        Moonlit Mountains</a> by <a href="https://29a.ch/">Jonas Wagner</a>
                     <a class="cc" href="https://creativecommons.org/licenses/by-nc-sa/2.0/">ban</a></div>
 
             </section>
