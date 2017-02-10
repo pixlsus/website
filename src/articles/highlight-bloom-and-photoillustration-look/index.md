@@ -22,7 +22,7 @@ tags:
     - details
     - local-contrast
 
-stylesheet: index.css
+stylesheet: highlight-and-bloom-photoillustration
 layout: article.hbt
 #nodiscuss: true
 ---

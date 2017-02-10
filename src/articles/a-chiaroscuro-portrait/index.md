@@ -22,7 +22,7 @@ tags:
     - Skin
     - Technique
     - Chiaroscuro
-stylesheet: index.css
+stylesheet: a-chiaroscuro-portrait
 layout: article.hbt
 #nodiscuss: true
 ---

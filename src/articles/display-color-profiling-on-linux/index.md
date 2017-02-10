@@ -21,7 +21,7 @@ collection: tutorial
 tags:
     - color management
 
-stylesheet: index.css
+stylesheet: color-profiling
 layout: article.hbt
 
 ---
