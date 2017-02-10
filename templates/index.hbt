@@ -58,7 +58,7 @@
 
     <link rel="stylesheet" href="/styles/article-list.css">
 
-    <link rel="stylesheet" href="./index.css">
+    <!-- <link rel="stylesheet" href="./index.css"> -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -71,7 +71,7 @@
         {{>topnav}}
         {{>push-menu}}
 
-        <div id="pushPage">
+        <div id="pushPage" class="main-index">
 
             <section id="lede">
                 <div class="container">
