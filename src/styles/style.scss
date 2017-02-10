@@ -242,7 +242,7 @@ figcaption {
         display: table-cell;
         vertical-align: middle;
     }
-    
+
     .navlink {
         background-color: #ddd;
         height: 60px;
@@ -584,7 +584,7 @@ h6:hover a.header-link {
 
 
 
-/* 
+/*
 ==========
 topnav.css
 ==========
@@ -613,11 +613,11 @@ topnav.css
 }
 
 #navlogo {
-    font-size:2.1em; 
-    font-family: arvo; 
+    font-size:2.1em;
+    font-family: arvo;
     /*
-    position: relative; 
-    top: -11px; 
+    position: relative;
+    top: -11px;
     */
     line-height: 1em;
     color: rgb(50,50,50);
@@ -834,3 +834,7 @@ body {
 }
 
 
+@import 'index';
+@import 'about';
+@import 'software-page';
+@import 'support';

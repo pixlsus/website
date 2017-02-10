@@ -3,6 +3,7 @@ date: 2014-09-09T10:01:49-0500
 title: "About"
 author: Pat David
 layout: page.hbt
+stylesheet: about
 ---
 
 <section class="row clearfix" style="border-top: 1px solid #eee;">
