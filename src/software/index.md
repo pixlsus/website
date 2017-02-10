@@ -370,6 +370,14 @@ layout: page.hbt
 			</p>
         </div>
 
+		<div class="sw-entry phatch">
+            <a href="http://photobatch.wikidot.com/">Phatch</a>
+            <i class="fa fa-nix-win-osx"></i>
+			<p>
+				Phatch is an user friendly, cross-platform Photo Batch Processor and Exif Renamer with a nice graphical user interface.
+			</p>
+        </div>
+
         <div class="sw-entry exiv2">
             <a href="http://www.exiv2.org/">Exiv2</a>
             <i class="fa fa-nix-win-osx"></i>
