@@ -18,7 +18,7 @@ tags:
     - GIMP
     - Layer Modes
     - Color
-stylesheet: index.css
+stylesheet: color-bloom-urban-landscapes
 layout: article.hbt
 #nodiscuss: true
 ---
