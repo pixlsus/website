@@ -73,7 +73,7 @@
       "label": "Article - Freaky",
       "url": "http://localhost:8080/articles/freaky-details-calvin-hollywood/",
       "hideSelectors": [
-        "#discourse-comments"
+        "#discourse-comments", ".fluid-vid", ".big-vid"
       ],
       "removeSelectors": [],
       "selectors": [
@@ -88,7 +88,7 @@
       "label": "Article - Chiaroscuro",
       "url": "http://localhost:8080/articles/a-chiaroscuro-portrait/",
       "hideSelectors": [
-        "#discourse-comments"
+        "#discourse-comments", ".fluid-vid", ".big-vid"
       ],
       "removeSelectors": [],
       "selectors": [
@@ -103,7 +103,7 @@
       "label": "Blog - Blender Slideshow",
       "url": "http://localhost:8080/blog/2016/07/hd-photo-slideshow-with-blender/",
       "hideSelectors": [
-        "#discourse-comments"
+        "#discourse-comments", ".fluid-vid", ".big-vid"
       ],
       "removeSelectors": [],
       "selectors": [
@@ -118,7 +118,7 @@
       "label": "Blog - RPD",
       "url": "http://localhost:8080/blog/2016/05/new-rapid-photo-downloader/",
       "hideSelectors": [
-        "#discourse-comments"
+        "#discourse-comments", ".fluid-vid", ".big-vid"
       ],
       "removeSelectors": [],
       "selectors": [
@@ -131,10 +131,10 @@
     }
   ],
   "paths": {
-    "bitmaps_reference": "../../backstop_data/bitmaps_reference",
-    "bitmaps_test": "../../backstop_data/bitmaps_test",
-    "compare_data": "../../backstop_data/bitmaps_test/compare.json",
-    "casper_scripts": "../../backstop_data/casper_scripts"
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "compare_data": "backstop_data/bitmaps_test/compare.json",
+    "casper_scripts": "backstop_data/casper_scripts"
   },
   "engine": "phantomjs",
   "report": ["CLI", "browser"],
