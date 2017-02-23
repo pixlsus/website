@@ -2,14 +2,14 @@
 date: 2017-02-10
 title: From the Community Vol. 2
 
-lede-img: photography-tile.png
-lede-img-thumb: https://pixls-discuss.s3.amazonaws.com/original/2X/4/443723d5e75f6eedd0a0aa13bdf738af805e101d.png
+lede-img: grain-lede.jpg
+lede-img-thumb: th_grain-lede.jpg
 lede-attribution:
 lede-style: 'background-repeat: repeat;'
 
 author: Mica
 author-url: 'https://silentumbrella.com'
-author-img: 'paperdigits-author-avatar.png'
+author-img: '/images/authors/paperdigits.png'
 author-bio: 'Editor of many, many things.'
 
 collection: blogposts
@@ -42,7 +42,7 @@ There has been a lot of on-going work to [bring support for Pentax Pixel Shift f
 
 ## Midi controller support for Darktable
 
-Some preliminary work has begun to bring generic [midi controller support to darktable](https://discuss.pixls.us/t/midi-controller-for-darktable/2582/47). The funding for the midi controller to spur the development of this feature is a direct result of the members of the forum [directly giving to further community causes](https://pixls.us/support/). Once the darktable develoeprs are finished with the midi controller, it'll be offered to other developers to use to help implement support!
+Some preliminary work has begun to bring generic [midi controller support to darktable](https://discuss.pixls.us/t/midi-controller-for-darktable/2582/47). The funding for the midi controller to spur the development of this feature is a direct result of the members of the forum [directly giving to further community causes](https://pixls.us/support/). Once the darktable developers are finished with the midi controller, it'll be offered to other developers to use to help implement support!
 
 <figure class='big-vid'>
     <img src='https://pixls-discuss.s3.amazonaws.com/original/2X/5/5662e17ae67735964d76e67aaa59dfff706dda14.jpg' alt='A Korg midi controller'>
