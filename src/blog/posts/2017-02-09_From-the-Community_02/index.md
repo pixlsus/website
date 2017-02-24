@@ -50,8 +50,11 @@ Some preliminary work has begun to bring generic [midi controller support to dar
 
 ## Methods for dealing with clipped highlights
 
-[@Morgan_Hardwood](https://discuss.pixls.us/users/Morgan_Hardwood/activity) has written a very nice post detailing several methods for dealing with clipped highlights in RawTherapee. These include tone-mapping, highlights and shadows, and using the CIECAM02 mode.
+[@Morgan_Hardwood](https://discuss.pixls.us/users/Morgan_Hardwood/activity) has written a [very nice post detailing several methods for dealing with clipped highlights in RawTherapee][high]. These include tone-mapping, highlights and shadows, and using the CIECAM02 mode.
+
 
 <figure class='big-vid'>
     <img src='https://pixls-discuss.s3.amazonaws.com/original/2X/5/5f20c7ff6ae3ef7f08e00ce05fc9944251266d84.jpg' alt='Working with clipped highlights'>
 </figure>
+
+[high]: https://discuss.pixls.us/t/dealing-with-clipped-highlights-an-example/2976
