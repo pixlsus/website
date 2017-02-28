@@ -23,7 +23,7 @@ The Southern California Linux Expo (SCaLE) 15x is  returning to the Pasadena Con
 If you're attending the conference this year, find me, [@paperdigits](https://discuss.pixls.us/users/paperdigits/activity) and lets talk shop or grab a meal!
 
 <figure>
-	<img src='paperdigiits.jpg' alt='@paperdigits' with='100%' />
+	<img src='paperdigits.jpg' alt='@paperdigits' with='100%' />
 	<caption>Don't judge me, it was the morning.</caption>
 </figure>
 You can ping me on the [form](https://discuss.pixls.us), [on twitter](https://twitter.com/paperdigits), or on Matrix/riot.im at @paperdigits:matrix.org.
