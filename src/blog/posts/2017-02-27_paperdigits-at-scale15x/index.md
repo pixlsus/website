@@ -5,7 +5,7 @@ title: Find us at SCaLE 15x
 lede-img: stickers.jpg
 lede-img-thumb: stickers.jpg
 lede-attribution: '@paperdigits'
-lede-style: 'background-repeat: none;'
+lede-style: ''
 
 author: Mica
 author-url: 'https://silentumbrella.com'
@@ -16,7 +16,9 @@ collection: blogposts
 layout: blog-posts.hbt
 ---
 
-The Southern California Linux Expo (SCaLE) 15x is  returning to the Pasadena Convention Center March 2-5, 2017. SCaLE is one of the largest community-organized conferences in North America, with some 3,500 attendees last year.
+The Southern California Linux Expo (SCaLE) 15x is  returning to the Pasadena Convention Center on March 2-5, 2017. SCaLE is one of the largest community-organized conferences in North America, with some 3,500 attendees last year.
+
+<!-- more -->
 
 If you're attending the conference this year, find me, [@paperdigits](https://discuss.pixls.us/users/paperdigits/activity) and lets talk shop or grab a meal!
 
