@@ -24,7 +24,7 @@ If you're attending the conference this year, find me, [@paperdigits](https://di
 	<img src='paperdigiits.jpg' alt='@paperdigits' with='100%' />
 	<caption>Don't judge me, it was the morning.</caption>
 </figure>
-You can ping me on the [form](https://discuss.pixls.us) or [on twitter](https://twitter.com/paperdigits).
+You can ping me on the [form](https://discuss.pixls.us), [on twitter](https://twitter.com/paperdigits), or on Matrix/riot.im at @paperdigits:matrix.org.
 
 If meeting isn't enough for you, I'll have stickers!
 
