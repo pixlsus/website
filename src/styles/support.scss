@@ -1,4 +1,8 @@
 /*
+* #### support.scss
+*/
+.support {
+/*
  * Specifically for styling index.html
  *
 @import url(http://fonts.googleapis.com/css?family=Arvo);
@@ -24,9 +28,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*
 p {
     color: #777;
 }
+*/
 
 header {
 	background-color: whitesmoke;
@@ -255,4 +261,5 @@ img.donate {
     margin-left: 0;
     color: #777;
     font-size: 0.9rem;
+}
 }

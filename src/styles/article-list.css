@@ -40,7 +40,7 @@
     }
 }
 
-.article-entry > span, .article-entry > h2 {
+#articles .article-entry > span, #articles .article-entry > h2 {
     position: absolute;
     bottom: 1rem;
     right: 0.5rem;
