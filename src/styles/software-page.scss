@@ -1,3 +1,6 @@
+/*
+* #### software-page.scss
+*/
 .software-page {
 /*
  * Specifically for styling index.html
@@ -6,6 +9,12 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
  */
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Roboto+Slab:400,700);
+
+font-family: "Open Sans", sans-serif;
+
+p {
+    color: #777;
+}
 
 /*
  * TESTING
@@ -25,9 +34,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*
 p {
     color: #777;
 }
+*/
 
 header {
 	background-color: whitesmoke;
@@ -226,147 +237,147 @@ img.natural {
 
 
 .sw-entry.darktable > a:before {
-    background: url('software-logos.png') 0 0 no-repeat;
+    background: url('/software/software-logos.png') 0 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.rawtherapee > a:before {
-    background: url('software-logos.png') -45px 0 no-repeat;
+    background: url('/software/software-logos.png') -45px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.ufraw > a:before {
-    background: url('software-logos.png') -89px 0 no-repeat;
+    background: url('/software/software-logos.png') -89px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.photivo > a:before {
-    background: url('software-logos.png') -135px 0 no-repeat;
+    background: url('/software/software-logos.png') -135px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.gimp > a:before {
-    background: url('software-logos.png') -180px 0 no-repeat;
+    background: url('/software/software-logos.png') -180px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.imagemagick > a:before {
-    background: url('software-logos.png') -225px 0 no-repeat;
+    background: url('/software/software-logos.png') -225px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.krita > a:before {
-    background: url('software-logos.png') -270px 0 no-repeat;
+    background: url('/software/software-logos.png') -270px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.gmic > a:before {
-    background: url('software-logos.png') -315px 0 no-repeat;
+    background: url('/software/software-logos.png') -315px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.hugin > a:before {
-    background: url('software-logos.png') -360px 0 no-repeat;
+    background: url('/software/software-logos.png') -360px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.luminancehdr > a:before {
-    background: url('software-logos.png') -405px 0 no-repeat;
+    background: url('/software/software-logos.png') -405px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.magiclantern > a:before {
-    background: url('software-logos.png') -450px 0 no-repeat;
+    background: url('/software/software-logos.png') -450px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.blender > a:before {
-    background: url('software-logos.png') -495px 0 no-repeat;
+    background: url('/software/software-logos.png') -495px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.lensfun > a:before {
-    background: url('software-logos.png') -540px 0 no-repeat;
+    background: url('/software/software-logos.png') -540px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.digikam > a:before {
-    background: url('software-logos.png') -585px 0 no-repeat;
+    background: url('/software/software-logos.png') -585px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.rapidphotodownloader > a:before {
-    background: url('software-logos.png') -630px 0 no-repeat;
+    background: url('/software/software-logos.png') -630px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.vips > a:before {
-    background: url('software-logos.png') -675px 0 no-repeat;
+    background: url('/software/software-logos.png') -675px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.hdrmerge > a:before {
-    background: url('software-logos.png') -720px 0 no-repeat;
+    background: url('/software/software-logos.png') -720px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.filmulator > a:before {
-    background: url('software-logos.png') -767px 0 no-repeat;
+    background: url('/software/software-logos.png') -767px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.airnef > a:before {
-    background: url('software-logos.png') -812px 0 no-repeat;
+    background: url('/software/software-logos.png') -812px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.gthumb > a:before {
-    background: url('software-logos.png') -857px 0 no-repeat;
+    background: url('/software/software-logos.png') -857px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.macrofusion > a:before {
-    background: url('software-logos.png') -902px 0 no-repeat;
+    background: url('/software/software-logos.png') -902px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.graphicsmagick > a:before {
-    background: url('software-logos.png') -947px 0 no-repeat;
+    background: url('/software/software-logos.png') -947px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.entangle > a:before {
-    background: url('software-logos.png') -992px 0 no-repeat;
+    background: url('/software/software-logos.png') -992px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.dispcalgui > a:before {
-    background: url('software-logos.png') -1037px 0 no-repeat;
+    background: url('/software/software-logos.png') -1037px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.film-emulator > a:before {
-    background: url('software-logos.png') -1082px 0 no-repeat;
+    background: url('/software/software-logos.png') -1082px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.forensically > a:before {
-    background: url('software-logos.png') -1127px 0 no-repeat;
+    background: url('/software/software-logos.png') -1127px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.shotwell > a:before {
-    background: url('software-logos.png') -1172px 0 no-repeat;
+    background: url('/software/software-logos.png') -1172px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.exiv2 > a:before {
-    background: url('software-logos.png') -1217px 0 no-repeat;
+    background: url('/software/software-logos.png') -1217px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.nomacs > a:before {
-    background: url('software-logos.png') -1262px 0 no-repeat;
+    background: url('/software/software-logos.png') -1262px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.geeqie > a:before {
-    background: url('software-logos.png') -1307px 0 no-repeat;
+    background: url('/software/software-logos.png') -1307px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.photoflow > a:before {
-    background: url('software-logos.png') -1352px 0 no-repeat;
+    background: url('/software/software-logos.png') -1352px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.opendronemap > a:before {
-    background: url('software-logos.png') -1397px 0 no-repeat;
+    background: url('/software/software-logos.png') -1397px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.resourcespace > a:before {
-    background: url('software-logos.png') -1442px 0 no-repeat;
+    background: url('/software/software-logos.png') -1442px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.opencamera > a:before {
-    background: url('software-logos.png') -1484px 0 no-repeat;
+    background: url('/software/software-logos.png') -1484px 0 no-repeat;
 	display:inline-block;
 }
 .sw-entry.digicamcontrol > a:before {
-    background: url('software-logos.png') -1530px 0 no-repeat;
+    background: url('/software/software-logos.png') -1530px 0 no-repeat;
 	display:inline-block;
 }
 /*
- * Add new software logo entries (from software-logos.png) here
+ * Add new software logo entries (from /software/software-logos.png) here
  */
 
 
