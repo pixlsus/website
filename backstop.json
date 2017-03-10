@@ -27,6 +27,7 @@
       ],
       "readyEvent": null,
       "delay": 0,
+       "misMatchThreshold": 0.8,
       "onBeforeScript": null,
       "onReadyScript": null
     },
@@ -40,6 +41,7 @@
       ],
       "readyEvent": null,
       "delay": 0,
+       "misMatchThreshold": 0.8,
       "onBeforeScript": null,
       "onReadyScript": null
     },
@@ -53,6 +55,7 @@
       ],
       "readyEvent": null,
       "delay": 0,
+       "misMatchThreshold": 0.8,
       "onBeforeScript": null,
       "onReadyScript": null
     },
@@ -66,6 +69,7 @@
       ],
       "readyEvent": null,
       "delay": 0,
+       "misMatchThreshold": 0.8,
       "onBeforeScript": null,
       "onReadyScript": null
     },
@@ -81,6 +85,7 @@
       ],
       "readyEvent": null,
       "delay": 0,
+       "misMatchThreshold": 0.8,
       "onBeforeScript": null,
       "onReadyScript": null
     },
@@ -96,6 +101,7 @@
       ],
       "readyEvent": null,
       "delay": 0,
+       "misMatchThreshold": 0.8,
       "onBeforeScript": null,
       "onReadyScript": null
     },
@@ -111,6 +117,7 @@
       ],
       "readyEvent": null,
       "delay": 0,
+       "misMatchThreshold": 0.8,
       "onBeforeScript": null,
       "onReadyScript": null
     },
@@ -126,6 +133,7 @@
       ],
       "readyEvent": null,
       "delay": 0,
+       "misMatchThreshold": 0.8,
       "onBeforeScript": null,
       "onReadyScript": null
     }
