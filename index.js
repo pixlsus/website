@@ -39,10 +39,12 @@ Handlebars.registerHelper('link', function(path) {
 Handlebars.registerHelper('lede-path', function(rss, lede) {
     // If lede doesn't start with 'http'
     // means that it's a local image, so change path appropriately
-    if( lede.indexOf('http') === -1 ){
+    //if( lede.indexOf('http') === -1 ){
+    if( lede.indexOf('http') != 0 && lede.indexOf('/') != 0 ){
         // Then give it a path from the 'path' property
         if( rss == 'rss' ){
             lede = 'https://pixls.us/'+ this.path +'/'+ lede;
+        }else if( lede.indexOf('/') === 0 ){
         }else{
             lede = '/'+ this.path +'/'+ lede;
         }
