@@ -39,7 +39,9 @@ As part of one of his courses, he talks about a technique for accentuating detai
 
 Here is Calvin describing this technique using Photoshop:
 
-<div class='fluid-vid'><iframe width="560" height="315" src="https://www.youtube.com/embed/ZV9u0Wu8L0M" frameborder="0" allowfullscreen=""></iframe></div>
+<div class='fluid-vid'>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZV9u0Wu8L0M?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 In my meandering around different retouching tutorials I came across it a while ago, and wanted to replicate the results in [GIMP](http://www.gimp.org) if possible. There were a couple of problems that I ran into for replicating the exact same workflow:  
 
