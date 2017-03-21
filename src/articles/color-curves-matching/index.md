@@ -22,7 +22,7 @@ tags:
     - curves
     - color
 
-stylesheet: index.css
+stylesheet: color-curves-matching
 layout: article.hbt
 #nodiscuss: true
 ---

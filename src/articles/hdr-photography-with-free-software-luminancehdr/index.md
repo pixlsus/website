@@ -24,7 +24,7 @@ tags:
     - hdr
     - tone-mapping
 
-stylesheet: index.css
+stylesheet: hdr-luminance
 layout: article.hbt
 
 ---

@@ -108,7 +108,7 @@
             <!-- Main content area -->
             <div class="row clearfix">
                 <div class="container">
-                    <div class="column two-thirds">
+                    <div class="column two-thirds {{stylesheet}}">
                         <div id="main" class="article-title">
                         <!-- Begin article content -->
                             <h1 id="title">{{ title }}</h1>

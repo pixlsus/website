@@ -21,7 +21,7 @@ tags:
     - Retouching
     - Skin
     - Technique
-stylesheet: index.css
+stylesheet: open-source-portrait-mari
 layout: article.hbt
 #nodiscuss: true
 ---

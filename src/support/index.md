@@ -1,8 +1,9 @@
 ---
-date: 2016-11-07T15:27:11-06:00 
+date: 2016-11-07T15:27:11-06:00
 title: "Support"
 author: Pat David
 layout: page.hbt
+stylesheet: support
 ---
 
 
@@ -16,14 +17,14 @@ layout: page.hbt
             </em></p>
             <div class='column half'>
                 <p class='left-align'>
-                However, sometimes folks want to help a little more, and that's what this 
+                However, sometimes folks want to help a little more, and that's what this
                 page is for.
                 We've said from the very beginning that the site will not run ads.
                 Instead we have set up some options for directly supporting the
                 community.
                 </p>
                 <p class='left-align'>
-                Before you hit any buttons just remember that you really 
+                Before you hit any buttons just remember that you really
                 <em>don't need to</em>, but the community will love you if you do! <i class="fa fa-heart" aria-hidden="true"></i>
                 </p>
             </div>
@@ -58,7 +59,7 @@ layout: page.hbt
             <h2>Support $1 <span style="color: #777; font-size: 1.1rem;">per month</span></h2>
             <p class="left-align">
                 This is a great first funding level that really helps the community.
-                <!-- 
+                <!--
                 If just 30 people choose this funding level we can cover
                 all of our hosting costs each month, or we can buy some color targets
                 for the community to use!
@@ -140,7 +141,7 @@ layout: page.hbt
         <div>
                 <h2>One-Time <span style="color: #777; font-size: 1.1rem;">Support</span></h2>
                 <p class="left-align" >
-                    This is for those opportunities where you might have a little 
+                    This is for those opportunities where you might have a little
                     something that you're willing to support us with and don't want to
                     fool with recurring subscriptions. Thank you <em>so much</em>
                     for helping us out!
@@ -160,7 +161,7 @@ layout: page.hbt
                 <h2>Amazon <span style="color: #777; font-size: 1.1rem;">affiliate link</span></h2>
                 <p class='left-align'>
                 If you were going to purchase something from Amazon, you can
-                help us by using our 
+                help us by using our
                 <a href='https://www.amazon.com//ref=as_li_ss_tl?ref_=nav_custrec_signin&&linkCode=ll2&tag=pixls.us-20&linkId=418b8960b708accf468db7964fc2d4b5'>Amazon affiliate link</a>.
                 <br/>
                 It doesn't cost you anything, and we get a portion of the sale.
@@ -174,4 +175,3 @@ layout: page.hbt
 </div>
 
 </section>
-

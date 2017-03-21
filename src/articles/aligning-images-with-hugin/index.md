@@ -19,7 +19,7 @@ tags:
     - Stacking
     - Alignment
     - HDR
-stylesheet: index.css
+stylesheet: aligning-images-with-hugin
 layout: article.hbt
 #nodiscuss: true
 ---

@@ -16,7 +16,7 @@ tags:
     - darktable
     - Luminosity Mask
     - Landscape
-stylesheet: index.css
+stylesheet: luminosity-masking-darktable
 layout: article.hbt
 ---
 

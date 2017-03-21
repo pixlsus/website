@@ -1,8 +1,9 @@
 ---
-date: 2016-11-07T15:27:11-06:00 
+date: 2016-11-07T15:27:11-06:00
 title: "Thank You!"
 author: Pat David
 layout: page.hbt
+stylesheet: support
 ---
 
 
@@ -24,4 +25,3 @@ layout: page.hbt
         </div>
     </div>
 </section>
-
