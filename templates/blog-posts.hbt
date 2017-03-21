@@ -19,9 +19,9 @@
         <meta property="og:image" content="https://pixls.us/{{this.path}}/{{lede-img}}">
         <meta name="twitter:image" content="https://pixls.us/{{this.path}}/{{lede-img}}">
         {{ else }}
-        <meta itemprop="image" content="https://pixls.us/images/pixls-background.jpg">
-        <meta property="og:image" content="https://pixls.us/images/pixls-background.jpg">
-        <meta name="twitter:image" content="https://pixls.us/images/pixls-background.jpg">
+        <meta itemprop="image" content="https://pixls.us/images/logo/pixls-atom.png">
+        <meta property="og:image" content="https://pixls.us/images/logo/pixls-atom.png">
+        <meta name="twitter:image" content="https://pixls.us/images/logo/pixls-atom.png">
     {{/if}}
     {{#if snippet}}
         <meta itemprop="description" content="{{snippet}}">

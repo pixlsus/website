@@ -2,7 +2,7 @@
 date: 2014-09-03T12:17:16-05:00
 title: "A Push Menu"
 sub-title: "A Fanc(y|ier) Menu"
-lede-img: "https://lh5.googleusercontent.com/-VScF_Hq-YE8/VAOA5mdIchI/AAAAAAAARYs/uj6xLzvyRiY/s0/pixls-background.jpg"
+lede-img: /images/logo/pixls-atom.png
 lede-style: "background-size: cover; background-repeat: no-repeat;"
 author: "Pat David"
 author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."

@@ -23,9 +23,9 @@
 			<meta property="og:published_time" content="{{ date }}" />
     {{/if}}
 
-    <meta itemprop="image" content="https://pixls.us/images/pixls-background.jpg">
-    <meta property="og:image" content="https://pixls.us/images/pixls-background.jpg">
-    <meta name="twitter:image" content="https://pixls.us/images/pixls-background.jpg">
+    <meta itemprop="image" content="https://pixls.us/images/logo/pixls-atom.png">
+    <meta property="og:image" content="https://pixls.us/images/logo/pixls-atom.png">
+    <meta name="twitter:image" content="https://pixls.us/images/logo/pixls-atom.png">
 
     <meta itemprop="description" content="To provide tutorials, workflows and a showcase for high-quality photography using Free/Open Source Software.">
     <meta property="og:description" content="To provide tutorials, workflows and a showcase for high-quality photography using Free/Open Source Software.">
