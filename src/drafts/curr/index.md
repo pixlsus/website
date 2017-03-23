@@ -17,7 +17,7 @@ author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href
 type: 'article'
 
 layout: article.hbt
-#nodiscuss: true
+nodiscuss: true
 
 ---
 
