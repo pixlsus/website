@@ -1,377 +1,303 @@
 ---
-date: 2016-05-18T10:30:37-06:00 
-title: G'MIC 1.7.1
-sub-title: When the flowers are blooming, image filters abound!
+date: 2017-03-23T13:51:36-06:00 
 
-lede-img: Lede.jpg
-lede-img-thumb: th_Lede.jpg
+title: RawTherapee and Pentax Pixel Shift
+sub-title: Supporting multi-file raw formats
 
-author: David Tschumperlé
+lede-img: 'null.jpg'
+lede-style: 'background-color: white; background-position: 0;'
+lede-attribution: "by Someone"
 
-#collection: blogposts
-layout: blog-posts.hbt
+author: "Pat David" #required
+author-img: ""
+author-url: "http://blog.patdavid.net"
+author-twitter: "@patdavid"
+author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+
+type: 'article'
+
+layout: article.hbt
+#nodiscuss: true
 
 ---
 
-News from the front: G'MIC 1.7.1 released !
----------------------------------------------
-
-A new version **1.7.1** « _Spring 2016_ » of [_G'MIC_](http://gmic.eu) (_GREYC's Magic for Image Computing_),
-the open-source framework for image processing, has been released recently (_26 April 2016_).
-A great opportunity to summarize some of the latest advances and features of this interesting free software,
-done for the last 5 months.
-
-<!-- more -->
-
-# _G'MIC_: A brief overview
-
-[_G'MIC_](http://gmic.eu) is an open-source project started in _August 2008_. It has been developed in the
-[_IMAGE_ team](https://www.greyc.fr/image) of the [_GREYC_](https://www.greyc.fr/fr/node/6) laboratory
-from the [_CNRS_](http://www.cnrs.fr) (one of the major French public research institute).
-This team is made of researchers and teachers specialized in the algorithmic and mathematics of image processing.
-_G'MIC_ is released under the free software licence [_CeCILL_](http://www.cecill.info/licences/Licence_CeCILL_V2.1-en.html)
-(_GPL_-compatible) for various platforms (_Linux, Mac and Windows_). It provides a set of various user interfaces
-for the manipulation of _generic_ image data, that is images or image sequences of
-[multispectral data](https://en.wikipedia.org/wiki/Hyperspectral_imaging) being _2D_ or _3D_, and with high-bit precision
-(up to 32bits floats per channel). Of course, it manages «classical» color images as well.
-
-![img](http://tschumperle.users.greyc.fr/lfr3/logo_gmic.png)
-_Fig.1.1. Logo and (new) mascot of the G'MIC project, the open-source framework for image processing._
-
-Note that the project just got a redesign of its mascot _Gmicky_, drawn by
-[_David Revoy_](http://www.davidrevoy.com/static6/about-me), a French illustrator well-known to free graphics lovers for being
-responsible for the great libre webcomics [_Pepper&Carott_](http://www.peppercarrot.com/).
-
-_G'MIC_ has been made noted essentially for its [_GIMP_](http://www.gimp.org) [plug-in](http://gmic.eu/gimp.shtml),
-first released in _2009_. Today, this popular _GIMP_ extension proposes more than _460_ customizable filters and effects
-to apply on your images.
-
-![img](http://tschumperle.users.greyc.fr/lfr3/gmic_gimp171_s.png)
-_Fig.1.2. Overview of the G'MIC plug-in for GIMP._
-
-But _G'MIC_ is not a plug-in for GIMP only. It also offers a [command-line interface](http://gmic.eu/reference.shtml), that can
-be used in addition with the _CLI_ tools from [_ImageMagick_](http://www.imagemagick.org/) or
-[_GraphicsMagick_](http://www.graphicsmagick.org)
-(this is undoubtly the most powerful and flexible interface of the framework).
-_G'MIC_ also proposes a web service [_G'MIC Online_](https://gmicol.greyc.fr/) to allow applying effects on your images
-directly from a web browser. Other _G'MIC_-based interfaces exist ([_ZArt_](https://www.youtube.com/watch?v=k1l3RdvwHeM),
-a plug-in for [_Krita_](http://www.krita.org), filters for [_Photoflow_](http://photoflowblog.blogspot.fr/)...) but their use are
-a bit more confidential.
-All these interfaces are based on the generic _C++_ libraries [_CImg_](http://cimg.eu) and
-[_libgmic_](http://gmic.eu/libgmic.shtml) which are portable, thread-safe and multi-threaded
-(through the use of [_OpenMP_](http://openmp.org/)).
-Today, _G'MIC_ has more than [_900_ functions](http://gmic.eu/reference.shtml) to process images, all being
-fully configurable, for a library of only _6 Mio_ and approximately _150 kloc_ of source code.
-Its features cover a wide spectrum of the image processing field, with algorithms for
-geometric and color manipulations, image filtering (denoising/sharpening with spectral, variational or
-patch-based approaches...), motion estimation and registration, drawing of graphic primitives (up to 3d vector objects),
-edge detection, object segmentation, artistic rendering, etc.
-This is a _versatile_ tool, useful to visualize and explore complex image data,
-as well as elaborate custom image processing pipelines (see these
-[slides](http://issuu.com/dtschump/docs/gmic_slides) to get more information about
-the motivations and goals of the _G'MIC_ project).
-
-# 2. A selection of some new filters and effects
-
-Here we propose a description of some of the most significant filters recently added. We illustrate their usage
-from the _G'MIC_ plug-in for _GIMP_. All these filters are of course available from other interfaces as well
-(in particularly within the _CLI_ tool [`gmic`](http://gmic.eu/reference.shtml)).
-
-## 2.1. Painterly rendering of photographs
-
-Filter __Artistic / Brushify__ tries to transform an image into a _painting_.
-Here, the idea is to simulate the process of painting with brushes on a white canvas. One provides a template image
-and the algorithm first analyzes the image geometry (local contrasts and orientations of the contours), then
-attempt to reproduce the image with a single _brush_ that will be locally rotated and scaled accordingly to the
-contour geometry.
-By simulating enough of brushstrokes, one gets a «painted» version of the template image, which is more or less close to the original one,
-depending on the brush shape, its size, the number of allowed orientations, etc.
-All these settings being customizable by the user as parameters of the algorithm:
-This filter allows thus to render a wide variety of painting effects.
-
-![img](https://tschumperle.users.greyc.fr/lfr3/gmic_brushify.jpg)
-_Fig.2.1.1. Overview of the filter « Brushify » in the G'MIC plug-in GIMP. The brush that will be used by the algorithm
-is visible on the top left._
-
-The animation below illustrates the diversity of results one can get with this filter, applied on the same
-input picture of a lion. Various brush shapes and geometries have been supplied to the algorithm.
-_Brushify_ is computationally expensive so its implementation is parallelized (each core gives several brushtrockes simultaneously).
-
-![img](https://tschumperle.users.greyc.fr/lfr3/brushify2.gif)
-_Fig.2.1.2. A few examples of renderings obtained with « Brushify » from the same template image, but with different brushes and parameters._
-
-Note that this is particularly funny to invoke this filter from the command line interface (using the option `-brushify`
-available in `gmic`) to process a sequence of video frames
-([see this example of « brushified » video](https://www.youtube.com/watch?v=tf_fMzS3UyQ&feature=youtu.be)).
-
-## 2.2. Reconstructing missing data from sparse samples
-
-_G'MIC_ gets a new algorithm to reconstruct missing data in images. This is a classical problem in image processing,
-often named «[Image Inpainting](https://en.wikipedia.org/wiki/Inpainting)», and _G'MIC_ already had a lot of
-useful filters to solve this problem.
-Here, the newly added interpolation method assumes only a sparse set of image data is known, for instance a few scattered pixels
-over the image (instead of continuous chuncks of image data). The analysis and the reconstruction of the global
-image geometry is then particularly tough.
-
-The new option `-solidify` in _G'MIC_ allows the reconstruction of dense image data from such a sparse sampling,
-based on a multi-scale [diffusion PDE's](https://en.wikipedia.org/wiki/Diffusion_equation)-based technique.
-The figure below illustrates the ability of the algorithm with an example of image reconstruction. We start from
-an input [image of a waterdrop](https://www.flickr.com/photos/jfrogg/5810936597/in/photolist-9Ruz12-oHDr6x-8VW83C-iM2cR1-oXCyji-nTGYXY-oavqFt-5emqwQ-8Qx6Nx-pkREpT-nYhS8D-najxb9-a3XHVZ-jUq3Aw-qGTeCo-r2yj33-pvci15-p7WnqP-ajPFM1-7SquY5-6busU-7B5iLy-9Av8Kr-4jZ6zq-b2anbD-c2LF73-aiQ5Ta-cdTWpb-ob7FJx-aohzY1-razwT3-p5rXdc-fCvsV3-4N8vKM-4Nhy4z-4HVUCr-eMUCnQ-bqJnaX-6CuzQd-qCYpsk-NzLkj-hYUtqE-oVbqnh-4H1DkM-r4ArWu-drpZHp-pHbCDL-8Zr8K1-xxf3Q9-e8dK5N),
-and we keep only 2.7% of the image data (a really little amount of data!). The algorithm is able to reconstruct
-a whole image that looks like the input, even if all the small details have not been
-fully reconstructed (of course!). The more samples we have, the finer details we can recover.
-
-![img](https://tschumperle.users.greyc.fr/lfr3/waterdrop2.gif)
-_Fig.2.2.1. Reconstruction of an image from a sparse sampling._
-
-As this reconstruction technique is quite generic, several new _G'MIC_ filters takes advantage of it:
+## What is Pixel Shift?
 
-- Filter __Repair / Solidify__ applies the algorithm in a direct manner, by reconstructing transparent areas
-from the interpolation of opaque regions.
-The animation below shows how this filter can be used to create an artistic blur on the image borders.
+Modern digital sensors (with a few exceptions) use an arrangement of RGB filters over a square grid of photosensors.  For a given 2x2 square of photosensors the filters are designed to allow two green, and one each red and blue colors through to the photosite.  These are arranged on a grid:
 
-![img](https://tschumperle.users.greyc.fr/lfr3/gmic_sol.gif)
-_Fig.2.2.2. Overview of the « Solidify » filter, in the G'MIC plug-in for GIMP._
 
-From an artistic point of view, there are many possibilities offered by this filters.
-For instance, it becomes really easy to generate color gradients with complex shapes, as shown with the two examples below
-(also in [this video](https://www.youtube.com/watch?v=rgLQayllv-g) that details the whole process).
+<figure>
+<a title="By en:User:Cburnett, CC-BY-SA-3.0 or GPL, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ABayer_pattern_on_sensor.svg">
+<img width="512" alt="Bayer pattern on sensor" src="512px-Bayer_pattern_on_sensor.svg.png" height='333'/>
+</a>
+</figure>
 
-![img](https://tschumperle.users.greyc.fr/lfr3/gmic_solidify2.jpg)
-_Fig.2.2.3. Using the « Solidify » filter of G'MIC to easily create color gradients with complex shapes (input images on the left, filter results on the right)._
+The pattern is known as a [Bayer pattern][bayer] (after the creator Bryce Bayer of Eastman Kodak).  The resulting pattern shows how each RGB is offset into the grid.
 
-- Filter __Artistic / Smooth abstract__ uses same idea as the one with the waterdrop image:
-it purposely sub-samples the image in a sparse way, by choosing keypoints mainly on the image edges, then use the reconstruction
-algorithm to get the image back. With a low number of samples, the filter can only render a piecewise smooth image,
-i.e. a smooth abstraction of the input image.
+[bayer]: https://en.wikipedia.org/wiki/Bayer_filter
 
-![img](https://tschumperle.users.greyc.fr/lfr3/smooth_abstract.jpg)
-_Fig.2.2.4. Overview of the « Smooth abstract » filter in the G'MIC plug-in for GIMP._
 
-- Filter __Rendering / Gradient [random]__ is able to synthetize random colored backgrounds. Here again, the filter initializes
-  a set of colors keypoints randomly chosen over the image, then interpolate them with the new reconstruction algorithm.
-We end up with a psychedelic background composed of randomly oriented color gradients.
+<figure>
+<a title="By en:User:Cburnett, CC-BY-SA-3.0 or GPL, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ABayer_pattern_on_sensor_profile.svg">
+<img alt="Bayer pattern on sensor profile" src="Bayer_pattern_on_sensor_profile.svg.png" width='512' height='328' />
+</a>
+</figure>
 
-![img](https://tschumperle.users.greyc.fr/lfr3/gradient_random.jpg)
-_Fig.2.2.5. Overview of the « Gradient [random] » filter in the G'MIC plug-in for GIMP._
+Each of the pixel sites are only capturing a single color, though.  In order to produce a full color representation at each pixel, the other color values need to be interpolated from the surrounding grid.  This interpolation and methods for calculating it is referred to as [demosaicing](https://en.wikipedia.org/wiki/Demosaicing). The methods for accomplishing this vary across different algorithms.
 
-- __Simulation of analog films__ : the new reconstruction algorithm also allowed a major improvement
-for all the analog film emulation filters that have been present in _G'MIC_ for years.
-The section __Film emulation/__ proposes a wide variety of filters for this purpose. Their goal is to apply color transformations
-to simulate the look of a picture shot by an analogue camera with a certain kind of film.
-Below, you can see for instance a few of the _300_ colorimetric transformations that are available in _G'MIC_.
+<figure>
+<img src="bayer-interp.png" width="250" height="250">
+<figcaption>
+The final RGB value for the initially Red pixel needs to be interpolated from the surrounding Blue and Green pixels.
+</figcaption>
+</figure>
 
-![img](https://tschumperle.users.greyc.fr/lfr3/gmic_clut1.jpg)
-_Fig.2.2.6. A few of the 300+ color transformations available in G'MIC._
 
-From an algorithmic point of view, such a color mapping is extremely simple to implement :
-for each of the _300+_ presets, _G'MIC_ actually has an [_HaldCLUT_](http://www.quelsolaar.com/technology/clut.html), that is
-a fonction defining for each possible color _(R,G,B)_ (of the original image), a new color _(R',G',B')_ color to set
-instead. As this function is not necessarily analytic, an _HaldCLUT_ is stored in a discrete manner as a lookup table that gives
-the result of the mapping _for all_ possible colors of the _RGB_ cube (that is _2^24 = 16777216_ values
-if we work with a _8bits_ precision per color component). This _HaldCLUT_-based color mapping is illustrated below for all values of the _RGB_ color cube.
 
-![img](https://tschumperle.users.greyc.fr/lfr3/gmic_clut0.jpg)
-_Fig.2.2.7. Principle of an HaldCLUT-based colorimetric transformation._
+### Pixel Shift
 
-This is a large amount of data: even by subsampling the _RGB_ space (e.g. with _6 bits_ per component) and compressing the corresponding _HaldCLUT_ file,
-you ends up with approximately _200_ and _300_ Kio for each mapping file.
-Multiply this number by _300+_ (the number of available mappings in _G'MIC_), and you get a total of _85 Mio_ of data, to store all these color transformations.
-Definitely not convenient to spread and package!
+Pentax's Pixel Shift (Available on the [K-1][k1], [K-3 II][k3], [K-p][kp], [K-70][k70]) attempts to alleviate some of these problems through a novel approach of capturing four images quickly in succession and moving the entire camera sensor by a single pixel for each shot.  This has the effect of capturing a full RGB value at each pixel location:
 
-The idea was then to develop a new lossy compression technique focused on _HaldCLUT_ files, that is volumetric discretised vector-valued functions which are piecewise smooth by nature.
-And that what has been done in _G'MIC_, thanks to the new sparse reconstruction algorithm. Indeed, the reconstruction technique also works with _3D_ image data (such as an _HaldCLUT_!), so
-one simply has to extract a sufficient number of significant keypoints in the _RGB_ cube and interpolate them afterwards to allow the reconstruction of a whole _HaldCLUT_
-(taking care to have a reconstruction error small enough to be sure that
-the color mapping we get with the compressed _HaldCLUT_ is indistinguishable from the non-compressed one).
+[k1]: http://www.ricoh-imaging.co.jp/english/products/k-1/
+[k3]: http://www.ricoh-imaging.co.jp/english/products/k-3-2/
+[kp]: http://www.ricoh-imaging.co.jp/english/products/kp/
+[k70]: http://www.ricoh-imaging.co.jp/english/products/k-70/
 
-![img](https://tschumperle.users.greyc.fr/lfr3/gmic_clut2.jpg)
-_Fig.2.2.8. How the decompression of an HaldCLUT now works in G'MIC, from a set of colored keypoints located in the RGB cube._
 
-Thus, _G'MIC_ doesn't need to store all the color data from an _HaldCLUT_, but only a sparse sampling of it (i.e. a sequence of `{ rgb_keypoint, new_rgb_color }`).
-Depending on the geometric complexity of the _HaldCLUTs_ to encode, more or less keypoints are necessary (roughly from _30_ to _2000_).
-As a result, the storage of the _300+_ _HaldCLUTs_ in _G'MIC_ requires now only _850 Kio_ of data (instead of _85 Mio_), that is a compression gain of _99%_ !
-That makes the whole _HaldCLUT_ data storable in a single file that is easy to ship with the _G'MIC_ package. Now, a user can then apply all the _G'MIC_ color transformations
-while being offline (before that, each _HaldCLUT_ had to be downloaded separatly from the _G'MIC_ server when requested).
+<figure>
+<img src="pixel-shift-example.png" width="283" height="999">
+<figcaption>
+Pixel Shift shifts the sensor by one pixel in each direction to be able to generate a full set of RGB values at each photosite.
+</figcaption>
+</figure>
 
-It looks like this new reconstruction algorithm from sparse samples is really great, and no doubts it will be used in other filters in the future.
 
-## 2.3. Make textures tileable
+This means a full RGB value for a pixel location can be created without having to interpolate from neighboring values.
 
-Filter __Arrays & tiles / Make seamless [patch-based]__ tries to transform an input texture to make it _tileable_, so that it can be duplicated as _tiles_ along the horizontal and vertical axes
-without visible seams on the borders of adjacent tiles.
-Note that this is something that can be extremely hard to achieve, if the input texture has few auto-similarity or with glaring luminosity changes spatially.
-That is the case for instance with the «Salmon» texture shown below as four adjacent tiles (configuration _2x2_) with a lighting that goes from dark (on the left) to bright (on the right).
-Here, the algorithm modifies the texture so that the tiling shows no seams, but where the aspect of the original texture is preserved as much as possible
-(only the texture borders are modified).
+### Advantages
 
-![img](https://tschumperle.users.greyc.fr/lfr3/seamless1.gif)
-_Fig.2.3.1. Overview of the « Make Seamless » filter in the G'MIC plug-in for GIMP._
+#### Less Noise
 
-We can imagine some great uses of this filter, for instance in video games, where texture tiling is common to render large virtual worlds.
+ If you look carefully at the Bayer pattern, you'll notice that when shifting to adjacent pixels there will always be two green values captured per pixel.  The average of these green values helps to suppress noise that may have been interpolated and spread through a normal, single shot raw file.
 
-![img](https://tschumperle.users.greyc.fr/lfr3/seamless2.gif)
-_Fig.2.3.2. Result of the « Make seamless » filter of G'MIC to make a texture tileable._
+<figure>
+<img src="ps-adv-noise.png" width="640" height="640">
+<figcaption>
+Top: single raw frame, Bottom: Pixel Shift
+</figcaption>
+</figure>
 
-## 2.4. Image decomposition into several levels of details
+#### Less Moire
 
-A «new» filter __Details / Split details [wavelets]__ has been added to decompose an image into several levels of details.
-It is based on the so-called [«à trous» wavelet decomposition](https://en.wikipedia.org/wiki/Stationary_wavelet_transform).
-For those who already know the popular [_Wavelet Decompose_](http://registry.gimp.org/node/11742) plug-in for _GIMP_, there won't be so much novelty here, as it is mainly the same kind of
-decomposition technique that has been implemented.
-Having it directly in _G'MIC_ is still a great news: it offers now a preview of the different scales that will be computed, and the implementation is parallelized to take advantage of multiple cores.
+Avoiding the interpolation of pixel colors from surrounding photosites helps to reduce the appearance of Moire in the final result:
+ 
+<figure>
+<img src="ps-adv-moire.png" width="640" height="640">
+<figcaption>
+Top: single raw frame, Bottom: Pixel Shift
+</figcaption>
+</figure>
 
-![img](https://tschumperle.users.greyc.fr/lfr3/gmic_wavelets.jpg)
-_Fig.2.4.1. Overview of the wavelet-based image decomposition filter, in the G'MIC plug-in for GIMP._
-
-The filter outputs several layers, so that each layer contains the details of the image at a given scale. All those layers blended together gives the original image back.
 
-Thus, one can work on those output layers separately and modify the image details only for a given scale. There are a lot of applications for this kind of image decomposition,
-one of the most spectacular being the ability to retouch the skin in portraits : the flaws of the skin are indeed often present in layers with middle-sized scales, while
-the natural skin texture (the pores) are present in the fine details. By selectively removing the flaws while keeping the pores, the skip aspect stays natural after the retouch
-(see [this wonderful link](http://blog.patdavid.net/2011/12/getting-around-in-gimp-skin-retouching.html) for a detailed tutorial about skin retouching techniques, with _GIMP_).
-
-![img](https://tschumperle.users.greyc.fr/lfr3/skin.gif)
-_Fig.2.4.2. Using the wavelet decomposition filter in G'MIC for removing visible skin flaws on a portrait._
+#### Increased Resolution
 
-## 2.5. Image denoising based on « Patch-PCA »
+This method is similar in concept to what was previously seen when Olympus announced their "High Resolution" mode for the OMD E-M5mkII camera.  In that case they combine 8 frames moved by sub-pixel amounts to increase the overall resolution.  The difference here is that Olympus generates a single, combined raw file from the results, while Pixel Shift gets you access to each of the four raw files before they're combined.
 
-_G'MIC_ is also well known to offer a wide range of algorithms for image _denoising_ and _smoothing_ (currently more than a dozen). And he got one more !
-Filter __Repair / Smooth [patch-pca]__ proposed a new image denoising algorithm that is both efficient and computationally intensive (despite its multi-threaded implementation, you
-probably should avoid it on a machine with less than 8 cores...).
-In return, it sometimes does magic to suppress noise while preserving small details.
+In each case, a higher resolution image can be created from the results:
+ 
+<figure>
+<img src="ps-adv-resolution.png" width="640" height="640">
+<figcaption>
+Top: single raw frame, Bottom: Pixel Shift
+</figcaption>
+</figure>
 
-![img](https://tschumperle.users.greyc.fr/lfr3/patchpca.jpg)
-_Fig.2.5.1. Result of the new patch-based denoising algorithm added to G'MIC._
 
-## 2.6. The « Droste » effect
+### Disadvantages
 
-[The Droste effect](https://en.wikipedia.org/wiki/Droste_effect) (also known as « _mise en abyme_ » in art) is the effect of a picture appearing within itself recursively.
-To achieve this, a new filter __Deformations / Continuous droste__ has been added into _G'MIC_. It's actually a complete rewrite of the popular Mathmap's
-[Droste filter](https://www.flickr.com/groups/88221799@N00/discuss/72157601071820707/) that has existed for years.
-_Mathmap_ was a very popular plug-in for _GIMP_, but it seems to be not maintained anymore. The Droste effect was one of its most iconic and complex filter.
-_Martin « Souphead »_, one former user of _Mathmap_ then took the bull by the horns and converted the complex code of this filter specifically into a _G'MIC_ script,
-resulting in a parallelized implementation of the filter.
-
-![img](https://tschumperle.users.greyc.fr/lfr3/droste0.jpg)
-_Fig.2.6.1. Overview of the converted « Droste » filter, in the G'MIC plug-in for GIMP._
-
-This filter allows all artistic delusions. For instance, it becomes trivial to create the result below in a few steps: create a selection around the clock, move it on a transparent background, run the _Droste_ filter,
-_et voilà!_.
-
-![img](https://tschumperle.users.greyc.fr/lfr3/droste2.jpg)
-_Fig.2.6.2. A simple example of what the G'MIC « Droste » filter can do._
-
-## 2.7. Equirectangular to nadir-zenith transformation
-
-The filter __Deformations / Equirectangular to nadir-zenith__ is another filter converted from _Mathmap_ to _G'MIC_.
-It is specifically used for the processing of panoramas: it reconstructs both the
-[_Zenith_](https://en.wikipedia.org/wiki/Zenith) and the
-[_Nadir_](https://en.wikipedia.org/wiki/Nadir) regions of a panorama so that they can be easily modified
-(for instance to reconstruct missing parts), before being reprojected back into the input panorama.
-
-![img](https://tschumperle.users.greyc.fr/lfr3/zenith1.jpg)
-_Fig.2.7.1. Overview of the «Deformations / Equirectangular to nadir-zenith» filter in the G'MIC plug-in for GIMP._
-
-[_Morgan Hardwood_](https://plus.google.com/u/0/b/117441237982283011318/115320419935722486008/posts) has wrote a quite detailled tutorial,
-[here on pixls.us](https://discuss.pixls.us/t/panography-patching-the-zenith-and-nadir/585),
-about the reconstruction of missing parts in the Zenith/Nadir of an equirectangular panorama. Check it out!
-
-# 3. Other various improvements
-
-Finally, here are other highlights about the _G'MIC_ project:
-
-- Filter __Rendering / Kitaoka Spin Illusion__ is another _Mathmap_ filter converted to _G'MIC_ by _Martin « Souphead »_. It generates a certain kind of
-[optical illusions](http://www.ritsumei.ac.jp/~akitaoka/index-e.html) as shown below (close your eyes if you are epileptic!)
-
-![img](https://tschumperle.users.greyc.fr/lfr3/spin2.jpg)
-_Fig.3.1. Result of the « Kitaoka Spin Illusion » filter._
-
-- Filter __Colors / Color blindness__ transforms the colors of an image to simulate different types of [color blindness](https://en.wikipedia.org/wiki/Color_blindness).
-  This can be very helpful to check the accessibility of a web site or a graphical document for colorblind people.
-  The color transformations used here are the same as defined on [_Coblis_](http://www.color-blindness.com/coblis-color-blindness-simulator/),
-  a website that proposes to apply this kind of simulation online. The _G'MIC_ filter gives strictly identical results, but it ease
-  the batch processing of several images at once.
-
-![img](https://tschumperle.users.greyc.fr/lfr3/gmic_cb.jpg)
-_Fig.3.2. Overview of the colorblindness simulation filter, in the G'MIC plug-in for GIMP._
-
-- Since a few years now, _G'MIC_ has its own parser of mathematical expression, a really convenient module to perform complex calculations when applying image filters
-This core feature gets new functionalities: the ability to manage variables that can be complex, vector or matrix-valued, but also the creation of
-user-defined mathematical functions. For instance, the classical rendering of the [_Mandelbrot_ fractal set](https://en.wikipedia.org/wiki/Mandelbrot_set)
-(done by estimating the divergence of a sequence of complex numbers) can be implemented like this, directly on the command line:
-``````````sh
-$ gmic 512,512,1,1,"c = 2.4*[x/w,y/h] - [1.8,1.2]; z = [0,0]; for (iter = 0, cabs(z)<=2 && ++iter<256, z = z**z + c); 6*iter" -map 7,2
-``````````
-
-![img](https://tschumperle.users.greyc.fr/lfr3/gmic_mand.jpg)
-_Fig.3.3. Using the G'MIC math evaluator to implement the rendering of the Mandelbrot set, directly from the command line!_
-
-This clearly enlarge the math evaluator ability, as you are not limited to scalar variables anymore. You can now create complex filters which are able to
-solve linear systems or compute eigenvalues/eigenvectors, and this, for each pixel of an input image.
-It's a bit like having a micro-(micro!)-[_Octave_](https://www.gnu.org/software/octave/) inside _G'MIC_.
-Note that the _Brushify_ filter described earlier uses these new features extensively.
-It's also interesting to know that the _G'MIC_ math expression evaluator has its own [_JIT_ compiler](https://en.wikipedia.org/wiki/Just-in-time_compilation)
-to achieve a fast evaluation of expressions when applied on thousands of image values simultaneously.
-
-- Another great contribution has been proposed by [_Tobias Fleischer_](https://plus.google.com/+TobiasFleischer/posts), with the creation of a new _C_
-[_API_](https://en.wikipedia.org/wiki/Application_programming_interface) to invoke the functions of the [_libgmic_](http://gmic.eu/libgmic.shtml) library
-(which is the library containing all the _G'MIC_ features, initially available through a _C++_ _API_ only).
-As the _C_ [_ABI_](https://fr.wikipedia.org/wiki/Application_binary_interface) is standardized (unlike _C++_),
-this basically means _G'MIC_ can be interfaced more easily with languages other than _C++_.
-In the future, we can imagine the development of _G'MIC_ _APIs_ for languages such as _Python_ for instance.
-_Tobias_ is currently using this new _C_ _API_ to develop _G'MIC_-based plug-ins compatible with the [_OpenFX_](https://en.wikipedia.org/wiki/OpenFX_%28API%29) standard.
-Those plug-ins should be usable indifferently in video editing software such as [After effects](https://fr.wikipedia.org/wiki/Adobe_After_Effects), [Sony Vegas Pro](https://fr.wikipedia.org/wiki/Sony_Vegas_Pro)
-or [Natron](http://www.natron.fr/). This is still an on-going work though.
-
-![img](https://tschumperle.users.greyc.fr/lfr3/gmic_natron.jpg)
-_Fig.3.3. Overview of some G'MIC-based OpenFX plug-ins, running under Natron._
-
-- Another contributor [_Robin « Starfall Robles »_](https://github.com/Starfall-Robles) started to develop a [Python script](https://github.com/Starfall-Robles/Blender-2-G-MIC)
-to provide some of the _G'MIC_ filters directly in the [_Blender_ video sequence editor](http://www.blendernation.com/2016/04/27/creative-imagery-blender-2-gmic/).
-This work is still in a early stage, but you can already apply different _G'MIC_ effects on image sequences (see [this video](https://www.youtube.com/watch?v=TSzoEXAV1zs) for a demonstration).
-
-![img](https://tschumperle.users.greyc.fr/lfr3/gmic_blender2.jpg)
-_Fig.3.4. Overview of a dedicated G'MIC script running within the Blender VSE._
-
-- You can find out _G'MIC_ filters also in the opensource nonlinear video editor [_Flowblade_](https://github.com/jliljebl/flowblade), thanks to the hard work of
-[_Janne Liljeblad_](https://plus.google.com/u/0/b/117441237982283011318/102624418925189345577/posts) (_Flowblade_ project leader).
-Here again, the goal is to allow the application of _G'MIC_ effects and filters directly on image sequences, mainly for artistic purposes
-(as shown in [this video](https://vimeo.com/157364651) or [this one](https://vimeo.com/164331676)).
-
-![img](https://tschumperle.users.greyc.fr/lfr3/gmic_flowblade.jpg)
-_Fig.3.5. Overview of a G'MIC filter applied under Flowblade, a nonlinear video editor._
-
-# 4. What's next ?
-
-As you see, the _G'MIC_ project is doing well, with an active development and cool new features added months after months.
-You can find and use interfaces to _G'MIC_ in more and more opensource software, as
-[_GIMP_](http://www.gimp.org),
-[_Krita_](https://krita.org/),
-[_Blender_](https://www.blender.org/),
-[_Photoflow_](https://aferrero2707.github.io/PhotoFlow/),
-[_Flowblade_](https://github.com/jliljebl/flowblade),
-[Veejay](http://veejayhq.net/),
-[_EKD_](http://ekd.tuxfamily.org/) and
-[_Natron_](http://natron.fr/) in a near future (at least we hope so!).
-
-At the same time, we can see more and more external resources available for _G'MIC_ : tutorials, blog articles
-([here](https://discuss.pixls.us/t/fourier-transform-for-fixing-regular-pattern-noise/586),
-[here](https://paulsphotopalace.wordpress.com/the-color-mixers-3/),
-[here](http://lapizybits.blogspot.com/2015/12/efecto-esbozo.html),...),
-or demonstration videos
-([here](https://www.youtube.com/watch?v=YjqMT7Mn2ac),
-[here](https://www.youtube.com/watch?v=VPG1dkPlyvo),
-[here](https://www.youtube.com/watch?v=N3KqWTmkgB8),
-[here](https://www.youtube.com/watch?v=w6Sr1nO5gFo),...).
-This shows the project raises among users of opensource software for graphics and photography.
-
-The development of version *1.7.2* already hit the ground running, so stay tuned and visit the official _G'MIC_ [forum on pixls.us](https://discuss.pixls.us/c/software/gmic)
-to get more info about the project developement and get answers to your questions.
-Meanwhile, feel the power of _free software_ for image processing!
-
-### Links:
-* [G'MIC home page](http://gmic.eu)
-* [G'MIC plug-in for GIMP](http://gmic.eu/gimp.shtml)
-* [Introduction to the CLI interface of G'MIC](http://gmic.eu/tutorial/basics.shtml)
-* [Technical reference documentation](http://gmic.eu/reference.shtml)
+#### Movement
+
+As with most approaches for capturing multiple images and combining them, a particularly problematic area is when there are objects in motion between the frames being captured.  This is a common problem for panorama photography when stitching the image together, image stacks for noise reduction, as well as image combining methods like Pixel Shift.
+
+Although...
+
+
+
+## RawTherapee Approach
+
+Simply combining four static frames together is really trivial, and is something that all the other pixelshift capable software can do without issue. The real world is not often so accommodating as a studio setup, and that is where the recent work done by Ingo and Ilias on RawTherapee really begins to shine.
+
+What they've been working on in RawTherapee is to improve the _detection of movement_ in a scene.  There are several types of movement possible such as
+
+* Objects showing at different places in a scene such as fast moving cars.
+* Partly moving objects like foliage in the wind.
+* Moving objects reflecting light onto static objects in the scene
+* Changing illumination conditions such as long exposures at sunset.
+
+All of these types of movement need to be detected to avoid the artifacts they may cause in the final shot.
+
+One of the key features of Pixel Shift movement detection in RawTherapee is that it allows you to show the movement mask, so you get feedback on which regions of the image are detected as movement and which are static.  For the regions with movement RawTherapee will then use the demosaiced frame of your choice to fill it in, and for regions without movement it will use the Pixel Shift combined image with more detail and less noise.
+
+<figure class='big-vid'>
+<img src="movemask.jpg" width='960' height='720'>
+<figcaption>
+Unique to RawTherapee is the option to export the resulting motion mask  
+(for those that may want to do further blending/processing manually).
+</figcaption>
+</figure>
+
+The accuracy of movement detection in RawTherapee leads to much better handling of motion artifacts that works well in places where proprietary solutions fall short (see below).  For most cases the Automatic motion correction mode works well, but you can also fine tune the parameters in custom mode to correctly detect motion in high ISO shots.
+
+Besides being the only option (barring dcrawps possibly) to process Pixel Shift files in Linux, RawTherapee has some other neat options that aren't found in other solutions. One of them is the ability to export the actual movement mask separate from the image. This will let users generate separate outputs from RT, and to combine them later using the movement mask. Another option is the ability to choose which of the other frames to use for filling in the movement areas on the image.
+
+
+
+## A Comparison of Other Software (Processing Pixel Shift)
+
+Pentax has software to process these files, Pentax Digital Camera Utility (SilkyPix), but as with most vendor-bundled software it can be slow, unwieldy, and a little buggy sometimes.  Having said that, the results do look good, and at least the "Motion Correction" is able to be utilized with this software.
+
+Adobe Camera Raw (ACR) got support for Pixel Shift files in version 9.5.1 (but doesn't utilize the "Motion Correction").  In fact, ACR didn't have support at the time that [DPReview.com](https://www.dpreview.com) looked at the feature last year (causing them to retract the article and re-post when they had a chance to use a version of ACR with support).
+
+In a [recent look at Pixel Shift](https://www.dpreview.com/reviews/k1-pixel-shift-resolution-updated-field-test) processing over at DPReview.com, they got some interesting results.  
+
+[issues]: https://www.dpreview.com/reviews/k1-pixel-shift-resolution-updated-field-test#reviewImageComparisonWidget-52182546
+
+<figure>
+<img src="IMGP0597.RT-PS-1.jpg" width="640" height="428">
+<figcaption>
+The image used in the DPReview article. &copy;[Chris M Williams](https://www.dpreview.com/reviews/k1-pixel-shift-resolution-updated-field-test)
+</figcaption>
+</figure>
+
+We're going to look at some 100% crops from that article and compare them to the results available using recent version of RawTherapee.
+
+Looking first at an area of foliage with motion, the places where there are issues [becomes apparent][issues].
+
+For reference, here is the Adobe Camera Raw (ACR) version of one frame from a Pixel Shift file:
+
+<figure>
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/e/ed57f97d73ec2dc6f80256a6e8e57bf812682fc0.jpg" width="300" height="200">
+</figure>
+
+The results with Pixel Shift on, and motion correction on, from straight-out-of-camera (SOOC), Adobe Camera Raw (ACR), SilkyPix, and RawTherapee (RT) are decidedly mixed.  In all but the RT version, there's a very clear problem with effective blending and masking of the frames in areas with motion:
+
+<figure>
+<img src="IMGP0597-Area01-combined.png" width='600' height='400'>
+<figcaption>
+
+</figcaption>
+</figure>
+
+
+<!-- 
+ACR raw, PS on, motion correction on:
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/3/3247fa019234363f118b5540e62ba5c4301abaee.jpg" width="300" height="200">
+
+SOOC JPEG, PS on, motion correction on:
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/5/59345c69231876b1a1ab6a7fa72bfd06cb65a7ae.jpg" width="300" height="200">
+
+SilkyPix raw, PS on, motion correction on:
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/4/4c42ff212f3f314f6903f8474d835b6ddcb40b7f.jpg" width="300" height="200">
+
+RawTherapee, Pixel Shift on, motion correction off:
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/5/5414eb5266c5af434d2de0c7a25cce402c300eea.jpg" width="300" height="200">
+
+RawTherapee, Pixel Shift on, motion correction (Auto):
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/4/46fc93f9a86b99019e0e424b25e2078a6d50c8e9.jpg" width="300" height="200">
+
+-->
+
+---
+
+Things look much worse for Adobe Camera Raw when looking at high-motion areas like the water spray at the foot of the waterfall, though SilkyPix does much better job here.
+
+The ACR version of one frame for reference:
+
+<figure>
+<img src="IMGP0597-Area02-ACR-MotionOff.jpg" width="300" height="200">
+</figure>
+
+Both the SOOC and SilkyPix versions handle all of the movement well here.  RawTherapee also does a great job blending the frames through all of the movement.  Adobe Camera Raw is not doing well at all...
+
+<figure>
+<img src="IMGP0597-Area02-combined.png" width='600' height='400'>
+</figure>
+
+
+<!-- 
+ACR raw, PS on, motion correction on:
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/3/36d3122e6e1147f06dcbbb852a63bd5bdbd11bb1.jpg" width="300" height="200">
+
+
+SOOC JPEG, PS on, motion correction on:
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/d/d86dc1ab21a7b32dc7d58e403607d3a65d8a84c9.jpg" width="300" height="200">
+
+
+SilkyPix raw, PS on, motion correction on:
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/6/6a32c96b17b362db3ade20a4051a3876382845d4.jpg" width="300" height="200">
+
+
+RawTherapee, Pixel Shift on, motion correction off:
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/d/dc92eb0ea095fa8f3c77991f7c7606f44c6e36e8.jpg" width="300" height="200">
+
+
+RawTherapee, Pixel Shift on, motion correction (Auto):
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/a/af3cb4da48d8e2c863cfd56148239b7844b48762.jpg" width="300" height="200">
+
+-->
+
+
+* * *
+
+Finally, in a frame full of movement, such as the surface of the water.
+
+The ACR version of one frame for reference:
+<figure>
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/b/bfd2480b8f2f9467e0e0db33ba8e3791085a7ed3.jpg" width="300" height="200">
+</figure>
+
+In a frame full of movement the SOOC, ACR, and SilkyPix processing all struggle to combine a clean set of frames together.  They exhibit a pixel pattern from the processing, and the ACR version begins to introduce odd colors:
+
+<figure>
+<img src="IMGP0597-Area03-combined.png" width='600' height='400'>
+</figure>
+
+<!-- 
+ACR raw, PS on, motion correction on:
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/3/335f9bbe62026b061fa9d7659913cfc8618b15e3.jpg" width="300" height="200">
+
+
+SOOC JPEG, PS on, motion correction on:
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/a/ac50c9893deace74de435236109b8c731ed07087.jpg" width="300" height="200">
+
+
+SilkyPix raw, PS on, motion correction on:
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/2/2cf0e46026d9924e6a3ca4bc4f2abcf41e595285.jpg" width="300" height="200">
+
+
+RawTherapee, Pixel Shift on, motion correction off:
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/2/21fae3ffbfb2b5c4ffef7343117f55c167d91104.jpg" width="300" height="200">
+
+
+RawTherapee, Pixel Shift on, motion correction (Auto):
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/2/2091d26deb3975747350fa611a205653563a4dd6.jpg" width="300" height="200">
+
+-->
+
+As mentioned earlier, a unique feature of RawTherapee is the ability to export the motion mask.  Here is an example of the motion mask for this image (overlayed on the image itself):
+
+<figure>
+<img src="IMGP0597.RT-PS-1-masked.jpg" width="640" height="428">
+<figcaption>
+The motion mask generated by RawTherapee for the above image.
+</figcaption>
+</figure>
+
+
+### In Conclusion
+
+In another example of the power and community of Free/Libre and Open Source Software we have a great enhancement to a project based on feedback and input from the users.  In this case, it all started with a [post on our forums](https://discuss.pixls.us/t/support-for-pentax-pixel-shift-files-3489/2560).
+
+Not so coincidentally, community member [@nosle](https://discuss.pixls.us/users/nosle) gave permission to use one of his PS files for everyone to try processing.  You can find the file and everyone's results on the [Play pixelshift thread](https://discuss.pixls.us/t/play-pixelshift/3142).
+
+Pixel Shift is currently in the development branch of RawTherapee and is slated for release with version 5.1.
