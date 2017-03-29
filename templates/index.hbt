@@ -180,7 +180,12 @@
                         <h2 class="blog-title"><a href="/{{path}}/">{{title}}</a></h2>
                         <h3 class="blog-subtitle">{{sub-title}}</h3>
                         <div class="date"><small>{{{niceDate date}}}</small></div>
-                        {{{abPathTest less }}}
+                        {{#if less}}
+                            {{{abPathTest less}}}
+                        {{else}}
+                            {{{abPathTest contents}}}
+                        {{/if}}
+                        {{!-- {{{abPathTest less }}} --}}
                         <p class="blog-read-more"><a href="/{{path}}/">Continue Reading &rarr;</a></p>
                     </div>
                     <hr/>

@@ -72,11 +72,11 @@
                         <h1><a href="/{{path}}">{{title}}</a></h1>
                         <div class="date"><small>{{{niceDate this.date}}}</small></div>
                         {{#if less}}
-                            {{{abPathTest less}}}
+                            {{{abPathTest less }}}
                             {{!-- {{{less}}} --}}
                             <div class="more"><a href="/{{path}}">Continue Reading &rarr;</a></div>
                         {{else}}
-                            {{{abPathTest contents}}}
+                            {{{abPathTest contents }}}
                             {{!-- {{{contents}}} --}}
                         {{/if}}
                     </div>
