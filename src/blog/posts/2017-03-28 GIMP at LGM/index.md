@@ -73,9 +73,9 @@ Surely this [(Brady) Bunch][] of folks is worth helping to get a better GIMP?
 <img src='GIMPers.jpg' alt='GIMPers at LGM/London'>
 <figcaption>
 Left to right, top to bottom:  
- Ville, Mitch, Øyvind,   
-Simon, Liam, João,   
-Aryeom, Jehan, Michael
+ Ville, Mitch, Øyvind,  
+ Simon, Liam, João,  
+ Aryeom, Jehan, Michael
 </figcaption>
 </figure>
 
