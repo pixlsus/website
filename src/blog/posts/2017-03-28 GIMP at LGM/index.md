@@ -74,7 +74,7 @@ Surely this [(Brady) Bunch][] of folks is worth helping to get a better GIMP?
 <figcaption>
 Left to right, top to bottom:  
 Ville, Mitch, Øyvind,  
-Simon, Liam, João  
+Simon, Liam, João,  
 Aryeom, Jehan, Michael
 </figcaption>
 </figure>
