@@ -33,7 +33,7 @@ For the example images included with this tutorial, the *focal length* is **12mm
 
 You can download a zip file of all of the sample _Beach Umbrellas_ images here:
 
-[Download **Outdoor_Beach_Umbrella.zip**](/articles/aligning-images-with-hugin/Outdoor_Beach_Umbrella.zip) (62MB)
+[Download **Outdoor_Beach_Umbrella.zip**](https://s3.amazonaws.com/pixls-files/Outdoor_Beach_Umbrella.zip) (62MB)
 
 Other sample images to try with this tutorial can be [found at the end of the post](#image-files).
 
