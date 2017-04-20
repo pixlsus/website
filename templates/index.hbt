@@ -2,7 +2,7 @@
 <html lang="en">
 	<head itemscope itemtype="http://schema.org/WebSite">
 	<meta charset="utf-8">
-	<title itemprop='name'>PIXLS.US{{#if title}} - {{ title }} {{/if}}</title>
+    <title itemprop='name'>PIXLS.US{{#if title}} - {{ title }} {{else}} - Free/Open Source Photography{{/if}}</title>
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@pixlsus">
