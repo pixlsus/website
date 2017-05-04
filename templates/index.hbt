@@ -176,7 +176,7 @@
                 <div class="section-title">Recent <a href="/blog/">Blog&nbsp;Posts</a></div>
                 {{#each (limited collections.blogposts 4)}}
                     <div class="container blog-entry">
-                        <img src="/{{path}}/th_{{lede-img}}" alt="{{#if lede-alt}} {{lede-alt}} {{else}}PIXLS.US blog post lede image{{/if}}"/>
+                        <img src="/{{path}}/{{#if lede-img-thumb }}{{ lede-img-thumb }}{{else}}th_{{lede-img}}{{/if}}" alt="{{#if lede-alt}} {{lede-alt}} {{else}}PIXLS.US blog post lede image{{/if}}"/>
                         <h2 class="blog-title"><a href="/{{path}}/">{{title}}</a></h2>
                         <h3 class="blog-subtitle">{{sub-title}}</h3>
                         <div class="date"><small>{{{niceDate date}}}</small></div>
