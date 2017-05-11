@@ -23,6 +23,7 @@ Wouldn't you know it, another year slipped right by!
 * digiKam
 * IRC
 * Libre Graphics Meeting
+* Discourse PR
 
 
 [IRC]:https://kiwiirc.com/client/irc.freenode.net/?nick=webuser%7C?#pixls.us
