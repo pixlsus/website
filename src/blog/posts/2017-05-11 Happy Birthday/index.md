@@ -112,6 +112,9 @@ Even if you don't want your full name out here, I know who you are and am very, 
 * Jörg W.
 * Patrick B.
 * Joop K.
+* Alain V.
+* Egor S.
+* Samuel S.
 
 On that note.
 If anyone wanted to join the folks above in supporting what we're up to, we have a page specifically for that: 
