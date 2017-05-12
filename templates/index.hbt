@@ -134,7 +134,7 @@
                             <p>
                                 The projects that make open source imaging possible!
                             </p>
-														<img src="/software/projects2.jpg" alt="FOSS Projects"/>
+														<img src="/software/projects2.jpg" alt="FOSS Projects" style="max-width: 1024px"/>
                         </div>
                     </div>
                 </div>
@@ -230,43 +230,10 @@
 
             <section>
                 <div class="container">
-                    <!--
-                    <h2>Want to Know More?</h2>
-
-                    <p>
-                    I just got the basic framework for the blog posts set up.
-                    You can follow along <a href="/blog/"><strong>the blog here</strong></a> to keep up with the site status.
-                    </p>
-                    -->
-										<!--
-                    <p>
-                        I am working hard to get various parts of the site up and running (as well as writing and editing new content).
-                    </p>
-                    <hr/>
-										-->
                     <h2><a href="/about/">About Us</a></h2>
                     <p>
                         See the <a href="/about">About Page</a> to give you a little more information about the site and who&rsquo;s involved.
                     </p>
-                    <hr/>
-										<!-->
-                    <h2><a href="/blog/">The Blog</a></h2>
-                    <p>
-                    I just got the basic framework for the blog posts set up.
-                    You can follow along <a href="/blog/"><strong>the blog here</strong></a> to keep up with the site status.
-                    </p>
-                    <br/>
-                    <p>
-                    I&rsquo;ll be updating there as I build out more of the site.
-                    If you would like to contribute in any way, please feel free to reach out to me (I promise I don&rsquo;t bite).
-                    </p>
-                    <hr/>
-                    <h2><a href="/software/">Software</a></h2>
-                    <img src="/software/projects2.jpg" alt="FOSS Projects"/>
-                    <p>
-                    A list of various F/OSS projects related to photography and digital imaging.
-                    </p>
-										-->
                 </div>
 
             </section>
