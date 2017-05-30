@@ -292,6 +292,13 @@ layout: page.hbt
             Geeqie is a lightweight image viewer for Linux, BSDs, and *compatibles*.
             </p>
         </div>
+		<div class="sw-entry aphotomanager">
+			<a href="https://github.com/k3b/APhotoManager">A Photo Manager</a>
+			<i class="fa fa-android"></i>
+			<p>
+				Manage big local photo collections on Android phones and tablets: gallery, geotag with photomap, tags, find, sort, view, copy, delete, send, ...		
+			</p>
+		</div>
 		<h2>Camera Utilities</h2>
 		<div class="sw-entry opencamera">
 			<a href="http://opencamera.sourceforge.net/">Open Camera</a>
