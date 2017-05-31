@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Build successful!"
+echo "Build successful (hopefully)!"
 #echo $TRAVIS_BRANCH
 #echo $TRAVIS_PULL_REQUEST
 #echo $TRAVIS_BUILD_ID
