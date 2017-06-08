@@ -46,7 +46,7 @@ It provides a variety of user interfaces for manipulating generic image data, th
 with floating-point pixel values. This includes, of course, "classic" color images.
 
 <figure>
-<a href='logo_gmic.jpg' target='_blank'><img src='s_logo_gmic.jpg' alt='G'MIC logo'></a>
+<a href='logo_gmic.jpg' target='_blank'><img src='s_logo_gmic.jpg' alt="G'MIC logo"></a>
 <figcaption>
 <i>Fig.1.1:</i> Logo of the <i>G'MIC</i> project, an open-source framework for image processing, and its mascot <i>Gmicky</i>.
 </figcaption>
@@ -83,7 +83,7 @@ The repository [_G'MIC-Qt_](https://github.com/c-koi/gmic-qt) developed by [Séb
 the team) is a _Qt_-based version of the plug-in interface, being as independent as possible of the widget _API_ provided by _GIMP_.
 
 <figure>
-<a href='gmic_200.jpg' target='_blank'><img src='gmic_200.jpg' alt='G'MIC-Qt plug-in 1'></a>
+<a href='gmic_200.jpg' target='_blank'><img src='gmic_200.jpg' alt="G'MIC-Qt plug-in 1"></a>
 <figcaption>
 <i>Fig.2.1:</i> Overview of version <b>2.0</b> of the <i>G'MIC-Qt</i> plug-in running for <i>GIMP</i>.
 </figcaption>
@@ -115,7 +115,7 @@ could be useful (a file `host_blender.cpp` available soon ? We can dream!). The 
 offered by this new _Qt_-based interface.
 
 <figure>
-<a href='gmic_qt.gif' target='_blank'><img src='gmic_qt.gif' alt='G'MIC-Qt plug-in 2'></a>
+<a href='gmic_qt.gif' target='_blank'><img src='gmic_qt.gif' alt="G'MIC-Qt plug-in 2"></a>
 <figcaption>
 <i>Fig.2.2:</i> The new <i>G'MIC-Qt</i> interface in action.
 </figcaption>
