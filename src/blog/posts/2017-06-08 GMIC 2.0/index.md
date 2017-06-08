@@ -16,9 +16,7 @@ layout: blog-posts.hbt
 
 ---
 
-The [_IMAGE_](https://www.greyc.fr/en/image) team of the research laboratory [_GREYC_](https://www.greyc.fr/en) in _Caen_/_France_ is pleased to announce
-the release of a new major version (numbered **2.0**) of its project [_G'MIC_](http://gmic.eu): a generic, extensible, and _open source_ framework for
-[image processing](https://en.wikipedia.org/wiki/Image_processing).
+The [_IMAGE_](https://www.greyc.fr/en/image) team of the research laboratory [_GREYC_](https://www.greyc.fr/en) in _Caen_/_France_ is pleased to announce the release of a new major version (numbered **2.0**) of its project [_G'MIC_](http://gmic.eu): a generic, extensible, and _open source_ framework for [image processing](https://en.wikipedia.org/wiki/Image_processing).
 Here, we present the main advances made in the software since our [last article](https://pixls.us/blog/2016/05/g-mic-1-7-1/).
 The new features presented here include the work carried out over the last twelve months (versions _2.0.0_ and _1.7.x_, for _x_ varying from _2_ to _9_).
 
@@ -40,10 +38,8 @@ Links:
 
 _G'MIC_ is an open-source project started in August 2008, by the [IMAGE](https://www.greyc.fr/en/image) team.
 This French research team specializes in the fields of algorithms and mathematics for image processing.
-_G'MIC_ is distributed under the [CeCILL](http://www.cecill.info/licenses/Licence_CeCILL_V2.1-en.txt) license (which is _GPL_ compatible)
-and is available for multiple platforms (_GNU/Linux_, _MacOS_ and _Windows_).
-It provides a variety of user interfaces for manipulating generic image data, that is to say, _2D_ or _3D_ multispectral images (or sequences)
-with floating-point pixel values. This includes, of course, "classic" color images.
+_G'MIC_ is distributed under the [CeCILL](http://www.cecill.info/licences/Licence_CeCILL_V2.1-en.txt) license (which is _GPL_ compatible) and is available for multiple platforms (_GNU/Linux_, _MacOS_ and _Windows_).
+It provides a variety of user interfaces for manipulating generic image data, that is to say, _2D_ or _3D_ multispectral images (or sequences) with floating-point pixel values. This includes, of course, "classic" color images.
 
 <figure>
 <a href='logo_gmic.jpg' target='_blank'><img src='s_logo_gmic.jpg' alt="G'MIC logo"></a>
