@@ -1,19 +1,17 @@
 ---
-date: 2017-06-07
+date: 2017-06-08T10:22:52-06:00
 title: G'MIC 2.0
 sub-title: A second breath for open-source image processing.
 
-lede-img: banner.jpg
-lede-img-thumb: th_banner.jpg
-lede-attribution:
+lede-img: Shrouded_in_clouds.jpg
+lede-img-thumb: th_Shrouded_in_clouds.jpg
+lede-attribution: "<a href='https://www.flickr.com/photos/80225884@N06/14329378176/' title='Shrouded in clouds by Jonas Wagner, on Flickr'>Shrouded in clouds</a> by <a href='https://29a.ch/' title'experiments by Jonas Wagner'>Jonas Wagner</a>"
 
 author: David Tschumperlé
 author-img: /images/authors/david-tschumperle.png
 author-bio: "I am a researcher working in the field of image processing in a daily basis. I work for the <a title='CNRS' href='http://www.cnrs.fr/' >CNRS</a> institute, in the <a title='Equipe Image du GREYC' href='https://www.greyc.fr/image' >Image Group </a>at the <a title='Laboratoire GREYC' href='http://www.greyc.fr' >GREYC</a> laboratory in Caen/France. I'm the manager and developer of <a href='http://gmic.eu'>G'MIC</a> and <a href='http://cimg.eu'>CImg</a>, two open-source projects for image processing."
 
-#collection: blogposts
-nodiscuss: true
-
+collection: blogposts
 layout: blog-posts.hbt
 
 ---
@@ -21,8 +19,10 @@ layout: blog-posts.hbt
 The [_IMAGE_](https://www.greyc.fr/en/image) team of the research laboratory [_GREYC_](https://www.greyc.fr/en) in _Caen_/_France_ is pleased to announce
 the release of a new major version (numbered **2.0**) of its project [_G'MIC_](http://gmic.eu): a generic, extensible, and _open source_ framework for
 [image processing](https://en.wikipedia.org/wiki/Image_processing).
-Here we present the main advances made in the software since our [last article](https://pixls.us/blog/2016/05/g-mic-1-7-1/).
+Here, we present the main advances made in the software since our [last article](https://pixls.us/blog/2016/05/g-mic-1-7-1/).
 The new features presented here include the work carried out over the last twelve months (versions _2.0.0_ and _1.7.x_, for _x_ varying from _2_ to _9_).
+
+<!-- more -->
 
 ----
 Links:
@@ -59,16 +59,16 @@ available by default in _GIMP_.
 _G'MIC_ also provides a powerful and autonomous [command-line interface](http://gmic.eu/reference.shtml), which is complementary
 to the _CLI_ tools you can find in the famous [_ImageMagick_](http://www.imagemagick.org/) or [_GraphicsMagick_](http://www.graphicsmagick.org) projects.
 There is also a web service [_G'MIC Online_](https://gmicol.greyc.fr/), allowing to apply image processing effects directly from a browser.
-Other (but more lesser known) _G'MIC_-based interfaces exist: a webcam streaming tool [_ZArt_](https://www.youtube.com/watch?v=k1l3RdvwHeM),
+Other (but less well known) _G'MIC_-based interfaces exist: a webcam streaming tool [_ZArt_](https://www.youtube.com/watch?v=k1l3RdvwHeM),
 a plug-in for [_Krita_](http://www.krita.org),
 a subset of filters available in [_Photoflow_](http://photoflowblog.blogspot.com/2014/10/two-new-photoflow-features-integration.html),
 [_Blender_](https://github.com/Starfall-Robles/Blender-2-G-MIC) or [_Natron_](https://github.com/NatronVFX/openfx-gmic/releases)...
-All these interfaces are based on the [_CImg_](http://cimg.eu) and [_libgmic_](http://gmic.eu/libgmic.shtml) that libraries, that are portable,
+All these interfaces are based on the [_CImg_](http://cimg.eu) and [_libgmic_](http://gmic.eu/libgmic.shtml) libraries, that are portable,
 thread-safe and multi-threaded, via the use of [_OpenMP_](http://openmp.org/).
 
 _G'MIC_ has more than _950_ different and configurable [processing functions](http://gmic.eu/reference.shtml), for a library of only _6.5Mio_,
 representing a bit more than _180 kloc_.
-The processing functions cover a wide spectrum of the image processing field, offering algorithms for geometrical manipulation, colorimetric changes,
+The processing functions cover a wide spectrum of the image processing field, offering algorithms for geometric manipulations, colorimetric changes,
 image filtering (denoising and detail enhancement by spectral, variational, non-local methods, etc.), motion estimation and registration,
 display of primitives (_2D_ or _3D_ mesh objects), edge detection, object segmentation, artistic rendering, etc.
 It is therefore a very generic tool for various uses, useful on the one hand for converting, visualizing and exploring image data,
@@ -110,7 +110,7 @@ which is aging and poses maintenance problems for developers.
 
 Minimizing the integration effort for developers, sharing the _G'MIC_ plug-in code between different applications, and offering a user interface that is
 as comfortable as possible, have been the main objectives of this complete redesign. As you can imagine, this rewriting required a long and sustained effort,
-and we can only hope that this will arouse interest among other software developers, where having a consistent set of image processing filters
+and we can only hope that this will raise interest among other software developers, where having a consistent set of image processing filters
 could be useful (a file `host_blender.cpp` available soon ? We can dream!). The animation below illustrates some of the features
 offered by this new _Qt_-based interface.
 
@@ -131,7 +131,7 @@ but has fewer features and probably will not evolve anymore in the future, unlik
 One of _G'MIC's_ purposes is to offer more filters and functions to process images.
 And that is precisely something where we have not relaxed our efforts, despite the number of filters already available in the previous versions!
 
-In particular, this version comes with new and improved filters to ease the colorization of line-art. Indeed, we had the chance to receive the artist
+In particular, this version comes with new and improved filters to ease the colorization of line-art. Indeed, we had the chance to host the artist
 [David Revoy](https://www.davidrevoy.com/) for a few days at the lab. _David_ is well known to lovers of art and free software by his multiple contributions
 in these fields (in particular, his web comic [_Pepper & Carrot_](https://www.peppercarrot.com/) is a must-read!).
 In collaboration with _David_, we worked on the design of an original automatic line-art coloring filter, named
@@ -264,12 +264,12 @@ The new filter "**Film emulation / User-defined**" allows to apply such transfor
 extension `.cube` ([_CLUT_ file format](http://wwwimages.adobe.com/content/dam/Adobe/en/products/speedgrade/cc/pdfs/cube-lut-specification-1.0.pdf) proposed
 by _Adobe_, and encoded in _ASCII_ `o_O`!).
 
-And for the most demanding, who are not satiated with the existing pre-defined _CLUTs_,
-we have designed a very versatile filter "**Colors / Customize CLUT**", that allows the user to build its own custom _CLUT_ _from scratch_:
+And for the most demanding, who are not satisfied with the existing pre-defined _CLUTs_,
+we have designed a very versatile filter "**Colors / Customize CLUT**", that allows the user to build their own custom _CLUT_ _from scratch_:
 the user places colored keypoints in the _RGB_ color cube and these markers are interpolated in _3D_
 (according to a [Delaunay triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation))
 in order to rebuild a complete _CLUT_, i.e. a dense function in _RGB_.
-All fantasies are then permitted, as in the example below, where the filter has been used to change the colorimetric ambiance of a landscape,
+This is extremely flexible, as in the example below, where the filter has been used to change the colorimetric ambiance of a landscape,
 mainly altering the color of the sky.
 Of course, the synthesized _CLUT_ can be saved as a file and reused later for other photographs,
 or even in other software supporting this type of color transformations
@@ -348,7 +348,7 @@ key step used in many newly added filters. This was especially the case in this 
 available in "**Details / Sharpen [texture]**".
 This filter works in two successive steps:
 First, the image is separated into a _texture_ component + a _color_ component, then the details of the _texture_ component only are enhanced before
-the image is recomposed. This approach makes it possible to highlight all the small details of an image, while minimizing the apparition of undesired
+the image is recomposed. This approach makes it possible to highlight all the small details of an image, while minimizing the undesired
 halos near the contours, a recurring problem happening with more classical sharpening methods (such as the well known
 [_Unsharp Mask_](https://en.wikipedia.org/wiki/Unsharp_masking)).
 
@@ -413,7 +413,7 @@ Then he wanted to simulation [a longer exposure time](https://patdavid.net/2013/
 [covers of _Playboy_ magazine](https://patdavid.net/2012/08/imagemagick-average-blending-files.html) or
 [celebrity portraits](https://patdavid.net/2012/08/more-averaging-photos-martin-schoeller.html)).
 
-Hence, with his blessing, we added new commands `-median_files`,` -median_videos`, `-average_files` and` -average_videos`  to compute all these image features very easily
+Hence, with his cooperation, we added new commands `-median_files`,` -median_videos`, `-average_files` and` -average_videos`  to compute all these image features very easily
 using the _CLI_ tool `gmic`. The example below shows the results obtained from a sub-sequence of the
 « [_Big Buck Bunny_](https://peach.blender.org/)" video. We have simply invoked the following commands from the _Bash_ shell:
 
@@ -692,7 +692,7 @@ You will likely able to find us there if you need more information, or just if y
 And while waiting for a future hypothetical article about a future release of _G'MIC_, you can always follow the day-after-day progress of the project via
 [our Twitter feed](https://twitter.com/gmic_ip).
 
-Until then, long live to open-source image processing!
+Until then, long live open-source image processing!
 
 ---
-_Credit: Unless explicitly stated, the various non-synthetic images that illustrate this post come from [_Pixabay_](https://pixabay.com/en/)._
+<small>Credit: Unless explicitly stated, the various non-synthetic images that illustrate this post come from [_Pixabay_](https://pixabay.com/en/).</small>
