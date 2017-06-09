@@ -404,7 +404,7 @@ with interesting outcomes!
 Have you ever wondered how to easily estimate the average or median frame of a sequence of input images?
 The libre _aficionado_ [Pat David](https://patdavid.net/), creator of the site [_pixls.us_](https://pixls.us/) often asked the question.
 First of all when he tried to denoise images [by combining several shots](https://patdavid.net/2013/05/noise-removal-in-photos-with-median_6.html) of a same scene.
-Then he wanted to simulation [a longer exposure time](https://patdavid.net/2013/09/faking-nd-filter-for-long-exposure.html) by averaging photographs taken successively. And finally, calculating averages of various kind of images for artistic purposes (for example, frames of
+Then he wanted to simulate [a longer exposure time](https://patdavid.net/2013/09/faking-nd-filter-for-long-exposure.html) by averaging photographs taken successively. And finally, calculating averages of various kind of images for artistic purposes (for example, frames of
 [music video clips](https://patdavid.net/2013/12/mean-averaged-music-videos-g.html),
 [covers of _Playboy_ magazine](https://patdavid.net/2012/08/imagemagick-average-blending-files.html) or
 [celebrity portraits](https://patdavid.net/2012/08/more-averaging-photos-martin-schoeller.html)).
