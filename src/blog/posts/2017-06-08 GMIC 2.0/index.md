@@ -42,7 +42,7 @@ _G'MIC_ is distributed under the [CeCILL](http://www.cecill.info/licences/Licenc
 It provides a variety of user interfaces for manipulating generic image data, that is to say, _2D_ or _3D_ multispectral images (or sequences) with floating-point pixel values. This includes, of course, "classic" color images.
 
 <figure>
-<a href='logo_gmic.jpg' target='_blank'><img src='s_logo_gmic.jpg' alt="G'MIC logo"></a>
+<a href='logo_gmic.jpg' ><img src='s_logo_gmic.jpg' alt="G'MIC logo"></a>
 <figcaption>
 <i>Fig.1.1:</i> Logo of the <i>G'MIC</i> project, an open-source framework for image processing, and its mascot <i>Gmicky</i>.
 </figcaption>
@@ -79,7 +79,7 @@ The repository [_G'MIC-Qt_](https://github.com/c-koi/gmic-qt) developed by [Séb
 the team) is a _Qt_-based version of the plug-in interface, being as independent as possible of the widget _API_ provided by _GIMP_.
 
 <figure>
-<a href='gmic_200.jpg' target='_blank'><img src='gmic_200.jpg' alt="G'MIC-Qt plug-in 1"></a>
+<a href='gmic_200.jpg' ><img src='gmic_200.jpg' alt="G'MIC-Qt plug-in 1"></a>
 <figcaption>
 <i>Fig.2.1:</i> Overview of version <b>2.0</b> of the <i>G'MIC-Qt</i> plug-in running for <i>GIMP</i>.
 </figcaption>
@@ -111,7 +111,7 @@ could be useful (a file `host_blender.cpp` available soon ? We can dream!). The 
 offered by this new _Qt_-based interface.
 
 <figure>
-<a href='gmic_qt.gif' target='_blank'><img src='gmic_qt.gif' alt="G'MIC-Qt plug-in 2"></a>
+<a href='gmic_qt.gif' ><img src='gmic_qt.gif' alt="G'MIC-Qt plug-in 2"></a>
 <figcaption>
 <i>Fig.2.2:</i> The new <i>G'MIC-Qt</i> interface in action.
 </figcaption>
@@ -134,7 +134,7 @@ In collaboration with _David_, we worked on the design of an original automatic 
 [**Smart Coloring**](http://www.davidrevoy.com/article324/smart-coloring-preview-of-a-new-gmic-filter).
 
 <figure>
-<a href='gmic_smart_coloring.jpg' target='_blank'><img src='s_gmic_smart_coloring.jpg' alt='Smart coloring 1'></a>
+<a href='gmic_smart_coloring.jpg' ><img src='s_gmic_smart_coloring.jpg' alt='Smart coloring 1'></a>
 <figcaption>
 <i>Fig.3.1:</i> Use of the "<b>Colorize line-art [smart coloring]</b>" filter in <i>G'MIC</i>.
 </figcaption>
@@ -148,7 +148,7 @@ Practically, flat coloring results in the creation of a new layer that contains 
 This layer is then merged with the original line-art to get the colored rendering (merging both in _multiplication_ mode, typically).
 
 <figure>
-<a href='teaser.jpg' target='_blank'><img src='s_teaser.jpg' alt='Smart coloring 2'></a>
+<a href='teaser.jpg' ><img src='s_teaser.jpg' alt='Smart coloring 2'></a>
 <figcaption>
 <i>Fig.3.2:</i> The different steps of a line-art coloring process (source: <i>David Revoy</i>).
 </figcaption>
@@ -163,7 +163,7 @@ with all the precision problems that this supposes (especially around the contou
 See also [this link](http://www.davidrevoy.com/article240/gmic-line-art-colorization) for more details.
 
 <figure>
-<a href='problemes2.jpg' target='_blank'><img src='problemes2.jpg' alt='Smart coloring 3'></a>
+<a href='problemes2.jpg' ><img src='problemes2.jpg' alt='Smart coloring 3'></a>
 <figcaption>
 <i>Fig.3.3:</i> Classical problems encountered when doing flat coloring (source: <i>David Revoy</i>).
 </figcaption>
@@ -174,15 +174,17 @@ and/or by forcing himself to draw only connected contours, in order to ease the 
 
 The **Smart Coloring** filter developed in version **2.0** of _G'MIC_ allows to automatically pre-color an input line-art without much work.
 First, it analyses the local geometry of the contour lines (estimating their normals and curvatures).
-Second, it (virtually) does contour auto-completion using [_spline curves_](https://en.wikipedia.org/wiki/Spline_(mathematics)).
+Second, it (virtually) does contour auto-completion using [_spline curves_][].
 This virtual closure allows then the algorithm to fill objects with disconnected contour plots.
 Besides, this filter has the advantage of being quite fast to compute and gives coloring results of similar quality to more expensive optimization techniques
 used in some proprietary software.
 This algorithm smoothly manages anti-aliased contour lines, and has two modes of colorization:
 by random colors (_Fig.3.2.[2]_ and _Fig.3.4_) or guided by color markers placed beforehand by the user (_Fig.3.5_).
 
+[_spline curves_]: https://en.wikipedia.org/wiki/Spline_(mathematics)
+
 <figure>
-<a href='rain.gif' target='_blank'><img src='rain.gif' alt='Smart coloring 4'></a>
+<a href='rain.gif' ><img src='rain.gif' alt='Smart coloring 4'></a>
 <figcaption>
 <i>Fig.3.4:</i> Using the <i>G'MIC</i> "<b>Smart Coloring</b>" filter in random color mode, for line-art colorization (source: <i>David Revoy</i>).
 </figcaption>
@@ -196,7 +198,7 @@ In the user-guided markers mode, color spots placed by the user are extrapolated
 taking into account the discontinuities in the pencil lines, as this is clearly illustrated by the figure below:
 
 <figure>
-<a href='girl_colorization.gif' target='_blank'><img src='girl_colorization.gif' alt='Smart coloring 5'></a>
+<a href='girl_colorization.gif' ><img src='girl_colorization.gif' alt='Smart coloring 5'></a>
 <figcaption>
 <i>Fig.3.5:</i> Using the <i>G'MIC</i> "<b>Smart Coloring</b>" filter in user-guided color markers mode, for line-art colorization (source: <i>David Revoy</i>).
 </figcaption>
@@ -219,7 +221,7 @@ That is the purpose of another new filter "**Repair / Smooth [antialias]**" able
 to lines in cartoons that would have been originally drawn with aliased brushes.
 
 <figure>
-<a href='s_gmic_antialiasing.jpg' target='_blank'><img src='s_gmic_antialiasing.jpg' alt='Smooth [antialias]'></a>
+<a href='s_gmic_antialiasing.jpg' ><img src='s_gmic_antialiasing.jpg' alt='Smooth [antialias]'></a>
 <figcaption>
 <i>Fig.3.6:</i> Filter "<b>Smooth [antialias]</b>" smooths contours to reduce aliasing effect in cartoons (source: <i>David Revoy</i>).
 </figcaption>
@@ -249,7 +251,7 @@ By the way, let us thank
 [Stuart Sowerby](http://blog.sowerby.me/fuji-Film-simulation-profiles/) for their contributions to these color transformations.
 
 <figure>
-<a href='a891743705fd011bebe68b1f88e2f0b90fddbdb1.jpg' target='_blank'><img src='a891743705fd011bebe68b1f88e2f0b90fddbdb1.jpg' alt='CLUTs'></a>
+<a href='a891743705fd011bebe68b1f88e2f0b90fddbdb1.jpg' ><img src='a891743705fd011bebe68b1f88e2f0b90fddbdb1.jpg' alt='CLUTs'></a>
 <figcaption>
 <i>Fig.4.1.1:</i> Some of the new <i>CLUT</i>-based transformations available in <i>G'MIC</i> (source: <i>Pat David</i>).
 </figcaption>
@@ -273,14 +275,14 @@ or even in other software supporting this type of color transformations
 [Darktable](http://www.darktable.org/2016/05/colour-manipulation-with-the-colour-checker-lut-module/)).
 
 <figure>
-<a href='gmic_custom_clut.jpg' target='_blank'><img src='s_gmic_custom_clut.jpg' alt='Customize CLUT 1'></a>
+<a href='gmic_custom_clut.jpg' ><img src='s_gmic_custom_clut.jpg' alt='Customize CLUT 1'></a>
 <figcaption>
 <i>Fig.4.1.2:</i> Filter "<b>Customize CLUT</b>" used to design a custom color transform in the <i>RGB</i> cube.
 </figcaption>
 </figure>
 
 <figure>
-<a href='coast.gif' target='_blank'><img src='coast.gif' alt='Customize CLUT 2'></a>
+<a href='coast.gif' ><img src='coast.gif' alt='Customize CLUT 2'></a>
 <figcaption>
 <i>Fig.4.1.3:</i> Result of the custom colorimetric transformation applied to a landscape.
 </figcaption>
@@ -290,7 +292,7 @@ To stay in the field of color manipulation, let us also mention the appearance o
 an image with grain generated by successive averages of random quantizations of an input color image.
 
 <figure>
-<a href='gmic_retrofade.jpg' target='_blank'><img src='s_gmic_retrofade.jpg' alt='Retro fade'></a>
+<a href='gmic_retrofade.jpg' ><img src='s_gmic_retrofade.jpg' alt='Retro fade'></a>
 <figcaption>
 <i>Fig.4.1.4:</i> Filter "<b>Retro fade</b>" in the <i>G'MIC</i> plug-in.
 </figcaption>
@@ -308,7 +310,7 @@ and scripts written by [Sébastien Guyader](https://discuss.pixls.us/t/highlight
 Being immersed in such a community of photographers and cool guys always gives opportunities to implement interesting new effects!
 
 <figure>
-<a href='girl_hbloom.gif' target='_blank'><img src='girl_hbloom.gif' alt='Illustration look'></a>
+<a href='girl_hbloom.gif' ><img src='girl_hbloom.gif' alt='Illustration look'></a>
 <figcaption>
 <i>Fig.4.2.1:</i> Filters "<b>Illustration look</b>" and "<b>Highlight bloom</b>" applied to a portrait image.
 </figcaption>
@@ -319,7 +321,7 @@ something that was [already present](https://docs.gimp.org/en/plug-in-retinex.ht
 to improve the luminance consistency in images.
 
 <figure>
-<a href='501f32dbfcfefd9a761162a50fead5ca33e47bdb.jpg' target='_blank'><img src='s_501f32dbfcfefd9a761162a50fead5ca33e47bdb.jpg' alt='Retinex'></a>
+<a href='501f32dbfcfefd9a761162a50fead5ca33e47bdb.jpg' ><img src='s_501f32dbfcfefd9a761162a50fead5ca33e47bdb.jpg' alt='Retinex'></a>
 <figcaption>
 <i>Fig.4.2.2:</i> Filter "<b>Retinex</b>" for improving luminance consistency.
 </figcaption>
@@ -327,12 +329,12 @@ to improve the luminance consistency in images.
 
 Our friend and great contributor to _G'MIC_, [_Jérome Boulanger_](http://www.irisa.fr/vista/Equipe/People/Jerome.Boulanger.english.html),
 also implemented and added a dehazing filter "**Details / Dcp dehaze**" to attenuate the fog effect in photographs, based on the
-[_Dark Channel Prior_](http://mmlab.ie.cuhk.edu.hk/archive/2011/haze.pdf) algorithm.
+[_Dark Channel Prior_](http://mmlab.ie.cuhk.edu.hk/archive/2011/Haze.pdf) algorithm.
 Setting the parameters of this filter is kinda hard, but the filter gives sometimes spectacular results.
 
 <figure>
-<a href='gmic_dehaze.jpg' target='_blank'><img src='s_gmic_dehaze.jpg' alt='DCP dehaze 1'></a>
-<a href='dehaze.gif' target='_blank'><img src='dehaze.gif' alt='DCP dehaze 2'></a>
+<a href='gmic_dehaze.jpg' ><img src='s_gmic_dehaze.jpg' alt='DCP dehaze 1'></a>
+<a href='dehaze.gif' ><img src='dehaze.gif' alt='DCP dehaze 2'></a>
 <figcaption>
 <i>Fig.4.2.3:</i> Filter "<b>DCP Dehaze</b>" to attenuate the fog effect.
 </figcaption>
@@ -349,7 +351,7 @@ halos near the contours, a recurring problem happening with more classical sharp
 [_Unsharp Mask_](https://en.wikipedia.org/wiki/Unsharp_masking)).
 
 <figure>
-<a href='lion_sharpen.gif' target='_blank'><img src='lion_sharpen.gif' alt='Sharpen [texture]'></a>
+<a href='lion_sharpen.gif' ><img src='lion_sharpen.gif' alt='Sharpen [texture]'></a>
 <figcaption>
 <i>Fig.4.2.4:</i> The "<b>Sharpen [texture]</b>"" filter shown for two different enhancement amplitudes.
 </figcaption>
@@ -370,7 +372,7 @@ Once the mask has been generated by the filter, the user can easily modify the c
 of this filter to drastically change the color of a car
 
 <figure>
-<a href='car_hue2.gif' target='_blank'><img src='car_hue2.gif' alt='Color mask [interactive]'></a>
+<a href='car_hue2.gif' ><img src='car_hue2.gif' alt='Color mask [interactive]'></a>
 <figcaption>
 <i>Fig.4.3.1:</i> Changing the color of a car, using the filter "<b>Color mask [interactive]</b>".
 </figcaption>
@@ -419,21 +421,21 @@ $ gmic -median_video bigbuckbunny.mp4 -normalize 0.255 -o median.jpg
 ```
 
 <figure>
-<a href='s_bbb.gif' target='_blank'><img src='s_bbb.gif' alt='Big buck bunny 1'></a>
+<a href='s_bbb.gif' ><img src='s_bbb.gif' alt='Big buck bunny 1'></a>
 <figcaption>
 <i>Fig.5.1.1:</i> Sequence in the « <i>Big Buck Bunny</i>" video, directed by the Blender foundation.
 </figcaption>
 </figure>
 
 <figure>
-<a href='bbb_avg.jpg' target='_blank'><img src='s_bbb_avg.jpg' alt='Big buck bunny 2'></a>
+<a href='bbb_avg.jpg' ><img src='s_bbb_avg.jpg' alt='Big buck bunny 2'></a>
 <figcaption>
 <i>Fig.5.1.2:</i> Result: Average image of the « <i>Big Buck Bunny</i>" sequence above.
 </figcaption>
 </figure>
 
 <figure>
-<a href='bbb_median.jpg' target='_blank'><img src='s_bbb_median.jpg' alt='Big buck bunny 3'></a>
+<a href='bbb_median.jpg' ><img src='s_bbb_median.jpg' alt='Big buck bunny 3'></a>
 <figcaption>
 <i>Fig.5.1.3:</i> Result: Median image of the « <i>Big Buck Bunny</i>" sequence above.
 </figcaption>
@@ -462,7 +464,7 @@ These deformations have the property of preserving the angles locally, and are m
 In addition to playing with predefined deformations, this filter allows budding mathematicians to experiment with their own complex formulas.
 
 <figure>
-<a href='gmic_conformalmaps.jpg' target='_blank'><img src='s_gmic_conformalmaps.jpg' alt='Conformal maps'></a>
+<a href='gmic_conformalmaps.jpg' ><img src='s_gmic_conformalmaps.jpg' alt='Conformal maps'></a>
 <figcaption>
 <i>Fig.5.2.1:</i> Filter "<b>Conformal maps</b>" applying a angle-preserving transformation to the image of <i>Mona Lisa</i>.
 </figcaption>
@@ -474,7 +476,7 @@ column according to different criteria and to possibly masked regions, as initia
 [this page](http://satyarth.me/articles/pixel-sorting/).
 
 <figure>
-<a href='girl_sorted.jpg' target='_blank'><img src='girl_sorted.jpg' alt='Pixel sort'></a>
+<a href='girl_sorted.jpg' ><img src='girl_sorted.jpg' alt='Pixel sort'></a>
 <figcaption>
 <i>Fig.5.2.2:</i> Filter "<b>Pixel sort</b>" for rendering a kind of "Glitch Art" effect.
 </figcaption>
@@ -485,7 +487,7 @@ The first divides an image into blocks and allows to rotate or mirror them, pote
 (like hue or saturation, for instance).
 
 <figure>
-<a href='gmic_flip.jpg' target='_blank'><img src='s_gmic_flip.jpg' alt='Flip and rotate blocks'></a>
+<a href='gmic_flip.jpg' ><img src='s_gmic_flip.jpg' alt='Flip and rotate blocks'></a>
 <figcaption>
 <i>Fig.5.2.3:</i> Filter "<b>Flip & rotate blocks</b>" applied to the hue only to obtain a "Glitch Art" effect.
 </figcaption>
@@ -495,7 +497,7 @@ The second locally deforms an image with more or less amplitude, according to it
 Here again, this can lead to the generation of very strange images.
 
 <figure>
-<a href='gmic_warp.jpg' target='_blank'><img src='s_gmic_warp.jpg' alt='Warp by intensity'></a>
+<a href='gmic_warp.jpg' ><img src='s_gmic_warp.jpg' alt='Warp by intensity'></a>
 <figcaption>
 <i>Fig.5.2.4:</i> Filter "<b>Warp by intensity</b>" applied to the image of <i>Mona Lisa</i> (poor <i>Mona</i>!).
 </figcaption>
@@ -515,7 +517,7 @@ This filter applies contour-preserving smoothing to an image, and its main conse
 The figure below illustrates its use to generate several levels of abstraction of the same input image, at different smoothing scales.
 
 <figure>
-<a href='lion_abstract.gif' target='_blank'><img src='lion_abstract.gif' alt='Sharp abstract'></a>
+<a href='lion_abstract.gif' ><img src='lion_abstract.gif' alt='Sharp abstract'></a>
 <figcaption>
 <i>Fig.5.3.1:</i> Creating abstractions of an image via the filter "<b>Sharp abstract</b>".
 </figcaption>
@@ -526,7 +528,7 @@ Unlike the filter with same name available by default in _GIMP_ (which mainly tr
 our version adds spatial simplification and filtering to approach a little more the rendering of old posters.
 
 <figure>
-<a href='tiger_posterize.gif' target='_blank'><img src='tiger_posterize.gif' alt='Posterize'></a>
+<a href='tiger_posterize.gif' ><img src='tiger_posterize.gif' alt='Posterize'></a>
 <figcaption>
 <i>Fig.5.3.2:</i> Filter "<b>Posterize</b>" of <i>G'MIC</i>, compared to the filter with same name available by default in <i>GIMP</i>.
 </figcaption>
@@ -544,7 +546,7 @@ To be quite honest, this feature had not been originally developed for an artist
 to make a _GIMP_ filter from it. And yes, this is finally quite pretty, isn't it?
 
 <figure>
-<a href='26ec897bf8cee6af17b4af60c1ec8a22309d797e.jpg' target='_blank'><img src='s_26ec897bf8cee6af17b4af60c1ec8a22309d797e.jpg' alt='Diffusion tensors'></a>
+<a href='26ec897bf8cee6af17b4af60c1ec8a22309d797e.jpg' ><img src='s_26ec897bf8cee6af17b4af60c1ec8a22309d797e.jpg' alt='Diffusion tensors'></a>
 <figcaption>
 <i>Fig.5.4.1:</i> Filter "<b>Diffusion Tensors</b>" filter and its multitude of colored ellipses.
 </figcaption>
@@ -555,7 +557,7 @@ and it has now become quite easy to develop _G'MIC_ scripts for rendering custom
 This is what has been done for instance, with the command `-display_quiver` reimplemented _from scratch_, and which allows to generate this type of rendering:
 
 <figure>
-<a href='b99e02c28583b00e3f8bd12e6b99b09b9dfe1a41.jpg' target='_blank'><img src='s_b99e02c28583b00e3f8bd12e6b99b09b9dfe1a41.jpg' alt='-display_quiver'></a>
+<a href='b99e02c28583b00e3f8bd12e6b99b09b9dfe1a41.jpg' ><img src='s_b99e02c28583b00e3f8bd12e6b99b09b9dfe1a41.jpg' alt='-display_quiver'></a>
 <figcaption>
 <i>Fig. 5.4.2:</i> Rendering vector fields with the <i>G'MIC</i> command <tt>`-display_quiver`</tt>.
 </figcaption>
@@ -565,7 +567,7 @@ For lovers of textures, we can mention the apparition of two new fun effects: Fi
 this filter produces a military camouflage texture.
 
 <figure>
-<a href='gmic_camouflage.jpg' target='_blank'><img src='s_gmic_camouflage.jpg' alt='Camouflage'></a>
+<a href='gmic_camouflage.jpg' ><img src='s_gmic_camouflage.jpg' alt='Camouflage'></a>
 <figcaption>
 <i>Fig. 5.4.3:</i> Filter "<b>Camouflage</b>", to be printed on your T-shirts to go unnoticed in parties!
 </figcaption>
@@ -575,7 +577,7 @@ Second, the filter "**Patterns / Crystal background**" overlays several randomly
 looks like a crystal seen under a microscope. Pretty useful to quickly render colored image backgrounds.
 
 <figure>
-<a href='gmic_crystal.jpg' target='_blank'><img src='s_gmic_crystal.jpg' alt='Crystal background'></a>
+<a href='gmic_crystal.jpg' ><img src='s_gmic_crystal.jpg' alt='Crystal background'></a>
 <figcaption>
 <i>Fig.5.4.4:</i> Filter "<b>Crystal background</b>" in action.
 </figcaption>
@@ -613,7 +615,7 @@ barnsley_fern :
 And here is the rendering generated by this function:
 
 <figure>
-<a href='3750f17a2859f582ce40c21475d886bb9295d19f.jpg' target='_blank'><img src='s_3750f17a2859f582ce40c21475d886bb9295d19f.jpg' alt='Barnsley Fern'></a>
+<a href='3750f17a2859f582ce40c21475d886bb9295d19f.jpg' ><img src='s_3750f17a2859f582ce40c21475d886bb9295d19f.jpg' alt='Barnsley Fern'></a>
 <figcaption>
 <i>Fig.5.4.5:</i> Fractal "<b>Barnsley fern</b>", rendered by <i>G'MIC</i>.
 </figcaption>
@@ -648,7 +650,7 @@ is now enabled (read and write), as it is for 64-bit floating-point _TIFF_ image
 No filter currently uses this feature, but we never know, and prepare ourselves for the future!
 
 <figure>
-<a href='d135157095b38133d1b25bea7ef97a56099a2fad.jpg' target='_blank'><img src='s_d135157095b38133d1b25bea7ef97a56099a2fad.jpg' alt='Bump mapping'></a>
+<a href='d135157095b38133d1b25bea7ef97a56099a2fad.jpg' ><img src='s_d135157095b38133d1b25bea7ef97a56099a2fad.jpg' alt='Bump mapping'></a>
 <figcaption>
 <i>Fig.6.1:</i> Comparison of <i>3D</i> textured rendering with (<i>right</i>) and without "Bump mapping" (<i>left</i>).
 </figcaption>
@@ -660,7 +662,7 @@ Note that it is even possible to play against the computer, which has a decent b
 (the very simple _AI_ uses the [_Minimax_ algorithm](https://en.wikipedia.org/wiki/Minimax) with a two-level decision tree).
 
 <figure>
-<a href='gmic_connect4.gif' target='_blank'><img src='gmic_connect4.gif' alt='Connect four'></a>
+<a href='gmic_connect4.gif' ><img src='gmic_connect4.gif' alt='Connect four'></a>
 <figcaption>
 <i>Fig.6.2:</i> The game of "<b>Connect Four</b>", as playable in <i>G'MIC</i>.
 </figcaption>
