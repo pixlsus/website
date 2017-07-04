@@ -40,7 +40,7 @@ As part of one of his courses, he talks about a technique for accentuating detai
 Here is Calvin describing this technique using Photoshop:
 
 <div class='fluid-vid'>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZV9u0Wu8L0M?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZV9u0Wu8L0M" frameborder="0" allowfullscreen></iframe>
 </div>
 
 In my meandering around different retouching tutorials I came across it a while ago, and wanted to replicate the results in [GIMP](http://www.gimp.org) if possible. There were a couple of problems that I ran into for replicating the exact same workflow:  
@@ -273,3 +273,8 @@ Try the method out and let me know what you think or how it works out for you! A
 
 
 This tutorial was originally published [here](http://blog.patdavid.net/2013/02/calvin-hollywood-freaky-details-in-gimp.html).
+
+
+## Addendum
+
+For those looking for a faster/easier way to achieve this effect, it has now been integrated as a filter into [G'MIC](http://gmic.eu/). (Again, thanks to David Tschumperlé!)
