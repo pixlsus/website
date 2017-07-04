@@ -63,7 +63,7 @@ then
 	fi
 
 	# rsync into new directory, pixls-$TIMEVAR/
-	rsync -PSauvhe "ssh -o StrictHostKeyChecking=no -o LogLevel=error" build/ pixlsus@pixls.us:/home4/pixlsus/pixls-deploy/$NEWDIR/
+	rsync -PSauvhe "ssh -o StrictHostKeyChecking=no -o LogLevel=error" build/ pixlsus@pixls.us:/home/pixlsus/pixls-deploy/$NEWDIR/
 	if [ $? -eq 0 ]
 	then
 		echo "rsync successful."
@@ -72,7 +72,7 @@ then
 		echo "rsync failed!"
 		# failed, so delete the directory
 		echo "cleaning up $NEWDIR"
-		ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us "rm -r /home4/pixlsus/pixls-deploy/$NEWDIR"
+		ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us "rm -r /home/pixlsus/pixls-deploy/$NEWDIR"
 		if [ $? -eq 0 ]
 		then
 			echo "Removed ~/pixls-deploy/$NEWDIR"
@@ -102,7 +102,7 @@ then
 		echo "ln -s failed!"
 		# failed, so delete the directory
 		echo "cleaning up (rm -r $NEWDIR)"
-		ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'rm -r /home4/pixlsus/pixls-deploy/$NEWDIR'
+		ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'rm -r /home/pixlsus/pixls-deploy/$NEWDIR'
 		if [ $? -eq 0 ]
 		then
 			echo "Removed ~/pixls-deploy/$NEWDIR"
