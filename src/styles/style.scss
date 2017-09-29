@@ -140,6 +140,10 @@ p img, figure img {
     margin: 0 auto 0.5rem auto;
 }
 
+img.inline {
+    display: inline;
+    vertical-align: text-top;
+}
 
 figure.full-width > figcaption {
     width: 90%;
@@ -559,6 +563,12 @@ tbody tr:nth-child(even){
 
 th, td {
     padding: 0.2rem;
+}
+
+.two-col {
+    column-count: 2;
+    max-width: 30rem;
+    margin: 0 auto;
 }
 
 a.header-link {
