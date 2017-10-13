@@ -89,6 +89,21 @@ stylesheet: software-page
 		<!-- start web photo galleries list -->
 	     <h2>Web Galleries</h2>
         <div class="sw-entry">
+            <a href="http://www.zenphoto.org/">Zenphoto</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                Zenphoto is a CMS for selfhosted, gallery focused websites. 
+                Our focus lies on being easy to use and having all the features there when you need them (but out of the way if you do not).
+            </p>
+        </div>
+        <div class="sw-entry">
+            <a href="http://piwigo.org/">Piwigo</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                Piwigo is photo gallery software for the web, built by an active community of users and developers. 
+            </p>
+        </div>
+        <div class="sw-entry">
             <a href="http://www.thregr.org/~wavexx/software/fgallery/index.html">fgallery</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
