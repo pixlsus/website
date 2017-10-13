@@ -89,6 +89,14 @@ stylesheet: software-page
 		<!-- start web photo galleries list -->
 	     <h2>Web Galleries</h2>
         <div class="sw-entry">
+            <a href="https://mediagoblin.org/">MediaGoblin</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                MediaGoblin is a free software media publishing platform that anyone can run. 
+                You can think of it as a decentralized alternative to Flickr, YouTube, SoundCloud, etc.
+            </p>
+        </div>
+        <div class="sw-entry">
             <a href="http://www.zenphoto.org/">Zenphoto</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
