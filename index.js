@@ -1,3 +1,15 @@
+/* Notify myself of a couple of things on build...
+ * (particularly how to pass cmd line args
+ */
+console.log('Getting started ');
+var _arg_watch
+process.argv.forEach(function( val, index, array){
+    //console.log(index + ': ' + val);
+    if( array.includes('watch') ){
+        _arg_watch = true;
+    }
+})
+
 var Metalsmith  = require('metalsmith'),
     collections = require('metalsmith-collections'),
     permalinks  = require('metalsmith-permalinks'),
@@ -17,6 +29,20 @@ var Metalsmith  = require('metalsmith'),
     Handlebars  = require('handlebars'),
     rmdir       = require('rimraf'),
     fs          = require('fs');
+
+
+//
+// If 'watch' passed as cmd arg, require it.
+// 
+if( _arg_watch ){
+    watch       = require('metalsmith-watch');
+    Handlebars.registerPartial('livereload', fs.readFileSync(__dirname + '/templates/partials/livereload.hbt').toString());
+}else{
+    console.log("(use: `node index.js watch` for livereload)");
+    watch       = function(){return;}
+    Handlebars.registerPartial('livereload', ''); 
+}
+
 
 //
 // Adding partial elements for templates
@@ -472,6 +498,14 @@ Metalsmith(__dirname)
         outputStyle: "expanded"
     }))
     .destination('./build')
+    .use( watch({
+        paths: {
+            "${source}/**/*": true,
+        },
+        livereload: true,
+        // Remember to add a script to the page you want to reload:
+        // <script src='http://localhost:35729/livereload.js'></script>
+    }))
     //.build();
     .build(function(err) {
         if (err) {
