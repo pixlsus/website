@@ -4,7 +4,6 @@
 console.log('Getting started ');
 var _arg_watch
 process.argv.forEach(function( val, index, array){
-    //console.log(index + ': ' + val);
     if( array.includes('watch') ){
         _arg_watch = true;
     }
