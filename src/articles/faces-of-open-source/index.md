@@ -170,6 +170,15 @@ I try to bring the personality of the person into the photo, and B&W has always 
 The white background just puts the emphasis right on the person.
 
 
+<figure>
+<img src='Camille_Fournier_by_Peter_Adams_w640.jpg' alt='Camille Fournier by Peter Adams'>
+<figcaption>
+[Camille Fournier][], New York City, 2017 by Peter Adams
+</figcaption>
+</figure>
+
+[Camille Fournier]: http://facesofopensource.com/camille-fournier/ "Camille Fournier by Peter Adams"
+
 
 ### How much of it would you say is you that goes into the final pose and setup of the person, or do you let the subject feel out the room and get comfortable and shoot from there?
 
@@ -197,6 +206,23 @@ My workflow, because I shoot with Phase One, the files go into Capture One and t
 I have used GIMP in the past.
 I really would like to use more Free Software, so I'm a learner in that regard for what tools would make sense.
 
+<figure>
+    <img src='Spencer_Kimball_by_Peter_Adams_w640.jpg' alt='Spencer Kimball by Peter Adams'>
+    <figcaption>
+    [Spencer Kimball][] (co-creator of GIMP), Menlo Park, 2015 by Peter Adams
+    </figcaption>
+</figure>
+
+<figure>
+    <img src='Peter_Mattis_by_Peter_Adams_w640.jpg' alt='Peter Mattis by Peter Adams'>
+    <figcaption>
+    [Peter Mattis][] (co-creator of GIMP), New York City, 2015 by Peter Adams
+    </figcaption>
+</figure>
+
+[Spencer Kimball]: http://facesofopensource.com/spencer-kimball/ "Spencer Kimball by Peter Adams"
+[Peter Mattis]: http://facesofopensource.com/peter-mattis-3/ "Peter Mattis by Peter Adams"
+
 
 ### Did that habit grew out of the professional need of having those tools available to you?
 
@@ -223,6 +249,10 @@ Getting access to people in a way that is economical.
 Instead of me flying all over the place for one shot, I try to stack up a number of people into a day.
 It's tough - this is a busy crowd, very in demand.
 
+<figure class='big-vid'>
+    <img src='faces-book-promo_w960.jpg' alt='Faces of Open Source Book Promo'>
+</figure>
+
 
 ### Did your working in open source teach you anything beyond computer code in some way?  Was there an influence from the people you may have worked around, or the ethos of Free Software in general that stuck with you? Working with this crowd, was there a takeaway for you beyond just the photographic aspects of it?  
 
@@ -242,10 +272,10 @@ I think that the lessons that are learned here and that this group of people is 
 
 
 <figure>
-<img src='Limor_Fried_by_Peter_Adams_w640.jpg' alt='Limor Fried by Peter Adams'>
-<figcaption>
-[Limor Fried][], New York City, 2017 by Peter Adams
-</figcaption>
+    <img src='Limor_Fried_by_Peter_Adams_w640.jpg' alt='Limor Fried by Peter Adams'>
+    <figcaption>
+    [Limor Fried][], New York City, 2017 by Peter Adams
+    </figcaption>
 </figure>
 
 [Limor Fried]: http://facesofopensource.com/limor-fried-2/ "Limor Fried by Peter Adams"
@@ -294,6 +324,8 @@ I'd say that those are two great ones to start with.
 **Alright!  Avedon and Schoeller - I can certainly think of worse people to go start a journey with.  Thank you so much for taking time with me today!**
 
 Hey no problem!  It's been fun to talk to you.
+
+---
 
 
 
