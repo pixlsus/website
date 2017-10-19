@@ -161,9 +161,9 @@ I'll bring the studio to people if that's what I have to do.
 So I'd say so far it's been about 50-50.
 
 
-### The lighting setups are wonderful and do justice to the subjects, and I think somebody in the community was curious if you had decided on B&W from the beginning for this series of photos?  Was this a concious decision early on?  
+### The lighting setups are wonderful and do justice to the subjects, and I think somebody in the community was curious if you had decided on B&W from the beginning for this series of photos?  Was this a conscious decision early on?  
 
-B&W on a white background was a concious choice right from the beginning.
+B&W on a white background was a conscious choice right from the beginning.
 Knowing the group, I felt like that was going to be the best way to explore the people and the faces.
 Every one of these faces just tells, I think, a really interesting story.
 I try to bring the personality of the person into the photo, and B&W has always been my favorite way to do that.
@@ -233,7 +233,7 @@ I really would like to use more Free Software, so I'm a learner in that regard f
 [Peter Mattis]: http://facesofopensource.com/peter-mattis-3/ "Peter Mattis by Peter Adams"
 
 
-### Did that habit grew out of the professional need of having those tools available to you?
+### Did that habit grow out of the professional need of having those tools available to you?
 
 Phase One, which makes the Medium Format digital back and camera that I use for all of my portrait work, also makes Capture One.
 They have basically customized the software to get the most of their own files.
@@ -349,7 +349,7 @@ Hey no problem!  It's been fun to talk to you.
 
 ---
 
-There are many more fascinating portraits awaiting you over on project site, and every one of them is worth your time!
+There are many more fascinating portraits awaiting you over on the project site, and every one of them is worth your time!
 See them all at:
 
 **http://facesofopensource.com/**
