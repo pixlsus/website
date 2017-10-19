@@ -28,10 +28,10 @@ He has managed to coordinate portrait sessions with many people that may be unas
 It's easy for non-technical folks to spot a Bill Gates or Steve Jobs, but what about those who invented [the most-used programming language][ritchie], created [the web server][behlendorf] that runs the majority of the internet, or [mapped the human genome][kent]?
 
 <figure class='big-vid'>
-<img src='ritchie-behlendorf-kent.jpg' alt='Dennis Ritchie, Brian Behlendorf, Jim Kent'>
-<figcaption>
-(From L-R): [Dennis Ritchie][ritchie], [Brian Behlendorf][behlendorf], and [Jim Kent][kent]
-</figcaption>
+    <img src='ritchie-behlendorf-kent.jpg' alt='Dennis Ritchie, Brian Behlendorf, Jim Kent'>
+    <figcaption>
+    (From L-R): [Dennis Ritchie][ritchie], [Brian Behlendorf][behlendorf], and [Jim Kent][kent]
+    </figcaption>
 </figure>
 
 [ritchie]: http://facesofopensource.com/bill-and-john-ritchie/ "Dennis Ritchie"
@@ -65,10 +65,10 @@ I was lucky enough to be able to get a little bit of time with Peter recently, a
 He was kind enough to take some time out of his day and be patient while I prattled on...
 
 <figure>
-<img src='Linus_Torvalds_by_Peter_Adams_w640.jpg' alt='Linus Torvalds by Peter Adams'>
-<figcaption>
-[Linus Torvalds][], Santa Fe, New Mexico, 2016 by Peter Adams
-</figcaption>
+    <img src='Linus_Torvalds_by_Peter_Adams_w640.jpg' alt='Linus Torvalds by Peter Adams'>
+    <figcaption>
+    [Linus Torvalds][], Santa Fe, New Mexico, 2016 by Peter Adams
+    </figcaption>
 </figure>
 
 [Linus Torvalds]: http://facesofopensource.com/linus-torvalds/ "Linus Torvalds by Peter Adams"
@@ -97,10 +97,10 @@ So I wanted to put some faces to names, bring these people to life in a more imp
 **P: It absolutely does!**
 
 <figure>
-<img src='Brian_Kernighan_by_Peter_Adams_w640.jpg' alt='Brian Kernighan by Peter Adams'>
-<figcaption>
-[Brian Kernighan][], New York City, 2015 by Peter Adams
-</figcaption>
+    <img src='Brian_Kernighan_by_Peter_Adams_w640.jpg' alt='Brian Kernighan by Peter Adams'>
+    <figcaption>
+    [Brian Kernighan][], New York City, 2015 by Peter Adams
+    </figcaption>
 </figure>
 
 [Brian Kernighan]:http://facesofopensource.com/brian-kernighan/ "Brian Kernighan by Peter Adams"
@@ -125,17 +125,17 @@ Wonderful stories from Doug McIlroy about the team and the engineering - how the
 Just a countless list of cool stories and cool people for sure.
 
 <figure>
-<img src='Ken_Thompson_by_Peter_Adams_w640.jpg' alt='Ken Thompson by Peter Adams'>
-<figcaption>
-[Ken Thompson][], Menlo Park, California, 2016 by Peter Adams
-</figcaption>
+    <img src='Ken_Thompson_by_Peter_Adams_w640.jpg' alt='Ken Thompson by Peter Adams'>
+    <figcaption>
+    [Ken Thompson][], Menlo Park, California, 2016 by Peter Adams
+    </figcaption>
 </figure>
 
 <figure>
-<img src='Doug_McIlroy_by_Peter_Adams_w640.jpg' alt='Doug McIlroy by Peter Adams'>
-<figcaption>
-[Doug McIlroy][], Boston, Massachusetts, 2015 by Peter Adams
-</figcaption>
+    <img src='Doug_McIlroy_by_Peter_Adams_w640.jpg' alt='Doug McIlroy by Peter Adams'>
+    <figcaption>
+    [Doug McIlroy][], Boston, Massachusetts, 2015 by Peter Adams
+    </figcaption>
 </figure>
 
 [Ken Thompson]: http://facesofopensource.com/ken-thompson-2/ "Ken Thompson by Peter Adams"
@@ -171,10 +171,10 @@ The white background just puts the emphasis right on the person.
 
 
 <figure>
-<img src='Camille_Fournier_by_Peter_Adams_w640.jpg' alt='Camille Fournier by Peter Adams'>
-<figcaption>
-[Camille Fournier][], New York City, 2017 by Peter Adams
-</figcaption>
+    <img src='Camille_Fournier_by_Peter_Adams_w640.jpg' alt='Camille Fournier by Peter Adams'>
+    <figcaption>
+    [Camille Fournier][], New York City, 2017 by Peter Adams
+    </figcaption>
 </figure>
 
 [Camille Fournier]: http://facesofopensource.com/camille-fournier/ "Camille Fournier by Peter Adams"
@@ -197,6 +197,15 @@ It's very rare that I go into any of these shoots with an actual _"I want the pe
 I'd say 99% of these shots, the expressions, the feeling that comes out, that I'm capturing is organic.
 It's something that comes up in the shoot.
 I just try to capture it whenever I see it by clicking the shutter, that's basically what I'm doing there.
+
+### You list what equipment you shot each portrait with, but I'm curious about the lighting setup. Is there a "go-to" lighting setup that you like to use?
+
+The lighting is literally the same on every shot, though there's slightly different positions.
+It's a six light setup: there are four lights on the background, there's a beauty dish overhead, and generally a fill light.
+The fill is either a big Photek or PLM, basically a big umbrella, or a ringflash depending on how small the room is.
+That's the same lighting setup on all of them.
+Four lights on the background, two lights on the subject.
+I'll vary the two lights on the subject positionally, but for the most part they're pretty close.
 
 
 ### Do you use Free Software in your normal photographic workflow at all?
@@ -309,12 +318,21 @@ It wasn't just this happenstance thing where people didn't know any better.
 In some cases obviously that did exist, but it's the fact that consciously people are contributing into a commons that makes it so powerful and enables all of this innovation to happen.
 It's really cool.
 
+<figure>
+    <img src='David_Korn_by_Peter_Adams_w640.jpg' alt='David Korn by Peter Adams'>
+    <figcaption>
+        [David Korn][], New York City, 2015 by Peter Adams
+    </figcaption>
+</figure>
+
+[David Korn]: http://facesofopensource.com/david-korn-2/ "David Korn by Peter Adams"
+
 
 ### To close, is there another photographer, book, organization - that you'd like any of the readers to know about and maybe spend some time to go and check out. Something that maybe you've long admired or recently discovered?
 
 Sure!
-You've mentioned Martin Schoeller, who is one of my personal favorites and inspirations out there.
-I'd say the other photographer who has had probably the most impact on my photography over the years has been Richard Avedon.
+You've mentioned [Martin Schoeller][], who is one of my personal favorites and inspirations out there.
+I'd say the other photographer who has had probably the most impact on my photography over the years has been [Richard Avedon][].
 For people that aren't familiar with his work I'd say definitely go check out the Avedon foundation.
 Pick up any of his books which are just wonderful.
 You'll definitely see that influence on my photography, especially this project, since he shot black and white on white background.
@@ -325,8 +343,28 @@ I'd say that those are two great ones to start with.
 
 Hey no problem!  It's been fun to talk to you.
 
+
+[Martin Schoeller]: https://www.google.com/search?tbm=isch&q=martin+schoeller+portraits
+[Richard Avedon]: https://www.google.com/search?tbm=isch&q=richard+avedon+portraits
+
 ---
 
+There are many more fascinating portraits awaiting you over on project site, and every one of them is worth your time!
+See them all at:
+
+**http://facesofopensource.com/**
+
+You can also connect with the project on 
+* [Facebook][]
+* [Twitter][]
+* [Instagram][]
+
+
+[Facebook]: http://www.facebook.com/facesofopensource "Faces of Open Source on Facebook"
+[Twitter]: http://twitter.com/facesopensource "Facs of Open Source on Twitter"
+[Instagram]: http://instagram.com/peteradamsphoto "Peter Adams on Twitter"
+
+Find more of Peters work at [his website](http://www.peteradamsphoto.com/a "Peter Adams Photo").
 
 
 <small>All images from “[Faces of Open Source][]” by [Peter Adams][], licensed [CC BY NC SA 4.0][].</small>
