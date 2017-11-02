@@ -76,7 +76,7 @@
         {{>topnav}}
         {{>push-menu}}
 
-        <div id="pushPage">
+        <div id="pushPage" class="article">
 
             {{! Article Lede (maybe img + title + subtitle) }}
             <section id="lede" class="example {{#if lede-img}}lede-img{{else}}lede{{/if}}">
@@ -92,7 +92,7 @@
             <!-- Main content area -->
             <div class="row clearfix">
                 <div class="container">
-                    <div class="column two-thirds">
+                    <div class="column full">
                         <div id="main" class="article-title">
                         <!-- Begin article content -->
                             <h1 id="title">{{ title }}</h1>
@@ -117,7 +117,7 @@
                     {{#is_even @index}}
 
                         <div class="container">
-                            <div class="column two-thirds">
+                            <div class="column full">
                                 {{{this}}}
                             </div>
                         </div>
@@ -132,7 +132,7 @@
 
                 {{! Social sharing links }}
                 <div class='container social-section'>
-                    <div class='column two-thirds'>
+                    <div class='column full'>
                         <hr/>
                         <p>
                         Share this on
@@ -146,8 +146,8 @@
 
                 <!-- Author info under post -->
                 <div class="container">
-                    <div class="author-end column two-thirds">
-                        <span class="byline">Written by:</span>
+                    <div class="author-end column full">
+                        <div class="byline">Written by:</div>
                         <div class="author-box">
                             {{#if author-img}}
                             <img src="{{author-img}}" alt="{{ author }}"/>
@@ -165,8 +165,8 @@
                 </div>
                 <!-- END: Author info under post -->
                 <!-- Next/Prev post links -->
-                <div class="container">
-                    <div id="nextPrev" class="column two-thirds">
+                <div class="container nextprev">
+                    <div id="nextPrev" class="column full">
                         <div class="column half">
                             {{#if this.next}}
                             <a href="/{{this.next.path}}">
@@ -198,7 +198,7 @@
 
             <div class="row clearfix">
                 <div class="container">
-                    <div id="discourse-comments" class="column two-thirds"></div>
+                    <div id="discourse-comments" class="column full"></div>
                 </div>
             </div>
 

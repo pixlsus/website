@@ -286,6 +286,7 @@ div.post-end {
     font-weight: 300;
     font-size: 0.9rem;
     text-transform: uppercase;
+    border-top: solid 1px #ddd;
 }
 
 div.author-box {
@@ -304,7 +305,6 @@ div.author-box {
 }
 
 .author-end {
-    border-top: solid 1px #ddd;
     margin: 1.5rem 0;
 }
 
@@ -455,6 +455,7 @@ pre code {
         background-color: initial;
 }
 
+/*
 .big-vid {
     margin-left: -5%;
     width: 110%;
@@ -466,6 +467,7 @@ pre code {
         width: 150%;
     }
 }
+*/
 
 .fluid-vid {
     position: relative;
@@ -840,6 +842,37 @@ body {
         padding-top: 0.25rem;
         padding-bottom: 0.5rem;
     }
+}
+
+/* Modification for larger page sizes to center column correctly */
+/* ie: "wider" articles + blogposts */
+@media ( min-width: 40rem ){
+    html { 
+        font-size: 112%; 
+    }
+
+    #pushPage.article .column.full > *,
+    #pushPage.article .container.nextprev {
+        max-width: 38rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #pushPage.article .column.full p,
+    #pushPage.article .column.full div.two-col,
+    #pushPage.article .column.full ul,
+    #pushPage.article .column.full ol {
+        max-width: 35rem;
+    }
+    #pushPage.article .column.full .big-vid {
+        max-width: 100%;
+    }
+
+    #discourse-comments {
+        text-align: center;
+    }
+}
+@media ( min-width: 64rem ){
+    html { font-size: 125%; }
 }
 
 

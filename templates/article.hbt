@@ -94,7 +94,7 @@
         {{>topnav}}
         {{>push-menu}}
 
-        <div id="pushPage">
+        <div id="pushPage" class="article">
 
             {{! Article Lede (maybe img + title + subtitle) }}
             <section id="lede" class="example {{#if lede-img}}lede-img{{else}}lede{{/if}}">
@@ -110,7 +110,7 @@
             <!-- Main content area -->
             <div class="row clearfix">
                 <div class="container">
-                    <div class="column two-thirds {{stylesheet}}">
+                    <div class="column full {{stylesheet}}">
                         <div id="main" class="article-title">
                         <!-- Begin article content -->
                             <h1 id="title">{{ title }}</h1>
@@ -131,7 +131,7 @@
                     {{#is_even @index}}
 
                         <div class="container">
-                            <div class="column two-thirds">
+                            <div class="column full">
                                 {{{this}}}
                             </div>
                         </div>
@@ -145,13 +145,26 @@
 
 
                 <!-- End article content -->
+                {{! Social sharing links }}
+                <div class='container social-section'>
+                    <div class='column full'>
+                        <hr/>
+                        <p>
+                        Share this on
+                        <a href='https://plus.google.com/share?url=https://pixls.us/{{ this.path }}/' target='_blank'>Google+</a>,
+                        <a href='https://twitter.com/intent/tweet?url=https://pixls.us/{{ this.path }}/' target='_blank'>twitter</a>,
+                        or <a href='https://www.facebook.com/sharer/sharer.php?u=https://pixls.us/{{ this.path }}/' target='_blank'>Facebook</a>.
+                        </p>
+                    </div>
+                </div>
+
             </div>
 
                 <!-- Author info under post -->
             <div class="row clearfix">
                 <div class="container">
-                    <div class="author-end column two-thirds">
-                        <span class="byline">Written by:</span>
+                    <div class="author-end column full">
+                        <div class="byline">Written by:</div>
                         <div class="author-box">
                             {{#if author-img}}
                             <img src="{{author-img}}" alt="{{ author }}"/>
@@ -214,7 +227,7 @@
             {{else}}
             <div class="row clearfix">
                 <div class="container">
-                    <div id="discourse-comments" class="column two-thirds"></div>
+                    <div id="discourse-comments" class="column full"></div>
                 </div>
             </div>
 
