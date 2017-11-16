@@ -89,26 +89,12 @@ stylesheet: software-page
 		<!-- start web photo galleries list -->
 	     <h2>Web Galleries</h2>
         <div class="sw-entry">
-            <a href="https://mediagoblin.org/">MediaGoblin</a>
+            <a href="http://coppermine-gallery.net/">coppermine gallery</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
-                MediaGoblin is a free software media publishing platform that anyone can run. 
-                You can think of it as a decentralized alternative to Flickr, YouTube, SoundCloud, etc.
-            </p>
-        </div>
-        <div class="sw-entry">
-            <a href="http://www.zenphoto.org/">Zenphoto</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                Zenphoto is a CMS for selfhosted, gallery focused websites. 
-                Our focus lies on being easy to use and having all the features there when you need them (but out of the way if you do not).
-            </p>
-        </div>
-        <div class="sw-entry">
-            <a href="http://piwigo.org/">Piwigo</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                Piwigo is photo gallery software for the web, built by an active community of users and developers. 
+                Coppermine is a multi-purpose fully-featured and integrated web picture
+                gallery script written in PHP using GD or ImageMagick as image library
+                with a MySQL backend.
             </p>
         </div>
         <div class="sw-entry">
@@ -120,21 +106,43 @@ stylesheet: software-page
             </p>
         </div>
         <div class="sw-entry">
-            <a href="http://coppermine-gallery.net/">coppermine gallery</a>
-            <i class="fa fa-nix-win-osx"></i>
-            <p>
-                Coppermine is a multi-purpose fully-featured and integrated web picture
-                gallery script written in PHP using GD or ImageMagick as image library
-                with a MySQL backend.
-            </p>
-        </div>
-        <div class="sw-entry">
             <a href="http://galleryproject.org/">Gallery</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
                 Gallery is a web based software that lets you manage your photos
                 on your own website.<br>
                 <span class='not-maintained'>No longer maintained.</span>
+            </p>
+        </div>
+        <div class="sw-entry">
+            <a href="https://mediagoblin.org/">MediaGoblin</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                MediaGoblin is a free software media publishing platform that anyone can run. 
+                You can think of it as a decentralized alternative to Flickr, YouTube, SoundCloud, etc.
+            </p>
+        </div>
+        <div class="sw-entry">
+            <a href="https://github.com/paolobenve/myphotoshare">myphotoshare</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                myphotoshare is an open source web photo gallery aimed at sleekness and speed.
+                It works over directory structures rather than esoteric photo database management software. 
+            </p>
+        </div>
+        <div class="sw-entry">
+            <a href="https://pannellum.org/">Pannellum</a>
+            <i class="fa fa-nix-win-osx"></i>
+			<p>
+			Pannellum is a lightweight, free, and open source panorama viewer for the web.
+            Built using HTML5, CSS3, JavaScript, and WebGL, it is plug-in free.
+			</p>
+        </div>
+        <div class="sw-entry">
+            <a href="http://piwigo.org/">Piwigo</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                Piwigo is photo gallery software for the web, built by an active community of users and developers. 
             </p>
         </div>
         <div class="sw-entry resourcespace">
@@ -145,14 +153,13 @@ stylesheet: software-page
                 simple, fast, and free way to organise your digital assets
             </p>
         </div>
-
         <div class="sw-entry">
-            <a href="https://pannellum.org/">Pannellum</a>
+            <a href="http://www.zenphoto.org/">Zenphoto</a>
             <i class="fa fa-nix-win-osx"></i>
-			<p>
-			Pannellum is a lightweight, free, and open source panorama viewer for the web.
-            Built using HTML5, CSS3, JavaScript, and WebGL, it is plug-in free.
-			</p>
+            <p>
+                Zenphoto is a CMS for selfhosted, gallery focused websites. 
+                Our focus lies on being easy to use and having all the features there when you need them (but out of the way if you do not).
+            </p>
         </div>
 
     </div>
