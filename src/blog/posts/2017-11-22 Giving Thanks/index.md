@@ -1,7 +1,7 @@
 ---
 date: 2017-11-22T10:20:28-06:00
 title: Giving Thanks
-sub-title: For a wonderful community!
+sub-title: For a wonderful community
 
 lede-img: Rockwell-Thanksgiving-Simpsons.jpg
 lede-img-thumb: th_Rockwell-Thanksgiving-Simpsons.jpg
