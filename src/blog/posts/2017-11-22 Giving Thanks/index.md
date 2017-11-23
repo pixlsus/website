@@ -59,7 +59,7 @@ Since the end of August we've seen about a 50% increase in weekly sessions on di
 We're currently hovering around 2,500 daily pageviews on the forums:
 
 <figure>
-<img src="discuss-sessions-weekly-2017.png" alt="PIXLS.US discuss traffic" srcset="discuss-sessions-weekly-2017_2x.png 2x">
+<img src="discuss-sessions-weekly-2017.png" alt="PIXLS.US discuss traffic" srcset="https://pixls.us/blog/2017/11/giving-thanks/discuss-sessions-weekly-2017_2x.png 2x">
 </figure>
 
 We've added almost 950 new users, or almost 3 new users every day!
@@ -102,7 +102,7 @@ Earlier this year the [digiKam][] team needed to migrate their old Drupal websit
 [digiKam]: https://www.digikam.org/
 
 <figure>
-<img src="digikam-logo-w600.png" width="600" height="300" alt="digiKam Logo" srcset="digikam-logo_2x.png 2x">
+<img src="digikam-logo-w600.png" width="600" height="300" alt="digiKam Logo" srcset="https://pixls.us/blog/2017/11/giving-thanks/digikam-logo_2x.png 2x">
 </figure>
 
 So we rolled up our sleeves and got them setup with a newly designed static website built using [Hugo][] (which was completely new to me).
