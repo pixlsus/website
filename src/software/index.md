@@ -10,7 +10,6 @@ stylesheet: software-page
     <div class="container">
         <h1>Free Software Projects</h1>
         <p>A selection of Free/Libre Open Source Software projects related to photography.</p>
-
         <div class="column half ">
             <p class="left-align">
             For a newcomer (and some seasoned users) the number of different imaging projects can be a little overwhelming.
@@ -22,14 +21,13 @@ stylesheet: software-page
         </div>
         <div class="column half ">
             <p class="left-align">
-            A solid option for raw processing, library management, and reasonable replacement for the commercial Lightroom, would be either <a href="https://www.darktable.org">darktable</a> or <a href="http://www.rawtherapee.com">RawTherapee</a>.
+            A solid option for raw processing, library management, and reasonable replacement for the commercial Lightroom, would be either <b><a href="https://www.darktable.org">darktable</a></b> or <b><a href="http://www.rawtherapee.com">RawTherapee</a></b>.
             </p>
             <p class="left-align">
-            For pixel-editing and similar functionality to what you might find in Photoshop, <a href="http//www.gimp.org">GIMP</a> is an awesome option (even awesomer when extended with the <a href="http://gmic.eu">G'MIC</a> plugin).
+            For pixel-editing and similar functionality to what you might find in Photoshop, <b><a href="http//www.gimp.org">GIMP</a></b> is an awesome option (even awesomer when extended with the <b><a href="http://gmic.eu">G'MIC</a></b> plugin).
             </p>
         </div>
     </div>
-
     <div class="column full">
     <hr/>
     </div>
@@ -329,6 +327,13 @@ stylesheet: software-page
 			<p>
 				Manage big local photo collections on Android phones and tablets: gallery, geotag with photomap, tags, find, sort, view, copy, delete, send, ...		
 			</p>
+		</div>
+		<div class="sw-entry">
+			<a href="https://github.com/linuxmint/pix">Pix</a>
+			<i class="fa fa-linux"></i>
+			<p>
+            Pix is part of the X-Apps project, which aims at producing cross-distribution and cross-desktop software.
+           </p>
 		</div>
 		<h2>Camera Utilities</h2>
 		<div class="sw-entry opencamera">
