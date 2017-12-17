@@ -16,19 +16,50 @@ layout: blog-posts.hbt
 
 ---
 
-We first had a chance to hang out with LWN editor Nate Willis during the Libre Graphics Meeting 2016 in London, and later out at the Texas Linux Fest.
+There are two libre graphics related meetings coming up early next year.
+How exciting!
+
+The [Libre Graphics Meeting][lgm] is going to be in Seville, Spain this year!
+They recently [published their Call for Participation][lgmcfp] and are accepting presentation and talk proposals now.
+Unfortunately, I won't be able to attend this year, but there's a pretty good chance some friendlier folks from the community will be!
+We'll update more about who will be making it out as soon as we know, and maybe we can convince someone to run another photowalk with everyone.
+(On a side note, if anyone from the community is going to make it and wants a hand putting anything together for a presentation just let us know - we're here to help!)
+
+[lgm]: http://libregraphicsmeeting.org/2018/ "LGM Website"
+[lgmcfp]: http://libregraphicsmeeting.org/2018/call-for-participation/ "LGM CFP"
 
 
-<!-- more -->
+<!-- more --> 
+
+## Libre Graphics at SCaLE (California, USA)
+
+This year we have a neat announcement - due to some prodding from Nate Willis, we have been given a day at the [Southern California Linux Expo (SCaLE)][scale] to hold a Libre Graphics focused track!
+The expo is at the Pasadena Convention Center, March 8-11, 2018.
+
+[scale]: https://www.socallinuxexpo.org/scale/16x "Southern California Linux Expo"
+
+We first had a chance to hang out with [LWN][] editor [Nate Willis][] during the Libre Graphics Meeting 2016 in London, and later out at the [Texas Linux Fest][txlf].
+[GIMP][] was able to have both [Akkana Peck][] and myself out to present on GIMPy stuff and host a photowalk as well.
+
+[LWN]: https://lwn.net/ "LWN.net"
+[Nate Willis]: https://twitter.com/n8willis "Nathan Willis on Twitter"
+[txlf]: https://2016.texaslinuxfest.org/ "Texas Linux Fest 2016"
+[Akkana Peck]: http://www.shallowsky.com/ "Akkana Peck's website"
+[GIMP]: https://www.gimp.org "The GIMP website"
 
 
-## Call for Participation
+The organizer for SCaLE, Ilan, was kind enough to give us a day (not sure which one just yet - possibly a Friday) and a room for all the libre graphics artists, designers, programmers, and hackers.
 
----
+I will be in attendance promoting GIMP stuff in the main track, Dr. Ullah (Isaac Ullah) will hopefully be presenting, and Mica will be there (@paperdigits) as well!
+I'm pretty certain we'll be holding a photowalk for attendees while we're there - and we may even setup a nice headshot booth in the expo to take free headshots for folks.
 
-Libre Graphics Day: SCaLE 2018
+We would _love_ to see some folks out there!
+If you think you might be able to make it, or even better submit a talk proposal, please come and join us!
+(I was thinking about getting an AirBnB to stay in, so if folks let me know they are going to make it out we can coordinate a place to all stay together.)
 
-Call for Participation
+
+
+## SCaLE Libre Graphics Track Call for Participation
 
 The libre graphics community is thrilled to announce that a special,
 one-day track at SCaLE 16x will be dedicated to libre graphics
@@ -38,7 +69,7 @@ and join us for the day!
 
 SCaLE 16x will take place from March 8 to 11 of 2018 in Pasadena
 California. Libre Graphics Day: SCaLE will take place at the main
-SCaLE venue on Thursday, March 8.
+SCaLE venue on Friday, March 9.
 
 The libre graphics track is an opportunity for teams, contributors and
 practitioners involved in Libre Graphics projects to share their
@@ -56,14 +87,19 @@ Developers, artists, and activists alike are invited.  First-time
 presenters and established projects of all sizes are welcome to submit.
 
 We are looking for:
-    ❧ Reflections and practical sessions on promoting the philosophy
-    and use of Libre Graphics tools. 
-    ❧ Technical presentations and workshops for developers.
-    ❧ Showcases of excellent work made using Libre Graphics tools.
-    ❧ New tools and workflows for graphics and code.
-    ❧ Reflections on the activities of existing Free/Libre and Open Source communities.
-Formats
 
-The deadline for submissions is January 10th, 2018, and participants will be notified by the end of January 2018.
+* Reflections and practical sessions on promoting the philosophy
+and use of Libre Graphics tools. 
+* Technical presentations and workshops for developers.
+* Showcases of excellent work made using Libre Graphics tools.
+* New tools and workflows for graphics and code.
+* Reflections on the activities of existing Free/Libre and Open Source communities.
 
----
+
+### Submit
+
+Please submit your proposal to <graphics-cfp@socallinuxexpo.org>.
+
+### Deadline
+
+The deadline for submissions is **January 10th, 2018**, and participants will be notified by the end of January 2018.
