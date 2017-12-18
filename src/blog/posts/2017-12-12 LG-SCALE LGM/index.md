@@ -3,9 +3,10 @@ date: 2017-12-12T15:24:39-06:00
 title: LGM and Libre Graphics at SCaLE 16x
 sub-title: All the libre graphics!
 
-lede-img: Rockwell-Thanksgiving-Simpsons.jpg
+lede-img: LGM+SCaLE.png
 lede-img-thumb: th_Rockwell-Thanksgiving-Simpsons.jpg
-lede-attribution:  ""
+lede-style: "background-size: contain; background-repeat: no-repeat;"
+lede-attribution: ""
 
 author: Pat David
 author-img: 
@@ -17,7 +18,18 @@ layout: blog-posts.hbt
 ---
 
 There are two libre graphics related meetings coming up early next year.
+The annual [Libre Graphics Meeting][lgm] (in Spain this year), and something entirely new: a 
+libre graphics track at SCaLE.
 How exciting!
+
+<!-- more --> 
+
+
+## Libre Graphics Meeting 2018
+
+<figure>
+    <img src='lgm-logo.svg' alt='LGM Logo SVG' width='689' height='332'>
+</figure>
 
 The [Libre Graphics Meeting][lgm] is going to be in Seville, Spain this year!
 They recently [published their Call for Participation][lgmcfp] and are accepting presentation and talk proposals now.
@@ -29,9 +41,12 @@ We'll update more about who will be making it out as soon as we know, and maybe 
 [lgmcfp]: http://libregraphicsmeeting.org/2018/call-for-participation/ "LGM CFP"
 
 
-<!-- more --> 
 
 ## Libre Graphics at SCaLE (California, USA)
+
+<figure>
+    <img src="16x_logo_lg.png" alt="SCaLE 16x Logo" width='640' height='252'>
+</figure>
 
 This year we have a neat announcement - due to some prodding from Nate Willis, we have been given a day at the [Southern California Linux Expo (SCaLE)][scale] to hold a Libre Graphics focused track!
 The expo is at the Pasadena Convention Center, March 8-11, 2018.
@@ -50,7 +65,13 @@ We first had a chance to hang out with [LWN][] editor [Nate Willis][] during the
 
 The organizer for SCaLE, Ilan, was kind enough to give us a day (not sure which one just yet - possibly a Friday) and a room for all the libre graphics artists, designers, programmers, and hackers.
 
-I will be in attendance promoting GIMP stuff in the main track, Dr. Ullah (Isaac Ullah) will hopefully be presenting, and Mica will be there (@paperdigits) as well!
+<figure>
+<img class="inline" src="ullah.png">
+<img class="inline" src="paperdigits.png">
+<figcaption>You could come meet the face behind these avatars!</figcaption>
+</figure>
+
+I will be in attendance promoting GIMP stuff in the main track, Dr. Ullah (Isaac Ullah) will hopefully be presenting, and Mica will be there (@paperdigits) as well.
 I'm pretty certain we'll be holding a photowalk for attendees while we're there - and we may even setup a nice headshot booth in the expo to take free headshots for folks.
 
 We would _love_ to see some folks out there!
@@ -99,6 +120,8 @@ and use of Libre Graphics tools.
 ### Submit
 
 Please submit your proposal to <graphics-cfp@socallinuxexpo.org>.
+
+If you have any questions feel free to reach out to me on the forum.
 
 ### Deadline
 
