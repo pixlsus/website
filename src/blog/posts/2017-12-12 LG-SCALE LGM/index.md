@@ -4,7 +4,7 @@ title: LGM and Libre Graphics at SCaLE 16x
 sub-title: All the libre graphics!
 
 lede-img: LGM+SCaLE.png
-lede-img-thumb: th_Rockwell-Thanksgiving-Simpsons.jpg
+lede-img-thumb: th_LGM+SCaLE.png
 lede-style: "background-size: contain; background-repeat: no-repeat;"
 lede-attribution: ""
 
@@ -31,11 +31,11 @@ How exciting!
     <img src='lgm-logo.svg' alt='LGM Logo SVG' width='689' height='332'>
 </figure>
 
-The [Libre Graphics Meeting][lgm] is going to be in Seville, Spain this year!
+The [Libre Graphics Meeting][lgm] is going to be in Seville, Spain this year.
 They recently [published their Call for Participation][lgmcfp] and are accepting presentation and talk proposals now.
 Unfortunately, I won't be able to attend this year, but there's a pretty good chance some friendlier folks from the community will be!
 We'll update more about who will be making it out as soon as we know, and maybe we can convince someone to run another photowalk with everyone.
-(On a side note, if anyone from the community is going to make it and wants a hand putting anything together for a presentation just let us know - we're here to help!)
+(On a side note, if anyone from the community is going to make it and wants a hand putting anything together for a presentation just let us know - we're here to help.)
 
 [lgm]: http://libregraphicsmeeting.org/2018/ "LGM Website"
 [lgmcfp]: http://libregraphicsmeeting.org/2018/call-for-participation/ "LGM CFP"
@@ -63,18 +63,18 @@ We first had a chance to hang out with [LWN][] editor [Nate Willis][] during the
 [GIMP]: https://www.gimp.org "The GIMP website"
 
 
-The organizer for SCaLE, Ilan, was kind enough to give us a day (not sure which one just yet - possibly a Friday) and a room for all the libre graphics artists, designers, programmers, and hackers.
+The organizer for SCaLE, Ilan, was kind enough to give us a day (Friday, March 9<sup>th</sup>) and a room for all the libre graphics artists, designers, programmers, and hackers.
 
 <figure>
 <img class="inline" src="ullah.png">
 <img class="inline" src="paperdigits.png">
-<figcaption>You could come meet the face behind these avatars!</figcaption>
+<figcaption>You could come meet the face behind these avatars.</figcaption>
 </figure>
 
 I will be in attendance promoting GIMP stuff in the main track, Dr. Ullah (Isaac Ullah) will hopefully be presenting, and Mica will be there (@paperdigits) as well.
 I'm pretty certain we'll be holding a photowalk for attendees while we're there - and we may even setup a nice headshot booth in the expo to take free headshots for folks.
 
-We would _love_ to see some folks out there!
+We would _love_ to see some folks out there.
 If you think you might be able to make it, or even better submit a talk proposal, please come and join us!
 (I was thinking about getting an AirBnB to stay in, so if folks let me know they are going to make it out we can coordinate a place to all stay together.)
 
