@@ -26,6 +26,9 @@ stylesheet: software-page
             <p class="left-align">
             For pixel-editing and similar functionality to what you might find in Photoshop, <b><a href="http//www.gimp.org">GIMP</a></b> is an awesome option (even awesomer when extended with the <b><a href="http://gmic.eu">G'MIC</a></b> plugin).
             </p>
+            <p>
+            If you find we're missing something please let us know in <a href="https://discuss.pixls.us">the forums</a>!
+            </p>
         </div>
     </div>
     <div class="column full">
@@ -35,7 +38,7 @@ stylesheet: software-page
         <h2>Raw Processing</h2>
         <div class="sw-entry darktable">
             <a href='https://www.darktable.org/'>darktable</a>
-            <i class="fa fa-nix-osx"></i>
+            <i class="fa fa-nix-win-osx"></i>
             <p>
                 Photography workflow application and raw processor.
             </p>
