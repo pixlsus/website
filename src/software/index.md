@@ -26,7 +26,7 @@ stylesheet: software-page
             <p class="left-align">
             For pixel-editing and similar functionality to what you might find in Photoshop, <b><a href="http//www.gimp.org">GIMP</a></b> is an awesome option (even awesomer when extended with the <b><a href="http://gmic.eu">G'MIC</a></b> plugin).
             </p>
-            <p>
+            <p class="left-align">
             If you find we're missing something please let us know in <a href="https://discuss.pixls.us">the forums</a>!
             </p>
         </div>
