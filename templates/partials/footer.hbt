@@ -14,6 +14,10 @@
 						<p class="site-slogan">Free/Open Source Photography</p>
 
                         <div id='social-icons'>
+				<a href="/feed.xml">
+					<img src="/images/social/rss.png" alt="RSS feed icon" />
+				</a>
+			
                             <a href="https://plus.google.com/b/115344273324079495662/115344273324079495662/about">
                                 <img src="/images/social/g+.png" alt="social logo google+"/>
                             </a>
