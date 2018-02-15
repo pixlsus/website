@@ -401,7 +401,7 @@ stylesheet: software-page
             </p>
         </div>
 	<div class="sw-entry chdk">
-            <a href="https://chdk.setepontos.com/">CHDK (Canon Hack Development Kit</a>
+            <a href="https://chdk.setepontos.com/">CHDK (Canon Hack Development Kit)</a>
             <p>
                 Software add-on that runs on point-and-shoot Canon cameras, giving them more features.
             </p>
