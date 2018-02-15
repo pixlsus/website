@@ -400,6 +400,12 @@ stylesheet: software-page
                 that weren&rsquo;t included from the factory.
             </p>
         </div>
+	<div class="sw-entry chdk">
+            <a href="https://chdk.setepontos.com/">CHDK (Canon Hack Development Kit</a>
+            <p>
+                Software add-on that runs on point-and-shoot Canon cameras, giving them more features.
+            </p>
+        </div>
         <div class="sw-entry blender">
             <a href="http://www.blender.org">Blender</a>
             <i class="fa fa-nix-win-osx"></i>
