@@ -26,34 +26,33 @@ layout: article.hbt
 #nodiscuss: false
 ---
 
-Noise in digital images is similar to film grain for analogue cameras.
-In digital cameras noise is either created by the amplification of digital
-signals or heat produced by the sensor. It appears as random colored speckles
+Noise in digital images is similar to film grain in analogue photography.
+In digital cameras, noise is either created by the amplification of digital
+signals or heat produced by the sensor. It appears as random, colored speckles
 on an otherwise smooth surface and can significantly degrade image quality.
 
-Noise is normally always present, but if it gets too pronounced, it detracts
-from the image and needs to be removed or mitigated. Removing noise can 
+Noise is always present, and if it gets too pronounced, it detracts
+from the image and needs to be mitigated. Removing noise can 
 decrease image quality or sharpness. There are different algorithms to reduce
-noise but the best option is if we have profiles for a camera to understand the noise patterns a camera model produces.
+noise, but the best option is if having profiles for a camera to understand the noise patterns a camera model produces.
 
 Noise reduction is an image restoration process. You want to remove the
 digital artefacts from the image in such a way that the original image is
-discernible. These artefacts can be just some kind of grain (luminance noise) or colorful disturbing dots (chroma noise). It can either add to a picture or disturb from if. If it is disturbing we want to remove it. The following pictures show a picture with noise and a denoised version:
+discernible. These artefacts can be just some kind of grain (luminance noise) or colorful, disturbing dots (chroma noise). It can either add to a picture or detract from it. If the noise is disturbing, we want to remove it. The following pictures show a picture with noise and a denoised version:
 
 <figure>
 <img src="example_noise.jpg" alt="Noisy cup" title="Image with noise" width="760" height="507">
 <img src="example_denoised.jpg" alt="Denoised cup" title="Denoise image" width="760" height="507">
 </figure>
 
-
-To get the best noise reduction we need to get noise profiles for each ISO value for a camera.
+To get the best noise reduction, we need to generate noise profiles for each ISO value for a camera.
 
 
 Creating the pictures for noise profling
 ----------------------------------------
 
-For every ISO value of your camera, you have to take a picture. The pictures
-need to be created in a special way, with special settings, to gather the
+For every ISO value your camera has, you have to take a picture. The pictures
+need to be exposed a particular way to gather the
 information correctly. The photos need to be out of focus with a widespread
 histogram like in the following image:
 
@@ -63,10 +62,10 @@ histogram like in the following image:
 </figure>
 
 We need overexposed and underexposed areas, but mostly particularly the grey
-areas in between. They contain the information we are looking for.
+areas in between. These areas contain the information we are looking for.
 
-Let's go through it step by step. For easier creation of the required
-pictures we will create a stencil which will make it easier to capture the
+Let's go through the noise profile generation step by step. For easier creation of the required
+pictures, we will create a stencil which will make it easier to capture the
 photos.
 
 
@@ -74,9 +73,9 @@ photos.
 
 You need to get some thicker black paper or cardboard. No light should
 shine through it!  First we need to use the lens hood to get the size. The
-lens hood helps to move it away from the lens a bit and we have something to
-attach it too. Then we need to create a punch card. For wide angle lenses you
-need a close raster and for bigger focal length a wider raster. It is harder to
+lens hood helps to move the paper away from the lens a bit and the lens hood gives us something to
+attach it to. Then we need to create a punch card. For wide angle lenses you
+need a close raster and for longer focal lengths, a wider raster. It is harder to
 create it for compact cameras with small lenses (check below).
 
 Find the middle and mark the size of the lens hood:
@@ -114,7 +113,7 @@ problem is the shutter speed and it is likely that you'll hit the limit. My came
 
 Use a tripod and point the camera to the sky, attach the lens hood and put the
 punch card on it. Better make sure that all filters are removed, so we don't
-get any strange artefacts from them. In the end the setup should look like
+get any strange artefacts. In the end the setup should look like
 this:
 
 <figure>
@@ -122,16 +121,16 @@ this:
 </figure>
 
 Choose the fastest aperture available on your lens (e.g. f/2.8 or even faster),
-change the camera to manual focus and focus on infinity. Take the shot!
+change the camera to manual focus, and focus on infinity. Take the shot!
 The result should look like this:
 
 <figure>
 <img src="noise_example_shot.jpg" alt="punch card picture" title="Probably exposed punch card picture" width="760" height="505">
 </figure>
 
-The holes will overexpose the picture but you also need an underexposed area.
+The holes will overexpose the picture, but you also need an underexposed area.
 So start to put most of my dark areas in the middle of the histogram and moved
-it to the black (left) side of the histogram till the first values started to
+it to the black (left) side of the histogram until the first values start to
 clip. It is important to not to clip to much, as we are mostly interested the
 grey values between the overexposed and underexposed areas.
 
@@ -147,7 +146,7 @@ Run
 
     /usr/lib/darktable/tools/darktable-gen-noiseprofile --help
 
-If this gives you the help of the tool continue with STEP 2 othersise go to STEP 1a
+If this gives you the help of the tool, continue with STEP 2 othersise go to STEP 1a
 
 ### STEP 1a
 
@@ -184,7 +183,7 @@ and run the following command:
 
     /usr/lib/darktable/tools/darktable-gen-noiseprofile -d $(pwd)
 
-or if you had to download the source, run
+or if you had to download and build the source, run:
 
     /opt/darktable_source/lib/tools/darktable-gen-noiseprofile -d $(pwd)
 
@@ -193,16 +192,17 @@ some time to finish. I think it took 15 to 20 minutes on my machine. If a
 picture is not shot correctly, the tool will tell you the image name and you
 have to recapture the picture with that ISO.
 
+
+The tool will tell you, once completed, how to test and verify the
+noise profiles you created.
+
 Once the tool finished, you end up with a tarball you can send to darktable for
 inclusion. You can open a bug at:
 
-**https://redmine.darktable.org/**
+[**https://redmine.darktable.org/**](https://redmine.darktable.org)
 
-for that. The tool will tell you, once completed, how to test and verify the
-noise profiles you created.
-
-The interesting files are the presets.json file (darktable input) and for the
-developers the noise_result.pdf file. You can find an example
+The interesting files are the `presets.json` file (darktable input) and, for the
+developers, the noise_result.pdf file. You can find an example PDF 
 [here](ilce-7m3_noise_result.pdf). It is a
 collection of diagrams showing the histogram for each picture and the results
 of the calculations.
@@ -241,4 +241,4 @@ If you're interested in the results, you can find them here:
 * [noise_profile.pdf](ilce-7m3_failed_monitor_gradient_noise_result.pdf)
 * [dt-noiseprofile.tar.gz](ilce-7m3_failed_monitor_gradient_dt-noiseprofile-20180407.tar.gz)
 
-Feedback is very much welcome :-)
+Feedback is very much welcome in the comments below!
