@@ -4,7 +4,7 @@ title: "How to create camera noise profiles for darktable"
 sub-title: "An easy way to create correct profiling pictures"
 
 lede-img: "noise_example_shot.jpg"
-lede-attribution: "by <a href='https://blog.cryptomilk.org'>Andreas Schneider</a>"
+lede-attribution: "by <a href='https://pixelbook.org'>Andreas Schneider</a>"
 
 author: "Andreas Schneider" #required
 author-img: "asn.png"
@@ -12,8 +12,8 @@ author-url: "https://pixelbook.org"
 author-twitter: "@cryptomilk"
 author-gplus: ""
 author-fb: ""
-author-bio: "I'm a Free and Open Source Software hacker who loves bicycles and photography."
-type: "article"
+author-bio: "I'm a <a href='https://blog.cryptomilk.org'>Free and Open Source Software Hacker</a> who loves climbing, cycling and photography."
+
 collection: tutorial
 tags:
     - darktable
@@ -22,61 +22,68 @@ tags:
     - denoise
     - camera support
 stylesheet: noise-profile-darktable
+
+type: "article"
 layout: article.hbt
 #nodiscuss: false
+
 ---
 
-Noise in digital images is similar to film grain in analogue photography.
-In digital cameras, noise is either created by the amplification of digital
+Noise in digital images is similar to film grain in analogue photography.  In
+digital cameras, noise is either created by the amplification of digital
 signals or heat produced by the sensor. It appears as random, colored speckles
 on an otherwise smooth surface and can significantly degrade image quality.
 
-Noise is always present, and if it gets too pronounced, it detracts
-from the image and needs to be mitigated. Removing noise can 
-decrease image quality or sharpness. There are different algorithms to reduce
-noise, but the best option is if having profiles for a camera to understand the noise patterns a camera model produces.
+Noise is always present, and if it gets too pronounced, it detracts from the
+image and needs to be mitigated. Removing noise can decrease image quality or
+sharpness. There are different algorithms to reduce noise, but the best option
+is if having profiles for a camera to understand the noise patterns a camera
+model produces.
 
-Noise reduction is an image restoration process. You want to remove the
-digital artefacts from the image in such a way that the original image is
-discernible. These artefacts can be just some kind of grain (luminance noise) or colorful, disturbing dots (chroma noise). It can either add to a picture or detract from it. If the noise is disturbing, we want to remove it. The following pictures show a picture with noise and a denoised version:
+Noise reduction is an image restoration process. You want to remove the digital
+artefacts from the image in such a way that the original image is discernible.
+These artefacts can be just some kind of grain (luminance noise) or colorful,
+disturbing dots (chroma noise). It can either add to a picture or detract from
+it. If the noise is disturbing, we want to remove it. The following pictures
+show a picture with noise and a denoised version:
 
 <figure>
 <img src="example_noise.jpg" alt="Noisy cup" title="Image with noise" width="760" height="507">
-<img src="example_denoised.jpg" alt="Denoised cup" title="Denoise image" width="760" height="507">
+<img src="example_denoised.jpg" alt="Denoised cup" title="Denoised image" width="760" height="507">
 </figure>
 
-To get the best noise reduction, we need to generate noise profiles for each ISO value for a camera.
+To get the best noise reduction, we need to generate noise profiles for each
+ISO value for a camera.
 
 
 Creating the pictures for noise profling
 ----------------------------------------
 
 For every ISO value your camera has, you have to take a picture. The pictures
-need to be exposed a particular way to gather the
-information correctly. The photos need to be out of focus with a widespread
-histogram like in the following image:
+need to be exposed a particular way to gather the information correctly. The
+photos need to be out of focus with a widespread histogram like in the
+following image:
 
 <figure>
-![Histogram](histogram.png)
 <img src="histogram.png" alt="Histogram" width="516" height="271">
 </figure>
 
 We need overexposed and underexposed areas, but mostly particularly the grey
 areas in between. These areas contain the information we are looking for.
 
-Let's go through the noise profile generation step by step. For easier creation of the required
-pictures, we will create a stencil which will make it easier to capture the
-photos.
+Let's go through the noise profile generation step by step. For easier creation
+of the required pictures, we will create a stencil which will make it easier to
+capture the photos.
 
 
 ### Stencil for DSLM/DSLR lenses
 
-You need to get some thicker black paper or cardboard. No light should
-shine through it!  First we need to use the lens hood to get the size. The
-lens hood helps to move the paper away from the lens a bit and the lens hood gives us something to
-attach it to. Then we need to create a punch card. For wide angle lenses you
-need a close raster and for longer focal lengths, a wider raster. It is harder to
-create it for compact cameras with small lenses (check below).
+You need to get some thicker black paper or cardboard. No light should shine
+through it!  First we need to use the lens hood to get the size. The lens hood
+helps to move the paper away from the lens a bit and the lens hood gives us
+something to attach it to. Then we need to create a punch card. For wide angle
+lenses you need a close raster and for longer focal lengths, a wider raster. It
+is harder to create it for compact cameras with small lenses (check below).
 
 Find the middle and mark the size of the lens hood:
 
@@ -90,13 +97,16 @@ If you have the size, draw a grid on the paper:
 <img src="stencil_step2.jpg" alt="Stencil Step 2" width="760" height="507">
 </figure>
 
-Once you have done that you need to choose a punch card raster for your focal length. I use a 16mm wide angle lens on a full frame body, so I choose a raster with a lot of holes:
+Once you have done that you need to choose a punch card raster for your focal
+length. I use a 16mm wide angle lens on a full frame body, so I choose a raster
+with a lot of holes:
 
 <figure>
 <img src="stencil_step3.jpg" alt="Stencil Step 3" width="760" height="507">
 </figure>
 
-**Untested idea**: Use two (or three) zick zack (or zig zag) lines instead of holes.
+**Untested**: For a 85mm lens I think you just need holes created with a needle
+around the middile. I haven't tested this yet as I don't have the lens yet.
 
 
 ### Stencil for compact cameras
@@ -109,20 +119,23 @@ Taking the pictures
 -------------------
 
 Wait for a cloudy day with thick clouds and no sun to take the pictures. The
-problem is the shutter speed and it is likely that you'll hit the limit. My camera has 37 ISO values (including extended iso), so I need to start with 0.6 seconds exposure time to take the last picture with the limit of my camera, 1/8000 of a second exposure time. So a darker day helps to start with a slow shutter speed.
+problem is the shutter speed and it is likely that you'll hit the limit. My
+camera has 37 ISO values (including extended iso), so I need to start with 0.6
+seconds exposure time to take the last picture with the limit of my camera,
+1/8000 of a second exposure time. So a darker day helps to start with a slow
+shutter speed.
 
 Use a tripod and point the camera to the sky, attach the lens hood and put the
 punch card on it. Better make sure that all filters are removed, so we don't
-get any strange artefacts. In the end the setup should look like
-this:
+get any strange artefacts. In the end the setup should look like this:
 
 <figure>
-<img src="creating_noise_photo.jpg" alt="Punch card on camera" width="400" height="600">
+<img src="creating_noise_photo.jpg" alt="Punch card on camera" title="Example setup" width="400" height="600">
 </figure>
 
 Choose the fastest aperture available on your lens (e.g. f/2.8 or even faster),
-change the camera to manual focus, and focus on infinity. Take the shot!
-The result should look like this:
+change the camera to manual focus, and focus on infinity. Take the shot!  The
+result should look like this:
 
 <figure>
 <img src="noise_example_shot.jpg" alt="punch card picture" title="Probably exposed punch card picture" width="760" height="505">
@@ -175,7 +188,8 @@ Now change to the source and build the tools for creating noise profiles using:
 
 ### STEP 2
 
-Download the pictures from your camera and change to the directory on the commandline:
+Download the pictures from your camera and change to the directory on the
+commandline:
 
     cd /path/to/noise_pictures
 
@@ -240,5 +254,7 @@ If you're interested in the results, you can find them here:
 
 * [noise_profile.pdf](ilce-7m3_failed_monitor_gradient_noise_result.pdf)
 * [dt-noiseprofile.tar.gz](ilce-7m3_failed_monitor_gradient_dt-noiseprofile-20180407.tar.gz)
+
+Please also share pictures of working stencils you created.
 
 Feedback is very much welcome in the comments below!
