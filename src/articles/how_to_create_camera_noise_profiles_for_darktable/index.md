@@ -172,6 +172,7 @@ dependencies installed on your system:
 * gcc
 * make
 * gnuplot
+* convert (ImageMagick)
 * darktable-cli
 
 Get the darktable source code using git:
