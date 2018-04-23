@@ -25,8 +25,6 @@ stylesheet: noise-profile-darktable
 
 type: "article"
 layout: article.hbt
-=======
-
 ---
 
 Noise in digital images is similar to film grain in analogue photography.  In
