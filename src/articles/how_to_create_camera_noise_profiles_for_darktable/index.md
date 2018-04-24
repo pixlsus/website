@@ -104,7 +104,7 @@ with a lot of holes:
 <img src="stencil_step3.jpg" alt="Stencil Step 3" width="760" height="507">
 </figure>
 
-**Untested**: For a 50mm or 85mm lens I think you should start which 5 holes in
+**Untested**: For a 50mm or 85mm lens I think you should start with 5 holes in
 the middle created just with a needle. Put your stencil on the lens hood and
 check. Then you know if you need bigger holes and maybe how much. Please share
 your findings in the comments below!
