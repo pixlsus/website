@@ -18,7 +18,7 @@ stylesheet: about
 		This site hopes to rectify that with a simple goal:
 		</p>
 		<p id='mission'>
-		<em>To provide tutorials, workflows and a showcase for high-quality photography using Free/Open Source Software.</em>
+		<em>To provide tutorials, workflows and a showcase for high-quality photography and cinematography using Free/Open Source Software.</em>
 		</p>
 	</div>
 </section>
