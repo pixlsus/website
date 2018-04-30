@@ -165,9 +165,11 @@ How to shoot the target?
    With a tele lens we would be too far away and with a wide angle lens we
    would need to be too near to have just the black box in the picture.
 
-3. Set your metering mode to matrix metering and use an aperture of f/4.0.
-   Having the aperture a bit closed down means it is a more even lit. Make sure
-   the Color Checker is parallel to the camera so all fields are in focus.
+3. Set your metering mode to matrix metering and use an aperture of at least
+   f/4.0.  Make sure the color chart is parallel to plane of the camera sensors
+   so all patches of the chart are in focus. The color chart should be in the
+   middle of the image using about 1/3 of the screen so that vignetting is
+   not an issue.
 
 4. Set the camera to capture "RAW & JPEG" and disable lens corrections
    (vignetting corrections) for JPEG files if possible.
