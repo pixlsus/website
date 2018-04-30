@@ -129,17 +129,29 @@ so the sun isn't changing intensity while you shoot. The higher the temperature
 the more water is in the atmosphere, which means the quality of the images for
 profiling are reduced. Temperatures below 20°C are better than above.
 
-Find a place preferably indoor where you can put the box in the sun and place
-you camera with a tripod in the shadow. The darker the room the better! Garages
-with an additional garage door are great. Also the sun needs to shine at an
-angle on the Color Checker!
+### Shooting outdoor
+
+If you want to shoot outdoor, look for an empty tared parking lot. It should be
+pretty big, like from a mall, without any cars or trees. You should be far away
+from walls or anything which can reflect. Put the box on the ground and shoot
+with the sun above your right or left shoulder behind you. You can use a black
+fabric (bed sheets) if the ground reflects.
+
+### Shooting indoor
+
+Find a place indoor where you can put the box in the sun and place you camera
+with a tripod in the shadow. The darker the room the better! Garages with an
+additional garage door are great. Also the sun needs to shine at an angle on
+the Color Checker. This means when you photograph the color chart with the sun
+above your right or left shoulder behind you. Use a black fabric to cover
+anything which could reflect.
 
 How to shoot the target?
 ------------------------
 
 1. Put your shooting box in the sun and setup your camera on a tripod. The best
-   is to lean the color chart on the back of your box and have the camera
-   looking down on it like in the following picture:
+   is to have the camera looking down on on the color chart like in the
+   following picture:
 
 <figure>
 <img src="03_profiling_setup.jpg" alt="A camera pointing into the profiling box" width="507" height="760"/>
