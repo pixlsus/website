@@ -109,7 +109,9 @@ open on the top and on the front like in the following picture (Figure 1).
 
 <figure>
 <img src="01_cardboard_box.jpg" alt="A cardboard box" width="760" height="507"/>
+<figcaption>
 <b>Figure 1:</b> Cardboard box suitable for color profiling
+</figcaption>
 </figure>
 
 Normally you just need to cut one side open. Then coat the inside of the box
@@ -117,8 +119,8 @@ with black t-shirts like this:
 
 <figure>
 <img src="02_profiling_box.jpg" alt="A cardboard box coated with black t-shirts" width="507" height="760"/>
-<b>Figure 2:</b> A simple box for color profiling
-</figure>
+<figcaption><b>Figure 2:</b> A simple box for color profiling
+</figcaption></figure>
 
 To further reduce glare we just need the right location to shoot the picture.
 Of course, a lot depends on where you are located and the time of year, but in
@@ -155,8 +157,8 @@ How to shoot the target?
 
 <figure>
 <img src="03_profiling_setup.jpg" alt="A camera pointing into the profiling box" width="507" height="760"/>
-<b>Figure 3:</b> Camera doing a custom white balance with the color profiling box
-</figure>
+<figcaption><b>Figure 3:</b> Camera doing a custom white balance with the color profiling box
+</figcaption></figure>
 
 2. You should use a prime lens for taking the pictures. If possible a 50mm or
    85mm lens (or anything in between). The less glass the light has to travel
@@ -246,8 +248,8 @@ darkroom to find out the value of the natural white field on the color target.
 
 <figure>
 <img src="04_darktable_colorpicker.png" alt="darktable global color picker" width="516" />
-<b>Figure 4:</b> Determining the color of the neutral white patch
-</figure>
+<figcaption><b>Figure 4:</b> Determining the color of the neutral white patch
+</figcaption></figure>
 
 * If the value displayed in the color picker module matches the L-value of the
   field or is close (+/-2), give the RAW file and the corresponding JPEG file 5
@@ -278,8 +280,8 @@ As the output format select "PFM (float)" and for the export path you can use:
 
 <figure>
 <img src="05_darktable_export.png" alt="darktable export dialog" width="516" height="631">
-<b>Figure 5:</b> Exporting the images for profiling
-</figure>
+<figcaption><b>Figure 5:</b> Exporting the images for profiling
+</figcaption></figure>
 
 Profiling with darktable-chart
 ------------------------------
@@ -298,8 +300,8 @@ this:
 
 <figure>
 <img src="06_darktable-chart_startup.png" alt="darktable-chart startup" width="516" height="393">
-<b>Figure 6:</b> The darktable-chart screen after startup
-</figure>
+<figcaption><b>Figure 6:</b> The darktable-chart screen after startup
+</figcaption></figure>
 
 ### Source Image
 
@@ -309,8 +311,8 @@ image.
 
 <figure>
 <img src="07_darktable-chart_source_image.png" alt="darktable-chart source image" width="516" height="393">
-<b>Figure 7:</b> Selecting the source image in darktable-chart
-</figure>
+<figcaption><b>Figure 7:</b> Selecting the source image in darktable-chart
+</figcaption></figure>
 
 Make sure that the inner rectangular of the grid is completely inside of the
 color field, see Figure 8. If it is to big, you can use the size slider in the
@@ -318,8 +320,8 @@ top right corner to adjust it.
 
 <figure>
 <img src="08_darktable-chart_source_image_select.png" alt="darktable-chart source image with grid" width="516" height="393">
-<b>Figure 8:</b> Placing the chart grid on the source image
-</figure>
+<figcaption><b>Figure 8:</b> Placing the chart grid on the source image
+</figcaption></figure>
 
 ### Reference values
 
@@ -335,8 +337,8 @@ necessary.
 
 <figure>
 <img src="09_darktable-chart_reference_values.png" alt="darktable-chart selecting reference values" width="516" height="393">
-<b>Figure 9:</b> Selecting the reference value for profiling in darktable-chart
-</figure>
+<figcaption><b>Figure 9:</b> Selecting the reference value for profiling in darktable-chart
+</figcaption></figure>
 
 ### Process
 
@@ -356,7 +358,9 @@ Click on 'export' to save the darktable style.
 
 <figure>
 <img src="10_darktable-chart_process.png" alt="darktable-chart export" width="516" height="393">
+<figcaption>
 <b>Figure 10:</b> Processing the image in darktable-chart
+</figcaption>
 </figure>
 
 In the export window you should already get a good name for the style. Add a
@@ -407,7 +411,9 @@ look flat if you apply it without the LUT.
 
 <figure>
 <img src="11_darktable_curves.png" alt="darktable base curve vs. tone curve" width="516" height="393">
+<figcaption>
 <b>Figure 11:</b> Comparison of the default base curve with the new generated tone curve
+</figcaption>
 </figure>
 
 Here is a comparison between the base curve for Sony on the left and the
@@ -415,7 +421,9 @@ dtstyle (color LUT + tone curve) created with darktable-chart:
 
 <figure>
 <a href="12_darktable_style_compare.png"><img src="12_darktable_style_compare.png" alt="darktable comparison" width="516" height="393"></a>
+<figcaption>
 <b>Figure 12:</b> Side by side comparison on an image (left the standard base curve, right the calculated dtstyle)
+</figcaption>
 </figure>
 
 Discussion
