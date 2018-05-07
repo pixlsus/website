@@ -352,4 +352,4 @@ Stefan is currently living in Northern France.  Before that he lived and worked 
 [Tumblr]: http://whatstefansees.tumblr.com/
 [flickr-stefan]: https://www.flickr.com/photos/stefanschmitz/
 
-Unless otherwise noted, all of the images are copyright Stefan Schmitz (all rights reserved) and are used with permission.
+<small>Unless otherwise noted, all of the images are copyright Stefan Schmitz (all rights reserved) and are used with permission.</small>
