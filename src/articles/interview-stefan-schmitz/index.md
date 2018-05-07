@@ -4,9 +4,9 @@ date: 2018-05-04T14:11:42-06:00
 title: (NSFW) What Stefan Sees
 sub-title: An Interview with Photographer Stefan Schmitz
 
-lede-img: ""
-lede-style: 'background-color: white; background-size: contain; background-repeat: repeat;'
-lede-attribution: "by <a href='http://facesofopensource.com/' title='Portraits from Faces of Open Source by Peter Adams'>Peter Adams</a>"
+lede-img: "JP_SAS_4429.jpg"
+lede-style: 'background-color: white; background-size: cover;'
+lede-attribution: "by <a href='https://whatstefansees.com/' title='Stefan Schmitz - what stefan sees'>Stefan Schmitz</a>"
 
 author: "Pat David"
 author-img: ""
@@ -21,24 +21,25 @@ layout: article.hbt
 ---
 
 
-[Stefan Schmitz][] is a photographer living in Northern France and specializing in sensual and nude portraits.  I stumbled upon his work during one of my searches for photographers using Free Software on [Flickr][], and as someone who loves shooting portraits his work was an instant draw for me.
+[Stefan Schmitz][] is a photographer living in Northern France and specializing in sensual and nude portraits.
+I stumbled upon his work during one of my searches for photographers using Free Software on [Flickr][], and as someone who loves shooting portraits his work was an instant draw for me.
 
-<figure>
-<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/f/f5ae99ed3f346cbb533718177e06433ac08a1960.jpg" width="690" height="462">
+<figure class='big-vid'>
+<img src='FS_SAS_6724.jpg' width='1020' height='684' alt='Franzi Skamet by Stefan  Schmitz'>
+<figcaption>
+[Franzi Skamet](https://www.flickr.com/photos/stefanschmitz/25163948263/) by Stefan Schmitz
+</figcaption>
 </figure>
 
-[Stefan Schmitz]: https://whatstefansees.com/ "what stefan sees - sensual & nude photography, Hauts de France"
-[Flickr]: https://www.flickr.com "Flickr"
+<figure class='big-vid'>
+<img src='KG_SAS_0277.jpg' width='1020' alt='Khiara Gray by Stefan  Schmitz'>
+<figcaption>
+[Khiara Gray](https://www.flickr.com/photos/stefanschmitz/29264777344/) by Stefan Schmitz
+</figcaption>
+</figure>
 
-Stefan is currently living in Northern France.  Before that he lived and worked in Miami, FL, and Northern Germany where he is from, went to school, and met his wife.  His main website is at https://whatstefansees.com/, and he can be found on [Flickr][flickr-stefan], [Facebook][], [Twitter][], [Instagram][], and [Tumblr][].
 
-[Facebook]: https://www.facebook.com/Stefan.Schmitz.Photo
-[Twitter]: https://twitter.com/whatstefansees
-[Instagram]: https://www.instagram.com/stafan.a.schmitz/
-[Tumblr]: http://whatstefansees.tumblr.com/
-[flickr-stefan]: https://www.flickr.com/photos/stefanschmitz/
-
-He's a member of the forums here (@beachbum) and was gracious enough recently to spare some time chatting with me and letting me practice some interview questions on him.  Here is our conversation (edited for clarity)...
+He's a member of the forums here (@beachbum) and was gracious enough recently to spare some time chatting with me.  Here is our conversation (edited for clarity)...
 
 
 
@@ -48,6 +49,13 @@ Nope, I’m not a professional photographer, and I think I’m quite happy about
 
 Every now and then some of my pictures are requested and published by some sort of magazine, press or web-service, and I appreciate the attention and exposure, but there is no (or very little) money in the kind of photography I specialize in, so … everything’s OK the way it is.
 
+
+<figure>
+<img src='KG_SAS_0338.jpg' width='760' height='1134' alt='Khiara Gray by Stefan Schmitz'>
+<figcaption>
+[Khiara Gray](https://www.flickr.com/photos/stefanschmitz/28484512994/) by Stefan Schmitz
+</figcaption>
+</figure>
 
 
 ### What would you say are your biggest influences?
@@ -62,7 +70,7 @@ Georgia O'Keeffe by Alfred Stieglitz
 </figure>
 
 
-I got the photo-virus from my father and I learned nearly everything from daddy’s well-worn copy of _The Complete Photographer_ (Feininger) from 1965. Every single photo in that book is a masterpiece, even the strictly “instructional” ones. You measure every photo-book in the world against this one and they all finish second. Get your copy!
+I got the photo-virus from my father and I learned nearly everything from daddy’s well-worn copy of _The Complete Photographer_ <sup><a href="https://www.amazon.com/Complete-Photographer-Andreas-Feininger/dp/0131622145/ref=as_li_ss_tl?s=books&keywords=the+complete+photographer&ie=UTF8&qid=1525725015&sr=1-4&ref_=nav_ya_signin&_encoding=UTF8&linkCode=ll1&tag=httpblogpatda-20&linkId=7b777d7283db5795f369187731d437c5" title="Amazon affiliate link">[amzn]</a></sup> (Feininger) from 1965. Every single photo in that book is a masterpiece, even the strictly “instructional” ones. You measure every photo-book in the world against this one and they all finish second. Get your copy!
 
 [Andreas Feininger]: https://en.wikipedia.org/wiki/Andreas_Feininger "Andreas Feininger on Wikipedia"
 [Peter Lindbergh]: https://en.wikipedia.org/wiki/Peter_Lindbergh "Peter Lindbergh on Wikipedia"
@@ -74,6 +82,20 @@ I got the photo-virus from my father and I learned nearly everything from daddy�
 ### How would you describe your own style overall?
 
 I shoot portraits of women and most of the time they don’t wear clothes. The _portrait_-part is very important for me: the model must connect with the viewer and ideally the communication goes beyond skin-deep. I want to see (and show) more than just the surface, and when that happens, I just press the shutter-button and try to get out of the way of the model’s performance.
+
+<figure class='big-vid'>
+<img src='JP_SAS_7470.jpg' alt='Jennifer Polska by Stefan Schmitz' width='1020' height='683'>
+<figcaption>
+[Jennifer Polska](https://www.flickr.com/photos/stefanschmitz/38138319342/) by Stefan Schmitz
+</figcaption>
+</figure>
+
+<figure class='big-vid'>
+<img src='FS_SAS_6693.jpg' alt='Franzi Skamet by Stefan Schmitz' width='1020' height='683'>
+<figcaption>
+[Franzi Skamet](https://www.flickr.com/photos/stefanschmitz/25163948263/) by Stefan Schmitz
+</figcaption>
+</figure>
 
 
 
@@ -88,31 +110,33 @@ The location is very important for me. Nothing is more boring than blinding a pe
 
 ### If you had to pick your own favorite 3 images of your work, which ones would you choose and why?
 
-
-<figure>
-<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/a/a7581e996a1881215ade7d8bd17293e97b0c39f3.jpg" width="690" height="462">
+<figure class='big-vid'>
+<img src='JP_SAS_7274.jpg' width='1020' height='683' alt='Jennifer Polska by Stefan Schmitz'>
+<figcaption>
+[Jennifer Polska](https://www.flickr.com/photos/stefanschmitz/38138319342/) by Stefan Schmitz
+</figcaption>
 </figure>
 
 Jennifer is a very professional and inspiring model. We've worked together quite a number of times and while you may think that this shot was inspired by The Who's "Pinball Wizard", I'd answer "right band, wrong song".  It's The Who, alright, but the song's "A quick one while he's away".
 I chose this photo because it's all about Jennifer's pose and facial expression. It's sensual, even sexy, but looking at Jennifer's face you forget about the naked skin and all. There's beauty, there's depth ... that's what I'm after.
 
 
-
-
 <figure>
-<a href="https://flic.kr/p/W9J7Dv">
-<img src="//pixls-discuss.s3.amazonaws.com/original/2X/0/009e0bf14408a3050731c5504be859a2bebefcf8.jpg">
-</a>
+<img src='Alice_SAS_6541.jpg' width='1020' height='1523' alt='Alice by Stefan Schmitz'>
+<figcaption>
+[Alice](https://www.flickr.com/photos/stefanschmitz/35542014503) by Stefan Schmitz
+</figcaption>
 </figure>
 
 This shot of Alice is an example for the importance of natural light. There are photographers out there who can arrange light in a similar way, but I doubt that Alice would express this natural serenity in a studio setup with cables and stands and electric-transformers humming. 
 She's at ease, the light is perfect - I just try to be invisible because I don't want to ruin the moment.
 
 
-<figure>
-<a href="https://flic.kr/p/LUv44q">
-<img src="//pixls-discuss.s3.amazonaws.com/original/2X/6/6b025c8eedc1dd5fb5dda5c0d586f4e08039260f.jpg">
-</a>
+<figure class='big-vid'>
+<img src='KG_SAS_0318.jpg' alt='Khiara Gray by Stefan  Schmitz' width='1020' height='684'>
+<figcaption>
+[Khiara Gray](https://www.flickr.com/photos/stefanschmitz/29264777344/) by Stefan Schmitz
+</figcaption>
 </figure>
 
 Try to escape Khiara's eyes. Go, do it. It's all there, the pose, the room, the ribbon-chair and the little icon, but those eyes make the picture. I did NOT whiten the eyeballs nor did I dodge the iris, and of course it's all natural/available light.  
@@ -122,10 +146,14 @@ Try to escape Khiara's eyes. Go, do it. It's all there, the pose, the room, the 
 
 ### If you had to pick 3 favorite images from someone else, which ones would you choose and why? 
 
-I already named Stieglitz' Georgia O'Keeffe as an inspiration further up - next to that there's Helmut Newton's _Big Nude III, Henrietta_ and Kim Basinger's striptease in 9 1/2 weeks (white silk nighty and  all).  Each one a masterpiece, each one very influential for me. Imagine the truth and depth of Georgia with the force and pride of Henrietta and the erotic playfulness of Kim Basinger. That photo would rule the world.
+I already named Stieglitz' Georgia O'Keeffe as an inspiration further up - next to that there's Helmut Newton's _Big Nude III, Henrietta_ and Kim Basinger's striptease in 9 <sup>1</sup>&frasl;<sub>2</sub> weeks (white silk nighty and  all).  Each one a masterpiece, each one very influential for me. Imagine the truth and depth of Georgia with the force and pride of Henrietta and the erotic playfulness of Kim Basinger. That photo would rule the world.
 
-![image|318x470](upload://8pcHoc9O9UT0dnUI6CnW6k9G2AQ.jpg)
-_Big Nude III, Henrietta_, Helmut Newton
+<figure>
+<img src='https://pixls-discuss.s3.amazonaws.com/original/2X/3/3aeac6cf999ad6efb06476da9f34457af86fb134.jpg' width='318' height='470'>
+<figcaption>
+_Big Nude III, Henrietta_, [Helmut Newton](https://en.wikipedia.org/wiki/Helmut_Newton)
+</figcaption>
+</figure>
 
 
 
@@ -163,9 +191,21 @@ Right - available light is where it’s at. I very rarely shoot with a flash kit
 
 Saying that, I own an alarming number of speedlights, umbrellas, triggers and softboxes, but I don’t need that gear very often. I try to visit the locations before I shoot.  I check the directions and plan for a realistic timeframe, so today I will neither find myself in a totally dark dungeon nor in a sun-filled room with contrasts à gogo. Windows to the west - shoot in the morning, windows facing south-east: shooting in the (late) afternoon.
 
-[url=https://flic.kr/p/Q1Zgsq][img]//pixls-discuss.s3.amazonaws.com/original/2X/a/a4693e10536be170c21444c0ddf74eab15740825.jpg[/img][/url]
+<figure class='big-vid'>
+<img src='Karolina_SAS_1976.jpg' width='1020' height='683' alt='Karolina Lewschenko by Stefan Schmitz'>
+<figcaption>
+[Karolina Lewschenko](https://www.flickr.com/photos/stefanschmitz/31516298240/) by Stefan Schmitz
+</figcaption>
+</figure>
 
 Here's a shot of Karolina Lewschenko. We took this photo in a hotel room by the end of October and the available (window) light got too weak, so I used an Aurora Firefly 65 cm softbox with  a Metz speedlight and set-up some classic Rembrandt-Light. I packed that gear because I knew that our timeframe wasn't guaranteed to work out perfectly. "Better be safe than sorry".
+
+<figure class='big-vid'>
+<img src='FS_SAS_6415.jpg' width='1020' height='1522' alt='Franzi Skamet by Stefan  Schmitz'>
+<figcaption>
+[Franzi Skamet](https://www.flickr.com/photos/stefanschmitz/25163948263/) by Stefan Schmitz
+</figcaption>
+</figure>
 
 
 
@@ -211,7 +251,8 @@ Gaming was never my thing and when I installed Win XP, all hell broke lose - kee
 
 Later on I got hold of an Ubuntu 7.10 CD, tried that and never looked back. The few changes on my system were from Gnome to XFCE desktop and from Thunderbird to a browser-based mail-client. Xubuntu is a no-brainer, it runs stable and fast. I contribute every december 100.- € to FOSS. That’s in general 50 and 40 to two projects and a tenner to Wikipedia. I’d spend an extra tenner to any project that helps to convert old star-office files (.sdw and so on) to today’s standards (odt…), but nobody seems interested.
 
----
+
+
 ### What is one piece of advice you would offer to another photographer?
 
 Don’t take any advise from me, i’m still learning myself. Or wait: be kind and a gentleman with the models. They all - each and everyone of them - have had bad experiences with photographers who forgot that the models are nude for the camera, not for the man behind it. They all have been in a room with a photographer who breathes a bit too hard and doesn’t get his gear working … don’t be that arsewipe!
@@ -223,3 +264,25 @@ In general the model will check your portfolio/website and expect to do more or 
 Don’t overdo the gear-thingy. 90% of my photos are taken with the 50mm standard lens. Period. Sometimes I have to switch to 35mm because the room is a bit to small and the distance too close for the onefour-fifty, so everything I bring to an indoor-shooting is the camera, a 50, a 35, an el-cheap-o 100cm reflector from amazon (+/- 15 €/$) and an even cheaper stand for the reflector. Gear is not important, communication is.
 
 Want to spend 300 €/$ on new gear? Spend it on a workshop. Learn how to communicate, get inspiration and fill your portfolio with a first set of pictures, so the next model you email can see that you already have some experience in the field of (nude) portraits. That’s more important than a new flashlight in your bag.
+
+
+## Thank You Stefan!
+
+I want to thank Stefan again for taking the time and being patient enough to chat with me!
+
+<figure>
+<img src="https://pixls-discuss.s3.amazonaws.com/original/2X/f/f5ae99ed3f346cbb533718177e06433ac08a1960.jpg" width="690" height="462">
+</figure>
+
+[Stefan Schmitz]: https://whatstefansees.com/ "what stefan sees - sensual & nude photography, Hauts de France"
+[Flickr]: https://www.flickr.com "Flickr"
+
+Stefan is currently living in Northern France.  Before that he lived and worked in Miami, FL, and Northern Germany where he is from, went to school, and met his wife.  His main website is at https://whatstefansees.com/, and he can be found on [Flickr][flickr-stefan], [Facebook][], [Twitter][], [Instagram][], and [Tumblr][].
+
+[Facebook]: https://www.facebook.com/Stefan.Schmitz.Photo
+[Twitter]: https://twitter.com/whatstefansees
+[Instagram]: https://www.instagram.com/stafan.a.schmitz/
+[Tumblr]: http://whatstefansees.tumblr.com/
+[flickr-stefan]: https://www.flickr.com/photos/stefanschmitz/
+
+Unless otherwise noted, all of the images are copyright Stefan Schmitz (all rights reserved) and are used with permission.
