@@ -121,7 +121,7 @@ Jennifer is a very professional and inspiring model. We've worked together quite
 I chose this photo because it's all about Jennifer's pose and facial expression. It's sensual, even sexy, but looking at Jennifer's face you forget about the naked skin and all. There's beauty, there's depth ... that's what I'm after.
 
 
-<figure>
+<figure class='big-vid'>
 <img src='Alice_SAS_6541.jpg' width='1020' height='1523' alt='Alice by Stefan Schmitz'>
 <figcaption>
 [Alice](https://www.flickr.com/photos/stefanschmitz/35542014503) by Stefan Schmitz
@@ -165,6 +165,13 @@ Shooting more often outdoors would be cool, too, but that’s not easy here in n
 
 Last but not least there’s a special competition among photographers; it’s totally unofficial and called “the white shirt contest”. Shoot a woman in a white shirt and make everybody “feel” the texture of that shirt. I give it a try on every shoot and very few pictures come out the way I wish. Go for it - it’s way harder than I thought!
 
+<figure class='big-vid'>
+<img src='Alice_SAS_6352.jpg' width='1020' width='684' alt='Alice by Stefan Schmitz'>
+<figcaption>
+[Alice](https://www.flickr.com/photos/stefanschmitz/35953665920/) by Stefan Schmitz
+</figcaption>
+</figure>
+
 
 
 ### How do you find your models usually?
@@ -173,6 +180,13 @@ There are websites where models and photographers can present their work and get
 
 You will need some pictures in your portfolio in order to show that you are - in fact - a photographer with a basic idea of portrait-work. If you shoot portraits (I mean really portraits, not some snapshots of granny and the kids under the Christmas-tree), you probably have enough photos on your disk to state the point. But if you don’t and you want to start (nude) portraits, spend some money on a workshop. I did that twice and it really helped me in several ways: communication with the model, how to start a session, do's and don’ts - and at the end of the day you will drive home with a handful of pictures for your portfolio.
 
+
+<figure class='big-vid'>
+<img src='Hannah_SAS_1216.jpg' width='1020' height='682' alt='Hannah by Stefan Schmitz'>
+<figcaption>
+[Hannah](https://www.flickr.com/photos/stefanschmitz/30576600621/) by Stefan Schmitz
+</figcaption>
+</figure>
 
 
 ### Speaking of gear, what are you shooting with currently (or what is your favorite setup)?
@@ -191,7 +205,7 @@ Right - available light is where it’s at. I very rarely shoot with a flash kit
 
 Saying that, I own an alarming number of speedlights, umbrellas, triggers and softboxes, but I don’t need that gear very often. I try to visit the locations before I shoot.  I check the directions and plan for a realistic timeframe, so today I will neither find myself in a totally dark dungeon nor in a sun-filled room with contrasts à gogo. Windows to the west - shoot in the morning, windows facing south-east: shooting in the (late) afternoon.
 
-<figure class='big-vid'>
+<figure>
 <img src='Karolina_SAS_1976.jpg' width='1020' height='683' alt='Karolina Lewschenko by Stefan Schmitz'>
 <figcaption>
 [Karolina Lewschenko](https://www.flickr.com/photos/stefanschmitz/31516298240/) by Stefan Schmitz
@@ -215,11 +229,25 @@ Yes, I do. When I visit a place, a possible location, I have some Ideas of where
 
 When the model arrives, we take some time to walk around the locations and discuss possible sets. We will then start to shoot fully clothed in order to get used to another and see how the light will be on the final shots. It’s very important for me to get feedback from the model. She might say that a pose is difficult for her or hurts after a few seconds, that she’s not comfy with something or that she would like to try a totally different thing here. I always pay a lot of attention to those ideas and - out of experience - those shots based on the model’s ideas are in general among the best of the day.
 
-I mean we’re not here because I shoot bugs or furniture, you dont give me the opportunity to express myself here because you are a fan of crickets; all the attention is linked to the beautiful women on my photos and how they connect with the beholder. I am just the one who captures the moments, it’s the models who fill those moments with intesity and beauty. It would be very stupid of me not to cooperate with a model who knows how to present herself and who comes up with her own ideas.
+<figure class='big-vid'>
+<img src='Karolina_SAS_1730.jpg' width='1020' alt='Karolina Lewschenko by Stefan Schmitz'>
+<figcaption>
+[Karolina Lewschenko](https://www.flickr.com/photos/stefanschmitz/30900009814/) by Stefan Schmitz
+</figcaption>
+</figure>
+
+I mean we’re not here because I shoot bugs or furniture, you don't give me the opportunity to express myself here because you are a fan of crickets; all the attention is linked to the beautiful women on my photos and how they connect with the beholder. I am just the one who captures the moments, it’s the models who fill those moments with intensity and beauty. It would be very stupid of me not to cooperate with a model who knows how to present herself and who comes up with her own ideas.
 
 Always listen to the model, always communicate, never go quiet.
 
 The discussion with the model also includes what degree of nudity we consider. So the second round of photos starts with the “open shirt” or topless shots before the model undresses completely. If we take photos in lingerie, we do that last (after the nudes) because lingerie often leaves traces on the skin and we don’t want that to show.
+
+<figure>
+<img src='FS_SAS_6091.jpg' width='686' height='1024' alt='Franzi Skamet by Stefan Schmitz'>
+<figcaption>
+[Franzi Skamet](https://www.flickr.com/photos/stefanschmitz/27984856976/) by Stefan Schmitz
+</figcaption>
+</figure>
 
 It is important to know what to do and in what order. You don't want to have a nude model standing in front of you, asking “what’s next?” and you answer “I dunno - maybe (!) try this or that again”. If you lose your directions for a moment, just say so or say "please get your bathrobe and let’s have a look at the last pictures together". If you are “not sure”, the model might be “not comfy”, and that’s something we want to avoid.
 
@@ -229,41 +257,80 @@ It is important to know what to do and in what order. You don't want to have a n
 
 A typical session is 90 to 120 minutes and I will end-up with about 500 exposures on the SD-card and maybe a roll of exposed Kodak Tri-X. The film goes to a lab and I will get the negatives and scans back within 15 to 30 days.
 
-There’s two SD-cards, one with RAW files that I import with gThumb to /photos/year/month/day. The other card holds fine-quality JPG and those go to /pictures/year/name_of_model. My camera is already set to monochrome, I get every picture I shoot in b/w on the camera-screen and the JPG-files are also monochrome. 
+There’s two SD-cards, one with RAW files that I import with [gThumb][] to /photos/year/month/day. The other card holds fine-quality JPG and those go to /pictures/year/name_of_model. My camera is already set to monochrome, I get every picture I shoot in b/w on the camera-screen and the JPG-files are also monochrome. 
 
-Next step is a pre-selection in geeqie. That’s one great picture viewer and I delete all the missed shots (bad framing, out of focus etc.) and note/mark all the promissing/good shots here. This is normally the end of day one.
+[gThumb]: https://wiki.gnome.org/Apps/Gthumb
 
-Switching from RAWstudio to darktable has been a giant step for me. dt is just a great program and I still learn about new functions and modules every day. The file comes in, is converted to monochrome and afterwards color saturation and lights (red and yellow) are manipulated . This way I can treat the skin (brighter or darker) without influencing the general brightness of the picture. Highligts and lowlights may be pushed a bit to the left and I add the signature and a frame 0,5% wide, lens correcction is set automatically. That’s the whole deal. On very rare occasions I add some vignette or drop the brightness gradually from top to bottom, but again: it doesn’t happen all that often. I never cut, crop or re-frame a shot. WYSIWYG. Cropping something out, turning the picture in order to get perfectly verical lines or the likes - it all feels like cheating. I have no client to please, no deadline to meet, I can take a second longer and frame my photo when I look through the viewfinder.
+Next step is a pre-selection in [Geeqie][]. That’s one great picture viewer and I delete all the missed shots (bad framing, out of focus etc.) and note/mark all the promising/good shots here. This is normally the end of day one.
 
-The photos will then be treated in the GIMP. Some dodge and burn (especially when there are problematic, very high or low contrasts), maybe stamp an electric plug away and in the end I re-size them down to 2560 on the long side (big enough for A3 prints) and (sometimes) apply the sharpening tool with value 20 or 25. Done. I can’t save a crappy shot in post-prod and I won’t try. Out of the 500 or so frames, 10 to 15 will be processed like that and it feels like nothing has changed over the last 40 years. The golden rule was “one good shot per roll of film” and I happen to be there, too. Spot-on!
+[Geeqie]: http://geeqie.org/
 
-I load those 15 pictures up on my flick account and about once or twice a week I place a shot in the many flickr groups. Also once a week (or every ten days) I post a photo on my tumblr account. Today I have about 5k followers and my photos are seen between 500’000 and one million times a month, depending on the time of year and weather. There’s less trafic on warm summer days and more during cold and rainy winter-nights.
+Switching from [RAWstudio](https://rawstudio.org/) to [darktable](https://darktable.org/) has been a giant step for me. dt is just a great program and I still learn about new functions and modules every day. The file comes in, is converted to monochrome and afterwards color saturation and lights (red and yellow) are manipulated . This way I can treat the skin (brighter or darker) without influencing the general brightness of the picture. Highlights and lowlights may be pushed a bit to the left and I add the signature and a frame 0,5% wide, lens correction is set automatically. That’s the whole deal. On very rare occasions I add some vignette or drop the brightness gradually from top to bottom, but again: it doesn't happen all that often. I never cut, crop or re-frame a shot. WYSIWYG. Cropping something out, turning the picture in order to get perfectly vertical lines or the likes - it all feels like cheating. I have no client to please, no deadline to meet, I can take a second longer and frame my photo when I look through the viewfinder.
 
-It takes me some time before I add a shot to my own website. In comparison I show few photos there, every one for a reason and I point point people to that adress, so I hope I only show the best.
+<figure>
+<img src='FS_SAS_6408.jpg' width='686' height='1024' alt='Franzi Skamet by Stefan Schmitz'>
+<figcaption>
+[Franzi Skamet](https://www.flickr.com/photos/stefanschmitz/25464237123/) by Stefan Schmitz
+</figcaption>
+</figure>
 
+The photos will then be treated in the [GIMP](https://www.gimp.org). Some dodge and burn (especially when there are problematic, very high or low contrasts), maybe stamp an electric plug away and in the end I re-size them down to 2560 on the long side (big enough for A3 prints) and (sometimes) apply the sharpening tool with value 20 or 25. Done. I can’t save a crappy shot in post-prod and I won’t try. Out of the 500 or so frames, 10 to 15 will be processed like that and it feels like nothing has changed over the last 40 years. The golden rule was “one good shot per roll of film” and I happen to be there, too. Spot-on!
+
+I load those 15 pictures up on my [Flickr account][flickr-stefan] and about once or twice a week I place a shot in the many Flickr groups. Also once a week (or every ten days) I post a photo on my [Tumblr account][Tumblr]. Today I have about 5k followers and my photos are seen between 500’000 and one million times a month, depending on the time of year and weather. There’s less traffic on warm summer days and more during cold and rainy winter-nights.
+
+It takes me some time before I add a shot to [my own website][Stefan Schmitz]. In comparison I show few photos there, every one for a reason and I point point people to that address, so I hope I only show the best.
+
+
+<figure class='big-vid'>
+<img src='Aya_SAS_9200.jpg' alt='Aya Kashi by Stefan Schmitz' width='1020' height='1523'>
+<figcaption>
+[Aya Kashi](https://www.flickr.com/photos/stefanschmitz/28006743752/) by Stefan Schmitz
+</figcaption>
+</figure>
 
 
 ### Is your choice to use Free Software for pragmatic reasons, or more idealistic?
 
-I owned an Apple II in 1983 and a digital MicroVax in 1990 or so. My way to FOSS started out pragmatic and it became a conviction later on. In the late 90's and early 2000's I had my own small business and worked with MS Office on a Win NT machine. Photos were processed with a Nikon film-scanner through the proprietary software into an illegal copy of Adobe PS4. It was OK, stable and I didn’t fear anything, but I wasn’t really happy neither. One day I swung over to Star-Office/OpenOffice.org for financial reasons and I also got rid of that unlicensed PS and installed the GIMP (I don’t know what version, but I upgraded some time later to 1.2, that’s for sure). I had internet access and an email address since 1994, but in the late 90's big programs still came on CDs attached to computer-magazines. Downloading the GIMP was out of question.
+I owned an Apple II in 1983 and a digital MicroVax in 1990 or so. My way to FOSS started out pragmatic and it became a conviction later on. In the late 90's and early 2000's I had my own small business and worked with MS Office on a Win NT machine. Photos were processed with a Nikon film-scanner through the proprietary software into an illegal copy of Adobe PS4. It was OK, stable and I didn't fear anything, but I wasn't really happy neither. One day I swung over to Star-Office/OpenOffice.org for financial reasons and I also got rid of that unlicensed PS and installed the GIMP (I don’t know what version, but I upgraded some time later to 1.2, that’s for sure). I had internet access and an email address since 1994, but in the late 90's big programs still came on CDs attached to computer-magazines. Downloading the GIMP was out of question.
 
-Gaming was never my thing and when I installed Win XP, all hell broke lose - keeping a computer safe, virus-free and running wasn’t easy before the first service pack, but MS reacted way too slow in my opinion - I tried debian (10 CD kit) on my notebook, got it running, found the GIMP and OOo - and that was it. It took a bit of trial and error and I had to buy a number of W-Lan sticks because very few were supported and so on, but in the end I got the machines running.
+Gaming was never my thing and when I installed Win XP, all hell broke lose - keeping a computer safe, virus-free and running wasn't easy before the first service pack, but MS reacted way too slow in my opinion - I tried debian (10 CD kit) on my notebook, got it running, found the GIMP and OOo - and that was it. It took a bit of trial and error and I had to buy a number of W-Lan sticks because very few were supported and so on, but in the end I got the machines running.
 
-Later on I got hold of an Ubuntu 7.10 CD, tried that and never looked back. The few changes on my system were from Gnome to XFCE desktop and from Thunderbird to a browser-based mail-client. Xubuntu is a no-brainer, it runs stable and fast. I contribute every december 100.- € to FOSS. That’s in general 50 and 40 to two projects and a tenner to Wikipedia. I’d spend an extra tenner to any project that helps to convert old star-office files (.sdw and so on) to today’s standards (odt…), but nobody seems interested.
+Later on I got hold of an Ubuntu 7.10 CD, tried that and never looked back. The few changes on my system were from Gnome to XFCE desktop and from Thunderbird to a browser-based mail-client. Xubuntu is a no-brainer, it runs stable and fast. I contribute every December 100.- € to FOSS. That’s in general 50 and 40 to two projects and a tenner to [Wikipedia](https://www.wikipedia.com). I’d spend an extra tenner to any project that helps to convert old star-office files (.sdw and so on) to today’s standards (odt…), but nobody seems interested.
 
 
 
 ### What is one piece of advice you would offer to another photographer?
 
-Don’t take any advise from me, i’m still learning myself. Or wait: be kind and a gentleman with the models. They all - each and everyone of them - have had bad experiences with photographers who forgot that the models are nude for the camera, not for the man behind it. They all have been in a room with a photographer who breathes a bit too hard and doesn’t get his gear working … don’t be that arsewipe!
+Don’t take any advise from me, i’m still learning myself. Or wait: be kind and a gentleman with the models. They all - each and everyone of them - have had bad experiences with photographers who forgot that the models are nude for the camera, not for the man behind it. They all have been in a room with a photographer who breathes a bit too hard and doesn't get his gear working … don’t be that arsewipe!
 
-Arrange for a place where the model can undress in privacy - she didn’t come for a strip-show and you shouldn’t try to make it one. Have some bottles of water at hand and talk about your plans, poses and sets with the model. Few people can read minds, so communication works best when you say what you have in mind and the model says how she thinks this can be realized. The more you talk, the better you communicate, the better the pictures. No good photo has ever been shot during a quiet session, believe me.
+<figure>
+<img src='Irina_SAS_2911.jpg' alt='Irina by Stefan Schmitz' width='760' height='1134'>
+<figcaption>
+[Irina](https://www.flickr.com/photos/stefanschmitz/17790276476/) by Stefan Schmitz
+</figcaption>
+</figure>
 
-In general the model will check your portfolio/website and expect to do more or less the same kind of work with you. If you want to do something different, say so when booking the model. If your website shows a lot of nude portraits, models will expect to do that kind of photos. They may be a bit upset if you ask them out of nowhere to wear a latex suit because it’s fetish-friday in your world. The more open and honest you are from the beginning, the better the shooting will go down.
+Arrange for a place where the model can undress in privacy - she didn't come for a strip-show and you shouldn't try to make it one. Have some bottles of water at hand and talk about your plans, poses and sets with the model. Few people can read minds, so communication works best when you say what you have in mind and the model says how she thinks this can be realized. The more you talk, the better you communicate, the better the pictures. No good photo has ever been shot during a quiet session, believe me.
 
-Don’t overdo the gear-thingy. 90% of my photos are taken with the 50mm standard lens. Period. Sometimes I have to switch to 35mm because the room is a bit to small and the distance too close for the onefour-fifty, so everything I bring to an indoor-shooting is the camera, a 50, a 35, an el-cheap-o 100cm reflector from amazon (+/- 15 €/$) and an even cheaper stand for the reflector. Gear is not important, communication is.
+In general the model will check your portfolio/website and expect to do more or less the same kind of work with you. If you want to do something different, say so when booking the model. If your website shows a lot of nude portraits, models will expect to do that kind of photos. They may be a bit upset if you ask them out of nowhere to wear a latex suit because it’s fetish-Friday in your world. The more open and honest you are from the beginning, the better the shooting will go down.
+
+<figure>
+<img src='Irina_SAS_3059_bw.jpg' width='722' height='1080' alt='Irina by Stefan Schmitz'>
+<figcaption>
+[Irina](https://www.flickr.com/photos/stefanschmitz/17196207163/) by Stefan Schmitz
+</figcaption>
+</figure>
+
+Don’t overdo the gear-thingy. 90% of my photos are taken with the 50mm standard lens. Period. Sometimes I have to switch to 35mm because the room is a bit to small and the distance too close for the one four-fifty, so everything I bring to an indoor-shooting is the camera, a 50, a 35, an el-cheap-o 100cm reflector from amazon (+/- 15 €/$) and an even cheaper stand for the reflector. Gear is not important, communication is.
 
 Want to spend 300 €/$ on new gear? Spend it on a workshop. Learn how to communicate, get inspiration and fill your portfolio with a first set of pictures, so the next model you email can see that you already have some experience in the field of (nude) portraits. That’s more important than a new flashlight in your bag.
+
+<figure class='big-vid'>
+<img src='Isabelle_SAS_8498.jpg' width='723' height='1080' alt='Isabelle Descamps by Stefan Schmitz'>
+<figcaption>
+[Isabelle Descamps](https://www.flickr.com/photos/stefanschmitz/39424595835/) by Stefan Schmitz
+</figcaption>
+</figure>
 
 
 ## Thank You Stefan!
