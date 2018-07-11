@@ -18,6 +18,7 @@ layout: blog-posts.hbt
 ---
 
 A major goal of the PIXLS.US effort is to do whatever we can do to help developers of projects unburden themselves from administrating their project. We do this, in part, by providing forum hosting, participating in support, providing web design, and doing community outreach. With that in mind, we are excited to welcome the [gPhoto Projects](http://gphoto.org/) to our [discuss forum](https://discuss.pixls.us/c/software/gphoto)!
+<!--more-->
 
 ![The Entangle interface, which makes use of libgphoto](entangle-interface.png)
 *The Entangle interface, which makes use of `libgphoto`.*
