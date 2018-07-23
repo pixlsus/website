@@ -19,7 +19,7 @@ layout: article.hbt
 #nodiscuss: true
 ---
 
-[Ilya Varivchenko][ilya] is a fashion and portrait from Ivanovo, Russian Federation.  He's a UNIX administrator with a long-time passion for photography that has now become a second part-time job for him.  Working on location and in his studio, he's been producing [a wonderful body of work][blog] specializing in portraiture, model tests, and more.
+[Ilya Varivchenko][ilya] is a fashion and portrait photographer from Ivanovo, Russian Federation.  He's a UNIX administrator with a long-time passion for photography that has now become a second part-time job for him.  Working on location and in his studio, he's been producing [a wonderful body of work][blog] specializing in portraiture, model tests, and more.
 
 He's a member of the community here (@viv), and he was kind enough to spare some time and answer a few questions (plus it gives me a good excuse to showcase some of his great work!).
 
@@ -259,4 +259,4 @@ Take some time to have a look through [his blog and work][] (it's chock full of 
 
 [his blog and work]: http://varivchenko.com/blog/
 
-<small>All images copyright Ilya Varivchenko.</small>
+<small>All images copyright Ilya Varivchenko and used with permission.</small>
