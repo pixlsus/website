@@ -27,7 +27,7 @@ He's a member of the community here (@viv), and he was kind enough to spare some
 [blog]: http://varivchenko.com/blog/ "Ilya Varivchenko Blog"
 
 <figure>
-<img src='P8170097.jpg'>
+<img src='P8170097.jpg' width='760' height='705'>
 </figure>
 
 
