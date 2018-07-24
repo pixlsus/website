@@ -24,7 +24,7 @@ layout: article.hbt
 He's a member of the community here (@viv), and he was kind enough to spare some time and answer a few questions (plus it gives me a good excuse to showcase some of his great work!).
 
 [ilya]: http://www.varivchenko.com/ "Ilya Varivchenko's Website"
-[blog]: http://varivchenko.com/blog/ "Ilya Varivchenko Blog"
+[blog]: http://varivchenko.com/blog/ "Ilya Varivchenko's Blog"
 
 <figure>
 <img src='P8170097.jpg' width='760' height='705' alt='by Ilya Varivchenko'>
@@ -157,7 +157,7 @@ I take pictures for local magazines and advertising agencies sometimes. Maybe it
 ### What do you do with the photos you shoot?
 
 Most of my works are for personal use. 
-However, I often print them in a large format and I've also had two solo exhibitions.   Prints with my works are sold and they can always be ordered. I also publish in photo magazines sometimes, but these magazines are russian ones so they are hardly known to you.
+However, I often print them in a large format and I've also had two solo exhibitions.   Prints with my works are sold and they can always be ordered. I also publish in photo magazines sometimes, but these magazines are Russian ones so they are hardly known to you.
 
 By the way: I periodically take part in the events held by [Olympus Russia][], where I demonstrate my workflow. 
 
