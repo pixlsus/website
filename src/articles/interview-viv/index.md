@@ -27,7 +27,7 @@ He's a member of the community here (@viv), and he was kind enough to spare some
 [blog]: http://varivchenko.com/blog/ "Ilya Varivchenko Blog"
 
 <figure>
-<img src='P8170097.jpg' width='760' height='705'>
+<img src='P8170097.jpg' width='760' height='705' alt='by Ilya Varivchenko'>
 </figure>
 
 
@@ -41,7 +41,7 @@ The general mood defines what I see around me. Russia is a very neglected but be
 [Peter Lindbergh]: https://en.wikipedia.org/wiki/Peter_Lindbergh
 
 <figure>
-<img src='P8120159-1.jpg'>
+<img src='P8120159-1.jpg' width='760' height='1013' alt='by Ilya Varivchenko'>
 </figure>
 
 
@@ -60,7 +60,7 @@ I usually plan shooting in advance. The range of models is rather narrow and it'
 I shoot portraits because people interest me. For me, photography is an instrument of knowing people and a means of communication.
 
 <figure>
-<img src='PB120214.jpg'>
+<img src='PB120214.jpg' width='760' height='818' alt='by Ilya Varivchenko'>
 </figure>
 
 
@@ -69,21 +69,21 @@ I shoot portraits because people interest me. For me, photography is an instrume
 It's difficult to choose only three photographs, but maybe these:
 
 <figure>
-<img src='http://35photo.ru/photos_series/991/991755.jpg'>
+<img src='991755.jpg' width='760' height='615' alt='by Ilya Varivchenko'>
 <figcaption>
 This photo was chosen by Olympus as a logo for their series of photo events in Russia 2017.
 </figcaption>
 </figure>
 
 <figure>
-<img src='http://35photo.ru/photos_series/893/893928.jpg'>
+<img src='http://35photo.ru/photos_series/893/893928.jpg' width='760' height='602' alt='by Ilya Varivchenko'>
 <figcaption>
 This is one of my most reproducible photos. ;)
 </figcaption>
 </figure>
 
 <figure>
-<img src='http://35photo.ru/photos_main/129/647634.jpg'>
+<img src='http://35photo.ru/photos_main/129/647634.jpg' width='760' height='572' alt='by Ilya Varivchenko'>
 <figcaption>
 This photo has a perfect mood in my opinion.
 </figcaption>
@@ -97,20 +97,20 @@ It is very difficult to choose only three photos. The choice in any case will be
 1. The portrait of Heather Stewart-Whyte by [Friedemann Hauss](http://friedemannhauss.eu/):  
 
 <figure>
-<img src='heather-stewart-whyte.jpg'>
+<img src='heather-stewart-whyte.jpg' width='454' height='650' alt='by Ilya Varivchenko'>
 </figure>
 
 
 2. The portrait of Monica Bellucci by [Chico Bialas](http://www.chicobialas.com/):
 
 <figure>
-<img src='monica-bellucci.jpg'>
+<img src='monica-bellucci.jpg' width='564' height='834' alt='by Ilya Varivchenko'>
 </figure>
 
 3) The portrait of Nicole Kidman by Patrick Demarchelier
 
 <figure>
-<img src='nicole-kidman.jpg'>
+<img src='nicole-kidman.jpg' width='497' height='720' alt='by Ilya Varivchenko'>
 </figure>
 
 
@@ -130,7 +130,7 @@ It's always good to have a plan. It is also very good to have a spare plan.
 Usually I discuss some common points with the model and stylist before shooting. But these plans are more connected with the mood  and the general idea of the session. So when the magic of shooting begins, usually all the plans fly to hell. ;)
 
 <figure>
-<img src='P7290039.jpg'>
+<img src='P7290039.jpg' width='760' height='1089' alt='by Ilya Varivchenko'>
 </figure>
 
 
@@ -148,9 +148,9 @@ On the other hand, if we do a fashion shoot on order, then the presence of the c
 I take pictures for local magazines and advertising agencies sometimes. Maybe it somehow influenced my other work.
 
 <figure>
-<img src='DSCF2590.jpg'>
-<img src='P2100235.jpg'>
-<img src='xP2220139.jpg'>
+<img src='DSCF2590.jpg' width='760' height='555' alt='by Ilya Varivchenko'>
+<img src='P2100235.jpg' width='760' height='1011' alt='by Ilya Varivchenko'>
+<img src='xP2220139.jpg' width='760' height='958' alt='by Ilya Varivchenko'>
 </figure>
 
 
@@ -186,7 +186,7 @@ The fact that the product is free and (which is more important to me) I have an 
 For example, with the output of Fuji X-T20, when it was required to add a new DCP profile to the converter I simply contacted the developers, shot the test target and got what I wanted.
 
 <figure>
-<img src='DSCF7742.jpg'>
+<img src='DSCF7742.jpg' width='760' height='643' alt='by Ilya Varivchenko'>
 </figure>
 
 
@@ -208,7 +208,7 @@ My workflow is quite simple:
    Nothing special. Removal of skin and hair defects, etc. Dodge and burn technique with a Wacom Intuos Pro.
 
 <figure>
-<img src='PA030154.jpg'>
+<img src='PA030154.jpg' width='760' height='569' alt='by Ilya Varivchenko'>
 </figure>
 
 [RawTherapee]: http://rawtherapee.com/ "RawTherapee website"
@@ -228,8 +228,8 @@ Planair: Olympus PEN-F + M.Zuiko 75/1.8 or FujiFilm X-T20 + Fujinon 35/1.4
 My studio equipment is a mix of Aurora Codis and Bowens studio lights + a lot of modifiers from large 2 meters parabolic octobox to narrow 40x150 strip boxes and so on.
 
 <figure>
-<img src='PA010019.jpg'>
-<img src='P1040535.jpg'>
+<img src='PA010019.jpg' width='760' height='1062' alt='by Ilya Varivchenko'>
+<img src='P1040535.jpg' width='760' height='1012' alt='by Ilya Varivchenko'>
 </figure>
 
 
@@ -249,7 +249,7 @@ Find in yourself what you want to share with others. Beauty is in the eye of the
 </div>
 
 <figure>
-    <img src='P4300037.jpg'>
+    <img src='P4300037.jpg' width='760' height='572' alt='by Ilya Varivchenko'>
 </figure>
 
 ---
