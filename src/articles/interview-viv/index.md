@@ -33,7 +33,7 @@ He's a member of the community here (@viv), and he was kind enough to spare some
 
 ### Much of your work feels very classical in posing and light, particularly your studio portraits.  What would you say are your biggest influences?
 
-I am influenced by several time painters and great modern photographers.   Some of them are: [Patrick Demarchelier][], [Steven Meisel][] and  [Peter Lindbergh][].
+I am influenced by several classical painters and great modern photographers.   Some of them are: [Patrick Demarchelier][], [Steven Meisel][] and  [Peter Lindbergh][].
 The general mood defines what I see around me. Russia is a very neglected but beautiful country and women around are an inexhaustible source of inspiration.
 
 [Patrick Demarchelier]: https://en.wikipedia.org/wiki/Patrick_Demarchelier
