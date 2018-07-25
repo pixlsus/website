@@ -45,7 +45,7 @@ what color drifts the camera tends to capture and can correct it. We can mimic
 what the camera does using a tone curve and a color LUT. We want to do this as
 the base curves provided by darktable are generalised for a manufacturers
 sensor behaviour, but indivudually profiling your camera can provide better
-colour results.
+color results.
 
 Why do we want a color profile?
 -------------------------------
@@ -145,8 +145,8 @@ profiling are reduced. Temperatures below 20°C are better than above.
 
 In some countries it may not be possible to accurately produce these images
 with sunlight. This could be due to air polution (or lack of), temperature,
-humidity, latitude, and atomospheric conditions. In Australia I was unable
-to use sunlight to create this profile, and had to use a set of colour balanced
+humidity, latitude, and atomospheric conditions. For example, in Australia, one might be unable
+to use sunlight to create this profile, and would have to use a set of color balanced
 bulbs with the same box setup to create this.
 
 ### Shooting outdoor
@@ -170,7 +170,7 @@ anything which could reflect.
 
 Avoid all windows and stained glass. Create the box as mentioned, and arrange
 it in a V shape with your tripod. At the top left of the V is the camera, at
-the bottom is the colour target, at the top right is the light source. The
+the bottom is the color target, at the top right is the light source. The
 right source should be bright and even across the room and your setup. Position
 yourself underneath it to avoid all shadows.
 
@@ -248,7 +248,7 @@ it up in the color information (CIE) file
     /usr/share/color/argyll/ref/ColorCheckerPassport.cie
 
 The ColorChecker Passport has actually two gray ramps. The neutral gray field
-is the field on the bottom right of the colour target ramp and is called D1.
+is the field on the bottom right of the color target ramp and is called D1.
 On creative enhancement target, the it is on the top right and is called NEU8.
 If we check the CIE file, we will find out that
 the neutral gray field D1 has an L-value of: *L=96.260066*. Lets round it to
@@ -270,8 +270,8 @@ for your RAW files too! Only apply what has been applied to the JPEG file too.
 
 For my configuration I was left with the follown modules enabled:
 
-    Output Colour Profile
-    Input Colour Profile
+    Output Color Profile
+    Input Color Profile
     Lens Correction (Optional)
     Denoise
     Demosaic
@@ -327,7 +327,7 @@ As the output format select "PFM (float)" and for the export path you can use:
 
     $(FILE_FOLDER)/PFM/$(MODEL)_ISO$(EXIF_ISO)_$(FILE_EXTENSION)
 
-Remember to select the *Lab* output colour profile here as well.
+Remember to select the *Lab* output color profile here as well.
 
 You need to export all the RAW and JPEG files, not just the RAWs.
 
@@ -380,10 +380,10 @@ top right corner to adjust it. Better too small than too large.
 
 ### Reference values
 
-This is the only step where the process diverges for *real colour* vs camera
+This is the only step where the process diverges for *real color* vs camera
 profile creation.
 
-If you are creating a colour profile to match the manufacturers colour
+If you are creating a color profile to match the manufacturers color
 processing in body, you will want to select *color chart image* and as the
 *reference image* select the PFM exported JPEG file which corresponds to the
 RAW file in the source image tab. Once opened you need to resize the grid again
@@ -395,8 +395,8 @@ necessary.
 <figcaption><b>Figure 9:</b> Selecting the reference value for profiling in darktable-chart
 </figcaption></figure>
 
-If you are creating a colour profile for *real colour*, select the mode as
-*cie/it8 file* and load the corresponding CIE file for your colour target. If
+If you are creating a color profile for *real color*, select the mode as
+*cie/it8 file* and load the corresponding CIE file for your color target. If
 you have issues with this, run darktable-chart from the CLI and check the output.
 I found that my chart would not open with:
 
@@ -505,7 +505,7 @@ Other ideas
 -----------
 
 This process will work for extracting in-body black and white profiles, as
-well as creative colour profiles. I see a significant improvment in black
+well as creative color profiles. I see a significant improvment in black
 and white profiles from this process over the use of some of the black and white
 modules in darktable.
 
@@ -516,7 +516,7 @@ need one profile now! This is highly
 dependant on your camera however, so experiment with this.
 
 These profiles *should* work in all light conditions, provided your white
-balance is correct. Given you now have a colour target, you should always take
+balance is correct. Given you now have a color target, you should always take
 one photo of it, so you can correct the whitebalance later.
 
 Discussion
@@ -529,5 +529,4 @@ Feedback is very welcome.
 
 Thanks to the darktable developers for such a great piece of software! :-)
 
-Thanks to Andreas for the original article. Edited by William Brown based on
-my own profiling experience.
+*Updated 2018-07-24 by William Brown based on my own profiling experience following this tutorial.*
