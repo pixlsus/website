@@ -268,7 +268,7 @@ files, you need to enable [lens
 corrections](https://www.darktable.org/usermanual/en/correction_group.html#lens_correction)
 for your RAW files too! Only apply what has been applied to the JPEG file too.
 
-For my configuration I was left with the follown modules enabled:
+For my configuration I was left with the following modules enabled:
 
     Output Color Profile
     Input Color Profile
@@ -301,13 +301,24 @@ darkroom to find out the value of the natural white field on the color target.
 </figcaption></figure>
 
 * If the value displayed in the color picker module matches the L-value of the
-  field or is close (+/-2. This means L=94 to L=98 is acceptable), give the RAW
+  field or is close (+0/-2. This means L=94 to L=96 is acceptable), give the RAW
   file and the corresponding JPEG file 5
   stars. In the picture above it is the first value of: *(96.491, -0.431,
   3.020)*.  This means *L=96.491*, which is what you're looking for on
   this color target. You might be looking for e.g. *L=92* if you are using a
   different Color Checker. See above how to find our the L-value for your
   target.
+
+* For real color profiling this is *very* important to get right. Additionally
+  you want to check the JPEG is registering a L=96(+0/-2) tolerance. You do not want
+  overexposure here! If your images are over exposed, your profile will actually
+  darken the images (which is not what you want).
+
+* For profile extraction, this is less important as darktable-chart will extract
+  the differences between the raw and the JPEG, and will assume the camera's
+  exposure level was correct. This means if your camera "thinks" a good exposure
+  is L=98 for the JPEG, and the RAW reads as L=85, then your profile needs to
+  create the difference here so you get the same effect.
 
 Exporting images for darktable-chart
 ------------------------------------
@@ -318,7 +329,10 @@ darktable with the following command line argument:
 
     darktable --conf allow_lab_output=true
 
-Or you always enable it by setting allow_lab_output to TRUE in
+Or you always enable it by setting allow_lab_output to TRUE in darktablerc. Make
+sure that you have closed darktable before making this change, then reopen it (
+darktable writes to this file and may erase your change if you edit while
+darktable is running).
 
     ~/.config/darktable/darktablerc
     allow_lab_output=TRUE
