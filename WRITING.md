@@ -11,7 +11,6 @@ There are two main ways to write content for the site.  The easy way, and the ha
 Unless you are going to hack at the website code, I suggest the easy way...
 
 
-
 The Easy Way
 ------------
 The easy way doesn't require you to do anything fancy.
