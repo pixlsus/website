@@ -28,6 +28,8 @@ layout: article.hbt
 
 ---
 
+[Article updated on: 2018-08-26]
+
 What is a camera profile?
 -------------------------
 
@@ -94,9 +96,11 @@ Photo](https://www.xrite.com/categories/calibration-profiling/colorchecker-passp
 It is small, lightweight, all plastic, a good quality tool and also has a grey
 card. An alternative is the [Spyder
 Checkr](http://www.datacolor.com/photography-design/product-overview/spyder-checkr-family/).
-If you want a better profiling result, a good IT8 chart is the  [ColorChecker
-Digital
+If you want a better profiling result, you can buy a good <a
+href="http://targets.coloraid.de/" target="_blank">IT8 chart from Coloraid</a>
+(you want C1) or invest for example in the [ColorChecker Digital
 SG](https://www.xrite.com/categories/calibration-profiling/colorchecker-digital-sg).
+(Please share you experience if you buy a Coloraid C1!).
 
 Note: ArgllCMS offers *CIE* and *CHT* files for different color charts, if you
 already have one or are going to buy one, check if ArgyllCMS offers support for
@@ -126,8 +130,10 @@ open on the top and on the front like in the following picture (Figure 1).
 </figcaption>
 </figure>
 
-Normally you just need to cut one side open. Then coat the inside of the box
-with black t-shirts like this:
+Normally you just need to cut one side open. However it is better if you use
+one big cardboard and build the box yourself. This way you can make the box so
+it widens up in the front, see Figure 1. Then coat the inside of the box with
+black t-shirts like this:
 
 <figure>
 <img src="02_profiling_box.jpg" alt="A cardboard box coated with black t-shirts" width="507" height="760"/>
@@ -151,11 +157,11 @@ bulbs with the same box setup to create this.
 
 ### Shooting outdoor
 
-If you want to shoot outdoor, look for an empty tared parking lot. It should be
-pretty big, like from a mall, without any cars or trees. You should be far away
-from walls or anything which can reflect. Put the box on the ground and shoot
-with the sun above your right or left shoulder behind you. You can use a black
-fabric (bed sheets) if the ground reflects.
+If you want to shoot outdoor, look for an empty tared parking lot or a lonely
+road. The parking lot should be pretty big, like from a mall, without any cars
+or trees. You should be far away from walls or anything which can reflect. Put
+the box on the ground and shoot with the sun above your right or left shoulder
+behind you. You can use a black fabric (bed sheets) if the ground reflects.
 
 ### Shooting indoor
 
@@ -182,8 +188,13 @@ How to shoot the target?
    following picture:
 
 <figure>
-<img src="03_profiling_setup.jpg" alt="A camera pointing into the profiling box" width="507" height="760"/>
-<figcaption><b>Figure 3:</b> Camera doing a custom white balance with the color profiling box
+<img src="03_a_profiling_setup.jpg" alt="A camera pointing into the profiling box" width="507" height="760"/>
+<figcaption><b>Figure 3a:</b> Camera doing a custom white balance with the color profiling box
+</figcaption></figure>
+
+<figure>
+<img src="03_b_profiling_setup_outdoor.jpg" alt="A camera pointing into the profiling box" width="507" height="760"/>
+<figcaption><b>Figure 3b:</b> Camera doing a custom white balance with the color profiling box (Outdoor)
 </figcaption></figure>
 
 2. You should use a prime lens for taking the pictures. If possible a 50mm or
@@ -198,9 +209,9 @@ How to shoot the target?
    (see figure 3). Put the gray card in your black box in the sunlight at the
    same position as the Color Checker.
 
-4. Set your metering mode to matrix metering (evaluative metering - this is often
-   a symbol with 4 boxes and a circle in the centre) and use an aperture of at least
-   f/4.0.
+4. Set your metering mode to matrix metering (evaluative metering or multi
+   metering - this is often a symbol with 4 boxes and a circle in the centre)
+   and use an aperture of at least f/4.0.
 
 5. Make sure the color chart is parallel to plane of the camera sensors
    so all patches of the chart are in focus. The color chart should be in the
@@ -214,16 +225,19 @@ How to shoot the target?
 Now you want to begin taking images. We want to have a camera profile for the
 most used ISO values. So for each ISO value you need to take 4 pictures of your
 target. This is so that if an image is over or under exposed, you have the step
-above or below that make be exposed correctly. One photo for -1/3 EV,
-0 EV, 1/3 EV and 2/3 EV. Start with ISO 100, don't shoot for Extended ISO
+above or below that make be exposed correctly. One photo for -0.3 EV,
+0 EV, 0.3 EV and 0.7 EV. Start with ISO 100, don't shoot for Extended ISO
 values (50, 64, 80). Some cameras (Fuji) ISO 100 is an Extended value, so
 start at ISO 200. Normally they are captured with the lowest physical ISO and
-overexposed and then exposure is reduced in software. Use the lowest ISO profile
-for them. If you approach
-the maximum shutter speed (1/8000 commonly, but 1/4000 is not rare), start to
-close the aperture. Remember, your
-camera may show you 1/8000 shutter for the 0 EV image, so the -1/3 EV image
-may be over exposed. I started to close at 1/5000.
+overexposed and then exposure is reduced in software. Use the lowest ISO
+profile for them. If you approach the maximum shutter speed (1/8000 commonly,
+but 1/4000 is not rare), start to close the aperture. Remember, your camera may
+show you 1/8000 shutter for the 0 EV image, so the -1/3 EV image may be over
+exposed. I started to close at 1/5000.
+
+Hint: Some cameras have a "Continues Bracketing" feature. You can set this to
+0.3EV and 5 Images. Then the camera will automatically capture 5 images in 0.3
+EV stops (-0.7 EV, -0.3 EV, 0.0 EV, 0.3 EV, 0.7 EV) for you.
 
 Creating profile for values above ISO 12800 doesn't really make sense. Probably after
 ISO 6400 the results begin to be not 100% accurate anymore! You can use the
@@ -543,4 +557,5 @@ Feedback is very welcome.
 
 Thanks to the darktable developers for such a great piece of software! :-)
 
-*Updated 2018-07-24 by William Brown based on my own profiling experience following this tutorial.*
+William Brown has contributed to the article, based on his profiling experience
+following this tutorial.
