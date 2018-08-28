@@ -17,13 +17,13 @@
 
         {{#each collections.all}}
         <item>
-            <title><![CDATA[ {{{this.title}}} ]]></title>
+            <title><![CDATA[{{{this.title}}}]]></title>
             <link>https://pixls.us/{{path}}/</link>
             <guid isPermaLink="true">https://pixls.us/{{path}}/</guid>
             <pubDate>{{rssDate this.date}}</pubDate>
-            <description><![CDATA[ {{#if lede-img}} <img src="{{lede-path 'rss' lede-img}}" /><br/>{{/if}}
-                {{#if title}} <h1>{{{this.title}}}</h1> {{/if}} 
-                {{#if sub-title}} <h2>{{{ sub-title }}}</h2> {{/if}}  
+            <description><![CDATA[{{#if lede-img}}<img src="{{lede-path 'rss' lede-img}}" /><br/>{{/if}}
+                {{#if title}}<h1>{{{this.title}}}</h1>{{/if}} 
+                {{#if sub-title}}<h2>{{{ sub-title }}}</h2>{{/if}}  
                 {{{abPathTest contents 'rss'}}}  ]]>
             </description>
         </item>

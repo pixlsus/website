@@ -17,11 +17,11 @@
 
         {{#each collections.blogposts}}
         <item>
-            <title><![CDATA[ {{{this.title}}} ]]></title>
+            <title><![CDATA[{{{this.title}}}]]></title>
             <link>https://pixls.us/{{path}}/</link>
             <guid isPermaLink="true">https://pixls.us/{{path}}/</guid>
             <pubDate>{{rssDate this.date}}</pubDate>
-            <description><![CDATA[ {{#if lede-img}} <img src="{{lede-path 'rss' lede-img}}" style="width:100%;"/><br/>{{/if}} {{#if title}} <h1>{{{this.title}}}</h1> {{/if}} {{#if sub-title}} <h2>{{{ sub-title }}}</h2> {{/if}}  {{{abPathTest contents 'rss'}}}  ]]></description>
+            <description><![CDATA[{{#if lede-img}}<img src="{{lede-path 'rss' lede-img}}" style="width:100%;"/><br/>{{/if}}{{#if title}}<h1>{{{this.title}}}</h1>{{/if}}{{#if sub-title}}<h2>{{{ sub-title }}}</h2>{{/if}}{{{abPathTest contents 'rss'}}}]]></description>
             {{!-- {{#if lede-img}}<media:content url="{{lede-img}}" medium="image"/>{{/if}} --}}
         </item>
         {{/each}}
