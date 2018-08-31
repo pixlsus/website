@@ -24,7 +24,7 @@ stylesheet: software-page
             A solid option for raw processing, library management, and reasonable replacement for the commercial Lightroom, would be either <b><a href="https://www.darktable.org">darktable</a></b> or <b><a href="http://www.rawtherapee.com">RawTherapee</a></b>.
             </p>
             <p class="left-align">
-            For pixel-editing and similar functionality to what you might find in Photoshop, <b><a href="http//www.gimp.org">GIMP</a></b> is an awesome option (even awesomer when extended with the <b><a href="http://gmic.eu">G'MIC</a></b> plugin).
+            For pixel-editing and similar functionality to what you might find in Photoshop, <b><a href="https://www.gimp.org">GIMP</a></b> is an awesome option (even awesomer when extended with the <b><a href="http://gmic.eu">G'MIC</a></b> plugin).
             </p>
             <p class="left-align">
             If you find we're missing something please let us know in <a href="https://discuss.pixls.us">the forums</a>!
