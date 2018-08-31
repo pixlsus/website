@@ -34,7 +34,7 @@
 
         <div id="pushPage">
 
-            <section id="lede" class="example lede">
+            <section id="lede" class="articlelist">
                 <div class="container">
                     <a href="/"><img id="logo-header" src="/images/pixls.us-logo-url.svg" alt="PIXLS.US Logo" /></a>
                     <div id="blog-header">Articles</div>

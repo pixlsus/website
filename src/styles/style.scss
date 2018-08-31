@@ -875,6 +875,11 @@ body {
     html { font-size: 125%; }
 }
 
+header.page, 
+section.bloglist, 
+section.articlelist {
+    background-image: linear-gradient( rgba( 255,255,255, 0.75), rgba( 255,255,255,0.75)), url(/images/logo/pixls-atom.png);
+}
 
 @import 'index';
 @import 'about';

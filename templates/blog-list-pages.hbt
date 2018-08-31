@@ -46,7 +46,7 @@
         <div id="pushPage">
 
 		{{! Article Lede (maybe img + title + subtitle) }}
-		<section id="lede" class="example {{#if lede-img}}lede-img{{else}}lede{{/if}}">
+		<section id="lede" class="bloglist">
 			<div class="container">
                 <a href="/"><img id="logo-header" src="/images/pixls.us-logo-url.svg" alt='PIXLS.US Logo'/></a>
                 <div id="blog-header">Blog</div>

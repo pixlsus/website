@@ -34,7 +34,7 @@
 
         <div id="pushPage" class=" {{ stylesheet }}">
 
-			<header>
+			<header class='page'>
 				<div class="container">
 					<a href="/">
 						<img id="logo-header" src="/images/pixls.us-logo-url.svg" alt="PIXLS.US logo"/>
