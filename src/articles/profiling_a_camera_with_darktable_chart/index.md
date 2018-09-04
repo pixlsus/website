@@ -28,7 +28,7 @@ layout: article.hbt
 
 ---
 
-[Article updated on: 2018-08-26]
+[Article updated on: 2018-09-04]
 
 What is a camera profile?
 -------------------------
@@ -208,10 +208,14 @@ How to shoot the target?
    provided by your target, create a custom white balance with it and use it
    (see figure 3). Put the gray card in your black box in the sunlight at the
    same position as the Color Checker.
+   If you don't have a gray card, use Auto White Balance (AWB)!
 
 4. Set your metering mode to matrix metering (evaluative metering or multi
    metering - this is often a symbol with 4 boxes and a circle in the centre)
    and use an aperture of at least f/4.0.
+   [If you have a spot metering mode which isn't fixed on the center, then you
+   can point it to the neutral gray patch of the color checker, that's the one
+   we want to have exposed correctly.]
 
 5. Make sure the color chart is parallel to plane of the camera sensors
    so all patches of the chart are in focus. The color chart should be in the
@@ -222,18 +226,25 @@ How to shoot the target?
    (vignetting corrections) for JPEG files if possible. This is important
    for JPEG and real color fitting.
 
-Now you want to begin taking images. We want to have a camera profile for the
-most used ISO values. So for each ISO value you need to take 4 pictures of your
-target. This is so that if an image is over or under exposed, you have the step
-above or below that make be exposed correctly. One photo for -0.3 EV,
-0 EV, 0.3 EV and 0.7 EV. Start with ISO 100, don't shoot for Extended ISO
-values (50, 64, 80). Some cameras (Fuji) ISO 100 is an Extended value, so
-start at ISO 200. Normally they are captured with the lowest physical ISO and
-overexposed and then exposure is reduced in software. Use the lowest ISO
-profile for them. If you approach the maximum shutter speed (1/8000 commonly,
-but 1/4000 is not rare), start to close the aperture. Remember, your camera may
-show you 1/8000 shutter for the 0 EV image, so the -1/3 EV image may be over
-exposed. I started to close at 1/5000.
+Now you want to begin taking images. Normally we want to have a camera profile
+for the most used ISO values. However it is fine to just create **one camera
+profile** for the lowest ISO value (e.g. ISO 100) and **always apply this
+profile**!
+
+[Note: I created profiles for ISO 100 to ISO 640, because my camera has a gain
+switch at ISO 640.]
+
+For each ISO value you need to take 4 pictures of your target. This is so that
+if an image is over or under exposed, you have an image with a stop above or
+below that is then exposed correctly. One photo for -0.3 EV, 0 EV, 0.3 EV and
+0.7 EV.  Start with ISO 100, don't shoot for Extended ISO values (50, 64, 80).
+Some cameras (Fuji) ISO 100 is an Extended value, so start at ISO 200. Normally
+they are captured with the lowest physical ISO and overexposed and then
+exposure is reduced in software. Use the lowest ISO profile for them. If you
+approach the maximum shutter speed (1/8000 commonly, but 1/4000 is not rare),
+start to close the aperture. Remember, your camera may show you 1/8000 shutter
+for the 0 EV image, so the -1/3 EV image may be over exposed.  I started to
+close at 1/5000.
 
 Hint: Some cameras have a "Continues Bracketing" feature. You can set this to
 0.3EV and 5 Images. Then the camera will automatically capture 5 images in 0.3
@@ -269,17 +280,16 @@ the neutral gray field D1 has an L-value of: *L=96.260066*. Lets round it to
 *L=96*. For other color targets you can find the L-value in the description or
 specification of your target, often it is *L=92*. Better check the CIE file!
 
-You then open the RAW file in darktable and disable most modules, especially
-the [base
-curve](https://www.darktable.org/usermanual/en/modules.html#base_curve)! Select
-the standard input matrix in the [input color
-profile](https://www.darktable.org/usermanual/en/color_group.html#input_color_profile)
+You then open the RAW file in darktable and disable the [base
+curve](https://www.darktable.org/usermanual/en/modules.html#base_curve) and all
+other modules which might be applied automatically! You can leave the
+Orientation module turned on. Select the standard input matrix in the
+[input color profile](https://www.darktable.org/usermanual/en/color_group.html#input_color_profile)
 module and disable gamut clipping. Make sure "camera white balance" in the
-[white
-balance](https://www.darktable.org/usermanual/en/modules.html#whitebalance)
+[white balance](https://www.darktable.org/usermanual/en/modules.html#whitebalance)
 module is selected. If lens corrections are automatically applied to your JPEG
-files, you need to enable [lens
-corrections](https://www.darktable.org/usermanual/en/correction_group.html#lens_correction)
+files, you need to enable
+[lens corrections](https://www.darktable.org/usermanual/en/correction_group.html#lens_correction)
 for your RAW files too! Only apply what has been applied to the JPEG file too.
 
 For my configuration I was left with the following modules enabled:
@@ -287,7 +297,7 @@ For my configuration I was left with the following modules enabled:
     Output Color Profile
     Input Color Profile
     Lens Correction (Optional)
-    Denoise
+    Crop & Rotate (Optional)
     Demosaic
     White Balance
     Raw Black/White Point
@@ -324,9 +334,9 @@ darkroom to find out the value of the natural white field on the color target.
   target.
 
 * For real color profiling this is *very* important to get right. Additionally
-  you want to check the JPEG is registering a L=96(+0/-2) tolerance. You do not want
-  overexposure here! If your images are over exposed, your profile will actually
-  darken the images (which is not what you want).
+  you want to check the JPEG is registering a L=96 (+0/-2) tolerance. You do
+  not want overexposure here! If your images are over exposed, your profile
+  will actually darken the images (which is not what you want).
 
 * For profile extraction, this is less important as darktable-chart will extract
   the differences between the raw and the JPEG, and will assume the camera's
