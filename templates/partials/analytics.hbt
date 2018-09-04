@@ -17,7 +17,7 @@
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="//piwik.kees.nl/";
+    var u="//piwik.pixls.us/";
     _paq.push(['setTrackerUrl', u+'piwik.php']);
     _paq.push(['setSiteId', 13]);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
