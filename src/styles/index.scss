@@ -178,7 +178,10 @@ section#about-patdavid {
 .blog-entry:first-of-type {
     padding-top: 0;
 }
-
+.blog-entry > ul {
+    max-width: 33rem;
+    margin: 0 auto;
+} 
 .blog-entry > p {
     font-family: Lora, "Open Sans", serif;
     text-align: left;
