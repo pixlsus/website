@@ -21,8 +21,8 @@ Andrea Ferrero, or as we know him [Carmel_DrRaw](https://discuss.pixls.us/u/carm
 <ul>
 <li>The <a href="https://www.gimp.org/">GIMP</a> image manipulation program - weekly <a href="https://github.com/aferrero2707/gimp-appimage/releases/tag/continuous">AppImage packages</a> from stable releases and development branches.</li>
 <li>The <a href="https://rawtherapee.com/">RawTherapee</a> editor - nightly <a href="https://github.com/Beep6581/RawTherapee/releases/tag/nightly">AppImage</a> and&nbsp;<a href="https://github.com/aferrero2707/rt-win64/releases/tag/continuous">Windows</a> packages from stable and development branches</li>
-<li><a href="http://qtpfsgui.sourceforge.net/">LuminanceHDR</a> - nightly&nbsp;<a href="https://github.com/aferrero2707/lhdr-appimage/releases/tag/continuous">AppImage</a> packages for Linux</li><
-li><a href="http://jcelaya.github.io/hdrmerge/">HDRMerge</a> -&nbsp;nightly <a href="https://github.com/jcelaya/hdrmerge/releases/tag/nightly">AppImage</a> packages for Linux</li>
+<li><a href="http://qtpfsgui.sourceforge.net/">LuminanceHDR</a> - nightly&nbsp;<a href="https://github.com/aferrero2707/lhdr-appimage/releases/tag/continuous">AppImage</a> packages for Linux</li>
+<li><a href="http://jcelaya.github.io/hdrmerge/">HDRMerge</a> -&nbsp;nightly <a href="https://github.com/jcelaya/hdrmerge/releases/tag/nightly">AppImage</a> packages for Linux</li>
 <li>The <a href="http://hugin.sourceforge.net/">Hugin</a> panorama photo stitcher -&nbsp;<a href="https://gist.github.com/aferrero2707/d676fea46f3d91fcd4c7fb7b2c83a885">AppImages</a> for stable releases and development branches</li>
 </ul>
 
