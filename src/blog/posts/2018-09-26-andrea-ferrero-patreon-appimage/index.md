@@ -17,7 +17,7 @@ layout: blog-posts.hbt
 
 ---
 
-Andrea Ferrero, or as we know him [Carmel_DrRaw](https://discuss.pixls.us/u/carmelo_drraw/summary) has been contributing to the PIXLS.US community since April of 2015. A self described *developer and photography enthusiast*, Andrea is the developer of the [PhotoFlow](https://github.com/aferrero2707/PhotoFlow) image editor, and is producing AppImages for:
+Andrea Ferrero, or as we know him [Carmelo_DrRaw](https://discuss.pixls.us/u/carmelo_drraw/summary) has been contributing to the PIXLS.US community since April of 2015. A self described *developer and photography enthusiast*, Andrea is the developer of the [PhotoFlow](https://github.com/aferrero2707/PhotoFlow) image editor, and is producing AppImages for:
 <ul>
 <li>The <a href="https://www.gimp.org/">GIMP</a> image manipulation program - weekly <a href="https://github.com/aferrero2707/gimp-appimage/releases/tag/continuous">AppImage packages</a> from stable releases and development branches.</li>
 <li>The <a href="https://rawtherapee.com/">RawTherapee</a> editor - nightly <a href="https://github.com/Beep6581/RawTherapee/releases/tag/nightly">AppImage</a> and&nbsp;<a href="https://github.com/aferrero2707/rt-win64/releases/tag/continuous">Windows</a> packages from stable and development branches</li>
@@ -28,19 +28,21 @@ Andrea Ferrero, or as we know him [Carmel_DrRaw](https://discuss.pixls.us/u/carm
 
 Andrea is the best sort of community member, contributing six different projects (including his own)! He is always thoughtful in his responses, does his own support for PhotoFlow, and is kind and giving. He has finally started a [Patreon page to support his all of his hard work](https://www.patreon.com/andreaferrero/overview). Support him now!
 
+<!--more-->
+
 He was also kind enough to answer a few questions for us:
 
 PX: **When did you get into photography? What’s your favorite subject matter?**
 
-AF: I think I was about 15 when I got my first reflex, and I have been immediately fascinated by macro-photography. This is still what I like to do the most, together with taking pictures of my kids ;-)
+AF: I think I was about 15 when I got my first reflex, and I was immediately fascinated by macro-photography. This is still what I like to do the most, together with taking pictures of my kids. ;-)
 By the way, you can visit my personal free web gallery on GitHub: http://aferrero2707.github.io/photorama/gallery/ (adapted from [this project](https://github.com/sunbliss/photorama)).
-It is still work in progress, but you are welcome to fork it and adapt it to your needs if you find it useful!
+It is still a work in progress but you are welcome to fork it and adapt it to your needs if you find it useful!
 
 PX: **What brought you to using and developing Free/Open Source Software?**
 
-AF: I started to get interested in programming when I was at the university, in the late 90's. At that time I quickly realized that the easiest way to write and compile my code was to throw Linux into my hard drive. Things were not as easy as today, but I eventually managed to get it running, and the adventure began.
+AF: I started to get interested in programming when I was at the university, in the late 90's. At that time I quickly realized that the easiest way to write and compile my code was to throw Linux into my hard drive. Things were not as easy as today but I eventually managed to get it running, and the adventure began.
 
-A bit later I started a scientific career (nothing related to image processing or photography, so I will not give more details about my daily job), and since then I have been a user of Linux-based computing clusters for almost 20 years at the time of writing... A large majority of the software tools I use at work are free and open sourced, and this definitely has marked my way of thinking and developing.
+A bit later I started a scientific career (nothing related to image processing or photography, so I won't bother with more details about my daily job), and since then I have been a user of Linux-based computing clusters for almost 20 years at the time of writing... A large majority of the software tools I use at work are free and open sourced and this definitely has marked my way of thinking and developing.
 
 PX: **What are some new/exciting features you develop in Photo Flow?**
 
