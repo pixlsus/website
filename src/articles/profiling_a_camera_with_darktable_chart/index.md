@@ -222,15 +222,20 @@ of about 10 minutes. An assitent in the field can be useful.
    can point it to the neutral gray patch of the color checker, that's the one
    we want to have exposed correctly.]
 
-3. Set the camera to capture "RAW & JPEG" and disable lens corrections
+3. Make sure that Dynamic Range Optimization (DRO) and Auto HDR (High Dynamic
+   Range) or anything like that are turned off!
+
+4. Set the camera to capture "RAW & JPEG" and disable lens corrections
    (vignetting corrections) for JPEG files if possible. This is important
    for JPEG and real color fitting. You can leave corrections for color
    failures turned on.
 
-4. Set the ISO to the lowest possible value. Some cameras have an extended
+5. Set the ISO to the lowest possible value. Some cameras have an extended
    ISO range, don't use any of those values. For example my camera offers ISO
    50, ISO 64 and ISO 80. Those are extended ISO values. The lowest ISO not in
    the extended range for my camera is ISO 100. Check your camera manual!
+
+6. Wear dark cloths, the best is a black hoody with long sleeves :-)
 
 #### In the field
 
@@ -241,13 +246,8 @@ Be there in advance so you have time to prepare everything.
    picture:
 
 <figure>
-<img src="03_a_profiling_setup.jpg" alt="A camera pointing into the profiling box" width="507" height="760"/>
-<figcaption><b>Figure 3a:</b> Camera doing a custom white balance with the color profiling box
-</figcaption></figure>
-
-<figure>
 <img src="03_b_profiling_setup_outdoor.jpg" alt="A camera pointing into the profiling box" width="450" height="800"/>
-<figcaption><b>Figure 3b:</b> Camera setup for creating pictures of the color checker
+<figcaption><b>Figure 3a:</b> Camera setup for creating pictures of the Color Checker
 </figcaption></figure>
 
 2. Make sure the color chart is parallel to plane of the camera sensors
@@ -256,7 +256,7 @@ Be there in advance so you have time to prepare everything.
    not an issue.
 
 3. Shoot the target, zoom to 100% and check for glare and reposition if
-   necessary! In Figure 3c you can see a patch with extreme glare. In Figure 3d
+   necessary! In Figure 3b you can see a patch with extreme glare. In Figure 3c
    you can see a patch with a bit of glare. You should try to get no glare at
    all. Make sure the sun is shining at an angle on the Color Checker. Change
    the angle of the target in to box till you get no glare!
@@ -268,7 +268,7 @@ Be there in advance so you have time to prepare everything.
 
 <figure>
 <img src="03_d_bit_of_glare.jpg" alt="The target with some glare cause by a wrong angle of the sun shining on the target" width="600" height="400"/>
-<figcaption><b>Figure 3b:</b> The target with some glare cause by a wrong angle of the sun shining on the target
+<figcaption><b>Figure 3c:</b> The target with some glare cause by a wrong angle of the sun shining on the target
 </figcaption></figure>
 
 
