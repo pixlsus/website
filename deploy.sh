@@ -6,7 +6,8 @@ echo "Build successful (hopefully)!"
 #echo $TRAVIS_BUILD_ID
 
 
-if ([ $TRAVIS_BRANCH == "master" ] && [ $TRAVIS_PULL_REQUEST == "false" ])
+#if ([ $TRAVIS_BRANCH == "master" ] && [ $TRAVIS_PULL_REQUEST == "false" ])
+if ([ $TRAVIS_BRANCH == "master" ])
 then
     echo "Publishing."
     openssl aes-256-cbc -K $encrypted_b87c1b5f2320_key \
