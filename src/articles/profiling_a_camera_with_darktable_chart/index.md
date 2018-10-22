@@ -244,13 +244,8 @@ Be there in advance so you have time to prepare everything.
    picture:
 
 <figure>
-<img src="03_a_profiling_setup.jpg" alt="A camera pointing into the profiling box" width="507" height="760"/>
-<figcaption><b>Figure 3a:</b> Camera doing a custom white balance with the color profiling box
-</figcaption></figure>
-
-<figure>
 <img src="03_b_profiling_setup_outdoor.jpg" alt="A camera pointing into the profiling box" width="450" height="800"/>
-<figcaption><b>Figure 3b:</b> Camera setup for creating pictures of the color checker
+<figcaption><b>Figure 3a:</b> Camera setup for creating pictures of the Color Checker
 </figcaption></figure>
 
 2. Make sure the color chart is parallel to plane of the camera sensors
@@ -259,19 +254,19 @@ Be there in advance so you have time to prepare everything.
    not an issue.
 
 3. Shoot the target, zoom to 100% and check for glare and reposition if
-   necessary! In Figure 3c you can see a patch with extreme glare. In Figure 3d
+   necessary! In Figure 3b you can see a patch with extreme glare. In Figure 3c
    you can see a patch with a bit of glare. You should try to get no glare at
    all. Make sure the sun is shining at an angle on the Color Checker. Change
    the angle of the target in to box till you get no glare!
 
 <figure>
 <img src="03_c_extreme_glare.jpg" alt="The target with extreme glare cause by a wrong angle of the sun shining on the target" width="600" height="400"/>
-<figcaption><b>Figure 3c:</b> The target with extreme glare cause by a wrong angle of the sun shining on the target
+<figcaption><b>Figure 3b:</b> The target with extreme glare cause by a wrong angle of the sun shining on the target
 </figcaption></figure>
 
 <figure>
 <img src="03_d_bit_of_glare.jpg" alt="The target with some glare cause by a wrong angle of the sun shining on the target" width="600" height="400"/>
-<figcaption><b>Figure 3d:</b> The target with some glare cause by a wrong angle of the sun shining on the target
+<figcaption><b>Figure 3c:</b> The target with some glare cause by a wrong angle of the sun shining on the target
 </figcaption></figure>
 
 
