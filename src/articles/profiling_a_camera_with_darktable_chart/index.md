@@ -263,12 +263,12 @@ Be there in advance so you have time to prepare everything.
 
 <figure>
 <img src="03_c_extreme_glare.jpg" alt="The target with extreme glare cause by a wrong angle of the sun shining on the target" width="600" height="400"/>
-<figcaption><b>Figure 3b:</b> The target with extreme glare cause by a wrong angle of the sun shining on the target
+<figcaption><b>Figure 3c:</b> The target with extreme glare cause by a wrong angle of the sun shining on the target
 </figcaption></figure>
 
 <figure>
 <img src="03_d_bit_of_glare.jpg" alt="The target with some glare cause by a wrong angle of the sun shining on the target" width="600" height="400"/>
-<figcaption><b>Figure 3b:</b> The target with some glare cause by a wrong angle of the sun shining on the target
+<figcaption><b>Figure 3d:</b> The target with some glare cause by a wrong angle of the sun shining on the target
 </figcaption></figure>
 
 
