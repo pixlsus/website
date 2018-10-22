@@ -222,12 +222,15 @@ of about 10 minutes. An assitent in the field can be useful.
    can point it to the neutral gray patch of the color checker, that's the one
    we want to have exposed correctly.]
 
-3. Set the camera to capture "RAW & JPEG" and disable lens corrections
+3. Make sure that Dynamic Range Optimization (DRO) and Auto HDR (High Dynamic
+   Range) or anything like that are turned off!
+
+4. Set the camera to capture "RAW & JPEG" and disable lens corrections
    (vignetting corrections) for JPEG files if possible. This is important
    for JPEG and real color fitting. You can leave corrections for color
    failures turned on.
 
-4. Set the ISO to the lowest possible value. Some cameras have an extended
+5. Set the ISO to the lowest possible value. Some cameras have an extended
    ISO range, don't use any of those values. For example my camera offers ISO
    50, ISO 64 and ISO 80. Those are extended ISO values. The lowest ISO not in
    the extended range for my camera is ISO 100. Check your camera manual!
