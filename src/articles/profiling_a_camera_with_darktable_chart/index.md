@@ -33,7 +33,7 @@ layout: article.hbt
 What is a camera profile?
 -------------------------
 
-A camera profile is often combination of a color lookup table (LUT) and a tone
+A camera profile is often a combination of a color lookup table (LUT) and a tone
 curve which is applied to a RAW file to get a developed image. It translates
 the colors that a camera captures into the colors they should look like. If you
 shoot in RAW and JPEG at the same time, the JPEG file is already a developed
