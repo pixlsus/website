@@ -235,6 +235,8 @@ of about 10 minutes. An assitent in the field can be useful.
    50, ISO 64 and ISO 80. Those are extended ISO values. The lowest ISO not in
    the extended range for my camera is ISO 100. Check your camera manual!
 
+6. Wear dark cloths, the best is a black hoody with long sleeves :-)
+
 #### In the field
 
 Be there in advance so you have time to prepare everything.
