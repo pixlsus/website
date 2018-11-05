@@ -24,7 +24,6 @@ then
 	# Get server epoch time into TIMEVAR
 	#TIMEVAR=$(ssh pixlsus@pixls.us 'date +%s')
 	#TIMEVAR=$(ssh -i /tmp/pixls_rsa -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'date +%Y%m%d%H%M')
-	ssh -v -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'date +%Y%m%d%H%M'
 	TIMEVAR=$(ssh -o StrictHostKeyChecking=no -o LogLevel=error pixlsus@pixls.us 'date +%Y%m%d%H%M')
 	if [ $? -eq 0 ]
 	then
