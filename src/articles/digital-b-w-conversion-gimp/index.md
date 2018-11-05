@@ -836,9 +836,9 @@ Once downloaded and placed into your **Scripts** folder, the command can be foun
 <p class="aside">
 <span>Downloading the Script</span>
 The Script-Fu for *Color Decompose* can be downloaded here:<br/>
-<a href="http://registry.gimp.org/node/27745" style="font-size:1rem;">Color Decompose on GIMP Registry</a><br/>
+<a href="patdavid-color-decompose_0.3.scm" style="font-size:1rem;">Color Decompose</a><br/>
 or downloaded from here: <br/>
-<a href="https://docs.google.com/uc?export=download&id=0B21lPI7Ov4CVa2ZFQW5hajhYSWs" style="font-size:1rem;">Color Decompose on Google Drive</a>
+<a href="https://github.com/pixlsus/GIMP-Scripts/blob/master/patdavid-color-decompose_0.3.scm" style="font-size:1rem;">Color Decompose on Github</a>
 </p>
 
 #### Looking Forward
