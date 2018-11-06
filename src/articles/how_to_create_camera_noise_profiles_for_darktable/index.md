@@ -8,11 +8,11 @@ lede-attribution: "by <a href='https://pixelbook.org'>Andreas Schneider</a>"
 
 author: "Andreas Schneider" #required
 author-img: "asn.png"
-author-url: "https://pixelbook.org"
+author-url: "https://blog.pixelbook.org"
 author-twitter: "@cryptomilk"
 author-gplus: ""
 author-fb: ""
-author-bio: "I'm a <a href='https://blog.cryptomilk.org'>Free and Open Source Software Hacker</a> who loves climbing, cycling and photography."
+author-bio: "I'm a <a href='https://blog.pixelbook.org'>Free and Open Source Software Hacker</a> who loves climbing, cycling and photography."
 
 collection: tutorial
 tags:
@@ -28,6 +28,11 @@ layout: article.hbt
 
 ---
 
+[Article updated on: 2018-11-06]
+
+What is noise?
+--------------
+
 Noise in digital images is similar to film grain in analogue photography.  In
 digital cameras, noise is either created by the amplification of digital
 signals or heat produced by the sensor. It appears as random, colored speckles
@@ -40,8 +45,8 @@ is if having profiles for a camera to understand the noise patterns a camera
 model produces.
 
 Noise reduction is an image restoration process. You want to remove the digital
-artefacts from the image in such a way that the original image is discernible.
-These artefacts can be just some kind of grain (luminance noise) or colorful,
+artifacts from the image in such a way that the original image is discernible.
+These artifacts can be just some kind of grain (luminance noise) or colorful,
 disturbing dots (chroma noise). It can either add to a picture or detract from
 it. If the noise is disturbing, we want to remove it. The following pictures
 show a picture with noise and a denoised version:
@@ -55,8 +60,8 @@ To get the best noise reduction, we need to generate noise profiles for each
 ISO value for a camera.
 
 
-Creating the pictures for noise profling
-----------------------------------------
+Creating the pictures for noise profiling
+-----------------------------------------
 
 For every ISO value your camera has, you have to take a picture. The pictures
 need to be exposed a particular way to gather the information correctly. The
@@ -75,81 +80,88 @@ of the required pictures, we will create a stencil which will make it easier to
 capture the photos.
 
 
-### Stencil for DSLM/DSLR lenses
+### Building a profiling testbed
 
-You need to get some thicker black paper or cardboard. No light should shine
-through it!  First we need to use the lens hood to get the size. The lens hood
-helps to move the paper away from the lens a bit and the lens hood gives us
-something to attach it to. Then we need to create a punch card. For wide angle
-lenses you need a close raster and for longer focal lengths, a wider raster. It
-is harder to create it for compact cameras with small lenses (check below).
+#### Requiements
 
-Find the middle and mark the size of the lens hood:
+* A dark room (wait till night time)
+* Monitor
+* Printer
+* Sheets of black thick paper (DIN A3)
+* White paper
+* Scissors
+* Sellotape (Tesafilm)
+
+First you need to get some thicker black paper or cardboard. No light should shine
+through it! Then you need to print out a gradient on white paper. Light
+should shine through the white paper!
+
+[Print this black to white gradient (PDF)](bw_gradient.pdf)
+
+I got black thick paper (DIN A3) and used two sheets. You need to be able to
+cover your monitor with the black paper. Put the printed gradient in the middle
+and draw around it. From three sides (bottom, left, top) make the window
+smaller by 1 cm, see Figure 1. On the right we need to have a gap.
 
 <figure>
 <img src="stencil_step1.jpg" alt="Stencil Step 1" width="760" height="507">
+<figcaption>
+<b>Figure 1:</b> Drawn window reduced by 1 cm on the bottom, left and top.
+</figcaption>
 </figure>
 
-If you have the size, draw a grid on the paper:
+Next is to cut out the window and type the gradient onto the black paper like
+in Figure 2. It is important that there is a gap between the white and the
+black paper on the white side of the gradient. We need light for an overexposed
+area.
 
 <figure>
 <img src="stencil_step2.jpg" alt="Stencil Step 2" width="760" height="507">
+<figcaption>
+<b>Figure 2: The gradient taped into the window of the black paper.</b> 
+</figcaption>
 </figure>
 
-Once you have done that you need to choose a punch card raster for your focal
-length. I use a 16mm wide angle lens on a full frame body, so I choose a raster
-with a lot of holes:
+Once you have done that go to your monitor and make it all white. You can an
+[all white image](white.png) for that. Then tape the sheets to your monitor
+like in Figure 3.
 
 <figure>
 <img src="stencil_step3.jpg" alt="Stencil Step 3" width="760" height="507">
+<figcaption>
+<b>Figure 3: The sheets of black paper taped to the monitor.</b> 
+</figcaption>
 </figure>
-
-**Untested**: For a 50mm or 85mm lens I think you should start with 5 holes in
-the middle created just with a needle. Put your stencil on the lens hood and
-check. Then you know if you need bigger holes and maybe how much. Please share
-your findings in the comments below!
-
-
-### Stencil for compact cameras
-
-I guess you would create a stencil, like for bigger lenses, but create a funnel
-to the camera. Contributions and ideas are welcome!
-
 
 Taking the pictures
 -------------------
 
-Wait for a cloudy day with thick clouds and no sun to take the pictures. The
-problem is the shutter speed and it is likely that you'll hit the limit. My
-camera has 37 ISO values (including extended iso), so I need to start with 0.6
-seconds exposure time to take the last picture with the limit of my camera,
-1/8000 of a second exposure time. So a darker day helps to start with a slow
-shutter speed.
+It is time to get your camera. You need to shoot in RAW. It is best to turn off
+any noise reduction especially long exposure noise reduction. Mount the camera
+on a tripod and use a lens between 35 mm to 85 mm (full frame). I used a 85 mm
+f/1.4 lens.
 
-Use a tripod and point the camera to the sky, attach the lens hood and put the
-punch card on it. Better make sure that all filters are removed, so we don't
-get any strange artefacts. In the end the setup should look like this:
+Make sure the gradient fills most of the frame. Set your camera to manual focus
+and focus on infinity. Select the manual mode of your camera and choose the
+fastest aperture and ISO100. Depending on the lens you're using you might want
+to close the aperture. For me f/1.4 was too blurry and I closed it till f/4.0.
+You don't want to see any edges but also it shouldn't be too blurry, we want
+nice transitions zones like in Figure 4.
 
-<figure>
-<img src="creating_noise_photo.jpg" alt="Punch card on camera" title="Example setup" width="400" height="600">
-</figure>
-
-Choose the fastest aperture available on your lens (e.g. f/2.8 or even faster),
-change the camera to manual focus, and focus on infinity. Take the shot!  The
-result should look like this:
+Now you need to set the shutter speed. Make the picture really dark and then
+make the shutter speed longer till the gap which gives us the white from the
+monitor is overexposed, pure white see Figure 4. The black around the white
+paper should be underexposed (pure black).
 
 <figure>
-<img src="noise_example_shot.jpg" alt="punch card picture" title="Probably exposed punch card picture" width="760" height="505">
+<img src="noise_example_shot.jpg" alt="Example noise picture" title="Example shot for noise" width="760" height="505">
+<figcaption>
+<b>Figure 3: Example shot for noise.</b> 
+</figcaption>
 </figure>
 
-The holes will overexpose the picture, but you also need an underexposed area.
-So start to put most of my dark areas in the middle of the histogram and moved
-it to the black (left) side of the histogram until the first values start to
-clip. It is important to not to clip to much, as we are mostly interested the
-grey values between the overexposed and underexposed areas.
-
-Once you're done taking the pictures it is time to move to the computer.
-
+Now you need to take a picture for each ISO value of your camera. When you
+increase the ISO value you need to decrease the shutter speed!
 
 Creating the noise profiles
 ---------------------------
@@ -160,7 +172,8 @@ Run
 
     /usr/lib/darktable/tools/darktable-gen-noiseprofile --help
 
-If this gives you the help of the tool, continue with STEP 2 othersise go to STEP 1a
+If this gives you the help of the tool, continue with STEP 2 otherwise go to
+STEP 1a.
 
 ### STEP 1a
 
@@ -191,7 +204,7 @@ Now change to the source and build the tools for creating noise profiles using:
 ### STEP 2
 
 Download the pictures from your camera and change to the directory on the
-commandline:
+command line:
 
     cd /path/to/noise_pictures
 
@@ -205,8 +218,8 @@ or if you had to download and build the source, run:
 
 This will automatically do everything for you. Note that this can take quite
 some time to finish. I think it took 15 to 20 minutes on my machine. If a
-picture is not shot correctly, the tool will tell you the image name and you
-have to recapture the picture with that ISO.
+picture is not exposed correctly, the tool will tell you the image name and you
+have to recapture the picture with that ISO. Remove the non-working picture.
 
 
 The tool will tell you, once completed, how to test and verify the
@@ -228,35 +241,5 @@ A detailed explanation of the diagrams and the math behind it can be found in
 tutorial](https://www.darktable.org/2012/12/profiling-sensor-and-photon-noise/)
 by Johannes Hanika.
 
-
-For discussion
---------------
-
-I've created the stencil above to make it easier to create noise profiles.
-However I've tried different ways to create the profiles and here is one which
-was a good idea but failed for low ISO values (ISO <= 320). We are in the open
-source world, and I think it is important to share failures too. Others may
-have an idea to improve it or at least learn from it.
-
-For a simpler approach than the one described above, I've created a [gradient
-from black to white](noise_profile.png). Then I used some black cardboard to
-attached it to the monitor to get some real black.  Remember you need an
-underexposed area and the monitor is not able to output real black, as it is
-backlit.
-
-In the end my setup looked liked this:
-
-![Gradient on Monitor](camera_setup_monitor_gradient.jpg)
-
-I've turned off the lights and took the shots. However the results for ISO
-values below and equal to ISO320 are not good. All other ISO values looked
-fine.
-
-If you're interested in the results, you can find them here:
-
-* [noise_profile.pdf](ilce-7m3_failed_monitor_gradient_noise_result.pdf)
-* [dt-noiseprofile.tar.gz](ilce-7m3_failed_monitor_gradient_dt-noiseprofile-20180407.tar.gz)
-
-Please also share pictures of working stencils you created.
 
 Feedback is very much welcome in the comments below!
