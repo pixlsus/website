@@ -145,8 +145,9 @@ Make sure the gradient fills most of the frame. Set your camera to manual focus
 and focus on infinity. Select the manual mode of your camera and choose the
 fastest aperture and ISO100. Depending on the lens you're using you might want
 to close the aperture. For me f/1.4 was too blurry and I closed it till f/4.0.
-You don't want to see any edges but also it shouldn't be too blurry, we want
-nice transitions zones like in Figure 4.
+You don't want to see any edges or any structure on the paper but be too
+blurry. You want to still see the gradient but we want nice transitions between
+different lightning zone black -> grey -> white like in Figure 4.
 
 Now you need to set the shutter speed. Make the picture really dark and then
 make the shutter speed longer till the gap which gives us the white from the
