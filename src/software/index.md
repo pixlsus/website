@@ -459,7 +459,7 @@ stylesheet: software-page
 			</p>
         </div>
         <div class="sw-entry opendronemap">
-            <a href="http://opendronemap.github.io/odm/">OpenDroneMap</a>
+            <a href="https://www.opendronemap.org/">OpenDroneMap</a>
             <i class="fa fa-linux"></i>
             <p>
                 OpenDroneMap is an open source toolkit for processing aerial drone imagery.
