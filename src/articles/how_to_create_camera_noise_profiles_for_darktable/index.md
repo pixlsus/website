@@ -3,7 +3,7 @@ date: 2018-04-15T19:00:07-05:00
 title: "How to create camera noise profiles for darktable"
 sub-title: "An easy way to create correct profiling pictures"
 
-lede-img: "noise_example_shot.jpg"
+lede-img: "lede_gradient.jpg"
 lede-attribution: "by <a href='https://pixelbook.org'>Andreas Schneider</a>"
 
 author: "Andreas Schneider" #required
