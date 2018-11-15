@@ -44,11 +44,7 @@ focal length, aperture and focal distance used for the picture, and it then
 calls Lensfun to automatically correct the photograph.
 
 <figure>
-<img src="distortion_example/01_distortion_before.jpg"
-     data-swap-src="distortion_example/02_distortion_after.jpg"
-     alt="Photo with lens distortion"
-     title="Photo with lens distortion"
-     width="760" height="507">
+<img src="distortion_example/01_distortion_before.jpg" data-swap-src="distortion_example/02_distortion_after.jpg" alt="Photo with lens distortion" title="Photo with lens distortion" width="760" height="507">
 <figcaption>
 <b>Figure 1:</b> 16mm lens showing distortion (**click on the image to show the distortion corrected image**)
 </figcaption>
@@ -92,10 +88,7 @@ image (Nearly touching the top of frame) and the other line at about a third
 down from the first line. The following example demonstrates this.
 
 <figure>
-<img src="distortion_example/01_distortion_before.jpg"
-     alt="Photo with lens distortion"
-     title="Photo with lens distortion"
-     width="760" height="507">
+<img src="distortion_example/01_distortion_before.jpg" alt="Photo with lens distortion" title="Photo with lens distortion" width="760" height="507">
 <figcaption>
 <b>Figure 2:</b> Parking house with straight lines
 </figcaption>
@@ -138,10 +131,7 @@ windows with white or gray frames.
 Here are some example pictures:
 
 <figure>
-<img src="tca_example/01_tca.jpg"
-     alt="Photo with grey framed windows"
-     title="Photo with grey framed windows"
-     width="760" height="507">
+<img src="tca_example/01_tca.jpg" alt="Photo with grey framed windows" title="Photo with grey framed windows" width="760" height="507">
 <figcaption>
 <b>Figure 4:</b> Building with gray framed windows
 </figcaption>
@@ -185,20 +175,14 @@ you may need to shoot indoors. You should experiment to make sure your images
 are evenly lit (except for vignetting obviously). 
 
 <figure>
-<img src="vignetting_example/01_vignetting.jpg"
-     alt="Photo showing a camera with milky glass"
-     title="Photo showing a camera with milky glass"
-     width="760" height="507">
+<img src="vignetting_example/01_vignetting.jpg" alt="Photo showing a camera with milky glass" title="Photo showing a camera with milky glass" width="760" height="507">
 <figcaption>
 <b>Figure 6:</b> Camera setup to take pictures for vignetting correction
 </figcaption>
 </figure>
 
 <figure>
-<img src="vignetting_example/02_vignetting.jpg"
-     alt="Photo showing lens vignetting"
-     title="Photo showing lens vignetting"
-     width="760" height="507">
+<img src="vignetting_example/02_vignetting.jpg" alt="Photo showing lens vignetting" title="Photo showing lens vignetting" width="760" height="507">
 <figcaption>
 <b>Figure 6:</b> Image showing vignetting of a wide angle lens at 16mm
 </figcaption>
@@ -325,10 +309,7 @@ If you start Hugin the first time, the windows you will get should look like in
 Figure 8.
 
 <figure>
-<img src="hugin/01_startup.png"
-     alt="Hugin start screen"
-     title="Hugin start screen"
-     width="760" height="507">
+<img src="hugin/01_startup.png" alt="Hugin start screen" title="Hugin start screen" width="760" height="507">
 <figcaption>
 <b>Figure 8:</b> Hugin start screen
 </figcaption>
@@ -338,10 +319,7 @@ First select on the menu bar *Interface -> Expert* to switch to the **Expert
 mode**. You will get a windows which should look like as in Figure 9.
 
 <figure>
-<img src="hugin/02_expert_mode.png"
-     alt="Hugin expert mode"
-     title="Hugin expert mode"
-     width="760" height="507">
+<img src="hugin/02_expert_mode.png" alt="Hugin expert mode" title="Hugin expert mode" width="760" height="507">
 <figcaption>
 <b>Figure 9:</b> Hugin expert mode
 </figcaption>
@@ -351,10 +329,7 @@ Once in the export mode click on *Add images* (Figure 10) and load the first
 tiff from the *distortion/exported* folder.
 
 <figure>
-<img src="hugin/03_load_image.png"
-     alt="Hugin add image"
-     title="Hugin add image"
-     width="760" height="507">
+<img src="hugin/03_load_image.png" alt="Hugin add image" title="Hugin add image" width="760" height="507">
 <figcaption>
 <b>Figure 10:</b> Adding images and setting the focal length and crop factor
 </figcaption>
@@ -368,10 +343,7 @@ correct crop value you can find in the specifications. Next click on the
 *Control Points* tab (Figure 11).
 
 <figure>
-<img src="hugin/04_control_points.png"
-     alt="Hugin control points tab"
-     title="Hugin control points tab"
-     width="760" height="507">
+<img src="hugin/04_control_points.png" alt="Hugin control points tab" title="Hugin control points tab" width="760" height="507">
 <figcaption>
 <b>Figure 11:</b> The control points tab
 </figcaption>
@@ -390,10 +362,7 @@ the left edge of the picture on the left page and the right edge on the
 right (Figure 12).
 
 <figure>
-<img src="hugin/05_control_points_line3.png"
-     alt="Adding control points"
-     title="Adding control points"
-     width="760" height="507">
+<img src="hugin/05_control_points_line3.png" alt="Adding control points" title="Adding control points" width="760" height="507">
 <figcaption>
 <b>Figure 12:</b> Setting the first two control points for the line to add
 </figcaption>
@@ -411,10 +380,7 @@ Now zoom out by pressing '0' and check it if everything has been added
 correctly (Figure 13).
 
 <figure>
-<img src="hugin/06_control_points_line3_done.png"
-     alt="Control points for line 3"
-     title="Control points for line 3"
-     width="760" height="507">
+<img src="hugin/06_control_points_line3_done.png" alt="Control points for line 3" title="Control points for line 3" width="760" height="507">
 <figcaption>
 <b>Figure 13:</b> Control points for line3
 </figcaption>
@@ -425,10 +391,7 @@ the top to repeat adding a line. Zoom to 200% again, select the first control
 points and again *Add a new line* which will result in *line4* (Figure 14)!
 
 <figure>
-<img src="hugin/07_control_points_line4_done.png"
-     alt="Control points for line 3 and 4"
-     title="Control points for line 3 and 4"
-     width="760" height="507">
+<img src="hugin/07_control_points_line4_done.png" alt="Control points for line 3 and 4" title="Control points for line 3 and 4" width="760" height="507">
 <figcaption>
 <b>Figure 14:</b> Control points for line 3 and line 4
 </figcaption>
@@ -437,10 +400,7 @@ points and again *Add a new line* which will result in *line4* (Figure 14)!
 Zoom out by pressing '0' and check that you have two lines, line3 and line4. Now move on to the *Stitcher* tab (Figure 14).
 
 <figure>
-<img src="hugin/08_stitcher_rectelinear.png"
-     alt="Selecting the projection"
-     title="Selecting the projection"
-     width="760" height="507">
+<img src="hugin/08_stitcher_rectelinear.png" alt="Selecting the projection" title="Selecting the projection" width="760" height="507">
 <figcaption>
 <b>Figure 15:</b> The stitcher tab, select the correct projection here.
 </figcaption>
@@ -451,10 +411,7 @@ lens. This is **Rectilinear** for standard lenses. Once done switch to the
 *Photos* tab (Figure 16).
 
 <figure>
-<img src="hugin/09_photos_custom_optimizer.png"
-     alt="Optimizer tab"
-     title="Optimizer tab"
-     width="760" height="507">
+<img src="hugin/09_photos_custom_optimizer.png" alt="Optimizer tab" title="Optimizer tab" width="760" height="507">
 <figcaption>
 <b>Figure 16:</b> Enable the Optimizer tab.
 </figcaption>
@@ -464,10 +421,7 @@ At the bottom under *Optimize* select **Custom parameters** for *Geometric*.
 This will add an *Optimizer* tab. Switch to it once it appears (Figure 17).
 
 <figure>
-<img src="hugin/10_optimizer_select_abc.png"
-     alt="Optimizer: Select a b c"
-     title="Optimizer: Select a b c"
-     width="760" height="507">
+<img src="hugin/10_optimizer_select_abc.png" alt="Optimizer: Select a b c" title="Optimizer: Select a b c" width="760" height="507">
 <figcaption>
 <b>Figure 17:</b> Optimizer tab: Select a b c for barrel distortion correction
 </figcaption>
@@ -478,10 +432,7 @@ Accept the calculation with yes. Now the values for 'a', 'b' and 'c' will
 change (Figure 18).
 
 <figure>
-<img src="hugin/11_optimizer_done.png"
-     alt="Optimizer: Calculated a b c"
-     title="Optimizer: Calculated a b c"
-     width="760" height="507">
+<img src="hugin/11_optimizer_done.png" alt="Optimizer: Calculated a b c" title="Optimizer: Calculated a b c" width="760" height="507">
 <figcaption>
 <b>Figure 18:</b> Calculated distortion correction 'a', 'b' and 'c'.
 </figcaption>
