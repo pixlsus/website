@@ -33,15 +33,15 @@ Introduction
 
 All photographic lenses have several types of errors. Three of them can be
 corrected by software almost losslessly:
-[distortion](http://en.wikipedia.org/wiki/Distortion_(optics)), [transverse
+[distortion](http://en.wikipedia.org/wiki/Distortion_&#40;optics&#41;), [transverse
 chromatic aberration (TCA)](http://en.wikipedia.org/wiki/Chromatic_aberration),
 and [vignetting](http://en.wikipedia.org/wiki/Vignetting). The
 [Lensfun](http://lensfun.sourceforge.net/) library provides code to do these
 corrections. Lensfun is not used by the photographer directly. Instead, it is
 used by a photo raw development software such as darktable or RawTherapee. For
 example, if you import a RAW into darktable, darktable detects the lens model,
-focal length, and aperture used for the picture, and it then calls Lensfun
-to automatically correct the photograph.
+focal length, aperture and focal distance used for the picture, and it then
+calls Lensfun to automatically correct the photograph.
 
 <figure>
 <img src="distortion_example/01_distortion_before.jpg"
