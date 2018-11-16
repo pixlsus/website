@@ -253,9 +253,10 @@ The script needs the following dependencies to be installed on your system:
 * convert ([ImageMagick](https://www.imagemagick.org/script/index.php))
 
 
-You can download the lens calibration script here:
-
-https://gitlab.com/cryptomilk/lens_calibrate
+You can download the lens calibration script
+[HERE](https://gitlab.com/cryptomilk/lens_calibrate) or get it as a package
+for the major distributions
+[HERE](https://software.opensuse.org/download.html?project=graphics:darktable&package=lens_calibrate).
 
 Once you have downloaded the tool create a folder for your lens calibration
 data, change to the directory and run:
