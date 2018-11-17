@@ -207,7 +207,7 @@ electronic display.
 If you have for example a 16-35mm lens with aperture f/2.8 - f/22, you need to
 take pictures at 16mm, 20mm, 24mm, 28mm and 35mm focal length (Remember you
 require the min and max zoom values). For each for those focal lengths you need
-to take five pictures at f/2.8, f/4, f/5.6, f/8 and f/22. This makes 25
+to take five pictures at f/2.8, f/4.0, f/5.6, f/8.0 and f/22.0. This makes 25
 pictures in total.
 
 For a 50mm prime lens with f/1.4 - f/16 you need to take 5 pictures at f1.4, f/2.0,
