@@ -210,8 +210,8 @@ require the min and max zoom values). For each for those focal lengths you need
 to take five pictures at f/2.8, f/4, f/5.6, f/8 and f/22. This makes 25
 pictures in total.
 
-For a 50mm prime lens with f/1.8 - f/32 you need to take 5 pictures at f/32,
-f/22, f/16, f/11 and f/1.8.
+For a 50mm prime lens with f/1.4 - f/16 you need to take 5 pictures at f1.4, f/2.0,
+f/2.8, f/4.0, and f/16.0.
 
 #### Vignetting correction for the professionals
 
