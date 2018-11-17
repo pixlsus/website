@@ -199,15 +199,16 @@ only need pictures for five focal lengths because for the other steps it gets
 interpolated. For a prime lens you need to take only pictures for the single
 focal length.
 
-Take the pictures as RAW at maximal aperture and at three smaller apertures in
-1 stop distance, and also at the minimal aperture. These are often marked on
-your lens' aperture ring, or on your electronic display.
+Take the pictures as RAW at the fastest aperture (e.g. f/2.8) and at three more
+closed apertures at 1 EV distance, and also at the most closed aperture (e.g.
+f/22.0). These are often marked on your lens' aperture ring, or on your
+electronic display.
 
-If you have for example a 16-35mm lens with f/2.8 - f/22, you need to take
-pictures at 16mm, 20mm, 24mm, 28mm and 35mm focal length (Remember you require
-the min and max zoom values). For each for those focal lengths you need to take
-five pictures at f/22, f/16, f/11, f/8 and f/2.8. This makes 25 pictures in
-total.
+If you have for example a 16-35mm lens with aperture f/2.8 - f/22, you need to
+take pictures at 16mm, 20mm, 24mm, 28mm and 35mm focal length (Remember you
+require the min and max zoom values). For each for those focal lengths you need
+to take five pictures at f/2.8, f/4, f/5.6, f/8 and f/22. This makes 25
+pictures in total.
 
 For a 50mm prime lens with f/1.8 - f/32 you need to take 5 pictures at f/32,
 f/22, f/16, f/11 and f/1.8.
