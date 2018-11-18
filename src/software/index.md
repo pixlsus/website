@@ -296,6 +296,13 @@ stylesheet: software-page
                 Advanced digital photo management application for importing and organizing photos.
             </p>
         </div>
+        <div class="sw-entry kphotoalbum">
+            <a href="https://www.kphotoalbum.org">KPhotoAlbum</a>
+            <i class="fa fa-linux"></i>
+			<p>
+                KPhotoAlbum is a tool which you can use to easily sort your images.
+            </p>
+        </div>
         <div class="sw-entry gthumb">
             <a href="https://wiki.gnome.org/Apps/gthumb">gThumb</a>
             <i class="fa fa-linux"></i>
