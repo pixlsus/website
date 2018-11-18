@@ -80,6 +80,11 @@ Before we start you need to take a lot of images for the three errors we are
 able to correct. This section will explain how to take them and what you need
 to pay attention to.
 
+For all pictures you should use a tripod, turn off all image correction and
+disable image stabilization in the camera and in the lens itself!  Also make
+sure to that all High Dynamic Range (HDR) or Dynamic Range Optimizer (DRO)
+features are turned off. All those options could mess up your calibration.
+
 ### Distortion
 
 For distortion you can to take pictures of a building with several parallel
@@ -162,8 +167,9 @@ than 3 mm and shouldn’t have a noticeable texture. It must be perfectly flus
 with the lens front, and it mustn’t be bent. It must be illuminated
 _homogeneously_.
 
-I ordered a piece of acryl glass, opal white (milky), smoothly polished, 78%
-translucency, 3mm thick, 20 x 20 cm, which is about 8 Euro on Amazon.
+I ordered a piece of [acryl glass, opal white (milky), smoothly polished, 78%
+translucency, 3mm thick, 20 x 20 cm](https://www.amazon.de/Metall-Acrylglas-Milchglas-Lichtdurchlässigkeit-beidseitig/dp/B00W3KSO0I/),
+which is about 8 Euro on Amazon.
 
 However white plastic foil taped on a piece of ordinary glass for stability
 might be enough, if the plastic doesn't have any texture.
