@@ -377,7 +377,11 @@ img.natural {
 	display:inline-block;
 }
 .sw-entry.aphotomanager > a:before {
-    background: url('/software/software-logos.png') -1580px 0 no-repeat;
+    background: url('/software/software-logos.png') -1575px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.kphotoalbum > a:before {
+    background: url('/software/software-logos.png') -1620px 0 no-repeat;
 	display:inline-block;
 }
 /*
