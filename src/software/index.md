@@ -331,6 +331,13 @@ stylesheet: software-page
 				Manage big local photo collections on Android phones and tablets: gallery, geotag with photomap, tags, find, sort, view, copy, delete, send, ...		
 			</p>
 		</div>
+		<div class="sw-entry kphotoalbum">
+			<a href="https://www.kphotoalbum.org/">KPhotoAlbum</a>
+			<i class="fa fa-linux"></i>
+            <p>
+                KPhotoAlbum is a tool which you can use to easily sort your images.
+            </p>
+		</div>
 		<div class="sw-entry">
 			<a href="https://github.com/linuxmint/pix">Pix</a>
 			<i class="fa fa-linux"></i>
