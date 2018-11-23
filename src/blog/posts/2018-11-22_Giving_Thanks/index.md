@@ -76,11 +76,11 @@ And our yearly community health is very positive:
 
 ## gPhoto
 
-This year we added the [gphoto][http://gphoto.org/] project to our list of supported applications! gPhoto is an awesome library for interfacing with your camera. It is used by darktable and entangle to allow you to shoot with your camera attached to your laptop or other device. We're thrilled that they've joined us on the forums!
+This year we added the [gphoto](http://gphoto.org/) project to our list of supported applications! gPhoto is an awesome library for interfacing with your camera. It is used by darktable and entangle to allow you to shoot with your camera attached to your laptop or other device. We're thrilled that they've joined us on the forums!
 
 ## Natron
 
-[Natron][https://natron.fr] is a compositing application mostly used in 3D/video compositing. The main developer was looking to give the project more of a community focus, so of course we were happy to provide them their own spot in the forum for their users to communicate and collaborate.
+[Natron](https://natron.fr) is a compositing application mostly used in 3D/video compositing. The main developer was looking to give the project more of a community focus, so of course we were happy to provide them their own spot in the forum for their users to communicate and collaborate.
 
 ## darix
 
