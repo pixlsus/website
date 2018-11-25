@@ -1,5 +1,5 @@
 ---
-date: 2018-11-24T20:47:14-06:00 
+date: 2018-11-25T09:10:06-06:00 
 title: 2018 PlayRaw Calendar
 sub-title: Chris creates a new calendar for the community
 
@@ -83,7 +83,7 @@ I am constantly humbled by the amazing work our community produces and _shares w
 
 **Thank you** to everyone who shared image and participated in processing (and sharing how you achieved your results)!  I have really learned some neat things based on others work and look forward to even more opportunities to play (pun intended).
 
-Fun side note - the Play Raws are actually something that began on the old [RawTherapee][] forums.  When they moved their official forums here with us it was one of those awesome things I'm glad they brought over with them (the people were pretty great too... :)).
+_Fun side note:_ the Play Raws are actually something that began on the old [RawTherapee][] forums.  When they moved their official forums here with us it was one of those awesome things I'm glad they brought over with them (the people were pretty great too... :)).
 
 
 [Monkey Business]: https://discuss.pixls.us/t/play-raw-monkey-business/7145
