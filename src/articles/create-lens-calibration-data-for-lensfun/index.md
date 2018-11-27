@@ -226,9 +226,9 @@ gain in accuracy is really very small! I probably only makes sense for prime
 lenses used for portrait or macro photography. However this is not required,
 the above it absolutely enough.
 
-Lensfun is able to can correct vignetting depending on focal distance. Thus,
-you can achieve a bit more accuracy by shooting at different focal distances.
-This means you will have to take pictures at 4 different focal distances.
+Lensfun is able to correct vignetting depending on focal distance. Thus, you
+can achieve a bit more accuracy by shooting at different focal distances.  This
+means you will have to take pictures at 4 different focal distances.
 
 The first focus on the near point (The near point is the closest distance that
 can be brought in focus). The next focal distances are the near point
