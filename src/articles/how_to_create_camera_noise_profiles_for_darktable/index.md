@@ -87,7 +87,7 @@ capture the photos.
 * A dark room (wait till night time)
 * Monitor
 * Printer
-* Sheets of black thick paper (DIN A3)
+* Sheets of black thick paper (DIN A3, >= 200g/m²)
 * White paper
 * Scissors
 * Sellotape (Tesafilm)
@@ -98,10 +98,10 @@ should shine through the white paper!
 
 [Print this black to white gradient (PDF)](bw_gradient.pdf)
 
-I got black thick paper (DIN A3) and used two sheets. You need to be able to
-cover your monitor with the black paper. Put the printed gradient in the middle
-and draw around it. From three sides (bottom, left, top) make the window
-smaller by 1 cm, see Figure 1. On the right we need to have a gap.
+I got black thick paper (DIN A3, >= 200g/m²) and used two sheets. You need to
+be able to cover your monitor with the black paper. Put the printed gradient in
+the middle and draw around it. From three sides (bottom, left, top) make the
+window smaller by 1 cm, see Figure 1. On the right we need to have a gap.
 
 <figure>
 <img src="stencil_step1.jpg" alt="Stencil Step 1" width="760" height="507">
