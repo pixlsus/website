@@ -28,6 +28,8 @@ layout: article.hbt
 
 ---
 
+[Article updated on: 2019-02-22]
+
 Introduction
 ------------
 
@@ -565,11 +567,18 @@ the lensfun.xml file too.
 Contributing your lensfun.xml
 -----------------------------
 
-To add lens data to the project please open a bug at:
+To contribute your calibration data data for your lens to the lensfun project,
+execute the script with the following command:
 
-https://sourceforge.net/p/lensfun/features/
+    $ lens_calibrate ship
+    Created lensfun_calibration.tar.xz
+    Open a bug at https://github.com/lensfun/lensfun/issues/ with the data.
 
-For the subject use:
+This will create a tarball with all the required data. Now go to
+
+* https://github.com/lensfun/lensfun/issues/
+
+and open a bug using the following subject:
 
     Calibration data for <lens model>
 
@@ -577,7 +586,7 @@ And for the description just use:
 
     Please add the attached lens data to the lensfun data base.
 
-Attach lensfun.xml to the bugreport.
+Attach the lensfun_calibration.tar.xz to the bugreport.
 
 Feedback
 --------
