@@ -214,11 +214,15 @@ Shutter/flash speed test. <a href='http://chdk.wikia.com/wiki/Samples:_High-Spee
     </div>
 </div>
 
+One of the firsts tests with a full rig (72 cameras) shooting at same time
+
 <div>
     <div class='fluid-vid'>
         <iframe src="https://www.youtube-nocookie.com/embed/2egiBmt321k" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
+
+A simple test to show the detail of a segment of the rig, how the cameras were mounted and their response after sending the turn off command using <dfn>chdkptp</dfn>
 
 #### Do you developers have time to play with CHDK? What are your preferred use?
 - [waterwingz] There are a ton of features in CHDK and I've had fun playing with most of them.  But for me, it's mostly about Lua scripting when I'm actually using CHDK. 
