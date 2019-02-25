@@ -197,7 +197,7 @@ The Moon captured by a Canon PowerShot A590IS, powered by CHDK, aligned and stac
 <figure>
 <img src='keoeeit.Drop1.jpg' alt='Drop, by keoeeit'>
 <figcaption>
-Shutter/flash speed test. <a href='http://chdk.wikia.com/wiki/Samples:_High-Speed_Shutter_%26_Flash-Sync' target='_blank'>Results</a> indicate an estimated shutter speed of 1/10,000 and flash firing speed of 1/60,000. By keoeeit	, licensed by CC BY-NC 2.0.
+Shutter/flash speed test. <a href='http://chdk.wikia.com/wiki/Samples:_High-Speed_Shutter_%26_Flash-Sync' target='_blank'>Results</a> indicate an estimated shutter speed of 1/10,000 and flash firing speed of 1/60,000. By keoeeit, licensed under CC BY-NC 2.0.
 </figcaption>
 </figure>
 
@@ -214,7 +214,7 @@ Shutter/flash speed test. <a href='http://chdk.wikia.com/wiki/Samples:_High-Spee
     </div>
 </div>
 
-One of the firsts tests with a full rig (72 cameras) shooting at same time
+One of the firsts tests with a full rig (72 cameras) shooting at same time. By <dfn>nafraf</dfn>, licensed under CC BY-NC 2.0.
 
 <div>
     <div class='fluid-vid'>
@@ -222,7 +222,7 @@ One of the firsts tests with a full rig (72 cameras) shooting at same time
     </div>
 </div>
 
-A simple test to show the detail of a segment of the rig, how the cameras were mounted and their response after sending the turn off command using <dfn>chdkptp</dfn>
+A simple test to show the detail of a segment of the rig, how the cameras were mounted and their response after sending the turn off command using <dfn>chdkptp</dfn>. By <dfn>nafraf</dfn>, licensed under CC BY-NC 2.0.
 
 #### Do you developers have time to play with CHDK? What are your preferred use?
 - [waterwingz] There are a ton of features in CHDK and I've had fun playing with most of them.  But for me, it's mostly about Lua scripting when I'm actually using CHDK. 
