@@ -33,13 +33,13 @@ We talked with the core team of developers to learn more of what exactly CHDK do
 
 #### How did CHDK start? Who were the first developers? What was their role in those first steps? Do you have any information on who those people are, where they come from, or their professional background?
 
-**reyalp** That was before my time. The very first developer was <dfn>VitalyB</dfn>, and I don’t know much about his background. In truth, CHDK is very loosely organized and informal, so I don't know much about current contributors backgrounds either.
+**reyalp** That was before my time. The very first developer was *VitalyB*, and I don’t know much about his background. In truth, CHDK is very loosely organized and informal, so I don't know much about current contributors backgrounds either.
 
-**waterwingz** Before my time too. The original hack seems to have taken off in 2006/2007 when it got mention on the <a href='https://www.dpreview.com/forums/thread/1836713' target='_blank'>DPREVIEW.COM</a> site. Many people shared random bits and pieces based on what they were personally interested in working on. There was no project organization and people did their own builds. At some point, I believe someone with the nick <dfn>GrAnd</dfn>, got things organized around a wikia site and created a standardized set of build tools. Eventually an online discussion forum and autobuild server were added - not sure who gets credit for those. But over the last 10 years, more or less, <dfn>reyalp</dfn> has coordinated the ongoing volunteer development efforts. There is still no real plan or schedule but there seems to be community consensus of how things get done and what gets added to the package.
+**waterwingz** Before my time too. The original hack seems to have taken off in 2006/2007 when it got mention on the <a href='https://www.dpreview.com/forums/thread/1836713' target='_blank'>DPREVIEW.COM</a> site. Many people shared random bits and pieces based on what they were personally interested in working on. There was no project organization and people did their own builds. At some point, I believe someone with the nick *GrAnd*, got things organized around a wikia site and created a standardized set of build tools. Eventually an online discussion forum and autobuild server were added - not sure who gets credit for those. But over the last 10 years, more or less, *reyalp* has coordinated the ongoing volunteer development efforts. There is still no real plan or schedule but there seems to be community consensus of how things get done and what gets added to the package.
 
-#### Some people say that CHDK was first developed by Andrei Gratchev (<a href='https://fr.wikipedia.org/wiki/CHDK' target='_blank'>here</a> and <a href='https://www.pcmag.com/article2/0,2817,2329392,00.asp' target='_blank'>here</a>). I believe he is <dfn>GrAnd</dfn>, right? Do you know something about it? Is it possible that Andrei Gratchev is <dfn>VitalyB</dfn>?
+#### Some people say that CHDK was first developed by Andrei Gratchev (<a href='https://fr.wikipedia.org/wiki/CHDK' target='_blank'>here</a> and <a href='https://www.pcmag.com/article2/0,2817,2329392,00.asp' target='_blank'>here</a>). I believe he is *GrAnd*, right? Do you know something about it? Is it possible that Andrei Gratchev is *VitalyB*?
 
-**reyalp** <dfn>GrAnd</dfn> and <dfn>VitalyB</dfn> are definitely not the same person. They have separate accounts on <a href='https://app.assembla.com/spaces/chdk/team' target='_blank'>https://app.assembla.com/spaces/chdk/team</a>. <dfn>GrAnd</dfn> was still occasionally involved when I joined in 2008. The suggestion that <dfn>GrAnd</dfn> was the original developer is mistaken.
+**reyalp** *GrAnd* and *VitalyB* are definitely not the same person. They have separate accounts on <a href='https://app.assembla.com/spaces/chdk/team' target='_blank'>https://app.assembla.com/spaces/chdk/team</a>. *GrAnd* was still occasionally involved when I joined in 2008. The suggestion that *GrAnd* was the original developer is mistaken.
 
 <figure>
 <img src='reyalp-chdk-md-lighting-20170911-8111-c2.jpg' width='1280' height='1707' alt='Lightning by reyalp'>
@@ -48,9 +48,9 @@ Lightning captured by a Canon PowerShot G7x with CHDK motion detection, by reyal
 </figcaption>
 </figure>
 
-#### Canon cameras run on DIGIC boards. As far as we're aware, at the time <dfn>VitalyB</dfn> did the first hack, people had already hacked DIGIC-I compact Canon cameras and could execute custom programs. What was the big leap (in terms of development or finding hooks in the DIGIC-II firmware) that <dfn>VitalyB</dfn> made?
+#### Canon cameras run on DIGIC boards. As far as we're aware, at the time *VitalyB* did the first hack, people had already hacked DIGIC-I compact Canon cameras and could execute custom programs. What was the big leap (in terms of development or finding hooks in the DIGIC-II firmware) that *VitalyB* made?
 
-**reyalp** The original Digic-I cameras were actually ROM DOS running on a 16 bit x86 clone (except for S1 IS, which is VxWorks on ARM and has a partial CHDK port developed by <dfn>srsa_4c</dfn>). A hack for the DOS based cameras was developed by a Czech developer (<a href='http://rayer.g6.cz/hardware/a70.htm' target='_blank'>http://rayer.g6.cz/hardware/a70.htm</a>). I don't know if <dfn>VitalyB</dfn> was aware of this work, but the platforms were so different there wouldn't likely have been much overlap.
+**reyalp** The original Digic-I cameras were actually ROM DOS running on a 16 bit x86 clone (except for S1 IS, which is VxWorks on ARM and has a partial CHDK port developed by *srsa_4c*). A hack for the DOS based cameras was developed by a Czech developer (<a href='http://rayer.g6.cz/hardware/a70.htm' target='_blank'>http://rayer.g6.cz/hardware/a70.htm</a>). I don't know if *VitalyB* was aware of this work, but the platforms were so different there wouldn't likely have been much overlap.
 
 **waterwingz** As far as I know, the big leap in hooking the DIGIC-II firmware was figuring out how to hack Canon's firmware update process.
 
@@ -58,13 +58,13 @@ Lightning captured by a Canon PowerShot G7x with CHDK motion detection, by reyal
 
 **waterwingz** From what I understand, he assembled a little piece of code that loaded and ran in the place of the expected firmware update code. Once he could do that, by trial & error he learned what memory address needed to be poked to turn one of the camera's LEDs on & off. And once he could do that, he recoded so as to dump the camera's memory contents serially via that LED to a phototransistor interfaced to an external computer. After that it was a matter of reverse assembly of the raw code to learn how the rest of the boot process and camera firmware worked.
 
-**reyalp** I don't know the specifics of exactly what <dfn>VitalyB</dfn> did for the very first camera, but generally to make a hack work with the existing firmware, you need a copy of the firmware code to disassemble and analyze. The advantage of using LED blinking is that the code is really simple: You just need to know how to control an LED (done writing to specific address on these cameras) and a loop. In contrast, writing a file to the SD card requires a whole stack with an SD driver, a filesystem driver and so on. Without having already analyzed the firmware, you don't know how to interface with those things, and on Powershot cameras, they aren't really available after a firmware update file is loaded. Blinking was used frequently in the early days of CHDK, but around 2010 Alfredo Ortega and Oren Isacson of Core Labs worked out how to run scripts in Canon's native scripting language (which we call Canon Basic). I wrote a script to dump the original firmware from Canon Basic, and we've used that as the primary way of dumping firmware ever since.
+**reyalp** I don't know the specifics of exactly what *VitalyB* did for the very first camera, but generally to make a hack work with the existing firmware, you need a copy of the firmware code to disassemble and analyze. The advantage of using LED blinking is that the code is really simple: You just need to know how to control an LED (done writing to specific address on these cameras) and a loop. In contrast, writing a file to the SD card requires a whole stack with an SD driver, a filesystem driver and so on. Without having already analyzed the firmware, you don't know how to interface with those things, and on Powershot cameras, they aren't really available after a firmware update file is loaded. Blinking was used frequently in the early days of CHDK, but around 2010 Alfredo Ortega and Oren Isacson of Core Labs worked out how to run scripts in Canon's native scripting language (which we call Canon Basic). I wrote a script to dump the original firmware from Canon Basic, and we've used that as the primary way of dumping firmware ever since.
 
-#### Canon DSLR's also allow this same kind of hack. Why did <dfn>VitalyB</dfn> start with point-and-shoot cameras?
+#### Canon DSLR's also allow this same kind of hack. Why did *VitalyB* start with point-and-shoot cameras?
 
 **waterwingz** I'm guessing, but probably he started there because he happened to own a Powershot and not a DSLR? Or maybe it was just the first device that he was able to find a backdoor into?
 
-**reyalp** While Canon DSLRs and P&S use the same basic CPU and operating systems, the rest of the code is very different. Running custom code on Canon DSLRs uses different mechanisms which weren't figured out until much later. My impression is <dfn>VitalyB</dfn> started on the camera he had (Powershot A610?). The lower cost of P&S also makes them more attractive to experiment with, and before the rise of smartphones, P&S were much more common than DSLRs so there was a better chance of interested developers having them.
+**reyalp** While Canon DSLRs and P&S use the same basic CPU and operating systems, the rest of the code is very different. Running custom code on Canon DSLRs uses different mechanisms which weren't figured out until much later. My impression is *VitalyB* started on the camera he had (Powershot A610?). The lower cost of P&S also makes them more attractive to experiment with, and before the rise of smartphones, P&S were much more common than DSLRs so there was a better chance of interested developers having them.
 
 #### Are there any ties between CHDK and Magic Lantern (a CHDK equivalent for Canon DSLRs)?
 
@@ -75,7 +75,7 @@ Lightning captured by a Canon PowerShot G7x with CHDK motion detection, by reyal
 <figure>
 <img src='Peter.Laudanski.Der.Dortmunder.Norden_01.jpg' width='2048' height='1536' alt='Der Dortmunder Norden by Peter Laudanski'>
 <figcaption>
-Kite aerial photograph captured by a Canon PowerShot G7X, powered by a CHDK script, by <a href='https://www.flickr.com/photos/56388614@N05/albums' target='_blank'>Peter Laudanski</a>, licensed by CC BY-NC 2.0. The script was written by <dfn>waterwingz</dfn> and is better described <a href='http://chdk.wikia.com/wiki/KAP_UAV_Exposure_Control_Script' target='_blank'>here</a></figcaption>
+Kite aerial photograph captured by a Canon PowerShot G7X, powered by a CHDK script, by <a href='https://www.flickr.com/photos/56388614@N05/albums' target='_blank'>Peter Laudanski</a>, licensed by CC BY-NC 2.0. The script was written by *waterwingz* and is better described <a href='http://chdk.wikia.com/wiki/KAP_UAV_Exposure_Control_Script' target='_blank'>here</a></figcaption>
 </figure>
 
 #### CHDK was born as HDK, or Hack Development Kit, and only later the "C" was added. Regarding the idea behind the name, what exactly does it mean to say that CHDK is not a simple firmware add-on, but a development kit? Does it have to do with the capability of loading and executing custom user scripts?
@@ -86,7 +86,7 @@ Kite aerial photograph captured by a Canon PowerShot G7X, powered by a CHDK scri
 
 **waterwingz** The exact details and mechanism will only work on Canon Powershot cameras. They all build on how Canon supports firmware upgrades (even though CHDK does not actually modify any of the camera's firmware). To do something similiar on a different brand of camera, you'd need to find a way to exploit any firmware update method they might provide.  If there is no such mechanism, you'd need to get lucky and find some other vector.
 
-**reyalp** As <dfn>waterwingz</dfn> says, the specifics only apply to these cameras, but in general, most embedded devices are hackable with enough effort. Manufacturers put varying levels of effort into preventing it, but the success of CHDK (and later Magic Lantern) involves a lot of stuff that just lined up by chance. Another important factor in these projects is that reverse engineering is additive: The more you build and understand, the easier it is to keep up with upstream changes in new models. It's also easier for people to add useful features, which gets more people involved and keeps the whole thing going. Getting to that critical point on an entirely new system requires a lot of effort and/or luck. Some of the lucky things that lined up to make CHDK take off were:
+**reyalp** As *waterwingz* says, the specifics only apply to these cameras, but in general, most embedded devices are hackable with enough effort. Manufacturers put varying levels of effort into preventing it, but the success of CHDK (and later Magic Lantern) involves a lot of stuff that just lined up by chance. Another important factor in these projects is that reverse engineering is additive: The more you build and understand, the easier it is to keep up with upstream changes in new models. It's also easier for people to add useful features, which gets more people involved and keeps the whole thing going. Getting to that critical point on an entirely new system requires a lot of effort and/or luck. Some of the lucky things that lined up to make CHDK take off were:
 - The cameras ran VxWorks on ARM 946E-S, both of which had significant public documentation. Canon later switched to their proprietary DryOS operating system, but by that point CHDK had enough built up knowledge to carry on.
 - Canon left a lot of diagnostic stuff in the code and didn't put a lot of effort into stopping unauthorized code from running.
 - There were a lot of PowerShots in circulation and they were affordable, which provided more chances of a developer with the reverse engineering skills having one.
@@ -113,7 +113,7 @@ Jupiter captured by a Canon PowerShot A590IS, powered by CHDK, aligned and stack
 
 **waterwingz** A combination of ARM assembler and C.
 
-**philmoz** I would add Lua to that - a lot of useful features are now in the scripts. <dfn>waterwingz</dfn> has built some impressive functionality with his scripts. I suppose we should also include uBasic as we still include some testing scripts written in it. uBasic is very primitive compared to Lua, so Lua scripts are preferred. Finally there is also the Canon Basic built into the firmware - we use this to do firmware dumping.
+**philmoz** I would add Lua to that - a lot of useful features are now in the scripts. *waterwingz* has built some impressive functionality with his scripts. I suppose we should also include uBasic as we still include some testing scripts written in it. uBasic is very primitive compared to Lua, so Lua scripts are preferred. Finally there is also the Canon Basic built into the firmware - we use this to do firmware dumping.
 
 <figure>
 <img src='reyalp-chdk-iss-ursa-major-20180608-8865.jpg' width='2000' height='1500' alt='ISS pass, by reyalp'>
@@ -126,11 +126,11 @@ International space station pass, CHDK used for exposure control and to trigger 
 
 **waterwingz** Ummm .. who said it was easy? But seriously, most of CHDK is based on guesses about how the original Canon hardware and firmware works. So much of the coding was done on a "try it and see" basis. What makes it more difficult is changes to the firmware as Canon changes RTOS's or generations of DIGIC processors.
 
-**philmoz** The Canon firmware remained pretty stable for a while. It continued to evolve but there weren't any real upheavals until Digic 6. This made it easier to improve the tools, and take some of the guesswork out of ports. We have a 'sig finder' tool that analyses a firmware dump and tries to find the things needed for a port. When I first started this was pretty primitive and a lot of things had to be done manually. I spent some time improving this tool, and I think that made porting a bit quicker until Digic 6. <dfn>waterwingz</dfn> also created a GUI tool for disassembling the firmware in a way that could be used in a port - I added a scripting language to this to automate the generation of some of the files needed for a port, which I think helped with new ports. With Digic 6 the architecture changed a lot and things slowed down quite a bit. A lot of reverse engineering on the new cameras has been done by <dfn>srsa_4c</dfn>, <dfn>reyalp</dfn>, <dfn>ant</dfn>, and others so things are getting better again.
+**philmoz** The Canon firmware remained pretty stable for a while. It continued to evolve but there weren't any real upheavals until Digic 6. This made it easier to improve the tools, and take some of the guesswork out of ports. We have a 'sig finder' tool that analyses a firmware dump and tries to find the things needed for a port. When I first started this was pretty primitive and a lot of things had to be done manually. I spent some time improving this tool, and I think that made porting a bit quicker until Digic 6. *waterwingz* also created a GUI tool for disassembling the firmware in a way that could be used in a port - I added a scripting language to this to automate the generation of some of the files needed for a port, which I think helped with new ports. With Digic 6 the architecture changed a lot and things slowed down quite a bit. A lot of reverse engineering on the new cameras has been done by *srsa_4c*, *reyalp*, *ant*, and others so things are getting better again.
 
-**reyalp** One of the things that makes it difficult is how many there are. The official CHDK source supports over 150 distinct models (many with multiple firmware versions that each require distinct ports), spanning Canon releases from 2004 through 2015. Essentially the same CHDK code runs on all of them, so if a new model does something different, you have to figure out how to accommodate it without breaking the existing cameras. On top of that, the developers don't own most of the cameras, so testing is difficult. As <dfn>Philmoz</dfn> mentioned, with Digic 6, Canon moved to a ARMv7 architecture processor and a new display system with a TAKUMI GPU, which took a lot of work supporting. <dfn>srsa_4c</dfn> did much of the initial reverse engineering work, while I took the concepts from <dfn>Philmoz</dfn>'s sig finder and implemented them in a new tool based on the open source Capstone disassembly library.
+**reyalp** One of the things that makes it difficult is how many there are. The official CHDK source supports over 150 distinct models (many with multiple firmware versions that each require distinct ports), spanning Canon releases from 2004 through 2015. Essentially the same CHDK code runs on all of them, so if a new model does something different, you have to figure out how to accommodate it without breaking the existing cameras. On top of that, the developers don't own most of the cameras, so testing is difficult. As *Philmoz* mentioned, with Digic 6, Canon moved to a ARMv7 architecture processor and a new display system with a TAKUMI GPU, which took a lot of work supporting. *srsa_4c* did much of the initial reverse engineering work, while I took the concepts from *Philmoz*'s sig finder and implemented them in a new tool based on the open source Capstone disassembly library.
 
-**nafraf** The scripting language developed by <dfn>Philmoz</dfn> helped a lot to port until Digic 5+ cameras. Using <dfn>code_gen</dfn> tool it was possible to port new models and improve the existing ports. On release 1.3, for example, <dfn>code_gen</dfn> was the key tool to add more than 60s exposure on all cameras.
+**nafraf** The scripting language developed by *Philmoz* helped a lot to port until Digic 5+ cameras. Using *code_gen* tool it was possible to port new models and improve the existing ports. On release 1.3, for example, *code_gen* was the key tool to add more than 60s exposure on all cameras.
 
 <figure>
 <img src='Andrew.Hazelden.CHDK.Peggys.Cove.jpg' alt='Peggys Cove by Andrew Hazelden'>
@@ -141,11 +141,11 @@ This photo of the Peggy's Cove lighthouse was taken using CHDK with a Canon Powe
 
 #### In which OS do these tools run?
 
-**waterwingz** CHDK is built using the <dfn>gcc</dfn> compiler so I guess the tools run on anything that supports that compiler - Windows and Linux for sure. I do all my work under Linux although I have a laptop somewhere that runs the Windows tools. The autobuild server that rebuilds CHDK after each update and provides current downloads runs under Linux.  And there are quite a few other tools that people have created, some of which are Windows only (or using Wine under Linux) and some of which are Java based and will run on Windows, Linux, or MacOS.
+**waterwingz** CHDK is built using the *gcc* compiler so I guess the tools run on anything that supports that compiler - Windows and Linux for sure. I do all my work under Linux although I have a laptop somewhere that runs the Windows tools. The autobuild server that rebuilds CHDK after each update and provides current downloads runs under Linux.  And there are quite a few other tools that people have created, some of which are Windows only (or using Wine under Linux) and some of which are Java based and will run on Windows, Linux, or MacOS.
 
 **philmoz** I use MacOS for CHDK development. I also have a Linux VM I use for testing batch builds of the entire set of supported cameras, to make sure big changes don't break the autobuild server.
 
-**reyalp** I use Windows on my primary development system, but all the core CHDK tools and build process have supported Linux for as long as I've been involved. My normal CHDK development environment is MSYS shells and <dfn>gvim</dfn>. I also use Linux in VMs and a Raspberry Pi for some things.
+**reyalp** I use Windows on my primary development system, but all the core CHDK tools and build process have supported Linux for as long as I've been involved. My normal CHDK development environment is MSYS shells and *gvim*. I also use Linux in VMs and a Raspberry Pi for some things.
 
 <figure>
 <img src='Garry.George.2.jpg' width='5472' height='3648' alt='Winchester Cathedral by Garry George'>
@@ -160,7 +160,7 @@ Winchester Cathedral captured by a Canon PowerShot G7X, powered by a CHDK script
 
 **philmoz** Magic Lantern uses QEMU to run their code in an emulator. In theory CHDK could do this as well; but to date no-one has invested the time to create the hardware simulation bits needed. Debugging CHDK is old school - blinking LED's, printing messages (if you have the display working), writing log files, and lots of trial and error.
 
-**reyalp** Not emulation, but I use <dfn>chdkptp</dfn> a lot for interactive testing. Being able to dump bits of memory or call functions interactively from a PC console is very useful.
+**reyalp** Not emulation, but I use *chdkptp* a lot for interactive testing. Being able to dump bits of memory or call functions interactively from a PC console is very useful.
 
 #### What's the easiest way for someone to get involved with CHDK?
 
@@ -189,7 +189,7 @@ Moon and Saturn, 30x1/24 seconds aligned stacked with gmic and gimp. CHDK script
 
 **waterwingz** The huge improvements in mobile phone cameras have really impacted the market for all but the highest end or largest zoom P&S cameras. Having said that, a core of serious photographers still work on what interests them and depend on CHDK to help capture their artistic vision.  As far as non programmers and script writing, uBASIC is about as simple as a computer language gets and there are lots of example scripts to study. Lua provides a much richer programming environment, albeit with a bit of a learning curve.
 
-**reyalp** Easy... depends on the user. Because CHDK is a reverse engineered hack on top of an undocumented system, many behaviors are not well specified or understood. <dfn>waterwingz</dfn> improved things a lot by creating a comprehensive reference of CHDK script functions, but developing non-trivial scripts still requires significant effort and a willingness to experiment. I've been using CHDK for 10+ years, and still find myself greping the CHDK source and making test cases to figure out what functions actually do. All that said, I don't think learning to write modest CHDK scripts is particularly harder than starting out with javascript or batch files or that sort of thing. (We should note CHDK uBASIC is based on Adam Dunkels code, not the UBASIC written by Yuji Kida for mathematical computing)
+**reyalp** Easy... depends on the user. Because CHDK is a reverse engineered hack on top of an undocumented system, many behaviors are not well specified or understood. *waterwingz* improved things a lot by creating a comprehensive reference of CHDK script functions, but developing non-trivial scripts still requires significant effort and a willingness to experiment. I've been using CHDK for 10+ years, and still find myself greping the CHDK source and making test cases to figure out what functions actually do. All that said, I don't think learning to write modest CHDK scripts is particularly harder than starting out with javascript or batch files or that sort of thing. (We should note CHDK uBASIC is based on Adam Dunkels code, not the UBASIC written by Yuji Kida for mathematical computing)
 
 #### How many developers work on CHDK? How does it work?
 
@@ -233,7 +233,7 @@ The Moon captured by a Canon PowerShot A590IS, powered by CHDK, aligned and stac
 
 **philmoz** I think there will also be demand for the higher end P&S cameras with larger sensors, although I don't think the market will be huge. The number of people with these cameras interested in CHDK is probably going to be pretty small. Canon's EOS-M mirrorless cameras can also run CHDK so there is some interest there.
 
-**reyalp** Low end, mass market P&S are clearly on the way out. I agree with <dfn>blackhole</dfn> and <dfn>philmoz</dfn> that higher end stuff will be around for a while to come, but the possibility of running CHDK on future cameras is always uncertain. As I mentioned earlier, Canon DSLRs and P&S cameras have been based on different codebases, which are different enough that it doesn't make sense to run the same hack on both. CHDK supports the EOS M3 and M10 because they are built on the P&S codebase, while Magic Lantern does not support them. There are signs Canon is moving to a unified codebase (likely motivated by the same market changes) in Digic 8 cameras, which may preclude CHDK as we currently know it. However, with millions of CHDK capable P&S in circulation, there will still be potential uses for a long time to come. Separate from smartphones, the rise of things like Rasbperry Pi, dedicated UAV and action cameras etc. have reduced cases where a hacked P&S is a clear win over other options. In 2008, if you wanted a programmable, multi-megapixel camera with decent optics your choices were very limited and mostly expensive. In 2019, you have a lot of options other than CHDK, but at the same time, a lot of these things can work well with CHDK too. I think the collapse of P&S has also affected the pool of potential CHDK contributors: In 2008, a developer with a casual interest in photography would have a P&S, while today they would be more likely to have a smartphone. Someone who wants to tinker with camera software also has a lot more choices.
+**reyalp** Low end, mass market P&S are clearly on the way out. I agree with *blackhole* and *philmoz* that higher end stuff will be around for a while to come, but the possibility of running CHDK on future cameras is always uncertain. As I mentioned earlier, Canon DSLRs and P&S cameras have been based on different codebases, which are different enough that it doesn't make sense to run the same hack on both. CHDK supports the EOS M3 and M10 because they are built on the P&S codebase, while Magic Lantern does not support them. There are signs Canon is moving to a unified codebase (likely motivated by the same market changes) in Digic 8 cameras, which may preclude CHDK as we currently know it. However, with millions of CHDK capable P&S in circulation, there will still be potential uses for a long time to come. Separate from smartphones, the rise of things like Rasbperry Pi, dedicated UAV and action cameras etc. have reduced cases where a hacked P&S is a clear win over other options. In 2008, if you wanted a programmable, multi-megapixel camera with decent optics your choices were very limited and mostly expensive. In 2019, you have a lot of options other than CHDK, but at the same time, a lot of these things can work well with CHDK too. I think the collapse of P&S has also affected the pool of potential CHDK contributors: In 2008, a developer with a casual interest in photography would have a P&S, while today they would be more likely to have a smartphone. Someone who wants to tinker with camera software also has a lot more choices.
 
 <figure>
 <img src='keoeeit.Drop1.jpg' alt='Drop, by keoeeit'>
@@ -248,7 +248,7 @@ Shutter/flash speed test. <a href='http://chdk.wikia.com/wiki/Samples:_High-Spee
 
 #### Here is <a href='http://arduino-projects4u.com/chdk/' target='_blank'>an example of Arduino and CHDK usage</a>, with a nice PTP GUI.
 
-**reyalp** The webcams on <a href='http://escursionisticivatesi.it/webcam/' target='_blank'>http://escursionisticivatesi.it/webcam/</a> are based Raspberry Pi's using <dfn>chdkptp</dfn> to control CHDK cameras (<dfn>chdkptp</dfn> is a tool which I maintain that allows controlling CHDK cameras over USB from Linux and Windows.
+**reyalp** The webcams on <a href='http://escursionisticivatesi.it/webcam/' target='_blank'>http://escursionisticivatesi.it/webcam/</a> are based Raspberry Pi's using *chdkptp* to control CHDK cameras (*chdkptp* is a tool which I maintain that allows controlling CHDK cameras over USB from Linux and Windows.
 
 <div>
     <div class='fluid-vid'>
@@ -256,7 +256,7 @@ Shutter/flash speed test. <a href='http://chdk.wikia.com/wiki/Samples:_High-Spee
     </div>
 </div>
 
-One of the firsts tests with a full rig (72 cameras) shooting at same time. By <dfn>nafraf</dfn>, licensed under CC BY-NC 2.0.
+One of the firsts tests with a full rig (72 cameras) shooting at same time. By *nafraf*, licensed under CC BY-NC 2.0.
 
 <div>
     <div class='fluid-vid'>
@@ -264,7 +264,7 @@ One of the firsts tests with a full rig (72 cameras) shooting at same time. By <
     </div>
 </div>
 
-A simple test to show the detail of a segment of the rig, how the cameras were mounted and their response after sending the turn off command using <dfn>chdkptp</dfn>. By <dfn>nafraf</dfn>, licensed under CC BY-NC 2.0.
+A simple test to show the detail of a segment of the rig, how the cameras were mounted and their response after sending the turn off command using *chdkptp*. By *nafraf*, licensed under CC BY-NC 2.0.
 
 #### Do you developers have time to play with CHDK? What are your preferred use?
 
@@ -277,20 +277,20 @@ A simple test to show the detail of a segment of the rig, how the cameras were m
 <figure>
 <img src='Peter.Laudanski.Heuernte.in.Holthausen_01.jpg' alt='Heuernte in Holthausen, by Peter Laudanski'>
 <figcaption>
-Kite aerial photograph captured by a Canon PowerShot G7X, powered by a CHDK script, by <a href='https://www.flickr.com/photos/56388614@N05/albums' target='_blank'>Peter Laudanski</a>, licensed by CC BY-NC 2.0. The script was written by <dfn>waterwingz</dfn> and is better described <a href='http://chdk.wikia.com/wiki/KAP_UAV_Exposure_Control_Script' target='_blank'>here</a></figcaption>
+Kite aerial photograph captured by a Canon PowerShot G7X, powered by a CHDK script, by <a href='https://www.flickr.com/photos/56388614@N05/albums' target='_blank'>Peter Laudanski</a>, licensed by CC BY-NC 2.0. The script was written by *waterwingz* and is better described <a href='http://chdk.wikia.com/wiki/KAP_UAV_Exposure_Control_Script' target='_blank'>here</a></figcaption>
 </figure>
 
 <figure>
 <img src='Peter.Laudanski.Kite.Mount.jpg' alt='Kite Mount, by Peter Laudanski'>
 <figcaption>
-Kite mount showing, at top left, a box containing battery and a transmitter for the monitor at bottom right, that stays on the ground.by <a href='https://www.flickr.com/photos/56388614@N05/albums' target='_blank'>Peter Laudanski</a>, licensed by CC BY-NC 2.0. The script was written by <dfn>waterwingz</dfn> and is better described <a href='http://chdk.wikia.com/wiki/KAP_UAV_Exposure_Control_Script' target='_blank'>here</a>
+Kite mount showing, at top left, a box containing battery and a transmitter for the monitor at bottom right, that stays on the ground.by <a href='https://www.flickr.com/photos/56388614@N05/albums' target='_blank'>Peter Laudanski</a>, licensed by CC BY-NC 2.0. The script was written by *waterwingz* and is better described <a href='http://chdk.wikia.com/wiki/KAP_UAV_Exposure_Control_Script' target='_blank'>here</a>
 </figure>
 
 #### When did you joined CHDK as a developer? Why? What is your background? What is your role?
 
 **waterwingz** July 2010 according to the records on the CHDK forum.  But it seems like it was only nine years ago. I got started because it combined two of my hobbies - computers and cameras. Since then I've ported several cameras, contributed some original code, helped fix some bugs, coded many scripts, written a lot of documentation on the wiki, and helped a few newbies on the <a href='https://chdk.setepontos.com/index.php' target='_blank'>CHDK forum</a>.
 
-**philmoz** I started with the G12 port in November 2010. I've been a software developer for nearly 40 years and like <dfn>waterwingz</dfn>, photography is a hobby. CHDK looked like fun and I wanted something to keep me programming - my day job was more management than development. I was pretty active until 2016, when real-life got in the way. I now do mobile app development full time, so don't spend much time on CHDK coding these days.
+**philmoz** I started with the G12 port in November 2010. I've been a software developer for nearly 40 years and like *waterwingz*, photography is a hobby. CHDK looked like fun and I wanted something to keep me programming - my day job was more management than development. I was pretty active until 2016, when real-life got in the way. I now do mobile app development full time, so don't spend much time on CHDK coding these days.
 
 **blackhole** I joined in August 2010. Prior to that I was just reading the forum as a guest and using CHDK on the old A530 and A590 cameras. At that time I was looking for a better solution for cheap-modified webcams, which were then popular in amateur astronomy. The logical solution was to switch to something cheap with a CCD sensor, so the decision fell on Canon cameras and CHDK. I became interested in the programming, so I started to collect knowledge on the forum and in the end I made my first port.
 
@@ -330,7 +330,7 @@ This video was created by changing the zoom levels between 24mm and 1200mm (35mm
 
 We want to thank CHDK devs again for taking the time and being patient enough to chat with us, as well as sharing images of their CHDK use!
 
-We also want to thank CHDK users Garry George, Peter Laudanski, Andrew Hazelden, <dfn>c_joerg,</dfn> and <dfn>keoeeit</dfn> for having kindly shared some images and answered questions about how they shoot them!
+We also want to thank CHDK users Garry George, Peter Laudanski, Andrew Hazelden, *c_joerg,* and *keoeeit* for having kindly shared some images and answered questions about how they shoot them!
 
 <figure>
 <img src="chdk_logo.png" width="387" height="387">
