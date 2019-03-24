@@ -69,7 +69,7 @@ David (and Sébastien Fourey!) are a sound investment in providing high value to
 ## LILA
 For a long time David was unable to accept donations from community members.
 There were some concerns from the research institution his lab is a part of in France.
-Just recently, though, they managed to reach an agreement where the funds flow through a French non-profit called [Libre Comme L'Art](https://libreart.info/en/), LILA, that is run by the fabulous Jehan Pagès of the [GIMP][] team and the [ZeMarmot][] animated film.
+Just recently, though, they managed to reach an agreement where the funds flow through a French non-profit called [Libre Comme L'Art](https://libreart.info/en/), LILA, that includes the fabulous Jehan Pagès of the [GIMP][] team as a member and where the [ZeMarmot][] animated film is being produced.
 
 <figure>
 <a href='https://libreart.info/en/'>
