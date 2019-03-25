@@ -382,9 +382,9 @@ darkroom to find out the value of the natural white field on the color target.
   target.
 
 * For real color profiling this is *very* important to get right. Additionally
-  you want to check the JPEG is registering a L=96 (+0/-2) tolerance. You do
-  not want overexposure here! If your images are over exposed, your profile
-  will actually darken the images (this is not what you want).
+  you want to check the JPEG is registering a L=96 (+0/+2) tolerance. You do
+  not want overexposure here (L=100 is white)! If your images are over exposed,
+  your profile will actually darken the images (this is not what you want).
 
 * For profile extraction, this is less important as darktable-chart will extract
   the differences between the raw and the JPEG, and will assume the camera's
