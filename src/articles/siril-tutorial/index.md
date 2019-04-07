@@ -26,7 +26,9 @@ In this tutorial, I'll show you how to process a nightscape in Siril 0.9.10.
 
 It doesn't intend to be comprehensive tutorial, but to present a basic general workflow that is a good starting point for those who want to learn Siril.
 
-For this purpose, I’m sharing the raw files I used for the image I presented [here](https://discuss.pixls.us/t/first-outing-of-the-new-year-the-creations/10658), except that for this tutorial I limited the number of frames for the sake of bandwidth and processing speed. You can find and download the raw files [here](https://drive.google.com/open?id=1sBvwkm948kJNjinGirDVNc0QLAiA4fTP).
+For this purpose, I’m sharing the raw files I used for the image I presented [here](https://discuss.pixls.us/t/first-outing-of-the-new-year-the-creations/10658), except that for this tutorial I limited the number of frames for the sake of bandwidth and processing speed.
+
+You can find and download the raw files [here](https://drive.google.com/open?id=1sBvwkm948kJNjinGirDVNc0QLAiA4fTP).
 
 #### Setup
 
@@ -49,13 +51,13 @@ I will present the steps I used to process an image of the Milky Way. I don’t 
 
 We will start with processing the calibration files, and then processing the lights.
 
-#### 1. Preparing the bias frames
+#### Preparing the bias frames
 
-1. Set the working directory to the Bias sub-folder by clicking on `Change dir…`:
+1. Set the working directory to the Bias sub-folder by clicking on `Change dir…`.
 
 ![](https://i.imgur.com/JscqgBj.jpg)
 
-2. We will use the 20 bias frames to generate a master-bias frame. To load the bias frames, click on the `+` button as shown (make sure that you select **RAW DSLR Camera Files** in the combo box) and select the bias frames located in the Bias subfolder:
+2. We will use the 20 bias frames to generate a master-bias frame. To load the bias frames, click on the `+` button as shown (make sure that you select **RAW DSLR Camera Files** in the combo box) and select the bias frames located in the Bias subfolder.
 
 ![](https://i.imgur.com/wnfTwRf.jpg)
 
@@ -65,14 +67,15 @@ When done converting the bias frames, a window will pop up showing a preview of 
 
 At this point, the bias frames are loaded and ready to be processed to make a master-bias frame.
 
-4. In the **Stacking** tab, and choose **Average stacking with rejection** as stacking method, and **No normalisation** under the normalisation combo box. You can leave the Sigma parameters at their default (unless you know or want to experiment for better values). It should look like this:
+4. In the **Stacking** tab, and choose **Average stacking with rejection** as stacking method, and **No normalisation** under the normalisation combo box. You can leave the Sigma parameters at their default (unless you know or want to experiment for better values).
+
+It should look like this:
 
 ![](https://i.imgur.com/Arxr4GQ.jpg)
 
-
 5. Clicking on the **Start stacking** button. The resulting master-bias frame will be saved as `bias_stacked.fit` in the `Bias` subfolder.
 
-#### 2. Preparing the flat field frames
+#### Preparing the flat field frames
 
 Since the flats also contain the sensor readout noise (contained in the bias frames), we should remove it by subtracting the master-bias.
 
@@ -80,19 +83,19 @@ Since the flats also contain the sensor readout noise (contained in the bias fra
 
 2. Set the working directory, now to the Flats sub-folder by clicking on “Change dir…”, and set Sequence name as flats.
 
-3. Like for the bias frames, ensure **Debayer** is unchecked, then click on **Convert**
-.
-4. In the **Pre-processing** tab, check only the **Use offset** box, click on **Browse** to select the `Bias/bias_stacked.fit` file, and click on **Start pre-processing**:
+3. Like for the bias frames, ensure **Debayer** is unchecked, then click on **Convert**.
+
+4. In the **Pre-processing** tab, check only the **Use offset** box, click on **Browse** to select the `Bias/bias_stacked.fit` file, and click on **Start pre-processing**.
 
 ![](https://i.imgur.com/spLV1F6.jpg)
 
 5. To generate the master-flat, go to the **Stacking** tab, this time set **Normalisation** to *Multiplicative* and the Stacking Method is  **Average with rejection**.
 
-6. Click on **Start stacking** to produce the `pp_flat_stacked.fit` master-flat frame in the Flats subfolder:
+6. Click on **Start stacking** to produce the `pp_flat_stacked.fit` master-flat frame in the Flats subfolder.
 
 ![](https://i.imgur.com/wqpmygU.jpg)
 
-#### 3. Preparing the dark frames
+#### Preparing the dark frames
 
 As for the bias and flats, you need to load the dark frames.
 
@@ -106,7 +109,7 @@ As for the bias and flats, you need to load the dark frames.
 
 5. The darks need to be stacked the same way as the bias frames. In the **Stacking** tab, choose **Average with rejection** and **No normalisation**.
 
-6. Click **Start Stacking**:
+6. Click **Start Stacking**.
 
 ![](https://i.imgur.com/AThdxJT.jpg)
 
@@ -114,7 +117,7 @@ The master-dark frame is saved as `Darks/dark_stacked.fit`.
 
 Note: if you take images often in the same conditions (same air temperature, same exposure settings), you save the `dark_stacked` and `pp_flat_stacked` files, and re-use them to process future light frames faster. I read on some forums that some astrophotographers keep their calibration files and use those for around 1 year, before taking new calibration frames.
 
-#### 4. Preparing the light frames
+#### Preparing the light frames
 
 Now it’s time to start processing the light frames, by first subtracting the darks (which also contain the bias signal) and the flats (from which bias has already been subtracted).
 
@@ -122,11 +125,11 @@ Now it’s time to start processing the light frames, by first subtracting the d
 
 2. Set the Sequence name to `lights`, and point the working directory to the `Lights (Change dir...)`.
 
-3. Convert the files, still without debayering
+3. Convert the files, still without debayering.
 
 4. Then go to the **Pre-Processing** tab, check **Use dark**, select the `Darks/dark_stacked.fit` file, check **Use flat**, and select the `Flats/pp_flat_stacked.fit` file.
 
-5. Make sure that the other boxes are checked as in the following screenshot:
+5. Make sure that the other boxes are checked as in the following screenshot.
 
 ![](https://i.imgur.com/CrH8DGw.jpg)
 
@@ -150,7 +153,7 @@ The pre-processed lights will be saved as FITS files, and the corresponding `db_
 
 4. In the **Register** tab,  click **Go register**, keeping the default option.
 
-If you have more 8GB of RAM, you can try checking the **Simplified Drizzle x2** box (it will up-sample the images by a factor 2, increasing the RAM usage by a factor 4). Siril will detect the stars and register each of the 10 images. The preview windows will be updated. By the way, you can play with the zoom and select **AutoStretch** to get a better preview of the selected image:
+If you have more 8GB of RAM, you can try checking the **Simplified Drizzle x2** box (it will up-sample the images by a factor 2, increasing the RAM usage by a factor 4). Siril will detect the stars and register each of the 10 images. The preview windows will be updated. By the way, you can play with the zoom and select **AutoStretch** to get a better preview of the selected image.
 
 ![](https://i.imgur.com/L86SJx1.jpg)
 
@@ -160,9 +163,9 @@ If you have more 8GB of RAM, you can try checking the **Simplified Drizzle x2** 
 
 The resulting aligned and stacked image will be saved as `Lights\r_db_pp_light_stacked.fit`.
 
-7. At this step, you can also save the resulting image as JPEG, TIFF, PNG, etc. for further processing in your favorite image editor. On the menu, just click on *File* > *Save As*, and pick the image format you wish (or right-click on the RGB windows and pick the format that best suits you)
+7. At this step, you can also save the resulting image as JPEG, TIFF, PNG, etc. for further processing in your favorite image editor. On the menu, just click on *File* > *Save As*, and pick the image format you wish (or right-click on the RGB windows and pick the format that best suits you).
 
-#### 5. Post-processing the image
+#### Post-processing the image
 
 Siril can do some more or less specialized post-processing to your image. I found it interesting to use.
 
@@ -173,7 +176,7 @@ Siril can do some more or less specialized post-processing to your image. I foun
 
 The resulting image can be saved as JPEG, TIFF, PNG, etc. for further processing in your favorite image editor or as a finished image if you’re satisfied.
 
-#### 6. Processing for the foreground
+#### Processing for the foreground
 
 The *problem* with this whole process, is that because the images have been aligned with the stars as reference, the foreground will be blurred because earth moved between successive frames. What I do is to reprocess the light frames from just after the calibration step (i.e. after the dark and flat frames subtraction) but only skipping the stars registration step. By doing so, the foreground will undergo the same pre- and post-processing, and the resulting image will have a sharp foreground and trailing sky.
 
