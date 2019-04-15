@@ -20,13 +20,19 @@ layout: article.hbt
 
 ---
 
-Siril is a program for processing astronomical photographies.
+[Siril][] is a program for processing astronomical photographs.
+
+[Siril]: https://www.siril.org/ "Siril, A free astronomical image processing software"
 
 In this tutorial, I'll show you how to process a nightscape in Siril 0.9.10.
 
-It doesn't intend to be comprehensive tutorial, but to present a basic general workflow that is a good starting point for those who want to learn Siril.
+It doesn't intend to be comprehensive tutorial but rather to present a basic general workflow that is a good starting point for those who want to learn Siril.
 
 For this purpose, I’m sharing the raw files I used for the image I presented [here](https://discuss.pixls.us/t/first-outing-of-the-new-year-the-creations/10658), except that for this tutorial I limited the number of frames for the sake of bandwidth and processing speed.
+
+<figure>
+<img src="resultat_03_final.jpg" alt="The Creations by Sebastien Guyader">
+</figure>
 
 You can find and download the raw files [here](https://drive.google.com/open?id=1sBvwkm948kJNjinGirDVNc0QLAiA4fTP).
 
