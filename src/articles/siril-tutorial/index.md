@@ -39,7 +39,7 @@ The Creations, by Sebastien Guyader
 
 You can find and download the raw files [here](https://pixls.us/files/Siril_Tutorial-20190416T142820Z-001.zip) (~1GB).
 
-#### Setup
+## Setup
 
 The raw files are placed in specific sub-folders according to their use:
 
@@ -56,14 +56,14 @@ At the root of the folder, I placed two text files with the `.ssf` extension, th
 I suggest you download [the whole folder](https://pixls.us/files/Siril_Tutorial-20190416T142820Z-001.zip) (~1GB), and move the scripts as indicated above. This way, if you set the working directory in Siril to the root of the folder, launching the script named `processing_from_raw.ssf` will automagically process the raws and create the output image in both `.fit` and `.tif` (16-bit) formats. Please note that in order to successfuly run the scripts, there must be a folder structure like the one used in this tutorial.
 
 
-#### Step-by-step processing
+## Step-by-step processing
 
 I will present the steps I used to process an image of the Milky Way. I don’t know if it’s the best way, but it’s probably close to what the developers of Siril advise to do for the general case of starting from raw files (actually, I started from one of their scripts and just slightly adapted it).
 
 We will start with processing the calibration files, and then processing the lights.
 
 
-#### Preparing the bias frames
+## Preparing the bias frames
 
 1. Set the working directory to the Bias sub-folder by clicking on `Change dir…`.
 
@@ -94,7 +94,7 @@ It should look like this:
 5. Click on the **Start stacking** button. The resulting master-bias frame will be saved as `bias_stacked.fit` in the `Bias` subfolder.
 
 
-#### Preparing the flat field frames
+## Preparing the flat field frames
 
 Since the flats also contain the sensor readout noise (contained in the bias frames), we should remove it by subtracting the master-bias.
 
@@ -119,7 +119,7 @@ Since the flats also contain the sensor readout noise (contained in the bias fra
 </figure>
 
 
-#### Preparing the dark frames
+## Preparing the dark frames
 
 As with the bias and flats, you need to load the dark frames.
 
@@ -144,7 +144,7 @@ The master-dark frame is saved as `Darks/dark_stacked.fit`.
 Note: if you take images often in the same conditions (same air temperature, same exposure settings), you can save the `dark_stacked` and `pp_flat_stacked` files, and re-use them to process future light frames faster. I read on some forums that some astrophotographers keep their calibration files and use those for around 1 year, before taking new calibration frames.
 
 
-#### Preparing the light frames
+## Preparing the light frames
 
 Now it’s time to start processing the light frames, by first subtracting the darks (which also contain the bias signal) and the flats (from which bias has already been subtracted).
 
@@ -169,7 +169,7 @@ Note that “Cosmetic Correction” can also be done from the “Image Processin
 This will produce new FITS files with the prefix `pp_light_` and the corresponding `.seq` file. These files are loaded.
 
 
-#### Demoasicing the files
+## Demoasicing the files
 
 It’s time to demosaic our processed files. There’s something strange in the GUI, in that after pre-processing, when you uncheck “Use dark” and “Use flat” boxes, the “Debayer FITS images before saving” and the “Start pre-processing” button become grayed out.
 
@@ -200,7 +200,7 @@ The resulting aligned and stacked image will be saved as `Lights\r_db_pp_light_s
 7. At this step, you can also save the resulting image as JPEG, TIFF, PNG, etc. for further processing in your favorite image editor. On the menu, just click on *File* > *Save As*, and pick the image format you wish (or right-click on the RGB windows and pick the format that best suits you).
 
 
-#### Post-processing the image
+## Post-processing the image
 
 Siril can do some more or less specialized post-processing to your image. I found it interesting to use.
 
@@ -212,7 +212,7 @@ Siril can do some more or less specialized post-processing to your image. I foun
 The resulting image can be saved as JPEG, TIFF, PNG, etc. for further processing in your favorite image editor or as a finished image if you’re satisfied.
 
 
-#### Processing for the foreground
+## Processing for the foreground
 
 The *problem* with this whole process, is that because the images have been aligned with the stars as reference, the foreground will be blurred because earth moved between successive frames. What I do is to reprocess the light frames from just after the calibration step (i.e. after the dark and flat frames subtraction) but only skipping the stars registration step. By doing so, the foreground will undergo the same pre- and post-processing, and the resulting image will have a sharp foreground and trailing sky.
 
