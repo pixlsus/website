@@ -169,7 +169,7 @@ Note that “Cosmetic Correction” can also be done from the “Image Processin
 This will produce new FITS files with the prefix `pp_light_` and the corresponding `.seq` file. These files are loaded.
 
 
-## Demoasicing the files
+## Demosaicing the files
 
 It’s time to demosaic our processed files. There’s something strange in the GUI, in that after pre-processing, when you uncheck “Use dark” and “Use flat” boxes, the “Debayer FITS images before saving” and the “Start pre-processing” button become grayed out.
 
