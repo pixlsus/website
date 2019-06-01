@@ -284,6 +284,13 @@ stylesheet: software-page
 				Fotoxx is a program for image editing and collection management.
 			</p>
         </div>
+        <div class="sw-entry photoflare">
+            <a href="https://photoflare.io/">PhotoFlare</a>
+            <i class="fa fa-nix-win"></i>
+			<p>
+                This is an effort to bring quick, simple but powerful image editing to the masses. PhotoFlare is inspired by the image editor currently only available on Microsoft Windows – PhotoFiltre.
+            </p>
+        </div>
 
     </div>
 

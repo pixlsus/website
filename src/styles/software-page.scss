@@ -384,6 +384,10 @@ img.natural {
     background: url('/software/software-logos.png') -1620px 0 no-repeat;
 	display:inline-block;
 }
+.sw-entry.photoflare > a:before {
+    background: url('/software/software-logos.png') -1665px 0 no-repeat;
+	display:inline-block;
+}
 /*
  * Add new software logo entries (from /software/software-logos.png) here
  */
