@@ -24,6 +24,21 @@ This past week out in Saarbruecken was an _amazing_ trip filled with awesome peo
 
 My first LGM was 2014/Leipzig so this was my 5<sup>th</sup> anniversary of attending the meeting!
 It was actually there that I first had the idea for building what would eventually become PIXLS.US during conversations with Rolf Steinort (of [Meet the GIMP][] fame).
+It's also where I first got to meet Jo and houz from [darktable][] and take this fun photo of the team (from my wife, Dot's, idea):
+
+[darktable]: https://www.darktable.org
+
+
+<figure>
+<a href="https://www.flickr.com/photos/patdavid/14050852344/in/album-72157643712169045/" title="darktable II on Flickr">
+<img src="darktable2.jpg" alt="darktable II">
+</a>
+<figcaption>
+With apologies to the one and only [Mick Rock](https://en.wikipedia.org/wiki/Queen_II) of course...
+</figcaption>
+</figure>
+
+
 
 I also want to take a moment to acknowledge that my being able to attend is entirely due to the generosity and graciousness of the [GIMP][] team.
 They are the best bunch of nerds someone could hope to be associated with and I'm looking forward to helping [Jehan][] get the GIMP extensions up and running this year to replace the old registry (more on that later)!
