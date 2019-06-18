@@ -28,7 +28,7 @@ layout: article.hbt
 
 ---
 
-[Article updated on: 2018-10-25]
+[Article updated on: 2019-06-18]
 
 What is a camera profile?
 -------------------------
@@ -230,12 +230,14 @@ of about 10 minutes. An assitent in the field can be useful.
    for JPEG and real color fitting. You can leave corrections for color
    failures turned on.
 
-5. Set the ISO to the lowest possible value. Some cameras have an extended
+5. Set your camera to color profile to AdobeRGB.
+
+6. Set the ISO to the lowest possible value. Some cameras have an extended
    ISO range, don't use any of those values. For example my camera offers ISO
    50, ISO 64 and ISO 80. Those are extended ISO values. The lowest ISO not in
    the extended range for my camera is ISO 100. Check your camera manual!
 
-6. Wear dark cloths, the best is a black hoody with long sleeves :-)
+7. Wear dark cloths, the best is a black hoody with long sleeves :-)
 
 #### In the field
 
@@ -382,9 +384,10 @@ darkroom to find out the value of the natural white field on the color target.
   target.
 
 * For real color profiling this is *very* important to get right. Additionally
-  you want to check the JPEG is registering a L=96 (+0/+2) tolerance. You do
-  not want overexposure here (L=100 is white)! If your images are over exposed,
-  your profile will actually darken the images (this is not what you want).
+  you want to check the JPEG is registering a L value between 96 and 98 (0/+2
+  tolerance). You do not want overexposure here (L=100 is white)! If your
+  images are over exposed, your profile will actually darken the images (this
+  is not what you want).
 
 * For profile extraction, this is less important as darktable-chart will extract
   the differences between the raw and the JPEG, and will assume the camera's
