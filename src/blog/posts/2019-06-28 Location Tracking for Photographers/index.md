@@ -15,6 +15,10 @@ When it comes to Android apps for photographers, we are spoiled for choice. From
 
 There are several apps that offer GPS logging and viewing, but you can't go wrong with [GPS Logger for Android](https://gpslogger.app/) and [Trekarta](https://trekarta.info/). Both apps are released under an open source license, and they are available free of charge on Google Play and F-Droid.
 
+<figure>
+<img src="gpstracker.png" alt="GPS TRacker for Android in all its bare-bone beauty" />
+</figure>
+
 How you set up GPS Logger for Android is a matter of personal preference. One way to go is to configure the app to automatically start tracking on boot and upload tracks to the desired destination (e.g., a NAS or a file sharing service).
 
 Once GPS Logger for Android is running, adding a comment to the current location is as easy as pulling down the notification drawer and tapping **Comment**. The app saves the tracks as GPX files in the _Android/data/com.mendhak.gpslogger/files_ directory on your Android device. To view a GPX file in Trekarta, use a file manager to navigate to the directory, and use Android's sharing functionality to send the desired GPX file to Trekarta.
