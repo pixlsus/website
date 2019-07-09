@@ -1,5 +1,5 @@
 ---
-date: 2019-06-28
+date: 2019-07-09
 title: "Quick digiKam Tip: Back up digikamrc file"
 
 lede-img: "/images/logo/pixls-atom.png"
