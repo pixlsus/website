@@ -16,12 +16,8 @@
 						<p class="site-slogan">Free/Open Source Photography</p>
 
                         <div id='social-icons'>
-				<a href="/feed.xml">
-					<img src="/images/social/rss.png" alt="RSS feed icon" />
-				</a>
-			
-                            <a href="https://plus.google.com/b/115344273324079495662/115344273324079495662/about">
-                                <img src="/images/social/g+.png" alt="social logo google+"/>
+                            <a href="/feed.xml">
+                                <img src="/images/social/rss.png" alt="RSS feed icon" />
                             </a>
 							<a href="https://www.flickr.com/groups/pixlsus/">
 								<img src="/images/social/flickr.png" alt="flickr logo"/>
@@ -29,7 +25,9 @@
                             <a href="https://twitter.com/pixlsus">
                                 <img src="/images/social/twitter.png" alt="twitter logo"/>
                             </a>
-                            <img src="/images/social/youtube.png" alt="youtube logo"/>
+                            <a href="https://www.youtube.com/channel/UC6m-8ycWZu70sHNXZz3CjWg">
+                                <img src="/images/social/youtube.png" alt="youtube logo"/>
+                            </a>
                         </div>
 
 					</div>
