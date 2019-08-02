@@ -235,12 +235,12 @@ stylesheet: software-page
             </p>
         </div>
         <div class="sw-entry siril">
-            <a href="https://free-astro.org/index.php/Siril">Siril</a>
-            <i class="fa fa-nix-osx"></i>
+            <a href="www.siril.org">Siril</a>
+            <i class="fa fa-nix-win-osx"></i>
             <p>
-		Siril is an astronomical image processing tool, able to convert,
-		pre-process images, help aligning them automatically or manually,
-		stack them and enhance final images.
+                Siril is an astronomical image processing tool, able to convert,
+                pre-process images, help aligning them automatically or manually,
+                stack them and enhance final images.
             </p>
         </div>
         <div class="sw-entry enblend">
