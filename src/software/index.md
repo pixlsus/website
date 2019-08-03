@@ -235,7 +235,7 @@ stylesheet: software-page
             </p>
         </div>
         <div class="sw-entry siril">
-            <a href="www.siril.org">Siril</a>
+            <a href="https://www.siril.org/">Siril</a>
             <i class="fa fa-nix-win-osx"></i>
             <p>
                 Siril is an astronomical image processing tool, able to convert,
