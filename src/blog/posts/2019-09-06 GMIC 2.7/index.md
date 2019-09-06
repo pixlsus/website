@@ -23,6 +23,8 @@ The [IMAGE](https://www.greyc.fr/?page_id=443&lang=en) team at the [GREYC](https
 [The previous PIXLS.US article](https://pixls.us/blog/2018/08/g-mic-2-3-6/) on this open-source framework was published a year ago, in August 2018. This new release is therefore a good opportunity to summarize the main features and milestones of the project's life over the past twelve months.
 Fasten your seat belts, the road is long and full of surprises!
 
+<!-- more -->
+
 ----
 
 Useful links:
