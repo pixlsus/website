@@ -304,7 +304,7 @@ stylesheet: software-page
             </p>
         </div>
         <div class="sw-entry gthumb">
-            <a href="https://wiki.gnome.org/Apps/gthumb">gThumb</a>
+            <a href="https://wiki.gnome.org/gthumb">gThumb</a>
             <i class="fa fa-linux"></i>
 			<p>
 				gThumb is an image viewer and browser. It also includes an importer tool for transferring photos from cameras.
