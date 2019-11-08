@@ -10,10 +10,7 @@ echo "Build successful (hopefully)!"
 if ([ $TRAVIS_BRANCH == "master" ])
 then
     echo "Publishing."
-    openssl aes-256-cbc -K $encrypted_b87c1b5f2320_key \
-        -iv $encrypted_b87c1b5f2320_iv \
-        -in pixls_rsa.enc  \
-        -out /tmp/pixls_rsa -d
+    openssl aes-256-cbc -K $encrypted_b87c1b5f2320_key -iv $encrypted_b87c1b5f2320_iv -in pixls_rsa.enc -out /tmp/pixls_rsa -d
     chmod 600 /tmp/pixls_rsa
     eval "$(ssh-agent -s)"
     ssh-add /tmp/pixls_rsa
