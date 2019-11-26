@@ -28,7 +28,7 @@ layout: article.hbt
 
 ---
 
-[Article updated on: 2018-11-06]
+[Article updated on: 2019-11-26]
 
 What is noise?
 --------------
@@ -174,7 +174,9 @@ Run
     /usr/lib/darktable/tools/darktable-gen-noiseprofile --help
 
 If this gives you the help of the tool, continue with STEP 2 otherwise go to
-STEP 1a.
+STEP 1a. Packages for openSUSE, Fedora, Ubuntu and Debian packaging the noise
+tools can be found
+[here**](https://software.opensuse.org/download.html?project=graphics:darktable&package=darktable).
 
 ### STEP 1a
 
