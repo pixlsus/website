@@ -28,7 +28,7 @@ layout: article.hbt
 
 ---
 
-[Article updated on: 2019-12-08]
+[Article updated on: 2019-12-09]
 
 Introduction
 ------------
@@ -565,6 +565,16 @@ you add an additional correction.
 
 Using the lensfun.xml
 ---------------------
+
+You may want to fine-tune the lens model name in the generated lensfun.xml
+file. Lensfun normalises names before any matching, so you have some freedom.
+For example, upper/lowercase can be changed arbitrarily. Any single `f` is
+ignored, so you may change `16-35mm 2.8` into `16-35mm f/2.8`. If there was a
+tele converter involved, you must add “converter” into the name so that Lensfun
+does not try to derive allowed focal lengths from the lens name.
+Ordering of parts in the lens name is completely unimportant for matching. As
+are single punctuation characters. You may even add things (e.g. `16-35` into
+`16-35mm`) but be conservative here. **Never** drop anything what exiv2 reports!
 
 If you want to use the generated lensfun.xml file to test if the calibration
 you created works, you can copy to the local lensfun config folder in your home
