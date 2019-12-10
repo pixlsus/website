@@ -28,7 +28,7 @@ layout: article.hbt
 
 ---
 
-[Article updated on: 2019-02-22]
+[Article updated on: 2019-12-09]
 
 Introduction
 ------------
@@ -220,6 +220,17 @@ pictures in total.
 
 For a 50mm prime lens with f/1.4 - f/16 you need to take 5 pictures at f1.4, f/2.0,
 f/2.8, f/4.0, and f/16.0.
+
+#### ****Exposing the picture correctly**
+
+For taking the picture the middle of the area needs to be as bright as
+possible, but not overexposed. This can be easily +1.7 to +2.0 EV.
+
+If your camera has a zebra setting, turn it on and set the zebra mode to '100'.
+If you start to see the zebra, then take the picure. The profile is created on
+a RAW file and the zebra is shown for a developed picture. So we aren't
+overexposed yet. In the control mode in my camera which shows overexposure
+everything was fine.
 
 #### Vignetting correction for the professionals
 
@@ -554,6 +565,16 @@ you add an additional correction.
 
 Using the lensfun.xml
 ---------------------
+
+You may want to fine-tune the lens model name in the generated lensfun.xml
+file. Lensfun normalises names before any matching, so you have some freedom.
+For example, upper/lowercase can be changed arbitrarily. Any single `f` is
+ignored, so you may change `16-35mm 2.8` into `16-35mm f/2.8`. If there was a
+tele converter involved, you must add “converter” into the name so that Lensfun
+does not try to derive allowed focal lengths from the lens name.
+Ordering of parts in the lens name is completely unimportant for matching. As
+are single punctuation characters. You may even add things (e.g. `16-35` into
+`16-35mm`) but be conservative here. **Never** drop anything what exiv2 reports!
 
 If you want to use the generated lensfun.xml file to test if the calibration
 you created works, you can copy to the local lensfun config folder in your home
