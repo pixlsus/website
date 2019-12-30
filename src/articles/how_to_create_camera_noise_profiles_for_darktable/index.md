@@ -176,7 +176,7 @@ Run
 If this gives you the help of the tool, continue with STEP 2 otherwise go to
 STEP 1a. Packages for openSUSE, Fedora, Ubuntu and Debian packaging the noise
 tools can be found
-[here**](https://software.opensuse.org/download.html?project=graphics:darktable&package=darktable).
+[here](https://software.opensuse.org/download.html?project=graphics:darktable&package=darktable).
 
 ### STEP 1a
 
@@ -229,9 +229,7 @@ The tool will tell you, once completed, how to test and verify the
 noise profiles you created.
 
 Once the tool finished, you end up with a tarball you can send to darktable for
-inclusion. You can open a bug at:
-
-[**https://redmine.darktable.org/**](https://redmine.darktable.org)
+inclusion. You can open a bug [here](https://github.com/darktable-org/darktable/issues)
 
 The interesting files are the `presets.json` file (darktable input) and, for the
 developers, the noise_result.pdf file. You can find an example PDF 
