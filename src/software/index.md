@@ -414,7 +414,14 @@ stylesheet: software-page
                 that weren&rsquo;t included from the factory.
             </p>
         </div>
-	<div class="sw-entry chdk">
+        <div class="sw-entry mlv-app">
+            <a href="https://github.com/ilia3101/MLV-App">MLV App</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+            What is MLV App? Lightroom, but for Magic Lantern MLV Video (and open source and cross platform).
+            </p>
+        </div>
+        <div class="sw-entry chdk">
             <a href="https://chdk.setepontos.com/">CHDK (Canon Hack Development Kit)</a>
             <p>
                 Software add-on that runs on point-and-shoot Canon cameras, giving them more features.
@@ -491,6 +498,20 @@ stylesheet: software-page
             <i class="fa fa-linux"></i>
             <p>
 				Lepton is a tool and file format for losslessly compressing JPEGs by an average of 22%.
+            </p>
+        </div>
+        <div class="sw-entry slomovideo">
+            <a href="http://slowmovideo.granjow.net/">slomoVideo</a>
+            <i class="fa fa-linux"></i>
+            <p>
+                slowmoVideo is an OpenSource program that creates slow-motion videos from your footage.
+            </p>
+        </div>
+        <div class="sw-entry qwinff">
+            <a href="http://qwinff.github.io/">QWinFF</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+                QWinFF is a GUI for FFmpeg, a powerful command-line media converter.
             </p>
         </div>
 
