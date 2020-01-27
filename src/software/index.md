@@ -500,8 +500,8 @@ stylesheet: software-page
 				Lepton is a tool and file format for losslessly compressing JPEGs by an average of 22%.
             </p>
         </div>
-        <div class="sw-entry slomovideo">
-            <a href="http://slowmovideo.granjow.net/">slomoVideo</a>
+        <div class="sw-entry slowmovideo">
+            <a href="http://slowmovideo.granjow.net/">slowmoVideo</a>
             <i class="fa fa-linux"></i>
             <p>
                 slowmoVideo is an OpenSource program that creates slow-motion videos from your footage.
