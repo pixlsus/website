@@ -4,15 +4,15 @@ title: "Darktable 3:RGB or Lab? Which Modules? Help!"
 sub-title: ""
 
 lede-img: "hanny-naibaho-correct-blur-scaled.jpg"
-lede-attribution: "by <a href='https://darktable.fr/author/aurelienpierre/'>Aurélien Pierre</a>"
+lede-attribution: "by <a href='https://unsplash.com/photos/oTP4xd9SAkc/'>Hanny Naibaho</a>"
 
 author: "Aurélien Pierre" #required
 author-img: "ap.jpeg"
-author-url: "https://darktable.fr/author/aurelienpierre/"
+author-url: "https://photo.aurelienpierre.com"
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: ""
+author-bio: "<a href="https://photo.aurelienpierre.com">Portrait photographer in Nancy-Metz</a>. Calculation specialist, modeling and numerical simulation for image processing (denoising, deblurring, colour management) and thermal engineering. Developer of filmic, tone equalizer, color balance, and the new themeable interface for darktable 3.0. darktable user since 2010. darktable is my job, so <a href="https://en.liberapay.com/aurelienpierre/">help me out to develop</a>."
 
 collection: tutorial
 tags:
@@ -29,7 +29,8 @@ layout: article.hbt
 
 ---
 
-January 8, 2020 [Aurélien PIERRE](https://darktable.fr/author/aurelienpierre/) [Original post in French](https://darktable.fr/2020/01/darktable-3-rgb-ou-lab-quels-modules-au-secours/)
+[Original post in French](https://darktable.fr/2020/01/darktable-3-rgb-ou-lab-quels-modules-au-secours/)
+by [Aurélien PIERRE](https://darktable.fr/author/aurelienpierre/), edited by the pixls community.
 
 Darktable is slowly converging to a scene-referred RGB workflow. Why is that? What does it involve? How does the use of darktable change? Answers here…
 
@@ -82,7 +83,7 @@ Lab doesn't work for high-contrast images and doesn't work  well for images with
 <p class="aside">
    **Precision:** I have used the term "gamma" or "gamma correction" incorrectly here. Strictly, a gamma function is the specific (technical) electrico-optical transfer function (EOTF) of old-school CRT screens, which is a power function with an exponent between 1.8 and 2.2. Nowadays, people incorrectly name "gamma" any power function used for technical integers encoding or artistic lightness adjustments, which is confusing. Any encoding transfer function (using a power function or not) should be called OETF (Opto Electrical Transfer Function), and is used only to alleviate the limits of 8 bits integer file formats. Any artistic power-like brightness corrections should be called a tone curve. Even if the operation is the same, it does not have the same meaning and should not be applied at the same place in the graphics pipe. But ICC nomenclature continues to call "gamma" the exponent used to encode/decode RGB pixels when using integer file formats, so here we are, mixing unrelated concepts under an umbrella name just because the maths write the same. But, when communicating with people out of the industry, it's often easier to use the incorrect name so that everyone sort-of understands, even if it carries on the confusion.
    <br>
-   By the way, power-like OETF are completely unnecessary as long as you use floating point arithmetic and files format (32 bits TIFF, PFM, OpenEXR…). 
+   By the way, power-like OETF are completely unnecessary as long as you use floating point arithmetic and files format (32 bits TIFF, PFM, OpenEXR…).
 </p>
 
 ## The limits of non-linear spaces in image processing
@@ -95,7 +96,7 @@ The sensor counts the number of [photons](https://en.wikipedia.org/wiki/Photon) 
 
 From the point of view of human perception, these intensities being proportional to the physical energy level of the light emission, does not make sense. In fact, the brain applies a non-linear, logarithmic correction that the Lab color space approximates using a cubic root. This means that we have an increased sensitivity to dim light, and reduced sensitivity to bright light.
 
-However, all optical operations that are performed during image *capture* (e.g. lens blur, noise creation, or the effect of a color filter added to the lens) are applied directly to the photons. To reverse the lens blur or to simulate it when processing, we need to work on the linear RGB information, which is the closest thing to the photon data that is available to us. 
+However, all optical operations that are performed during image *capture* (e.g. lens blur, noise creation, or the effect of a color filter added to the lens) are applied directly to the photons. To reverse the lens blur or to simulate it when processing, we need to work on the linear RGB information, which is the closest thing to the photon data that is available to us.
 
 See for yourself: Which one of these two computer generated bokeh (original below) seems the most natural to you? (See also a [more spectacular example on Chris Brejon's website](https://chrisbrejon.com/cg-cinematography/chapter-9-compositing/#exposure-control-by-dof))
 
@@ -239,7 +240,7 @@ design (based on my personal opinion, which is based on my
 practical and theoretical experience in image retouching), and in the
 spirit of streamlining the workflow with a minimum number of steps. There is nothing stopping you from continuing to use them, especially since users regularly introduce me to new use cases that I hadn't thought of. But the idea here is to give you the keys to the best possible result as quickly as possible with as little fuss as possible.
 
-### Local Tone Mapping 
+### Local Tone Mapping
 
 Local tone mapping internally encodes RGB values logarithmically (they are then decoded at the output, so no problem at
 at this level), then applies a bilateral blur to these logarithmic values. As we saw above, the theory is clear: a blur, on anything non-linear, produces halos  and fringes. And as promised, the default setting range of this module is much reduced, so that users have become accustomed to
@@ -272,7 +273,7 @@ Similarly, this module works in Lab color space to perform HDR compression and u
 
 The low-pass filter is actually a simple blur. A lot of people
 use it to invert the contrast, and then blend it with
-overlay or soft/hard/linear light, to compress the 
+overlay or soft/hard/linear light, to compress the
 dynamic range. This is in fact exactly what the **shadows and highlights** module already does in fewer steps for the user. As
 mentioned above, the **low-pass** module works in Lab color space, so for the
 blur... Expect the worst.
@@ -313,7 +314,7 @@ presets provided, or the local contrast for general sharpness.*
 The **monochrome** module works in Lab, which it uses to define a
 weighted contribution of certain colours to the density of the black, in order to convert color into shades of gray. The problem is
 that the interface is quite sensitive to the settings, and a small
-correction can produce large changes and break the 
+correction can produce large changes and break the
 overall contrast in a rather ungraceful way. In practice, getting a predictable result
 is quite difficult and this module often results in a lot of
 tedious micro-adjustment sessions.
@@ -321,7 +322,7 @@ tedious micro-adjustment sessions.
 The idea of a weighted contribution of colors to the density of black
 comes from silver film, which behaves exactly the same way as this. But, as you saw coming, film doesn't work in Lab and is not perceptually realistic. This idea is taken up in a physically realistic way in the **channel mixer** module, where several emulsion presets of commercial silver film are offered to create a grey channel. Note that, in order for the coefficients to be accurate, the colour space of the operating mode (in the module **input profile**) must be set to REC 709 linear, otherwise the settings will have to be adjusted.
 
-For black and white based on human perceptual luminance
+For a black and white treatment that is based on human perceptual luminance
 (linear), simply lower the input or output saturation to 0% in the **color balance** module (right-click on the slider and enter 0
 on the keypad -- the setting is only up to 50% by default in
 the interface).
@@ -345,9 +346,9 @@ clouds, floors, ceiling). It often happens that the white balance of
 these two sources does not coincide. In practice, human vision has ways to correct for this this, but not the camera. So it requires a separate white balance correction for the highlights
 (which generally receive direct light) and the shadows (which usually receive reflected light).
 
-This is what the **color correction** module offers you, again in Lab color space, again with a questionable interface, again with mixed and unnatural results as soon as you push the adjustment. However, when you think about it carefully, the white balance can be reduced to discussions of light spectrum, and the correction is simpler in RGB, especially to manage progressivity of correction.
+This is what the **color correction** module offers you, again in Lab color space, and with mixed and unnatural results as soon as you push the adjustment. When you think about it carefully, the white balance can be reduced to discussions of light spectrum, and the correction is simpler in RGB, especially to manage progressivity of correction.
 
-The **color balance** module allows you to adjust this much more
+The **color balance** module allows you to adjust this
 quickly, and not just for the shadows and the highlights, but
 also for midtones. Using the color-pickers, to the right of the
 tint sliders, it also allows you to go directly to sample
@@ -364,7 +365,7 @@ color balance saturation. On the surface, it smells good. Except
 that in fact, its colorimetric equation is not perceptually
 correct. What it's doing is changing the saturation
 (which is its intention), but at the same time it also changes the hue and brightness (which
-becomes awkward). We pass the pill around calling it a Velvia creative effect, supposedly reproducing the eponymous film from Fuji. The problem is that it seems to have been optimized for non-linear RGB. As a result, it is the kind of module that is typically unpredictable.
+becomes awkward). The problem is that it seems to have been optimized for non-linear RGB. As a result, it is the kind of module that is typically unpredictable.
 
 *Prefer color balance.*
 
@@ -373,7 +374,7 @@ becomes awkward). We pass the pill around calling it a Velvia creative effect, s
 These two are working as they should, no problem with that. But
 when you look at the code, you can see that it duplicates exactly the
 **slope/offset/power** mode of the **color balance** module. The white point is scaled by a simple exposure correction, such as the
-slope factor or even... the **exposure** of the exposure module. The
+slope factor or even the **exposure** of the exposure module. The
 black point is adjusted by adding a constant, such as the factor of
 the offset, or the black level correction of the **exposure** module. The
 grey point is adjusted by a power function (sometimes improperly called
@@ -384,7 +385,7 @@ also in the fact that the color balance gives you the numerical value
 settings, making them more easily transferable from one image to another or from one application to another.
 Curves and levels also assume you work SDR images, with data encoded between 0 and 1. If you work HDR
 pictures or raised the exposure quite a lot earlier in the pipe, the pixel values will not be clipped, but the GUI
-will not give you control over the pixels above 1 (or 100 %). 
+will not give you control over the pixels above 1 (or 100 %).
 
 *If you already use the color balance, there is no need to add an additional level module. Finish your retouching in the same module.*
 
@@ -416,15 +417,14 @@ display workflow (in Lab or non-linear RGB) always has the implicit assumption t
 ### Contrast/Brightness/Saturation
 
 Module working in Lab, which duplicates again the modules
-levels, curves, and color balance while adding a package
-of undesirable effects on colours.
+levels, curves, and color balance while adding undesirable effects on colours.
 
 *Prefer color balance.*
 
 ## Modules to be used with care
 
 There is no correct replacement for the following modules for the moment, but they should be used with caution because
-they can be unpredictable and can cause you to lose a lot of 
+they can be unpredictable and can cause you to lose a lot of
 time.
 
 ### Vibrance
@@ -445,8 +445,7 @@ the old, and **smooth**, the new) which are trying to meet this challenge of
 two different ways, resulting in transitions too discrete for the
 new, and too abrupt for the old. One more
 time, it works in Lab, when similar functionality in
-Capture One seems to be using HSL or HSV, and this may be the beginning of
-a clue as to why it's so far behind.
+Capture One seems to be using HSL or HSV, which seems to perform better than Lab.
 
 In some cases, **color zones** will benefit from being replaced by the
 **color balance** module where parametric masking may be used to
@@ -479,8 +478,7 @@ whose polarity is reversed, possibly coupled with a desaturation in **color bala
 Few people know this, but the [blend modes](https://en.wikipedia.org/wiki/Blend_modes) lighten, darken,
 overlay, soft light, hard light, pin light and linear light
 implicitly expect the grey level to be 50% grey and are thus
-totally connected to the display-referred workflow. All you need to do is
-look at the equations to figure it out. They're going to treat
+totally connected to the display-referred workflow. The blend modes are going to treat
 the pixels differently depending on whether they are above or below 50 %. Remember that the linear RGB workflow keeps the gray point at 18% (or even less). These blend modes will therefore behave in a way that is unpredictable in the scene-linear portions of the pipe.
 
 In linear RGB, you should only use blend modes based on
@@ -492,9 +490,9 @@ Note that the multiply mode is one of the most powerful in linear RGB.
 For example, to enhance the contrast of an image in a natural way,
 it is enough to use an instance of the **exposure** module blended with multiply. Set the exposure between 2 and 3 EV and the opacity between 10% and 50%. Exposure is then used to control the pivot of contrast, and opacity the intensity of the effect. It's fast, simple and effective.
 
-## A minimal workflow for a beginner
+## A minimal workflow for beginners
 
-In darktable, you can choose between 77 modules that allow you to do the same thing in a lot of different ways. But this is merely an *illusion* of choice, as many of them have more disadvantages than advantages (provided you want to achieve predictable results for demanding edits). If you open the code for any of the modules not recommended above, you will see that they are almost all dated 2010-2011 - the only reason we retained them was to maintain compatibility with edits performed in prior versions of darktable.
+In darktable, you can choose between many modules that allow you to do the same thing in a lot of different ways. But this is merely an *illusion* of choice, as many of them have more disadvantages than advantages (provided you want to achieve predictable results for demanding edits). If you open the code for any of the modules not recommended above, you will see that they are almost all dated 2010-2011 - the only reason we retained them was to maintain compatibility with edits performed in prior versions of darktable.
 
 You can perform at least 80% of your processing with just 4
 modules :
@@ -511,33 +509,33 @@ The reason they're so powerful is because they're actually extremely simple, whe
     - Slope/Offset/Power: RGB\_output = (slope × RGB\_input + offset)^power
     - Contrast: RGB\_output = (RGB\_input / pivot)^(contrast ×
         pivot)
-- **White balance**: RGB\_out = coefficients × RGB\_in.
-- **Filmic** is a little more complex, but it's still high-school-level math.
+- **White balance**: RGB\_out = coefficients × RGB\_in
+- **Filmic** is a little more complex, but it's still high-school level math
 
 With these 4 modules, you have everything you need to produce a correct image in terms of colorimetry, contrast, and artistic intent. *Remember to turn off the base curve if you use the filmic module.* Then, if needed, finalize your edit with the following modules:
 
-- To improve sharpness, the best option is the **local contrast** module in **local laplacian mode.**
-- To deblur the lens, you have deblur presets, more or less pronounced in the **contrast equalizer**,
-- To denoise, the best algorithm is in the **denoise (profiled)** module. Use **non-local means auto** mode if you don't want to break your head.
-- To remove haze, you have **haze removal,**
+- To improve sharpness, the best option is the **local contrast** module in **local laplacian mode**
+- To deblur the lens, you have deblur presets, more or less pronounced in the **contrast equalizer**
+- To denoise, the best algorithm is in the **denoise (profiled)** module. Use **non-local means auto** mode if you don't want to break your head
+- To remove haze, you have **haze removal**
 - To convert to black and white, the easiest way is to use the
-    film presets in the **channel mixer**,
+    film presets in the **channel mixer**
 - For creative control of overall contrast and re-lighting of the scene
-    a posteriori, use the **tone equalizer** module.
+    a posteriori, use the **tone equalizer** module
 
 Some of the following modules have an underestimated power, and they are vastly underutilized:
 
 1.  The **exposure** module, with its masks, can replace all the
-    the other methods of mapping HDR, **shadows and highlights**,
-    the **tone equalizer**, and even the **tone curve** and the **local contrast** (to some extent, when used with blend mode multiply).
+    the other methods of mapping HDR, **shadows and highlights**
+    the **tone equalizer**, and even the **tone curve** and the **local contrast** (to some extent, when used with blend mode multiply)
 2.  The **channel mixer** module can overcome all your
     gamut problems, including problems with blue in stage lighting, without having to use a fake input profile, but
-    also turn grass into snow or summer trees into fall trees.
+    also turn grass into snow or summer trees into fall trees
 3.  The **color balance** module can allow you to emulate the colors
-    of a film, compensate for uneven white balance, 
+    of a film, compensate for uneven white balance,
     remove redness on the skin, accentuate the depth and shape, create
     a split-toning effect, or to give an apocalyptic atmosphere to your
-    images.
+    images
 
 Finally, to display only a minimal selection in the interface and
 modules, to the right of "**More modules**", open the
@@ -561,20 +559,6 @@ their background without touching the foreground. And it's
 precisely this kind of manipulation that led the movie industry
 to migrate to a scene-referred linear workflow about twenty years ago.
 
-darktable is how it is because of an accumulation of 10 years of open source design. Open source design means that anyone and everyone can jump on his or her idea for coding stuff before anyone has put the math on a sheet and checked that the theory holds or that the problem to solve was clearly posed. Sometimes the result comes as a nice surprise, but often there are fundamental mistakes, particularly on the color spaces, with linear transfer functions
-applied in non-linear spaces, or HDR adjustments applied in SDR spaces. These types of errors also occur in Gimp, Krita, Blender, etc. Since image processing is not likely to kill a person, we allow ourselves a laxity that would be intolerable in medicine or in civil engineering.
-
-The theory gives rashes to users and developers alike, and
-it's going to have to stop soon if we don't want to keep on
-going around in circles for the next 10 years. Things that work on paper don't always work in practice, but anything that *doesn't* work on paper is guaranteed to fail in practice. The fact is that
-abstraction and mathematics frighten people, while in reality they
-greatly simplify the resolution of complex problems. The thing that should scare you is the lack of a mathematical model...
-to clearly describe the reality that we manipulate in the software, because
-the software can't do anything but calculations, so better make them clean.
-
-The lesson to be learned from all this is to spend more time doing
-research and to test the theory on paper, before we get into the code. It is to define the contours of the problems more precisely, and the framework for the solution more clearly, before jumping on the first solution found and coding whatever comes to mind. And it's also to be inspired by what the cinema does, because they work with more constraints than in photography,  forcing them to be more rigorous and ultimately smarter.
-
 So darktable is in transition. It's long, it's sometimes painful,
 there are a lot of little bits to change in different places along with
 grumbling users who are hungry for consistency. At least now you
@@ -587,20 +571,15 @@ The linear toolbox is being expanded. On the agenda:
 
 -  rewriting the 100% RGB color balance (including the
     blending), with the addition of vibrance (and a vibrance equation
-    home-developed to preserve the color),
+    home-developed to preserve the color)
 - conversion of the contrast equalizer and soften modules to
-    the linear xyY space (because in fact, the Orton effect, on which the soften module is based, 
-    is very useful when it works correctly),
-- a color equalizer, similar to the tone equalizer, which will allow you to adjust saturation, vibrance and Abney effect according to the pixel luminance, to pep up the filmic curve,
-- a [brand-new lens deconvolution](https://discuss.pixls.us/t/got-an-image-problem-go-see-the-image-doctor/14518) module, respectful of the depth of field (but for that, I need to develop a special wavelet based on the guided filter), which should turn your soft 18-55 mm into a Zeiss for much less,
-- and of course the OpenCL version of the tone equalizer.
+    the linear xyY space (because in fact, the Orton effect, on which the soften module is based,
+    is very useful when it works correctly)
+- a color equalizer, similar to the tone equalizer, which will allow you to adjust saturation, vibrance and Abney effect according to the pixel luminance, to pep up the filmic curve
+- a [brand-new lens deconvolution](https://discuss.pixls.us/t/got-an-image-problem-go-see-the-image-doctor/14518) module, respectful of the depth of field (but for that, I need to develop a special wavelet based on the guided filter), which should turn your soft 18-55 mm into a Zeiss for much less
+- and of course the OpenCL version of the tone equalizer
 
-Well, there are more work than people to do it, so …
+There is more work than people to do it, so
 wish us good luck, don't forget to [support us](https://liberapay.com/darktable.fr/), and Happy New Year 2020 to all of you!
 
-
-#### [Aurélien PIERRE](https://darktable.fr/author/aurelienpierre/)
-
-[Portrait photographer in
-Nancy-Metz](https://photo.aurelienpierre.com). Calculation specialist, modeling and numerical simulation for image processing (denoising, deblurring, colour management) and thermal engineering. Developer of filmic, tone equalizer, color balance, and the new themeable interface for darktable 3.0. darktable user since 2010. darktable is my job, so [help me out to develop](https://en.liberapay.com/aurelienpierre/).
-
+[Portrait photographer in Nancy-Metz](https://photo.aurelienpierre.com). Calculation specialist, modeling and numerical simulation for image processing (denoising, deblurring, colour management) and thermal engineering. Developer of filmic, tone equalizer, color balance, and the new themeable interface for darktable 3.0. darktable user since 2010. darktable is my job, so [help me out to develop](https://en.liberapay.com/aurelienpierre/).
