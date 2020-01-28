@@ -13,8 +13,7 @@
     "type": "git",
     "url": "https://github.com/pixlsus/website.git"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "handlebars": "^4.0.5",
     "http-server": "^0.12.1",
