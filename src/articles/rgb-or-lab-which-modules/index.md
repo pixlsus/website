@@ -1,18 +1,19 @@
 ---
 date: 2020-01-26T00:00:00-00:00
+
 title: "Darktable 3:RGB or Lab? Which Modules? Help!"
 sub-title: ""
 
 lede-img: "hanny-naibaho-correct-blur-scaled.jpg"
 lede-attribution: "by <a href='https://unsplash.com/photos/oTP4xd9SAkc/'>Hanny Naibaho</a>"
 
-author: "Aurélien Pierre" #required
+author: "Aurélien Pierre"
 author-img: "ap.jpeg"
 author-url: "https://photo.aurelienpierre.com"
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "<a href="https://photo.aurelienpierre.com">Portrait photographer in Nancy-Metz</a>. Calculation specialist, modeling and numerical simulation for image processing (denoising, deblurring, colour management) and thermal engineering. Developer of filmic, tone equalizer, color balance, and the new themeable interface for darktable 3.0. darktable user since 2010. darktable is my job, so <a href="https://en.liberapay.com/aurelienpierre/">help me out to develop</a>."
+author-bio: "<a href='https://photo.aurelienpierre.com'>Portrait photographer in Nancy-Metz</a>. Calculation specialist, modeling and numerical simulation for image processing (denoising, deblurring, colour management) and thermal engineering. Developer of filmic, tone equalizer, color balance, and the new themeable interface for darktable 3.0. darktable user since 2010. darktable is my job, so <a href='https://en.liberapay.com/aurelienpierre/'>help me out to develop</a>."
 
 collection: tutorial
 tags:
