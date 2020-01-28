@@ -151,9 +151,9 @@
                         <hr/>
                         <p>
                         Share this on
-                        <a href='https://plus.google.com/share?url=https://pixls.us/{{ this.path }}/' target='_blank'>Google+</a>,
-                        <a href='https://twitter.com/intent/tweet?url=https://pixls.us/{{ this.path }}/&via=pixlsus&text={{ title }}' target='_blank'>twitter</a>,
-                        or <a href='https://www.facebook.com/sharer/sharer.php?u=https://pixls.us/{{ this.path }}/' target='_blank'>Facebook</a>.
+                        <a href='https://twitter.com/intent/tweet?url=https://pixls.us/{{ this.path }}/&via=pixlsus&text={{ title }}' target='_blank'>twitter</a>
+                        or 
+                        <a href='https://www.facebook.com/sharer/sharer.php?u=https://pixls.us/{{ this.path }}/' target='_blank'>Facebook</a>.
                         </p>
                     </div>
                 </div>
