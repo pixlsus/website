@@ -30,8 +30,7 @@ layout: article.hbt
 
 ---
 
-[Original post in French](https://darktable.fr/2020/01/darktable-3-rgb-ou-lab-quels-modules-au-secours/)
-by [Aurélien PIERRE](https://darktable.fr/author/aurelienpierre/), edited by the pixls community.
+[Original post in French](https://darktable.fr/2020/01/darktable-3-rgb-ou-lab-quels-modules-au-secours/) by [Aurélien PIERRE](https://darktable.fr/author/aurelienpierre/), edited by the pixls community.
 
 Darktable is slowly converging to a scene-referred RGB workflow. Why is that? What does it involve? How does the use of darktable change? Answers here…
 
