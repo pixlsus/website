@@ -145,7 +145,7 @@ This type of problem will occur the same way in darktable, as soon as you use th
 
 This is also the problem that arises with hue zones blending in the **color zones** module (even if a tweak, introduced under the "smooth" process mode, attempts to hide this under the rug), which produces granular and sharp transitions.
 
-The only darktable module that works in Lab to make a blur, and where it still works reasonably, is the **local laplacian** mode of the **local contrast** module. The price we pay for it to work is that it's very computationally heavy and the theory is like rocket science. And, even if the blur is stable, it comes with an ungracious desaturation with a hue shift to muddy grey-blue when you push the sliders a little too hard.
+The only darktable module that works in Lab to make a blur, and where it still works reasonably, is the **local laplacian** mode of the **local contrast** module. The price we pay for it to work is that it's very computationally heavy and theory is like rocket science. And, even if the blur is stable, it comes with an ungracious desaturation with a hue shift to muddy grey-blue when you push the sliders a little too hard.
 
 
 ## The benefits of a linear RGB treatment
@@ -158,14 +158,14 @@ Strictly speaking, the only application where Lab is required is the gamut mappi
 
 ## The current state of darktable
 
-With the release of darktable 3.0, the default pipeline (i.e. the basic module order) has been reordered around filmic. There are 4 essential steps in this pipe:
+With the release of darktable 3.0, the default pipeline (i.e. the basic module order) has been reordered around filmic RGB. There are 4 essential steps in this pipe:
 
 1. the **demosaic** module, which converts the raw file (which only contains the intensity of a single layer, R, G or B at each pixel site) to a picture (with complete RGB data for each pixel location),
 2. the **input color profile** module, which converts the sensor's RGB space to a standard working color space,
-3. the **filmic** (or the **base curve**) module, which translates between linear space (proportional to light energy) into non-linear (perceptually compressed) space,
+3. the **filmic RGB** (or the **base curve**) module, which translates between linear space (proportional to light energy) into non-linear (perceptually compressed) space,
 4. the **output color profile** module, which converts from the standard working space to the RGB space of the screen or the image file.
 
-Note that the **base curve** approach remains the one applied by default because it allows dartkable to more-or-less approximate the rendering of the camera JPEG as soon as the software is opened, which seems to be the preference of many users. Nevertheless, as part of darktable 3.0, the **base curve** was pushed back in the the pixelpipe by default, to just before the **filmic** module, which makes it safe for the colors produced by the modules that are applied earlier. The base curve module also was provided with a color preservation mode, which produces results similar to filimic. Between **base curve** and **filmic,** **for darktable 3.0,** the difference is now only about ergonomics and on the ability to recover very low light. **Filmic** is a little more complex to understand but faster to set up (once properly understood), and is more powerful when working in deep shadows.
+Note that the **base curve** approach remains the one applied by default because it allows darktable to more-or-less approximate the rendering of the camera JPEG as soon as the software is opened, which seems to be the preference of many users. Nevertheless, as part of darktable 3.0, the **base curve** was pushed back in the pixel pipe by default, to just before the **filmic RGB** module, which makes it safe for the colors produced by the modules that are applied earlier. The base curve module also was provided with a color preservation mode, which produces results similar to filmic RGB. Between **base curve** and **filmic RGB,** **for darktable 3.0,** the difference is now only about ergonomics and on the ability to recover very low light. **filmic RGB** is a little more complex to understand but faster to set up (once properly understood), and is more powerful when working in deep shadows.
 
 Modules that work in linear RGB and output in linear (thus leaving the pipeline linear after them) are:
 
@@ -177,7 +177,7 @@ Modules that work in linear RGB and output in linear (thus leaving the pipeline 
 The advantage of performing linear operations is that they do not affect
 the chrominance of the image (because changing the luminosity leaves the
 chrominance intact) and preserve the energy proportionality of the
-signal. These modules must be positioned before **filmic** or the **base curve**. **Exposure** and **tone equalizer** are recommended prior to
+signal. These modules must be positioned before **filmic RGB** or the **base curve**. **Exposure** and **tone equalizer** are recommended prior to
 the **input color profile**. They can be used safely and without moderation. Note that there is a catch here on the **tone equalizer**,
 which preserves *local* linearity (within the image areas),
 but not the *overall* linearity (between zones). It corresponds to what
@@ -189,7 +189,7 @@ Modules that work in linear RGB and carry out non-linear, but chrominance-preser
 1.  **RGB curves**
 2.  **RGB levels**
 
-The chrominance is preserved via methods that constrain the RGB ratios in and out of the module, so as to keep them identical. Note that **RGB curves** and **RGB levels** can be moved before or after **filmic** depending on the intention, since they're doing non-linear operations anyway. On the other hand, be careful not to use the mask feathering on modules that come later, as linearity is no longer assured and mask bluring + blending could produce unpleasant results.
+The chrominance is preserved via methods that constrain the RGB ratios in and out of the module, so as to keep them identical. Note that **RGB curves** and **RGB levels** can be moved before or after **filmic RGB** depending on the intention, since they're doing non-linear operations anyway. On the other hand, be careful not to use the mask feathering on modules that come later, as linearity is no longer assured and mask blurring + blending could produce unpleasant results.
 
 Modules that work in linear RGB and carry out non-linear operations without preserving the chrominance are:
 
@@ -198,16 +198,16 @@ Modules that work in linear RGB and carry out non-linear operations without pres
 3.  **LUT 3D**
 
 **Color balance** is designed to be applied to linear RGB data
-that hasn't been corrected for contrast, i.e. before **filmic, tone curves** etc. It does not preserve the chrominance because its *explicit purpose*
+that hasn't been corrected for contrast, i.e. before **filmic RGB, tone curves** etc. It does not preserve the chrominance because its *explicit purpose*
 is to adjust chrominance creatively. Similarly for **LUT 3D**, for which
 the main goal is to emulate analog film emulsions or complex aesthetic transforms.
 
-I remind readers here that **filmic** is a dynamic range compressor,
+I remind readers here that **filmic RGB** is a dynamic range compressor,
 from the high dynamic range of the camera to the low dynamic range of the screen. It is not a tone curve intended to apply an artistic correction, but a mapping of tones to force fit the sensor data into the
-the available screen space. Filmic tries to protect the details as much as possible (which we assume *a priori* are in the middle tones) and
+the available screen space. filmic RGB tries to protect the details as much as possible (which we assume *a priori* are in the middle tones) and
 to keep a certain optical readability in the image.
 
-Before **filmic**, in the linear pipe, we still find some
+Before **filmic RGB**, in the linear pipe, we still find some
 modules that work in Lab but perform linear operations
 that should (strictly speaking) be realized in linear RGB:
 
@@ -226,10 +226,10 @@ note that it uses an edge-sensitive wavelet separation,
 which makes it quite cumbersome to execute, but very effective at preventing
 halos, even considering that it works in Lab.
 
-After **filmic**, in the non-linear pipe, are all the
-other Lab modules, since they require low dynamic range. Some of these modules could also be converted to xyY and moved before filmic in the future (in particular the **soften**,  **grain** and **fill light** modules). Also note that the
+After **filmic RGB**, in the non-linear pipe, are all the
+other Lab modules, since they require low dynamic range. Some of these modules could also be converted to xyY and moved before filmic RGB in the future (in particular the **soften**,  **grain** and **fill light** modules). Also note that the
  **vignette** module was left at the end of the pipe, as before, even though it works in RGB. It's likely it'll be better off before
-**filmic**, or even before the **input profile**, but its code is
+**filmic RGB**, or even before the **input profile**, but its code is
 surprisingly complex for what it does, and I haven't had the time
 to unravel the imbroglio in order to understand what its working hypotheses are.
 
@@ -243,7 +243,7 @@ spirit of streamlining the workflow with a minimum number of steps. There is not
 ### Local Tone Mapping
 
 Local tone mapping internally encodes RGB values logarithmically (they are then decoded at the output, so no problem at
-at this level), then applies a bilateral blur to these logarithmic values. As we saw above, the theory is clear: a blur, on anything non-linear, produces halos  and fringes. And as promised, the default setting range of this module is much reduced, so that users have become accustomed to
+at this level), then applies a bilateral blur to these logarithmic values. As we saw above, theory is clear: a blur, on anything non-linear, produces halos  and fringes. And as promised, the default setting range of this module is much reduced, so that users have become accustomed to
 merging the output of the module with low opacity --
 this is only hiding the misery.
 
@@ -261,7 +261,7 @@ the size of the export, due to the smoothing effect of the setting to
 scale (interpolation). To be expected: a lighter or darker JPEG
 than the preview in the darkroom.
 
-*Prefer filmic.*
+*Prefer filmic RGB.*
 
 ### Shadows and highlights
 
@@ -334,7 +334,7 @@ the interface).
 These three modules aim to re-illuminate a part of the image, and attempt
 to dilute the correction in intensity and in space by blurring
 in the picture. But since they're working in the Lab color space ...I won't say it again... The results are just bad all the time, except
-with very soft settings, in which case you didnt' really need those modules in the first place.
+with very soft settings, in which case you didn't' really need those modules in the first place.
 
 *Prefer the exposure module with masks, or the tone equalizer*
 
@@ -346,7 +346,7 @@ clouds, floors, ceiling). It often happens that the white balance of
 these two sources does not coincide. In practice, human vision has ways to correct for this this, but not the camera. So it requires a separate white balance correction for the highlights
 (which generally receive direct light) and the shadows (which usually receive reflected light).
 
-This is what the **color correction** module offers you, again in Lab color space, and with mixed and unnatural results as soon as you push the adjustment. When you think about it carefully, the white balance can be reduced to discussions of light spectrum, and the correction is simpler in RGB, especially to manage progressivity of correction.
+This is what the **color correction** module offers you, again in Lab color space, and with mixed and unnatural results as soon as you push the adjustment. When you think about it carefully, the white balance can be reduced to discussions of light spectrum, and the correction is simpler in RGB, especially to manage progressively of correction.
 
 The **color balance** module allows you to adjust this
 quickly, and not just for the shadows and the highlights, but
@@ -405,7 +405,7 @@ contrast control around this value not being centered on the graph
 becomes complex in the interface. In addition, the graph of the curves
 assumes a limited RGB signal between the values 0 and 100% (or 1)... 100% of
 What? White screen luminance. In a linear workflow, the
-HDR signal can go from 0 to infinity, and it is at filmic step
+HDR signal can go from 0 to infinity, and it is at filmic RGB step
 that we're in charge of putting everything back between 0 and 100% of the white screen.
 
 The **contrast** in the **color balance** module is compatible with this approach using the **contrast fulcrum** parameter, which allows the selection of the
@@ -500,7 +500,7 @@ modules :
 1.  **exposure**
 2.  **white balance**
 3.  **color balance**
-4.  **filmic**
+4.  **filmic RGB**
 
 The reason they're so powerful is because they're actually extremely simple, when you look at their equations:
 
@@ -510,9 +510,9 @@ The reason they're so powerful is because they're actually extremely simple, whe
     - Contrast: RGB\_output = (RGB\_input / pivot)^(contrast ×
         pivot)
 - **White balance**: RGB\_out = coefficients × RGB\_in
-- **Filmic** is a little more complex, but it's still high-school level math
+- **filmic RGB** is a little more complex, but it's still high-school level math
 
-With these 4 modules, you have everything you need to produce a correct image in terms of colorimetry, contrast, and artistic intent. *Remember to turn off the base curve if you use the filmic module.* Then, if needed, finalize your edit with the following modules:
+With these 4 modules, you have everything you need to produce a correct image in terms of colorimetry, contrast, and artistic intent. *Remember to turn off the base curve if you use the filmic RGB module.* Then, if needed, finalize your edit with the following modules:
 
 - To improve sharpness, the best option is the **local contrast** module in **local laplacian mode**
 - To deblur the lens, you have deblur presets, more or less pronounced in the **contrast equalizer**
@@ -575,11 +575,11 @@ The linear toolbox is being expanded. On the agenda:
 - conversion of the contrast equalizer and soften modules to
     the linear xyY space (because in fact, the Orton effect, on which the soften module is based,
     is very useful when it works correctly)
-- a color equalizer, similar to the tone equalizer, which will allow you to adjust saturation, vibrance and Abney effect according to the pixel luminance, to pep up the filmic curve
+- a color equalizer, similar to the tone equalizer, which will allow you to adjust saturation, vibrance and Abney effect according to the pixel luminance, to pep up the filmic RGB curve
 - a [brand-new lens deconvolution](https://discuss.pixls.us/t/got-an-image-problem-go-see-the-image-doctor/14518) module, respectful of the depth of field (but for that, I need to develop a special wavelet based on the guided filter), which should turn your soft 18-55 mm into a Zeiss for much less
 - and of course the OpenCL version of the tone equalizer
 
 There is more work than people to do it, so
 wish us good luck, don't forget to [support us](https://liberapay.com/darktable.fr/), and Happy New Year 2020 to all of you!
 
-[Portrait photographer in Nancy-Metz](https://photo.aurelienpierre.com). Calculation specialist, modeling and numerical simulation for image processing (denoising, deblurring, colour management) and thermal engineering. Developer of filmic, tone equalizer, color balance, and the new themeable interface for darktable 3.0. darktable user since 2010. darktable is my job, so [help me out to develop](https://en.liberapay.com/aurelienpierre/).
+[Portrait photographer in Nancy-Metz](https://photo.aurelienpierre.com). Calculation specialist, modeling and numerical simulation for image processing (denoising, deblurring, colour management) and thermal engineering. Developer of filmic RGB, tone equalizer, color balance, and the new themeable interface for darktable 3.0. darktable user since 2010. darktable is my job, so [help me out to develop](https://en.liberapay.com/aurelienpierre/).
