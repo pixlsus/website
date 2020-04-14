@@ -183,7 +183,7 @@ It’s time to demosaic our processed files. There’s something strange in the 
 
 The pre-processed lights will be saved as FITS files, and the corresponding `db_pp_light.seq` file loaded. Two preview windows will open this time, one with the 3 RGB channels separated, and one with the RGB composite image.
 
-4. In the **Register** tab, click **Go register**, keeping the default option.
+4. In the **Register** tab, select **Global Star Alignment (deep-sky)** from the registratrion method drop-down list and click **Go register**.
 
 If you have more 8GB of RAM, you can try checking the **Simplified Drizzle x2** box (it will up-sample the images by a factor 2, increasing the RAM usage by a factor 4). Siril will detect the stars and register each of the 10 images. The preview windows will be updated. By the way, you can play with the zoom and select **AutoStretch** to get a better preview of the selected image.
 
