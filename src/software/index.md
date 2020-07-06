@@ -65,7 +65,7 @@ stylesheet: software-page
 			</p>
 	    </div>
         <div class="sw-entry filmulator">
-            <a href="https://github.com/CarVac/filmulator-gui">Filmulator</a>
+            <a href="https://filmulator.org/">Filmulator</a>
             <i class="fa fa-linux"></i>
             <p>
                 Streamlined raw management and editing application centered around a film-simulating
