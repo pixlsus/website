@@ -396,6 +396,14 @@ img.natural {
     background: url('/software/software-logos.png') -1755px 0 no-repeat;
 	display:inline-block;
 }
+.sw-entry.natron> a:before {
+    background: url('/software/software-logos.png') -1800px 0 no-repeat;
+	display:inline-block;
+}
+.sw-entry.lychee> a:before {
+    background: url('/software/software-logos.png') -1845px 0 no-repeat;
+	display:inline-block;
+}
 /*
  * Add new software logo entries (from /software/software-logos.png) here
  */

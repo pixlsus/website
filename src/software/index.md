@@ -89,6 +89,13 @@ stylesheet: software-page
         </div>
 		<!-- start web photo galleries list -->
 	     <h2>Web Galleries</h2>
+        <div class="sw-entry lychee">
+            <a href="https://lycheeorg.github.io/">Lychee</a>
+            <i class="fa fa-nix-win-osx"></i>
+            <p>
+Lychee is a free photo-management tool, which runs on your server or web-space. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.
+            </p>
+        </div>
         <div class="sw-entry">
             <a href="http://coppermine-gallery.net/">coppermine gallery</a>
             <i class="fa fa-nix-win-osx"></i>
@@ -407,6 +414,10 @@ stylesheet: software-page
         </div>
 
 	    <h2>Other</h2>
+        <div class="sw-entry natron">
+            <a href="https://natrongithub.github.io/">Natron</a>
+            <p>Open Source Compositing Software For VFX and Motion Graphics.</p>
+        </div>
         <div class="sw-entry magiclantern">
             <a href="http://magiclantern.fm">Magic Lantern</a>
             <p>
