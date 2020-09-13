@@ -326,9 +326,9 @@ Don’t overdo the gear-thingy. 90% of my photos are taken with the 50mm standar
 Want to spend 300 €/$ on new gear? Spend it on a workshop. Learn how to communicate, get inspiration and fill your portfolio with a first set of pictures, so the next model you email can see that you already have some experience in the field of (nude) portraits. That’s more important than a new flashlight in your bag.
 
 <figure class='big-vid'>
-<img src='Isabelle_SAS_8498.jpg' width='723' height='1080' alt='Isabelle Descamps by Stefan Schmitz'>
+<img src='Isabelle_SAS_8498.jpg' width='723' height='1080' alt='Arwen Kimara by Stefan Schmitz'>
 <figcaption>
-[Isabelle Descamps](https://www.flickr.com/photos/stefanschmitz/39424595835/) by Stefan Schmitz
+[Arwen Kimara](https://www.flickr.com/photos/stefanschmitz/39424595835/) by Stefan Schmitz
 </figcaption>
 </figure>
 
