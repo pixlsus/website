@@ -66,7 +66,7 @@ stylesheet: software-page
 	    </div>
         <div class="sw-entry filmulator">
             <a href="https://filmulator.org/">Filmulator</a>
-            <i class="fa fa-linux"></i>
+            <i class="fa fa-nix-win"></i>
             <p>
                 Streamlined raw management and editing application centered around a film-simulating
                 tone mapping algorithm.
