@@ -1,0 +1,4 @@
+baseURL: 'https://pixls.us'
+languageCode: en-us
+title: 'PIXLS.US'
+theme: 'hugo-bootstrap-bare'
