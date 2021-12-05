@@ -8,6 +8,7 @@ PIXLS.US Website
 
 Yep, here it is.  Finally!
 
+**This is the Hugo migration for the old metalsmith website.**
 
 Writing
 -------
