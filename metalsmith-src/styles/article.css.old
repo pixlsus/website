@@ -1,0 +1,296 @@
+/* Type
+ *
+ * ============================= */
+@import url(//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Oswald:400,300|Roboto+Slab:400,700);
+@font-face {
+	font-family: cc-icons;
+	src: url(/styles/cc-icons.ttf);
+}
+
+body {
+	font-family: Lora, serif;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /*-webkit-text-stroke: 0.15px;
+	 */
+	font-family: Oswald;
+	font-weight:400
+}
+
+h3, h4 {
+	/*font-weight: 300;*/
+}
+
+h4 {
+	text-transform: uppercase;
+}
+
+#title {
+	margin-bottom: 0;
+	font-size: 2rem;
+}
+
+p {
+	color: #555;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+p:first-of-type { margin-top: 0; }
+
+.lede {
+	min-height: 150px;
+    background-color: #eee;
+	background-size: cover;
+	background-position: center;
+    margin-bottom: 1.5rem;
+}
+
+
+figure {
+	margin: 1.5em auto;
+	display: table;
+}
+
+p img, figure img {
+	width: initial;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto 0.5rem auto;
+}
+
+figure img {
+	/* cursor: crosshair; */
+}
+
+figcaption {
+	font-size: 0.9rem;
+	text-align: center;
+	display: table-caption;
+	caption-side: bottom;
+}
+
+.lede-img {
+	background-size: cover;
+    background-position: center;
+    background-color: #eee;
+	margin-bottom: 1.5em;
+    min-height: 250px
+}
+
+@media (min-width: 40rem){
+    .lede-img { min-height: 500px; }
+}
+
+@media (min-width: 64rem){
+    .lede-img { min-height: 650px; }
+}
+
+#subtitle {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: lightslategray;
+	margin-left: 0;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+/* This is for the section footer at the end of the document */
+/*
+section.footer, header#bar {
+	color: #999;
+	background-color: #333;
+}
+
+section.footer p {
+	color: #888;
+}
+*/
+
+.footer {
+	background-color: #eee;
+}
+
+.footer h3 {
+	font-weight: 400;
+	font-size: 1.6rem;
+}
+
+.navlink {
+	font-family: Oswald;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+@media (min-width: 40rem){
+    section.footer {
+    	text-align: left;
+    }
+
+	.navlink {
+		margin-bottom: 0.8rem;
+	}
+}
+
+@media (min-width: 64rem){
+	.navlink {
+		margin-bottom: 0;
+		font-size: 1.2rem;
+	}
+}
+
+/*
+ * Styling for navigation links on mobile
+ */
+@media (max-width: 39.9rem){
+	#navlinks a {
+		display: block;
+		height: 100%;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+	.navlink {
+		background-color: #ddd;
+		height: 60px;
+		margin-bottom: 2px;
+		display: table;
+		width: 100%;
+	}
+}
+
+#social-icons {
+	margin-top: 1.7rem;
+}
+
+#social-icons img {
+        width: 35px;
+        height: auto;
+        display: inline;
+        margin: 0 0.5rem 0.5rem auto;
+		opacity: 0.5;
+}
+
+@media (max-width: 63.9rem){
+        #social-icons img {
+                margin: 0 15px 15px;
+        }
+}
+
+/* Author Info Box at the end of Posts */
+div.post-end {
+	margin-bottom: 2.5em;
+}
+
+.byline {
+	font-family: Oswald;
+	font-weight: 300;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+}
+
+div.author-box {
+	text-align: center;
+}
+
+.author-box img {
+	width: 100px;
+	margin-bottom: 0.5rem;
+}
+
+.author-name {
+	font-family: Oswald;
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+
+.author-end {
+	border-top: solid 1px #ddd;
+	margin: 1.5rem 0;
+}
+
+@media (min-width: 40rem){
+	div.author-box {
+		padding-left: 1em;
+		margin-top: 0.5em;
+		margin-bottom: 2.5em;
+		text-align: left;
+	}
+
+	div.author-box-image {
+		position: absolute;
+		width: 100px;
+	}
+
+	.author-box img {
+		width: 150px;
+		float: left;
+		margin-right: 0.5rem;
+	}
+
+	div.author-box-image img {
+		width: 100%;
+	}
+
+	div.author-box-info {
+		margin-left: 110px;
+		min-height: 100px;
+	}
+
+}
+
+.site-name {
+	font-size: 2rem;
+}
+
+.site-slogan {
+	font-family: Oswald;
+	font-weight: 300;
+}
+
+.cc-row {
+	text-align: center;
+}
+@media (min-width: 40rem){
+	.cc-row {
+		margin-top: 3rem;
+	}
+}
+
+.cc {
+	font-family: cc-icons;
+	vertical-align: middle;
+}
+
+.cc-info {
+	font-family: Oswald;
+	font-weight: 300;
+	font-size: 0.85rem;
+}
+
+.cc-info img {
+	display: inline;
+	width: 88px;
+	margin: 0;
+}
+
+.camrule {
+	border-bottom: solid 1px #ccc;
+	display: none;
+}
+
+.camrule-img {
+	height: 40px;
+	height: 2rem;
+	width: auto;
+	margin: 0 auto;
+	margin-bottom: -20px;
+}
+
+@media (min-width: 40rem){
+	ul {
+		display: block;
+	}
+}
