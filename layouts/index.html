@@ -1,6 +1,5 @@
 {{ define "title" }}{{ .Title | markdownify }} | {{ .Site.Title }}{{ end }}
 {{ define "main" }}
-{{ $dateFormat := default "Mon Jan 2, 2006" (index .Site.Params "date_format") }}
 
 <div class="page">
 
@@ -8,6 +7,29 @@
   <h2>Free/Open Source Photography</h2>
 
   {{ .Content }}
+
+  {{/* Blog Posts Section */}}
+  {{ range .Paginator.Pages }}
+  <article>
+    <time class="date">
+      {{ .Date.Format "January 2, 2006" }}
+    </time>
+      <small class='read'>{{ .ReadingTime }} min read</small>
+      <h1>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h1>
+      <div>
+          {{ .Summary }}
+      </div>
+
+      {{ if .Truncated }}
+          <div class="readmore"><a href="{{ .RelPermalink }}">Read more...</a>
+          </div>
+      {{ end }}
+  </article>
+  <hr/>
+  {{ end }}
+
 
     {{ if .IsTranslated }}
     <h4>{{ i18n "translations" }}</h4>
