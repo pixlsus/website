@@ -13,7 +13,7 @@
     background-color: rgba(0,0,0,0.5);
     overflow: hidden;
     min-height: 100vh;
-    height: 100vh;
+    min-height: 100vh;
 }
 #lede-hero > * {
     grid-area: hero;
@@ -24,10 +24,20 @@
 #lede-hero > img {
     object-fit: cover;
     height: 100%;
-		height: 100vh; /* set to work in chrome */
+		/* height: 100vh; /* set to work in chrome */
     width: 100%;
     z-index: -1;
     opacity: 1;
+}
+/* This is to position stuff for the lede-hero
+   on the homepage correctly */
+@include media-breakpoint-up(lg){
+	#lede-hero {
+		height: 100vh
+	}
+	#lede-hero > img {
+		height: 100vh;
+	}
 }
 
 /* Make some text outlines */
