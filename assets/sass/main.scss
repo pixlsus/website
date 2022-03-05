@@ -1,0 +1,37 @@
+/* Override any bootstrap variables here before importing bootstrap itself */
+
+/* Import bootstrap's sass */
+@import 'bootstrap';
+
+/* Custom SASS imports */
+
+/* Homepage hero image */
+#lede-hero {
+    display: grid;
+    grid-template-areas: "hero";
+    place-items: center;
+    background-color: rgba(0,0,0,0.3);
+    overflow: hidden;
+    min-height: 100vh;
+    height: 100vh;
+}
+#lede-hero > * {
+    grid-area: hero;
+}
+#lede-hero .hero__content {
+    z-index: 1;
+}
+#lede-hero > img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+/* Make some text outlines */
+@for $i from 1 through 3 {
+.text-outline-#{$i} {
+  text-shadow: #{$i}px #{$i}px 0px black, #{$i}px -#{$i}px 0px black, -#{$i}px -#{$i}px 0px black, -#{$i}px #{$i}px 0px black;
+}
+}

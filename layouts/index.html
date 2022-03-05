@@ -1,10 +1,40 @@
 {{ define "title" }}{{ .Title | markdownify }} | {{ .Site.Title }}{{ end }}
 {{ define "main" }}
 
-<div class="page">
+<div class="homepage">
 
-  <h1>PIXLS.US</h1>
-  <h2>Free/Open Source Photography</h2>
+  <section id='lede-hero'>
+    <div class='container'>
+      <div class='row justify-content-center text-center text-light'>
+        <img src='images/logo/pixls.us-logo-url.svg' height='250px'>
+        {{/* <h1>PIXLS.US</h1> */}}
+
+        <h2 class='display-2 my-3 text-outline-2'>Free/Open Source Photography</h2>
+
+        <div class='col-lg-4'>
+          <h2>Articles</h2>
+          <p>Tutorials for various effects, workflows, and a showcase for work from F/OSS photographers. </p>
+        </div>
+
+        <div class='col-lg-4'>
+          <h2>Blog</h2>
+          <p>
+            Upcoming article ideas, status of the website, and various observations in the world of photography. 
+          </p>
+        </div>
+
+        <div class='col-lg-4'>
+          <h2>Discuss</h2>
+          <p>
+            A forum for giving a voice to everyone in the F/OSS photography community. 
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <img src='/images/main-lede/Steinbock_Andreas_Schneider.jpg'>
+  </section>
+
 
   {{ .Content }}
 
