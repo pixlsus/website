@@ -10,7 +10,7 @@
     display: grid;
     grid-template-areas: "hero";
     place-items: center;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.5);
     overflow: hidden;
     min-height: 100vh;
     height: 100vh;
@@ -24,6 +24,7 @@
 #lede-hero > img {
     object-fit: cover;
     height: 100%;
+		height: 100vh; /* set to work in chrome */
     width: 100%;
     z-index: -1;
     opacity: 1;
@@ -31,7 +32,7 @@
 
 /* Make some text outlines */
 @for $i from 1 through 3 {
-.text-outline-#{$i} {
-  text-shadow: #{$i}px #{$i}px 0px black, #{$i}px -#{$i}px 0px black, -#{$i}px -#{$i}px 0px black, -#{$i}px #{$i}px 0px black;
-}
+	.text-outline-#{$i} {
+		text-shadow: #{$i}px #{$i}px 0px black, #{$i}px -#{$i}px 0px black, -#{$i}px -#{$i}px 0px black, -#{$i}px #{$i}px 0px black;
+	}
 }

@@ -6,4 +6,4 @@ backstop_data
 package-lock.json
 .hugo_build.lock
 public/
-_gen/
+resources/_gen/
