@@ -2,3 +2,11 @@ baseURL: 'https://pixls.us'
 languageCode: en-us
 title: 'PIXLS.US'
 theme: 'hugo-bootstrap-bare'
+
+params:
+  ledeimg:
+    src: 'name.jpg'
+    src_title: 'Steinbock'
+    src_url: 'https://pixelbook.org/#15571604680226/15665684864167'
+    by: 'Andreas Schneider'
+    byurl: 'https://blog.pixelbook.org/'
