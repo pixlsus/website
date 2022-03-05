@@ -4,8 +4,9 @@ title: 'PIXLS.US'
 theme: 'hugo-bootstrap-bare'
 
 params:
+  # The image should go in /static/images/main-lede/
   ledeimg:
-    src: 'name.jpg'
+    src: 'Steinbock_Andreas_Schneider.jpg'
     src_title: 'Steinbock'
     src_url: 'https://pixelbook.org/#15571604680226/15665684864167'
     by: 'Andreas Schneider'
