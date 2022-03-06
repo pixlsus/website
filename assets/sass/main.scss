@@ -47,3 +47,15 @@
 		text-shadow: #{$i}px #{$i}px 0px black, #{$i}px -#{$i}px 0px black, -#{$i}px -#{$i}px 0px black, -#{$i}px #{$i}px 0px black;
 	}
 }
+
+.latest-heading > * {
+  transition: all 1s ease;
+}
+.latest-heading {
+  padding-top: 80px;
+  font-family: Arvo;
+  
+  img {
+    vertical-align: baseline;
+  }
+}
