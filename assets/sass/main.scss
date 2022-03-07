@@ -6,6 +6,10 @@
 /* Custom SASS imports */
 @import 'partials/typography';
 
+.navbar {
+  transition: all 500ms ease;
+}
+
 /* Homepage hero image */
 #lede-hero {
     display: grid;
@@ -54,8 +58,10 @@
 .latest-heading {
   padding-top: 80px;
   font-family: Arvo;
-  
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+
   img {
-    vertical-align: baseline;
+    vertical-align: sub;
   }
 }
