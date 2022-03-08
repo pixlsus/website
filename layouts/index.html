@@ -77,6 +77,7 @@
           <div class='text-start'>
             {{- range ( where site.RegularPages "Section" "blog" | first 5 ) }}
             <article>
+              <img src="{{ .Permalink }}{{ .Params.lede_img }}" class='w-100'>
               <h3>
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
               </h3>
