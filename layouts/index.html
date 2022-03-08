@@ -67,6 +67,28 @@
             <img src='https://www.svgrepo.com/show/36555/pages.svg' height='80'>
             <h2 class='mt-3'>Articles</h2>
           </div>
+          <div class='text-start'>
+            {{- range ( where .Site.RegularPages "Section" "articles" | first 5 ) }}
+            <article>
+              <img src="{{ .Permalink }}{{ .Params.lede_img }}" class='w-100'>
+              <h3>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+              </h3>
+              <time class="date">
+                {{ .Date.Format "January 2, 2006" }}
+              </time>
+              <small class='read'>{{ .ReadingTime }} min read</small>
+              <div>
+                {{ .Summary }}
+              </div>
+
+              {{ if .Truncated }}
+                <div class="readmore"><a href="{{ .RelPermalink }}">Read more...</a>
+                </div>
+              {{ end }}
+            </article>
+            {{ end }}
+          </div>
         </div>
 
         <div class='col-lg-4 text-center'>
