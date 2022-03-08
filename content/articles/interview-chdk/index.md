@@ -2,20 +2,20 @@
 date: 2019-02-17T14:11:42-06:00
 
 title: A Q&A with the CHDK Developers
-sub-title: "Adding Features to a Camera: Hacker Meets Photographer"
+sub_title: "Adding Features to a Camera: Hacker Meets Photographer"
 
-lede-img: "reyalp-chdk-md-fireworks-20180704-9082-c2.jpg"
+lede_img: "reyalp-chdk-md-fireworks-20180704-9082-c2.jpg"
 lede-style: 'background-color: white; background-size: cover;'
-lede-attribution: "Fireworks with CHDK motion detection script <a href='https://chdk.setepontos.com/index.php?topic=10864.0' target='_blank'>MDFB2013</a>, by reyalp, licensed under CC BY-NC 2.0."
+lede_attribution: "Fireworks with CHDK motion detection script <a href='https://chdk.setepontos.com/index.php?topic=10864.0' target='_blank'>MDFB2013</a>, by reyalp, licensed under CC BY-NC 2.0."
 
 author: "Gustavo Adolfo (gadolf)"
-author-img: "Gustavo_selfie_01.jpg"
-author-url: ""
-author-twitter: ""
-author-bio: "CHDK user and pixel peeper novice"
+author_img: "Gustavo_selfie_01.jpg"
+author_url: ""
+author_twitter: ""
+author_bio: "CHDK user and pixel peeper novice"
 
 type: 'article'
-layout: article.hbt
+
 #nodiscuss: true
 
 ---

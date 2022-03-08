@@ -1,18 +1,18 @@
 ---
 date: 2018-11-15T08:00:00-05:00
 title: "Create lens calibration data for lensfun"
-sub-title: "Adding support for your lens"
+sub_title: "Adding support for your lens"
 
-lede-img: "lede_vignetting.jpg"
-lede-attribution: "by <a href='https://pixelbook.org'>Andreas Schneider</a>"
+lede_img: "lede_vignetting.jpg"
+lede_attribution: "by <a href='https://pixelbook.org'>Andreas Schneider</a>"
 
 author: "Andreas Schneider" #required
-author-img: "asn.png"
-author-url: "https://blog.pixelbook.org"
-author-twitter: "@cryptomilk"
-author-gplus: ""
-author-fb: ""
-author-bio: "I'm a <a href='https://blog.pixelbook.org'>Free and Open Source Software Hacker</a> who loves climbing, cycling and photography."
+author_img: "asn.png"
+author_url: "https://blog.pixelbook.org"
+author_twitter: "@cryptomilk"
+author_gplus: ""
+author_fb: ""
+author_bio: "I'm a <a href='https://blog.pixelbook.org'>Free and Open Source Software Hacker</a> who loves climbing, cycling and photography."
 
 collection: tutorial
 tags:
@@ -24,7 +24,7 @@ tags:
 stylesheet: lensfun-corrections
 
 type: "article"
-layout: article.hbt
+
 
 ---
 

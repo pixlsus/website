@@ -1,18 +1,18 @@
 ---
 date: 2015-06-09T10:34:49-05:00
 title: "Basic Landscape Exposure Blending with GIMP and G'MIC"
-sub-title: "Exploring exposure blending entirely in GIMP"
+sub_title: "Exploring exposure blending entirely in GIMP"
 
-lede-img: "basic landscape exposure blend lede.jpg"
-lede-attribution: "by <a href='http://lightsweep.co.uk/'>Ian Hex</a>"
+lede_img: "basic landscape exposure blend lede.jpg"
+lede_attribution: "by <a href='http://lightsweep.co.uk/'>Ian Hex</a>"
 
 author: "Pat David" #required
-author-img: ""
-author-url: "http://blog.patdavid.net"
-author-twitter: "@patdavid"
-author-gplus: ""
-author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.  I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.  Sometimes they meet."
+author_img: ""
+author_url: "http://blog.patdavid.net"
+author_twitter: "@patdavid"
+author_gplus: ""
+author_fb: ""
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.  I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.  Sometimes they meet."
 
 type: "article"
 collection: tutorial
@@ -24,7 +24,7 @@ tags:
     - Technique
 
 stylesheet: basic-landcape-exposure-blending
-layout: article.hbt
+
 
 #nodiscuss: true
 ---

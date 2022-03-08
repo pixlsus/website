@@ -2,20 +2,20 @@
 date: 2018-05-04T14:11:42-06:00 
 
 title: (NSFW) What Stefan Sees
-sub-title: An Interview with Photographer Stefan Schmitz
+sub_title: An Interview with Photographer Stefan Schmitz
 
-lede-img: "JP_SAS_4429.jpg"
+lede_img: "JP_SAS_4429.jpg"
 lede-style: 'background-color: white; background-size: cover;'
-lede-attribution: "by <a href='https://whatstefansees.com/' title='Stefan Schmitz - what stefan sees'>Stefan Schmitz</a>"
+lede_attribution: "by <a href='https://whatstefansees.com/' title='Stefan Schmitz - what stefan sees'>Stefan Schmitz</a>"
 
 author: "Pat David"
-author-img: ""
-author-url: "http://blog.patdavid.net"
-author-twitter: "@patdavid"
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_img: ""
+author_url: "http://blog.patdavid.net"
+author_twitter: "@patdavid"
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 type: 'article'
-layout: article.hbt
+
 #nodiscuss: true
 
 ---

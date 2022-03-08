@@ -2,18 +2,18 @@
 date: 2015-12-02T12:00:00-06:00
 
 title: "Users Guide to High Bit Depth GIMP 2.9.2, Part 2"
-#sub-title: Radiometrically correct editing, unbounded ICC profile conversions, and unclamped editing
-sub-title: "Part 2: Radiometrically correct editing, unbounded ICC profile conversions, and unclamped editing"
+#sub_title: Radiometrically correct editing, unbounded ICC profile conversions, and unclamped editing
+sub_title: "Part 2: Radiometrically correct editing, unbounded ICC profile conversions, and unclamped editing"
 
-lede-img: 'flying-bird-between-trees.jpg'
+lede_img: 'flying-bird-between-trees.jpg'
 lede-style: 'background-color: white; background-position: 0;'
-lede-attribution: "&copy;2015 <a href='http://ninedegreesbelow.com/'>Elle Stone</a>"
+lede_attribution: "&copy;2015 <a href='http://ninedegreesbelow.com/'>Elle Stone</a>"
 
 author: "Elle Stone" #required
-author-img: "ninedegrees.png"
-author-url: "http://ninedegreesbelow.com/"
-author-twitter: ""
-author-bio: "I'm an amateur photographer with a digital darkroom built on Linux and
+author_img: "ninedegrees.png"
+author_url: "http://ninedegreesbelow.com/"
+author_twitter: ""
+author_bio: "I'm an amateur photographer with a digital darkroom built on Linux and
 free software. I've contributed to GIMP development since June 2012.<br/><a href='http://ninedegreesbelow.com/'>Nine Degrees Below</a> is my personal website where I indulge my interest in photography and color management in the free/libre digital darkroom."
 
 canonical: "http://ninedegreesbelow.com/photography/users-guide-to-high-bit-depth-gimp.html"
@@ -27,7 +27,7 @@ tags:
     - color-management
 
 stylesheet: gimp-high-bit-depth-part-2
-layout: article.hbt
+
 #nodiscuss: true
 ---
 

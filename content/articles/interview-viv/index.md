@@ -2,20 +2,20 @@
 date: 2018-07-23T16:03:11-06:00 
 
 title: From Russia with Love
-sub-title: An Interview with Photographer Ilya Varivchenko
+sub_title: An Interview with Photographer Ilya Varivchenko
 
-lede-img: "PA150205.jpg"
+lede_img: "PA150205.jpg"
 lede-style: 'background-color: white; background-size: cover; background-position: 0 20%;'
-lede-attribution: "by <a href='http://varivchenko.com/blog/' title='Ilya Varivchenko Blog'>Ilya Varivchenko</a>"
+lede_attribution: "by <a href='http://varivchenko.com/blog/' title='Ilya Varivchenko Blog'>Ilya Varivchenko</a>"
 
 author: "Pat David"
-author-img: ""
-author-url: "https://patdavid.net"
-author-twitter: "@patdavid"
-author-bio: "I <a href='https://patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_img: ""
+author_url: "https://patdavid.net"
+author_twitter: "@patdavid"
+author_bio: "I <a href='https://patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 type: 'article'
-layout: article.hbt
+
 #nodiscuss: true
 ---
 

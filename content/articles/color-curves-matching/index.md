@@ -2,17 +2,17 @@
 date: 2015-08-04T14:10:36-05:00
 
 title: Color Curves Matching
-sub-title: Sample points and matching tones 
+sub_title: Sample points and matching tones 
 
-lede-img: 'dorothy.jpg'
+lede_img: 'dorothy.jpg'
 lede-style: 'background-color: white; background-position: 0;'
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/16270435838'>Dorothy</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/16270435838'>Dorothy</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
 
 author: "Pat David" #required
-author-img: ""
-author-url: "http://blog.patdavid.net"
-author-twitter: "@patdavid"
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_img: ""
+author_url: "http://blog.patdavid.net"
+author_twitter: "@patdavid"
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 type: 'article'
 collection: tutorial
@@ -23,7 +23,7 @@ tags:
     - color
 
 stylesheet: color-curves-matching
-layout: article.hbt
+
 #nodiscuss: true
 ---
 

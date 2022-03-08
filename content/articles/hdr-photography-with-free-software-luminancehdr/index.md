@@ -2,17 +2,17 @@
 date: 2016-01-26T14:57:59-05:00 
 
 title: HDR Photography with Free Software (LuminanceHDR)
-sub-title: A first approach to creating and mapping HDR images
+sub_title: A first approach to creating and mapping HDR images
 
-lede-img: 'HDRLayers.jpg'
+lede_img: 'HDRLayers.jpg'
 lede-style: 'background-color: white; background-position: 0;'
-lede-attribution: "<a href='http://www.flickr.com/photos/fredvdd/236863839/'>HDR Layers</a> by <a href='http://www.flickr.com/photos/fredvdd'>dontmindme</a> <a href='https://creativecommons.org/licenses/by-nc-sa/2.0/' title='Creative Commons, BY-NC-SA'><span class='cc'>cbna</span></a>"
+lede_attribution: "<a href='http://www.flickr.com/photos/fredvdd/236863839/'>HDR Layers</a> by <a href='http://www.flickr.com/photos/fredvdd'>dontmindme</a> <a href='https://creativecommons.org/licenses/by-nc-sa/2.0/' title='Creative Commons, BY-NC-SA'><span class='cc'>cbna</span></a>"
 
 author: "Pat David" #required
-author-img: ""
-author-url: "http://blog.patdavid.net"
-author-twitter: "@patdavid"
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.
+author_img: ""
+author_url: "http://blog.patdavid.net"
+author_twitter: "@patdavid"
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.
 I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.
 Sometimes they <a href='//pixls.us'>meet</a>."
 
@@ -25,7 +25,7 @@ tags:
     - tone-mapping
 
 stylesheet: hdr-luminance
-layout: article.hbt
+
 
 ---
 

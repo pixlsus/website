@@ -2,20 +2,20 @@
 date: 2019-04-16T09:08:28-06:00 
 
 title: "Processing a nightscape in Siril"
-sub-title: "A basic tutorial"
+sub_title: "A basic tutorial"
 
-lede-img: "resultat_03_final.jpg"
+lede_img: "resultat_03_final.jpg"
 lede-style: 'background-color: white; background-size: cover;'
-lede-attribution: "The Creations, by Sebastien Guyader <a href='https://creativecommons.org/licenses/by-nc/4.0/' class='cc' title='Licensed under Creative Commons Attribution-NonCommercial 4.0 International License'>cbn</a>"
+lede_attribution: "The Creations, by Sebastien Guyader <a href='https://creativecommons.org/licenses/by-nc/4.0/' class='cc' title='Licensed under Creative Commons Attribution-NonCommercial 4.0 International License'>cbn</a>"
 
 author: "Sebastien Guyader (sguyader)"
-author-img: "sguyader_icon.png"
-author-url: ""
-author-twitter: ""
-author-bio: ""
+author_img: "sguyader_icon.png"
+author_url: ""
+author_twitter: ""
+author_bio: ""
 
 type: 'article'
-layout: article.hbt
+
 #nodiscuss: true
 
 ---

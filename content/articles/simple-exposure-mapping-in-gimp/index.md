@@ -2,20 +2,20 @@
 date: 2017-12-05T09:17:37-06:00 
 
 title: Simple Exposure Mapping in GIMP
-sub-title: A simple approach to blending exposures
+sub_title: A simple approach to blending exposures
 
-lede-img: lede-sample.jpg
+lede_img: lede-sample.jpg
 lede-style: ''
-lede-attribution: "by <a href='https://patdavid.net' title='Pat David'>Pat David</a>"
+lede_attribution: "by <a href='https://patdavid.net' title='Pat David'>Pat David</a>"
 
 author: "Pat David"
-author-img: ""
-author-url: "http://blog.patdavid.net"
-author-twitter: "@patdavid"
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_img: ""
+author_url: "http://blog.patdavid.net"
+author_twitter: "@patdavid"
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 type: 'article'
-layout: article.hbt
+
 #nodiscuss: true
 
 ---

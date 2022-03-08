@@ -1,18 +1,18 @@
 ---
 date: 2016-07-27T13:16:07-05:00
 title: "A Chiaroscuro Portrait"
-sub-title: "Following the Old Masters"
+sub_title: "Following the Old Masters"
 
-lede-img: "mairi-lede.jpg"
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/16259030889'>Mairi Troisième</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
+lede_img: "mairi-lede.jpg"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/16259030889'>Mairi Troisième</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
 
 author: "Pat David" #required
-author-img: ""
-author-url: "http://blog.patdavid.net"
-author-twitter: "@patdavid"
-author-gplus: ""
-author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.  I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.  Sometimes they meet."
+author_img: ""
+author_url: "http://blog.patdavid.net"
+author_twitter: "@patdavid"
+author_gplus: ""
+author_fb: ""
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.  I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.  Sometimes they meet."
 type: "article"
 collection: tutorial
 tags:
@@ -23,7 +23,7 @@ tags:
     - Technique
     - Chiaroscuro
 stylesheet: a-chiaroscuro-portrait
-layout: article.hbt
+
 #nodiscuss: true
 ---
 

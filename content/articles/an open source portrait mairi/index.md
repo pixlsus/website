@@ -1,18 +1,18 @@
 ---
 date: 2015-05-18T12:04:49-05:00
 title: "An Open Source Portrait (Mairi)"
-sub-title: "Processing a portrait session"
+sub_title: "Processing a portrait session"
 
-lede-img: "Mairi.jpg"
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/8493807318'>Mairi 6</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
+lede_img: "Mairi.jpg"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/8493807318'>Mairi 6</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
 
 author: "Pat David" #required
-author-img: ""
-author-url: "http://blog.patdavid.net"
-author-twitter: "@patdavid"
-author-gplus: ""
-author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.  I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.  Sometimes they meet."
+author_img: ""
+author_url: "http://blog.patdavid.net"
+author_twitter: "@patdavid"
+author_gplus: ""
+author_fb: ""
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.  I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.  Sometimes they meet."
 type: "article"
 collection: tutorial
 tags:
@@ -22,7 +22,7 @@ tags:
     - Skin
     - Technique
 stylesheet: open-source-portrait-mari
-layout: article.hbt
+
 #nodiscuss: true
 ---
 

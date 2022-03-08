@@ -1,19 +1,19 @@
 ---
 date: 2014-09-2T11:49:28-05:00
 title: "Building PIXLS.US" 
-sub-title: "A journey of enlightenment..."
+sub_title: "A journey of enlightenment..."
 author: "Pat David" 
-author-img: ""
+author_img: ""
 #author-email: "pat@patdavid.net"
-author-url: "http://blog.patdavid.net"
-author-bio: "This is a big long bio about me for some reason.  I'm testing out <a href='http://blog.patdavid.net'>aanchor link</a> in this string"
-lede-img: "dot-open-eyes.jpg"
-lede-attribution: "Dot Eyes Open by Pat David"
+author_url: "http://blog.patdavid.net"
+author_bio: "This is a big long bio about me for some reason.  I'm testing out <a href='http://blog.patdavid.net'>aanchor link</a> in this string"
+lede_img: "dot-open-eyes.jpg"
+lede_attribution: "Dot Eyes Open by Pat David"
 tags:
     - build
     - log
     - reference
-layout: article.hbt
+
 ---
 
 This is just a log of reference material for actually building this site.  It's mostly for my own reference and edification.  If you're reading this, good luck making sense of my notes...

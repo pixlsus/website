@@ -1,16 +1,16 @@
 ---
 date: 2015-04-20T11:47:07-05:00
 title: "Skin Retouching with Wavelet Decompose" #required
-sub-title: "A better alternative to smearing textures"
-lede-img: "Nikki-after-opt.jpg"
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/14490236250/'>Nikki</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
+sub_title: "A better alternative to smearing textures"
+lede_img: "Nikki-after-opt.jpg"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/14490236250/'>Nikki</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
 author: "Pat David" #required
-author-img: ""
-author-url: "http://blog.patdavid.net"
-author-twitter: "@patdavid"
-author-gplus: ""
-author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.  I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.  Sometimes they meet."
+author_img: ""
+author_url: "http://blog.patdavid.net"
+author_twitter: "@patdavid"
+author_gplus: ""
+author_fb: ""
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.  I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.  Sometimes they meet."
 type: "article"
 collection: tutorial
 tags:
@@ -20,7 +20,7 @@ tags:
     - Skin
     - Technique
 stylesheet: skin-retouching-wavelet-decompose
-layout: article.hbt
+
 ---
 
 Skin retouching is a delicate art.

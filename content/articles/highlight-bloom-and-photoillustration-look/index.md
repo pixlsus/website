@@ -2,17 +2,17 @@
 date: 2016-10-12T13:47:35-05:00 
 
 title: Highlight Bloom and Photoillustration Look
-sub-title: Replicating a 'Lucisart'/Dave Hill type illustrative look
+sub_title: Replicating a 'Lucisart'/Dave Hill type illustrative look
 
-lede-img: 'lede-woman.jpg'
+lede_img: 'lede-woman.jpg'
 lede-style: 'background-color: white; background-position: 0;'
-lede-attribution: "by <a href='https://pixabay.com/en/fashion-woman-beauty-leisure-model-1636868/'>ELANUSA</a> on <a href='https://pixabay.com/en/users/ELANUSA-3179289/'>pixabay</a>"
+lede_attribution: "by <a href='https://pixabay.com/en/fashion-woman-beauty-leisure-model-1636868/'>ELANUSA</a> on <a href='https://pixabay.com/en/users/ELANUSA-3179289/'>pixabay</a>"
 
 author: "Pat David" #required
-author-img: ""
-author-url: "http://blog.patdavid.net"
-author-twitter: "@patdavid"
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_img: ""
+author_url: "http://blog.patdavid.net"
+author_twitter: "@patdavid"
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 type: 'article'
 collection: tutorial
@@ -23,7 +23,7 @@ tags:
     - local-contrast
 
 stylesheet: highlight-and-bloom-photoillustration
-layout: article.hbt
+
 #nodiscuss: true
 ---
 

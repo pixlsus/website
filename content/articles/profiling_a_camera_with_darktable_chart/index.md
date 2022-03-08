@@ -1,18 +1,18 @@
 ---
 date: 2018-04-25T19:00:07-05:00
 title: "Profiling a camera with darktable-chart"
-sub-title: "Figure out the development process of your camera"
+sub_title: "Figure out the development process of your camera"
 
-lede-img: "darktable_colorpicker.png"
-lede-attribution: "by <a href='https://pixelbook.org'>Andreas Schneider</a>"
+lede_img: "darktable_colorpicker.png"
+lede_attribution: "by <a href='https://pixelbook.org'>Andreas Schneider</a>"
 
 author: "Andreas Schneider" #required
-author-img: "asn.png"
-author-url: "https://pixelbook.org"
-author-twitter: "@cryptomilk"
-author-gplus: ""
-author-fb: ""
-author-bio: "I'm a <a href='https://blog.cryptomilk.org'>Free and Open Source Software Hacker</a> who loves climbing, cycling and photography."
+author_img: "asn.png"
+author_url: "https://pixelbook.org"
+author_twitter: "@cryptomilk"
+author_gplus: ""
+author_fb: ""
+author_bio: "I'm a <a href='https://blog.cryptomilk.org'>Free and Open Source Software Hacker</a> who loves climbing, cycling and photography."
 
 collection: tutorial
 tags:
@@ -24,7 +24,7 @@ tags:
 stylesheet: camera-profile-darktable
 
 type: "article"
-layout: article.hbt
+
 
 ---
 

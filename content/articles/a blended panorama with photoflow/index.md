@@ -1,14 +1,14 @@
 ---
 date: 2015-06-26T11:31:39-05:00 
 title: A Blended Panorama with PhotoFlow
-sub-title: Creating panoramas with Hugin and PhotoFlow
+sub_title: Creating panoramas with Hugin and PhotoFlow
 
-lede-img: 'pano_lede.jpg'
-lede-attribution: "<a href='http://photoflowblog.blogspot.fr'>Andrea Ferrero</a>"
+lede_img: 'pano_lede.jpg'
+lede_attribution: "<a href='http://photoflowblog.blogspot.fr'>Andrea Ferrero</a>"
 
 author: "Andrea Ferrero"
-author-bio: "Husband, father, scientist and spare-time photographer.<br/>Creator of <a href='http://aferrero2707.github.io/PhotoFlow/'>Photoflow</a>."
-author-img: '/images/authors/andrea-ferrero.png'
+author_bio: "Husband, father, scientist and spare-time photographer.<br/>Creator of <a href='http://aferrero2707.github.io/PhotoFlow/'>Photoflow</a>."
+author_img: '/images/authors/andrea-ferrero.png'
 
 type: 'article'
 collection: tutorial
@@ -18,7 +18,6 @@ tags:
     - Panorama
     - Technique
 stylesheet: blended-panorama-photoflow
-layout: article.hbt
 #nodiscuss: true
 ---
 

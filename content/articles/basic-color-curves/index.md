@@ -2,17 +2,17 @@
 date: 2015-07-27T10:26:49-05:00
 
 title: Basic Color Curves
-sub-title: An introduction and simple color grading/toning
+sub_title: An introduction and simple color grading/toning
 
-lede-img: 'tranquil.jpg'
+lede_img: 'tranquil.jpg'
 lede-style: 'background-position: 50% 0;'
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/4624063643'>Tranquil</a> by <a href='http://blog.patdavid.net'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a>"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/4624063643'>Tranquil</a> by <a href='http://blog.patdavid.net'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a>"
 
 author: "Pat David" #required
-author-img: ""
-author-url: "http://blog.patdavid.net"
-author-twitter: "@patdavid"
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_img: ""
+author_url: "http://blog.patdavid.net"
+author_twitter: "@patdavid"
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 type: 'article'
 collection: tutorial
@@ -22,7 +22,7 @@ tags:
     - curves
 
 stylesheet: basic-color-curves
-layout: article.hbt
+
 #nodiscuss: true
 ---
 

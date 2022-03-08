@@ -1,16 +1,16 @@
 ---
 date: 2016-11-28T13:25:21-06:00 
 title: "A Masashi Wakui look with GIMP"
-sub-title: "A color bloom fit for night urban landscapes"
+sub_title: "A color bloom fit for night urban landscapes"
 
-lede-img: "lede_Akihabara.jpg"
-lede-attribution: "<a href='https://www.flickr.com/photos/147159025@N07/30786032301' title='Akihabara Night by McCap'>Akihabara Night</a> by <a href='https://discuss.pixls.us/users/mccap/activity'>@McCap</a>"
+lede_img: "lede_Akihabara.jpg"
+lede_attribution: "<a href='https://www.flickr.com/photos/147159025@N07/30786032301' title='Akihabara Night by McCap'>Akihabara Night</a> by <a href='https://discuss.pixls.us/users/mccap/activity'>@McCap</a>"
 lede-style: ""
 
 author: '@McCap'
-author-url: 'https://discuss.pixls.us/users/mccap/activity'
-author-img: 'https://discuss.pixls.us/user_avatar/discuss.pixls.us/mccap/180/3395_1.png'
-author-bio: '<i class="fa fa-globe"></i> <a href="https://www.flickr.com/photos/147159025@N07/">Flickr</a><br>Hobby photographer with a momentary maniacal tendency to learn postprocessing.'
+author_url: 'https://discuss.pixls.us/users/mccap/activity'
+author_img: 'https://discuss.pixls.us/user_avatar/discuss.pixls.us/mccap/180/3395_1.png'
+author_bio: '<i class="fa fa-globe"></i> <a href="https://www.flickr.com/photos/147159025@N07/">Flickr</a><br>Hobby photographer with a momentary maniacal tendency to learn postprocessing.'
 type: "article"
 collection: tutorial
 tags:
@@ -19,7 +19,7 @@ tags:
     - Layer Modes
     - Color
 stylesheet: color-bloom-urban-landscapes
-layout: article.hbt
+
 #nodiscuss: true
 ---
 

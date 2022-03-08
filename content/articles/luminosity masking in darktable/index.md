@@ -1,23 +1,23 @@
 ---
 date: 2015-01-06T13:41:08-05:00
 title: "Luminosity Masking in darktable"
-sub-title: "Making targeted adjustments to your RAWs"
-lede-img: "luminosity masks in darktable tutorial lede.jpeg"
-lede-attribution: "Luminosity Masking by <a href='http://lightsweep.co.uk/'>Ian Hex</a>"
+sub_title: "Making targeted adjustments to your RAWs"
+lede_img: "luminosity masks in darktable tutorial lede.jpeg"
+lede_attribution: "Luminosity Masking by <a href='http://lightsweep.co.uk/'>Ian Hex</a>"
 author: "Ian Hex" #required
-author-img: "ian hex.jpg"
-author-url: "http://lightsweep.co.uk/"
-author-twitter: "@Hexual"
-author-gplus: ""
-author-fb: ""
-author-bio: "My mission is to show off the natural beauty of Britain to the world, <a href='http://lightsweep.co.uk/'>right here</a>.<br/> Also obsessed with typefaces and Beards."
+author_img: "ian hex.jpg"
+author_url: "http://lightsweep.co.uk/"
+author_twitter: "@Hexual"
+author_gplus: ""
+author_fb: ""
+author_bio: "My mission is to show off the natural beauty of Britain to the world, <a href='http://lightsweep.co.uk/'>right here</a>.<br/> Also obsessed with typefaces and Beards."
 collection: tutorial
 tags:
     - darktable
     - Luminosity Mask
     - Landscape
 stylesheet: luminosity-masking-darktable
-layout: article.hbt
+
 ---
 
 **Luminosity Masking**, the ability to create selections of your image based on its specific tones for ultra-targeted editing, is a relatively recent concept favoured by landscape photographers the world over.

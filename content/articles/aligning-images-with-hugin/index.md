@@ -1,16 +1,16 @@
 ---
 date: 2016-11-04T13:12:04-06:00 
 title: "Aligning Images with Hugin"
-sub-title: "Easily process your bracketed exposures"
+sub_title: "Easily process your bracketed exposures"
 
-lede-img: "hugin_lede.jpg"
-lede-attribution: "Beach Umbrellas by <a href='https://discuss.pixls.us/users/isaac/activity'>@isaac</a>"
+lede_img: "hugin_lede.jpg"
+lede_attribution: "Beach Umbrellas by <a href='https://discuss.pixls.us/users/isaac/activity'>@isaac</a>"
 lede-style: "background-position: 50% 100%;"
 
 author: Mica
-author-url: 'https://silentumbrella.com'
-author-img: '/blog/2016/09/from-the-community-vol-1/paperdigits-author-avatar.png'
-author-bio: 'Editor of many, many things.'
+author_url: 'https://silentumbrella.com'
+author_img: '/blog/2016/09/from-the-community-vol-1/paperdigits-author-avatar.png'
+author_bio: 'Editor of many, many things.'
 type: "article"
 collection: tutorial
 tags:
@@ -20,7 +20,7 @@ tags:
     - Alignment
     - HDR
 stylesheet: aligning-images-with-hugin
-layout: article.hbt
+
 #nodiscuss: true
 ---
 

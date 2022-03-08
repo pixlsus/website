@@ -1,15 +1,15 @@
 ---
 date: 2014-09-16T13:36:26-05:00
 title: "Digital B&W Conversion (GIMP)" #required
-sub-title: "Methods for converting to B&W"
-#lede-img: "https://lh4.googleusercontent.com/-RVauHGzbPRQ/UwvCg3d4Q6I/AAAAAAAAOS4/pLGsqpAM_8E/w1650-no/Into%2Bthe%2BFog.jpg"
-lede-img: "Into-the-Fog.jpg"
-lede-attribution: "Into the Fog by <a href='http://blog.patdavid.net'>Pat David</a>"
+sub_title: "Methods for converting to B&W"
+#lede_img: "https://lh4.googleusercontent.com/-RVauHGzbPRQ/UwvCg3d4Q6I/AAAAAAAAOS4/pLGsqpAM_8E/w1650-no/Into%2Bthe%2BFog.jpg"
+lede_img: "Into-the-Fog.jpg"
+lede_attribution: "Into the Fog by <a href='http://blog.patdavid.net'>Pat David</a>"
 author: "Pat David" #required
-author-img: ""
+author_img: ""
 # author-email: "pat@patdavid.net"
-author-url: "http://blog.patdavid.net"
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.  I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.  Sometimes they meet."
+author_url: "http://blog.patdavid.net"
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.  I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.  Sometimes they meet."
 type: "article"
 collection: tutorial
 tags:
@@ -17,7 +17,7 @@ tags:
     - conversion
     - GIMP
 stylesheet: digital-b-w-conversion-gimp
-layout: article.hbt
+
 ---
 
 Black and White photography is a big topic that deserves entire books devoted to the subject.

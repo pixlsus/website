@@ -2,20 +2,20 @@
 date: 2017-10-17T13:20:28-06:00 
 
 title: Faces of Open Source
-sub-title: Peter Adams’s Portraits of Revolutionaries
+sub_title: Peter Adams’s Portraits of Revolutionaries
 
-lede-img: face-montage.jpg
+lede_img: face-montage.jpg
 lede-style: 'background-color: white; background-size: contain; background-repeat: repeat;'
-lede-attribution: "by <a href='http://facesofopensource.com/' title='Portraits from Faces of Open Source by Peter Adams'>Peter Adams</a>"
+lede_attribution: "by <a href='http://facesofopensource.com/' title='Portraits from Faces of Open Source by Peter Adams'>Peter Adams</a>"
 
 author: "Pat David"
-author-img: ""
-author-url: "http://blog.patdavid.net"
-author-twitter: "@patdavid"
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_img: ""
+author_url: "http://blog.patdavid.net"
+author_twitter: "@patdavid"
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 type: 'article'
-layout: article.hbt
+
 #nodiscuss: true
 
 ---

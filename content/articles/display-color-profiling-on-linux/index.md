@@ -2,17 +2,17 @@
 date: 2016-06-09T16:50:08-06:00 
 
 title: Display Color Profiling on Linux
-sub-title: A work in progress
+sub_title: A work in progress
 
-lede-img: 'pixels.jpg'
+lede_img: 'pixels.jpg'
 lede-style: 'background-color: white; background-position: 0;'
-lede-attribution: "Real Pixels"
+lede_attribution: "Real Pixels"
 
 author: 'Pascal de Bruijn'  #required
-author-img: '/images/authors/pmjdebruijn.png'
-author-url: https://encrypted.pcode.nl
-author-twitter: ''
-author-bio: "Barely even a darktable developer anymore.<br><a href='https://encrypted.pcode.nl'>https://encrypted.pcode.nl</a>"
+author_img: '/images/authors/pmjdebruijn.png'
+author_url: https://encrypted.pcode.nl
+author_twitter: ''
+author_bio: "Barely even a darktable developer anymore.<br><a href='https://encrypted.pcode.nl'>https://encrypted.pcode.nl</a>"
 
 canonical: https://encrypted.pcode.nl/blog/2013/11/24/display-color-profiling-on-linux/
 
@@ -22,7 +22,7 @@ tags:
     - color management
 
 stylesheet: color-profiling
-layout: article.hbt
+
 
 ---
 

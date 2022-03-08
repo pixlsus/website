@@ -1,17 +1,17 @@
 ---
 date: 2015-07-15T08:47:30-05:00
 title: A Q&A with Photographer Riley Brandt
-sub-title: On creating a F/OSS photography course
+sub_title: On creating a F/OSS photography course
 
-lede-img: 'riley-brandt-lede.jpg'
+lede_img: 'riley-brandt-lede.jpg'
 lede-style: 'background-position: 50% 0;'
-lede-attribution: "Images by <a href='http://www.rileybrandt.com/'>Riley Brandt</a>"
+lede_attribution: "Images by <a href='http://www.rileybrandt.com/'>Riley Brandt</a>"
 
 author: "Pat David" #required
-author-img: ""
-author-url: "http://blog.patdavid.net"
-author-twitter: "@patdavid"
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_img: ""
+author_url: "http://blog.patdavid.net"
+author_twitter: "@patdavid"
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 type: 'article'
 collection: tutorial
@@ -22,7 +22,7 @@ tags:
     - GIMP
 
 stylesheet: qa-riley-brandt
-layout: article.hbt
+
 #nodiscuss: true
 ---
 

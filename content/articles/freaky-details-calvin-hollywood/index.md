@@ -2,17 +2,17 @@
 date: 2015-08-31T14:33:50-05:00
 
 title: Freaky Details (Calvin Hollywood)
-sub-title: Replicating Calvin Hollywood's Freaky Details in GIMP
+sub_title: Replicating Calvin Hollywood's Freaky Details in GIMP
 
-lede-img: 'freaky.jpg'
+lede_img: 'freaky.jpg'
 lede-style: 'background-color: white; background-position: 0;'
-lede-attribution: "<a href='https://www.flickr.com/photos/thenationalguard/15941126053'>NY National Guard</a> by <a href='https://www.flickr.com/photos/thenationalguard/'>U.S. National Guard</a>"
+lede_attribution: "<a href='https://www.flickr.com/photos/thenationalguard/15941126053'>NY National Guard</a> by <a href='https://www.flickr.com/photos/thenationalguard/'>U.S. National Guard</a>"
 
 author: "Pat David" #required
-author-img: ""
-author-url: "http://blog.patdavid.net"
-author-twitter: "@patdavid"
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_img: ""
+author_url: "http://blog.patdavid.net"
+author_twitter: "@patdavid"
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 type: 'article'
 collection: tutorial
@@ -23,7 +23,7 @@ tags:
     - local-contrast
 
 stylesheet: freaky-details
-layout: article.hbt
+
 #nodiscuss: true
 ---
 
