@@ -4,18 +4,18 @@ date: 2015-09-17T09:23:35-05:00
 title: Portrait Lighting Cheat Sheets
 sub-title: Blender to the Rescue!
 
-lede-img: Lighting-Samples.jpg
-lede-img-thumb: th_Lighting-Samples.jpg
+lede_img: Lighting-Samples.jpg
+lede_img_thumb: th_Lighting-Samples.jpg
 lede-style: "background-position: 0;"
-lede-attribution: "Lighting Samples by <a href='http://blog.patdavid.net/2012/03/visualize-photography-lighting-setups.html'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a>"
+lede_attribution: "Lighting Samples by <a href='http://blog.patdavid.net/2012/03/visualize-photography-lighting-setups.html'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a>"
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

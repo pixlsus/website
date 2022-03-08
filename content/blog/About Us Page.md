@@ -2,11 +2,11 @@
 date: 2014-09-13T21:36:18-05:00
 title: "An About Page and Help"
 sub-title: "A little more about site"
-lede-img: "https://lh3.googleusercontent.com/-95I6L_COmM4/U1rYUJcK7mI/AAAAAAAAPdQ/O-Omo-gyuwI/w1650/rolf.jpg"
+lede_img: "https://lh3.googleusercontent.com/-95I6L_COmM4/U1rYUJcK7mI/AAAAAAAAPdQ/O-Omo-gyuwI/w1650/rolf.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "Rolf Steinort by <a href='http://blog.patdavid.net'>Pat David</a>"
+lede_attribution: "Rolf Steinort by <a href='http://blog.patdavid.net'>Pat David</a>"
 author: "Pat David"
-author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

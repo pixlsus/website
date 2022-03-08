@@ -2,11 +2,11 @@
 date: 2014-10-28T21:59:05-05:00
 title: "Iterating"
 sub-title: "Minor changes and another tutorial"
-lede-img: "LGM Bug.jpg"
+lede_img: "LGM Bug.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "Death Throes of an Insect by <a href='http://blog.patdavid.net'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a>"
+lede_attribution: "Death Throes of an Insect by <a href='http://blog.patdavid.net'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a>"
 author: "Pat David"
-author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

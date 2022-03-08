@@ -3,13 +3,13 @@ date: 2017-09-29
 title: Keep the Raws Coming
 sub-title: Moar samples!
 
-lede-img: not_found.jpg
-lede-img-thumb: th_not_found.jpg
-lede-attribution:  "<a href='https://www.flickr.com/photos/gasi/1809416165'>A Photographers Nightmare</a> by Daniel Gasienica"
+lede_img: not_found.jpg
+lede_img_thumb: th_not_found.jpg
+lede_attribution:  "<a href='https://www.flickr.com/photos/gasi/1809416165'>A Photographers Nightmare</a> by Daniel Gasienica"
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

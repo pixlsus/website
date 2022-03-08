@@ -3,13 +3,13 @@ date: 2019-04-02T12:18:10-05:00
 title: New Topic Previews
 sub-title: Image previews now available for some categories
 
-lede-img: "pixls-critique.jpg"
-lede-img-thumb: "th_pixls-critique.jpg"
+lede_img: "pixls-critique.jpg"
+lede_img_thumb: "th_pixls-critique.jpg"
 lede-style: "background-size: auto"
-lede-attribution: ""
+lede_attribution: ""
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

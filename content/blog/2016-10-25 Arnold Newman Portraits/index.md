@@ -3,14 +3,14 @@ date: 2016-10-28T12:39:58-05:00
 title: Arnold Newman Portraits
 sub-title: The beginnings of "Environmental Portraits"
 
-lede-img: "newman-stravinsky.jpg"
-#lede-img-thumb: th_beck-roses.jpg
-lede-attribution: 
+lede_img: "newman-stravinsky.jpg"
+#lede_img_thumb: th_beck-roses.jpg
+lede_attribution: 
 lede-style: 'background-position: 0 100%;'
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

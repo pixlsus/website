@@ -2,15 +2,15 @@
 date: 2016-09-04
 title: From the Community Vol. 1
 
-lede-img: photography-tile.png
-lede-img-thumb: attrib-bar.jpg
-lede-attribution:
+lede_img: photography-tile.png
+lede_img_thumb: attrib-bar.jpg
+lede_attribution:
 lede-style: 'background-repeat: repeat;'
 
 author: Mica
 author-url: 'https://silentumbrella.com'
-author-img: 'paperdigits-author-avatar.png'
-author-bio: 'Editor of many, many things.'
+author_img: 'paperdigits-author-avatar.png'
+author_bio: 'Editor of many, many things.'
 
 collection: blogposts
 layout: blog-posts.hbt

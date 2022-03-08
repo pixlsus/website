@@ -2,17 +2,17 @@
 date: 2016-01-08T09:36:06-05:00 
 title: Libre Graphics Meeting London
 sub-title: Join us in London for a PIXLS meet-up!
-lede-img: london-calling-2048.jpg
-lede-img-thumb: th_london-calling-2048.jpg
+lede_img: london-calling-2048.jpg
+lede_img_thumb: th_london-calling-2048.jpg
 lede-style: ""
-lede-attribution: "<a href='https://en.wikipedia.org/wiki/Pennie_Smith'>&copy; Pennie Smith</a>"
+lede_attribution: "<a href='https://en.wikipedia.org/wiki/Pennie_Smith'>&copy; Pennie Smith</a>"
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 collection: blogposts 
 layout: blog-posts.hbt
 ---

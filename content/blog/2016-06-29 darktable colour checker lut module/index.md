@@ -3,14 +3,14 @@ date: 2016-06-29T08:44:08-05:00
 title: Color Manipulation with the Colour Checker LUT Module
 sub-title: hanatos tinkering in darktable again...
 
-lede-img: darktable-lut-lede.jpg
-lede-img-thumb: th_darktable-lut-lede.jpg
-lede-attribution: 
+lede_img: darktable-lut-lede.jpg
+lede_img_thumb: th_darktable-lut-lede.jpg
+lede_attribution: 
 lede-style: 
 
 author: Johannes Hanika
-author-img: /images/authors/johannes_hanika.jpg
-author-bio: "He's just <a href='https://jo.dreggn.org/home/'>this guy</a>, you know?<br>Worked on <a href='http://www.darktable.org'>darktable</a> a while ago, now pretends to work on it."
+author_img: /images/authors/johannes_hanika.jpg
+author_bio: "He's just <a href='https://jo.dreggn.org/home/'>this guy</a>, you know?<br>Worked on <a href='http://www.darktable.org'>darktable</a> a while ago, now pretends to work on it."
 
 canonical: http://www.darktable.org/2016/05/colour-manipulation-with-the-colour-checker-lut-module/
 

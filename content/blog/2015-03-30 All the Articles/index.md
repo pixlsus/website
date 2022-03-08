@@ -2,11 +2,11 @@
 date: 2015-03-30T17:31:36-05:00
 title: "All the Articles"
 sub-title: "My God, It's Full of Articles"
-lede-img: "M31 - Adam Evans.jpg"
+lede_img: "M31 - Adam Evans.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "<a href='https://www.flickr.com/photos/astroporn/4869858064/'>M31, Andromeda Galaxy</a> by <a href='https://www.flickr.com/photos/astroporn/'>Adam Evans</a> <a class='cc' href='https://creativecommons.org/licenses/by-nc/2.0/' target='_blank'>cbn</a>"
+lede_attribution: "<a href='https://www.flickr.com/photos/astroporn/4869858064/'>M31, Andromeda Galaxy</a> by <a href='https://www.flickr.com/photos/astroporn/'>Adam Evans</a> <a class='cc' href='https://creativecommons.org/licenses/by-nc/2.0/' target='_blank'>cbn</a>"
 author: "Pat David"
-author-bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---
@@ -54,7 +54,7 @@ For example, here's a sample of the front-matter for this blog post:
 date: 2015-03-30T17:31:36-05:00
 title: "All the Articles"
 sub-title: "My God, It's Full of Articles"
-lede-img: "M31 - Adam Evans.jpg"
+lede_img: "M31 - Adam Evans.jpg"
 author: "Pat David"
 collection: blogposts
 layout: blog-posts.hbt

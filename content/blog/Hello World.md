@@ -4,10 +4,10 @@
 date: 2014-08-24T19:40:00-05:00
 title: "Hello World!"
 sub-title: "Let's see if I can get this thing off the ground..."
-lede-img: /images/logo/pixls-atom.png
+lede_img: /images/logo/pixls-atom.png
 lede-style: "background-size: cover; background-repeat: no-repeat;"
 author: "Pat David"
-author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

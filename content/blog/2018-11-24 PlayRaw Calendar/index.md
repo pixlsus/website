@@ -3,13 +3,13 @@ date: 2018-11-25T09:10:06-06:00
 title: 2018 PlayRaw Calendar
 sub-title: Chris creates a new calendar for the community
 
-lede-img: "monkey-business-dimitrios.jpg"
-lede-img-thumb: "th_monkey-business-dimitrios.jpg"
-lede-attribution: "Monkey Business by Dimitrios Psychogios"
+lede_img: "monkey-business-dimitrios.jpg"
+lede_img_thumb: "th_monkey-business-dimitrios.jpg"
+lede_attribution: "Monkey Business by Dimitrios Psychogios"
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

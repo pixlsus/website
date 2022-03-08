@@ -4,18 +4,18 @@ date: 2015-07-22T16:49:52-05:00
 title: Welcome G'MIC
 sub-title: Moving G'MIC to a modern forum
 
-lede-img: "gmic-logo.jpg"
+lede_img: "gmic-logo.jpg"
 lede-style: "background-size: contain; background-repeat: no-repeat; background-color: white;"
-#lede-attribution: ''
-lede-img-thumb: "th_gmic-logo.jpg"
+#lede_attribution: ''
+lede_img_thumb: "th_gmic-logo.jpg"
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

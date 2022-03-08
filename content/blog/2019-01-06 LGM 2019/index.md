@@ -3,12 +3,12 @@ date: 2019-01-06T09:59:40-06:00
 title: Libre Graphics Meeting 2019
 sub-title: Let's participate!
 
-lede-img: "Saarbrucken-Panorama_01.jpg"
-lede-img-thumb: "th_Saarbrucken-Panorama_01.jpg"
-lede-attribution: "by <a href='https://it.wikipedia.org/wiki/Saarbr%C3%BCcken#/media/File:Saarbr%C3%BCcken-Panorama_01.jpg'>Di Rüdiger</a>"
+lede_img: "Saarbrucken-Panorama_01.jpg"
+lede_img_thumb: "th_Saarbrucken-Panorama_01.jpg"
+lede_attribution: "by <a href='https://it.wikipedia.org/wiki/Saarbr%C3%BCcken#/media/File:Saarbr%C3%BCcken-Panorama_01.jpg'>Di Rüdiger</a>"
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

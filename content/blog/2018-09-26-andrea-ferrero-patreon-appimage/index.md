@@ -3,14 +3,14 @@ date: 2018-09-26T10:22:32-08:00
 title: Support Andrea Ferrero on Patreon!
 sub-title: Andrea is developing Photo Flow, GIMP AppImage, Hugin AppImage, and more!
 
-lede-img: "af-lede.jpg"
-lede-img-thumb: "af-lede.jpg"
-lede-attribution: "Andrea Ferrero"
+lede_img: "af-lede.jpg"
+lede_img_thumb: "af-lede.jpg"
+lede_attribution: "Andrea Ferrero"
 
 author: Mica
 author-url: 'https://silentumbrella.com'
-author-img: '/images/authors/paperdigits.png'
-author-bio: 'Editor of many, many things.'
+author_img: '/images/authors/paperdigits.png'
+author_bio: 'Editor of many, many things.'
 
 collection: blogposts
 layout: blog-posts.hbt

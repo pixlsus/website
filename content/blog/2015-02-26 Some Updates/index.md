@@ -2,11 +2,11 @@
 date: 2015-02-26T16:38:21-05:00
 title: "Some Updates"
 sub-title: "Yes still writing and working!"
-lede-img: "Dorothy.jpg"
+lede_img: "Dorothy.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/16270435838/'>Dorothy</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/16270435838/'>Dorothy</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
 author: "Pat David"
-author-bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

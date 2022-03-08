@@ -4,18 +4,18 @@ date: 2015-09-08T12:13:08-05:00
 title: Softness and Superresolution
 sub-title: Experimenting and Clarifying
 
-lede-img: "francis.jpg"
-lede-img-thumb: "th_francis.jpg"
+lede_img: "francis.jpg"
+lede_img_thumb: "th_francis.jpg"
 lede-style: "background-position: 0 0;"
-lede-attribution: "St. Francis by <a href='http://blog.patdavid.net'>Pat David</a> <a class='cc' href=''>cba</a>"
+lede_attribution: "St. Francis by <a href='http://blog.patdavid.net'>Pat David</a> <a class='cc' href=''>cba</a>"
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

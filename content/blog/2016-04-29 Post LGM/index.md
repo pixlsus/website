@@ -3,18 +3,18 @@ date: 2016-04-29T16:12:46-06:00
 title: Post Libre Graphics Meeting
 sub-title: What a trip!
 
-lede-img: Mairi-Finsbury.jpg
-lede-img-thumb: th_Mairi-Finsbury.jpg
+lede_img: Mairi-Finsbury.jpg
+lede_img_thumb: th_Mairi-Finsbury.jpg
 lede-style: ""
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/26581376895'>Mairi Finsbury</a> by Pat David <span class='cc'><a href='https://creativecommons.org/licenses/by-sa/3.0/'>cba</a></span>"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/26581376895'>Mairi Finsbury</a> by Pat David <span class='cc'><a href='https://creativecommons.org/licenses/by-sa/3.0/'>cba</a></span>"
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

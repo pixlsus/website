@@ -4,14 +4,14 @@ date: 2017-03-29T15:51:36-06:00
 title: GIMP is Going to LGM!
 sub-title: Tall and tan and young and lovely...
 
-lede-img: Forte_de_Copacabana_panorama.jpg
-lede-img-thumb: th_Forte_de_Copacabana_panorama.jpg
-lede-attribution: '<a title="By Gabriel Heusi/Brasil2016.gov.br (Portal Brasil 2016) [CC BY 3.0 br], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AForte_de_Copacabana_panorama.jpg">By Gabriel Heusi/Brasil2016.gov.br</a>'
+lede_img: Forte_de_Copacabana_panorama.jpg
+lede_img_thumb: th_Forte_de_Copacabana_panorama.jpg
+lede_attribution: '<a title="By Gabriel Heusi/Brasil2016.gov.br (Portal Brasil 2016) [CC BY 3.0 br], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AForte_de_Copacabana_panorama.jpg">By Gabriel Heusi/Brasil2016.gov.br</a>'
 lede-style: ''
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

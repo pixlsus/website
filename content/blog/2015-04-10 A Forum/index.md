@@ -2,11 +2,11 @@
 date: 2015-04-10T09:40:44-05:00
 title: "A Forum"
 sub-title: "For Discourse, if you will..."
-lede-img: "Glades.jpg"
+lede_img: "Glades.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/16101646308/'>Glades</a> by <a href='https://www.flickr.com/photos/patdavid/'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cb</a>"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/16101646308/'>Glades</a> by <a href='https://www.flickr.com/photos/patdavid/'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cb</a>"
 author: "Pat David"
-author-bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

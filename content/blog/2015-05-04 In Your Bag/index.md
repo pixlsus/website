@@ -3,13 +3,13 @@ date: 2015-05-04T09:47:58-05:00
 title: "What's In Your Bag?"
 sub-title: "Thoughts on a next article as well"
 
-lede-img: "MyBag.jpg"
+lede_img: "MyBag.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "<a href='http://blog.patdavid.net'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cb</a>"
-lede-img-thumb: "th_MyBag.jpg"
+lede_attribution: "<a href='http://blog.patdavid.net'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cb</a>"
+lede_img_thumb: "th_MyBag.jpg"
 
 author: "Pat David"
-author-bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

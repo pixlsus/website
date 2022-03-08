@@ -3,14 +3,14 @@ date: 2016-11-02T10:36:20-04:00
 title: The Royal Photographic Society Journal
 sub-title: Who let us in here?
 
-lede-img: RPS_Logo_WithCrest_RGB.png
-#lede-img-thumb: th_beck-roses.jpg
-lede-attribution: 
+lede_img: RPS_Logo_WithCrest_RGB.png
+#lede_img_thumb: th_beck-roses.jpg
+lede_attribution: 
 lede-style: 'background-position: 0 100%;'
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

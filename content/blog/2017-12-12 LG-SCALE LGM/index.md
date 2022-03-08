@@ -3,14 +3,14 @@ date: 2017-12-12T15:24:39-06:00
 title: LGM and Libre Graphics at SCaLE 16x
 sub-title: All the libre graphics!
 
-lede-img: LGM+SCaLE.png
-lede-img-thumb: th_LGM+SCaLE.png
+lede_img: LGM+SCaLE.png
+lede_img_thumb: th_LGM+SCaLE.png
 lede-style: "background-size: contain; background-repeat: no-repeat;"
-lede-attribution: ""
+lede_attribution: ""
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

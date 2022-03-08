@@ -4,18 +4,18 @@ date: 2015-11-02T08:50:17-05:00
 title: News from the World of Tomorrow
 sub-title: And more awesome updates!
 
-lede-img: gmic_peppers.jpg
-lede-img-thumb: th_gmic_peppers.jpg
+lede_img: gmic_peppers.jpg
+lede_img_thumb: th_gmic_peppers.jpg
 lede-style: ""
-lede-attribution: "<a href='https://www.flickr.com/photos/33499304@N00/328059375/'>Yellow Peppers 2</a> by <a href='https://www.flickr.com/photos/pinadd/'>pin add</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cb</a>"
+lede_attribution: "<a href='https://www.flickr.com/photos/33499304@N00/328059375/'>Yellow Peppers 2</a> by <a href='https://www.flickr.com/photos/pinadd/'>pin add</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cb</a>"
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

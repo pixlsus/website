@@ -3,13 +3,13 @@ date: 2017-11-22T10:20:28-06:00
 title: Giving Thanks
 sub-title: For a wonderful community
 
-lede-img: Rockwell-Thanksgiving-Simpsons.jpg
-lede-img-thumb: th_Rockwell-Thanksgiving-Simpsons.jpg
-lede-attribution:  ""
+lede_img: Rockwell-Thanksgiving-Simpsons.jpg
+lede_img_thumb: th_Rockwell-Thanksgiving-Simpsons.jpg
+lede_attribution:  ""
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

@@ -3,14 +3,14 @@ date: 2018-11-22T10:20:28-06:00
 title: Giving More Thanks
 sub-title: For an awesome community
 
-lede-img: Rockwell-Thanksgiving-Simpsons.jpg
-lede-img-thumb: th_Rockwell-Thanksgiving-Simpsons.jpg
-lede-attribution:  ""
+lede_img: Rockwell-Thanksgiving-Simpsons.jpg
+lede_img_thumb: th_Rockwell-Thanksgiving-Simpsons.jpg
+lede_attribution:  ""
 
 author: Mica
 author-url: 'https://silentumbrella.com'
-author-img: '/images/authors/paperdigits.png'
-author-bio: 'Editor of many, many things.'
+author_img: '/images/authors/paperdigits.png'
+author_bio: 'Editor of many, many things.'
 
 collection: blogposts
 layout: blog-posts.hbt

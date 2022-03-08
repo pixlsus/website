@@ -2,11 +2,11 @@
 date: 2014-09-08T11:06:28-05:00
 title: "The Big Picture"
 sub-title: "This is all about visual media after all..."
-lede-img: "https://lh4.googleusercontent.com/-RVauHGzbPRQ/UwvCg3d4Q6I/AAAAAAAAOS4/pLGsqpAM_8E/w1650-no/Into%2Bthe%2BFog.jpg"
+lede_img: "https://lh4.googleusercontent.com/-RVauHGzbPRQ/UwvCg3d4Q6I/AAAAAAAAOS4/pLGsqpAM_8E/w1650-no/Into%2Bthe%2BFog.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "Into the Fog by <a href='http://blog.patdavid.net'>Pat David</a>"
+lede_attribution: "Into the Fog by <a href='http://blog.patdavid.net'>Pat David</a>"
 author: "Pat David"
-author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

@@ -3,14 +3,14 @@ date: 2016-11-14T12:19:19-06:00
 title: João Almeida's darktable Presets
 sub-title: A gorgeous set of film emulation for darktable
 
-lede-img: portra400_after.jpg
-#lede-img-thumb: th_beck-roses.jpg
-lede-attribution: "<a href='http://www.joaoalmeidaphotography.com/'>João Almeida</a>"
+lede_img: portra400_after.jpg
+#lede_img_thumb: th_beck-roses.jpg
+lede_attribution: "<a href='http://www.joaoalmeidaphotography.com/'>João Almeida</a>"
 lede-style: 'background-position: 0 0;'
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

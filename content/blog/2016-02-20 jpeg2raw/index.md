@@ -2,17 +2,17 @@
 date: 2016-02-20T13:54:54-06:00
 title: jpeg2RAW Guest Spot
 sub-title: An interview! LGM update! And Github?
-lede-img: andabata-tiger-beetle.jpg
-lede-img-thumb: th_andabata-tiger-beetle.jpg
+lede_img: andabata-tiger-beetle.jpg
+lede_img_thumb: th_andabata-tiger-beetle.jpg
 lede-style: ""
-lede-attribution: "<a href='https://kees.nl/'>&copy; Kees Guequierre</a>"
+lede_attribution: "<a href='https://kees.nl/'>&copy; Kees Guequierre</a>"
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 collection: blogposts 
 layout: blog-posts.hbt
 ---

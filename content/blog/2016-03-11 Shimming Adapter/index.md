@@ -3,15 +3,15 @@ date: 2016-03-11T13:03:48-06:00
 title: Shimming an Adapter to be Parallel
 sub-title: Achieving perfect infinity focus 
 
-lede-img: carvac-lede.jpg
-lede-img-thumb: th_carvac-lede.jpg
+lede_img: carvac-lede.jpg
+lede_img_thumb: th_carvac-lede.jpg
 lede-style: ""
-lede-attribution: "<a href='https://www.flickr.com/photos/carvac/'>Carlo Vaccari</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/3.0/' title='Creative Commons, by Attribution Share-Alike'>cba</a>"
+lede_attribution: "<a href='https://www.flickr.com/photos/carvac/'>Carlo Vaccari</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/3.0/' title='Creative Commons, by Attribution Share-Alike'>cba</a>"
 
 author: 'Carlo Vaccari'
-author-img: 'carvac.png'
+author_img: 'carvac.png'
 author-url: ''
-author-bio: "Carlo is the creator of the <a href='https://github.com/CarVac/filmulator-gui'>Filmulator</a> project and owns too many manual lenses.<br>You can find his photography on <a href='https://www.flickr.com/photos/carvac/'>Flickr</a> and his <a href='https://github.com/CarVac'>projects on Github</a>."
+author_bio: "Carlo is the creator of the <a href='https://github.com/CarVac/filmulator-gui'>Filmulator</a> project and owns too many manual lenses.<br>You can find his photography on <a href='https://www.flickr.com/photos/carvac/'>Flickr</a> and his <a href='https://github.com/CarVac'>projects on Github</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

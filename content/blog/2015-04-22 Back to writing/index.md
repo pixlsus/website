@@ -3,13 +3,13 @@ date: 2015-04-22T12:00:15-05:00
 title: "Back to Writing"
 sub-title: "Hiccups and Other Things"
 
-lede-img: "Tacky.jpg"
+lede_img: "Tacky.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/16548303178/'>Tacky Amalgamation</a> by <a href='https://www.flickr.com/photos/patdavid/'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cb</a>"
-lede-img-thumb: "th_Tacky.jpg"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/16548303178/'>Tacky Amalgamation</a> by <a href='https://www.flickr.com/photos/patdavid/'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cb</a>"
+lede_img_thumb: "th_Tacky.jpg"
 
 author: "Pat David"
-author-bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

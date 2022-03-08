@@ -2,15 +2,15 @@
 date: 2017-02-27
 title: Find us at SCaLE 15x
 
-lede-img: stickers.jpg
-lede-img-thumb: th_stickers.jpg
-lede-attribution: '@paperdigits'
+lede_img: stickers.jpg
+lede_img_thumb: th_stickers.jpg
+lede_attribution: '@paperdigits'
 lede-style: ''
 
 author: Mica
 author-url: 'https://silentumbrella.com'
-author-img: '/images/authors/paperdigits.png'
-author-bio: 'Editor of many, many things.'
+author_img: '/images/authors/paperdigits.png'
+author_bio: 'Editor of many, many things.'
 
 collection: blogposts
 layout: blog-posts.hbt

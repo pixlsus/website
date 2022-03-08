@@ -4,18 +4,18 @@ date: 2015-07-15T12:12:35-05:00
 title: The Open Source Photography Course
 sub-title: A chance to win a free copy
 
-lede-img: "riley-brandt-course-2x.png"
+lede_img: "riley-brandt-course-2x.png"
 lede-style: "background-size: contain; background-repeat: no-repeat;background-color: rgb(188, 78, 80);"
-#lede-attribution: ''
-lede-img-thumb: "th_riley-brandt-course-2x.png"
+#lede_attribution: ''
+lede_img_thumb: "th_riley-brandt-course-2x.png"
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

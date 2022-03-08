@@ -3,13 +3,13 @@ date: 2015-04-13T21:59:55-05:00
 title: "An Opportunity"
 sub-title: "To help (and attract) new users!"
 
-lede-img: "Mary Front.jpg"
+lede_img: "Mary Front.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat; background-position: 0 80%;"
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/15871172825/'>Mary Front</a> by <a href='https://www.flickr.com/photos/patdavid/'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cb</a>"
-lede-img-thumb: "th_Mary Front.jpg"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/15871172825/'>Mary Front</a> by <a href='https://www.flickr.com/photos/patdavid/'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cb</a>"
+lede_img_thumb: "th_Mary Front.jpg"
 
 author: "Pat David"
-author-bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

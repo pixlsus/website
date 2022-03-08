@@ -2,11 +2,11 @@
 date: 2014-12-11T21:15:16-05:00
 title: "Still Writing"
 sub-title: "Yes, things are still moving (slowly) along"
-lede-img: "https://lh3.googleusercontent.com/-QwTdTG8FL1Y/T9yrrP7f_eI/AAAAAAAAK14/UhCj5utvBbM/w1650-no/The%2BReverence%2Bof%2BSt%2BPauls.jpg"
+lede_img: "https://lh3.googleusercontent.com/-QwTdTG8FL1Y/T9yrrP7f_eI/AAAAAAAAK14/UhCj5utvBbM/w1650-no/The%2BReverence%2Bof%2BSt%2BPauls.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "The Reverence of St. Peter by <a href='http://lightsweep.co.uk'>Ian Hex</a> <a class='cc' href='https://creativecommons.org/licenses/by-nc-sa/3.0/' target='_blank'>cbna</a>"
+lede_attribution: "The Reverence of St. Peter by <a href='http://lightsweep.co.uk'>Ian Hex</a> <a class='cc' href='https://creativecommons.org/licenses/by-nc-sa/3.0/' target='_blank'>cbna</a>"
 author: "Pat David"
-author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

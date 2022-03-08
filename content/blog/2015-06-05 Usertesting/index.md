@@ -3,18 +3,18 @@ date: 2015-06-05T20:00:37-05:00
 title: "Interesting Usertest and Incoming"
 sub-title: "A view of someone using the site and contributing"
 
-lede-img: "pano_heading.jpg"
+lede_img: "pano_heading.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "by <a href='http://photoflowblog.blogspot.com'>Andrea Ferrero</a>"
-lede-img-thumb: "th_pano_heading.jpg"
+lede_attribution: "by <a href='http://photoflowblog.blogspot.com'>Andrea Ferrero</a>"
+lede_img_thumb: "th_pano_heading.jpg"
 
 author: "Pat David" #required
-author-img: ""
+author_img: ""
 author-url: "http://blog.patdavid.net"
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 
 collection: blogposts 
 layout: blog-posts.hbt

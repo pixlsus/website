@@ -3,13 +3,13 @@ date: 2018-02-21T15:18:32-06:00
 title: G'MIC 2.2
 sub-title: New features and filters!
 
-lede-img: "lede_gmic_equalize_hsi.jpg"
-lede-img-thumb: "th_lede_gmic_equalize_hsi.jpg"
-lede-attribution: ""
+lede_img: "lede_gmic_equalize_hsi.jpg"
+lede_img_thumb: "th_lede_gmic_equalize_hsi.jpg"
+lede_attribution: ""
 
 author: David Tschumperlé
-author-img: /images/authors/david-tschumperle.png
-author-bio: "I am a researcher working in the field of image processing in a daily basis. I work for the <a title='CNRS' href='http://www.cnrs.fr/' >CNRS</a> institute, in the <a title='Equipe Image du GREYC' href='https://www.greyc.fr/image' >Image Group </a>at the <a title='Laboratoire GREYC' href='http://www.greyc.fr' >GREYC</a> laboratory in Caen/France. I'm the manager and developer of <a href='http://gmic.eu'>G'MIC</a> and <a href='http://cimg.eu'>CImg</a>, two open-source projects for image processing."
+author_img: /images/authors/david-tschumperle.png
+author_bio: "I am a researcher working in the field of image processing in a daily basis. I work for the <a title='CNRS' href='http://www.cnrs.fr/' >CNRS</a> institute, in the <a title='Equipe Image du GREYC' href='https://www.greyc.fr/image' >Image Group </a>at the <a title='Laboratoire GREYC' href='http://www.greyc.fr' >GREYC</a> laboratory in Caen/France. I'm the manager and developer of <a href='http://gmic.eu'>G'MIC</a> and <a href='http://cimg.eu'>CImg</a>, two open-source projects for image processing."
 
 collection: blogposts
 layout: blog-posts.hbt

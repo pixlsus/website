@@ -4,14 +4,14 @@ date: 2017-05-03T14:44:35-06:00
 title: Welcome digiKam!
 sub-title: Lending a helping hand
 
-lede-img: digikam-logo.png
-lede-img-thumb: digikam-logo-w600.png 
-lede-attribution: '<a href="https://www.digikam.org">digiKam</a>'
+lede_img: digikam-logo.png
+lede_img_thumb: digikam-logo-w600.png 
+lede_attribution: '<a href="https://www.digikam.org">digiKam</a>'
 lede-style: ''
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

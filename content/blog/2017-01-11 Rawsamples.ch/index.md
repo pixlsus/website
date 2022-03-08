@@ -4,14 +4,14 @@ date: 2017-01-12T11:10:38-06:00
 title: New Year, New Raw Samples Website
 sub-title: A replacement for rawsamples.ch
 
-lede-img: lede_IMG_5355.jpg
-lede-img-thumb: th_lede_IMG_5355.jpg
-lede-attribution: "<a href='https://www.flickr.com/photos/andabata/31829392502'>Kees Guequierre</a>, 2016"
+lede_img: lede_IMG_5355.jpg
+lede_img_thumb: th_lede_IMG_5355.jpg
+lede_attribution: "<a href='https://www.flickr.com/photos/andabata/31829392502'>Kees Guequierre</a>, 2016"
 lede-style: ''
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

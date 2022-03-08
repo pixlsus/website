@@ -4,18 +4,18 @@ date: 2015-07-07T09:29:45-05:00
 title: "PhotoFlow Blended Panorama Tutorial"
 sub-title: "Andrea Ferrero has been busy!"
 
-lede-img: "pano_final2.jpg"
+lede_img: "pano_final2.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "by <a href='http://photoflowblog.blogspot.com'>Andrea Ferrero</a>"
-lede-img-thumb: "th_pano_final2.jpg"
+lede_attribution: "by <a href='http://photoflowblog.blogspot.com'>Andrea Ferrero</a>"
+lede_img_thumb: "th_pano_final2.jpg"
 
 author: "Pat David" #required
-author-img: ""
+author_img: ""
 author-url: "http://blog.patdavid.net"
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 
 collection: blogposts 
 layout: blog-posts.hbt

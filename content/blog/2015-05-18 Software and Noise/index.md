@@ -4,13 +4,13 @@ date: 2015-05-18T11:38:01-05:00
 title: "Software and Noise"
 sub-title: "Wonderful response from everyone"
 
-lede-img: "Unnecessary_Noise.jpg"
+lede_img: "Unnecessary_Noise.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "<a href='https://www.flickr.com/photos/pamhule/4461831240'>Unnecessary Noise Prohibited</a> by <a href='https://www.flickr.com/photos/pamhule/'>Jens Schott Knudsen</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cbn</a>"
-lede-img-thumb: "th_Unnecessary_Noise.jpg"
+lede_attribution: "<a href='https://www.flickr.com/photos/pamhule/4461831240'>Unnecessary Noise Prohibited</a> by <a href='https://www.flickr.com/photos/pamhule/'>Jens Schott Knudsen</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cbn</a>"
+lede_img_thumb: "th_Unnecessary_Noise.jpg"
 
 author: "Pat David"
-author-bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

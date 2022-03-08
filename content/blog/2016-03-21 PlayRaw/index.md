@@ -3,18 +3,18 @@ date: 2016-03-21T16:00:45-06:00
 title: PlayRaw (Again)
 sub-title: The Resurrectioning
 
-lede-img: mairi-troisieme-lede.jpg
-lede-img-thumb: th_mairi-troisieme-lede.jpg
+lede_img: mairi-troisieme-lede.jpg
+lede_img_thumb: th_mairi-troisieme-lede.jpg
 lede-style: ""
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/16259030889/in/album-72157632799856846/' title='Mairi Troisième'>Mairi Troisième</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/3.0/' title='Creative Commons, by Attribution Share-Alike Non-Commercial'>cban</a>"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/16259030889/in/album-72157632799856846/' title='Mairi Troisième'>Mairi Troisième</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/3.0/' title='Creative Commons, by Attribution Share-Alike Non-Commercial'>cban</a>"
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

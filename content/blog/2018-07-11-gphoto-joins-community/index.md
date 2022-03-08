@@ -3,14 +3,14 @@ date: 2018-07-11T10:22:32-08:00
 title: Welcoming the gPhoto Project to the PIXLS.US community! 
 sub-title: Helping the community one project at a time
 
-lede-img: "carvac_cables.jpg"
-lede-img-thumb: "carvac_cables.jpg"
-lede-attribution: "@CarVac"
+lede_img: "carvac_cables.jpg"
+lede_img_thumb: "carvac_cables.jpg"
+lede_attribution: "@CarVac"
 
 author: Mica
 author-url: 'https://silentumbrella.com'
-author-img: '/images/authors/paperdigits.png'
-author-bio: 'Editor of many, many things.'
+author_img: '/images/authors/paperdigits.png'
+author_bio: 'Editor of many, many things.'
 
 collection: blogposts
 layout: blog-posts.hbt

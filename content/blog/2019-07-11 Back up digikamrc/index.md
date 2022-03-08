@@ -2,14 +2,14 @@
 date: 2019-07-09
 title: "Quick digiKam Tip: Back up digikamrc file"
 
-lede-img: "/images/logo/pixls-atom.png"
-lede-img-thumb: ""
+lede_img: "/images/logo/pixls-atom.png"
+lede_img_thumb: ""
 lede-style: "background-size: auto"
-lede-attribution: ""
+lede_attribution: ""
 
 author: "Dmitri Popov"
-author-img: "/images/authors/dmitri_popov.png"
-author-bio: "Amateur photographer and the author of the <a href='https://gumroad.com/l/linux-photography'>Linux Photography</a> book"
+author_img: "/images/authors/dmitri_popov.png"
+author_bio: "Amateur photographer and the author of the <a href='https://gumroad.com/l/linux-photography'>Linux Photography</a> book"
 
 collection: blogposts
 layout: blog-posts.hbt

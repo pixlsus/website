@@ -4,14 +4,14 @@ date: 2017-05-12T15:20:34-06:00
 title: Happy 2nd Birthday Discuss
 sub-title: Time keeps on slippin'
 
-lede-img: birthday-1208233_1920.jpg
-lede-img-thumb: th_birthday-1208233_1920.jpg
-lede-attribution: ''
+lede_img: birthday-1208233_1920.jpg
+lede_img_thumb: th_birthday-1208233_1920.jpg
+lede_attribution: ''
 lede-style: ''
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

@@ -2,12 +2,12 @@
 date: 2015-01-07T09:30:35-05:00
 title: "Another Article Done"
 sub-title: "Ian Hex and Luminosity Masks in darktable"
-#lede-img: "https://lh3.googleusercontent.com/-QwTdTG8FL1Y/T9yrrP7f_eI/AAAAAAAAK14/UhCj5utvBbM/w1650-no/The%2BReverence%2Bof%2BSt%2BPauls.jpg"
-lede-img: "Ian_Hex.jpg"
+#lede_img: "https://lh3.googleusercontent.com/-QwTdTG8FL1Y/T9yrrP7f_eI/AAAAAAAAK14/UhCj5utvBbM/w1650-no/The%2BReverence%2Bof%2BSt%2BPauls.jpg"
+lede_img: "Ian_Hex.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "<a href='http://lightsweep.co.uk'>Ian Hex</a>"
+lede_attribution: "<a href='http://lightsweep.co.uk'>Ian Hex</a>"
 author: "Pat David"
-author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

@@ -6,18 +6,18 @@ sub-title: "Why don't you provide a Windows build?"
 
 canonical: "http://www.darktable.org/2015/07/why-dont-you-provide-a-windows-build/"
 
-lede-img: "three-windows.jpg"
+lede_img: "three-windows.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "<a href='https://www.flickr.com/photos/erwin_soo/8082049116/'>The 3 Windows - A study of contrasts</a> by <a href='https://www.flickr.com/photos/erwin_soo/'>Erwin Soo</a> <a class='cc' href='https://creativecommons.org/licenses/by/2.0/' target='_blank'>cb</a>"
-lede-img-thumb: "th_three-windows.jpg"
+lede_attribution: "<a href='https://www.flickr.com/photos/erwin_soo/8082049116/'>The 3 Windows - A study of contrasts</a> by <a href='https://www.flickr.com/photos/erwin_soo/'>Erwin Soo</a> <a class='cc' href='https://creativecommons.org/licenses/by/2.0/' target='_blank'>cb</a>"
+lede_img_thumb: "th_three-windows.jpg"
 
 author: "The darktable Team" #required
-author-img: "/images/authors/darktable.png"
+author_img: "/images/authors/darktable.png"
 author-url: "http://www.darktable.org"
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "This post was originally published on the <a href='http://www.darktable.org/2015/07/why-dont-you-provide-a-windows-build/'>darktable blog</a>.<br/>It is republished here with permission. (<a class='cc' href='http://creativecommons.org/licenses/by-nc-sa/3.0/' target='_blank'>cbna</a>)"
+author_bio: "This post was originally published on the <a href='http://www.darktable.org/2015/07/why-dont-you-provide-a-windows-build/'>darktable blog</a>.<br/>It is republished here with permission. (<a class='cc' href='http://creativecommons.org/licenses/by-nc-sa/3.0/' target='_blank'>cbna</a>)"
 
 collection: blogposts 
 layout: blog-posts.hbt

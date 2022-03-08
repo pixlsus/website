@@ -3,13 +3,13 @@ date: 2018-12-31T15:16:40-06:00
 title: Goodbye Google Analytics
 sub-title: A little less tracking for the new year
 
-lede-img: "laffland.jpg"
-lede-img-thumb: "th_laffland.jpg"
-lede-attribution: "Laffland by Pat David"
+lede_img: "laffland.jpg"
+lede_img_thumb: "th_laffland.jpg"
+lede_attribution: "Laffland by Pat David"
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

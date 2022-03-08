@@ -3,18 +3,18 @@ date: 2016-04-04T16:23:36-06:00
 title: Lighting Diagrams
 sub-title: Help Us Build Some Assets!
 
-lede-img: lighting-lede.png
-lede-img-thumb: th_lighting-lede.png
+lede_img: lighting-lede.png
+lede_img_thumb: th_lighting-lede.png
 lede-style: ""
-lede-attribution: ""
+lede_attribution: ""
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

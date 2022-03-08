@@ -4,18 +4,18 @@ date: 2015-08-14T09:32:34-05:00
 title: Notes from the dark(table) Side
 sub-title: A review of the Open Source Photography Course
 
-lede-img: "darktable_2.jpg"
-lede-img-thumb: "th_darktable_2.jpg"
+lede_img: "darktable_2.jpg"
+lede_img_thumb: "th_darktable_2.jpg"
 lede-style: "background-position: 0 35%;"
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/14050852344'>darktable II</a> by <a href='https://www.flickr.com/photos/patdavid/'>Pat David</a> <a class='cc' href=''>cba</a>"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/14050852344'>darktable II</a> by <a href='https://www.flickr.com/photos/patdavid/'>Pat David</a> <a class='cc' href=''>cba</a>"
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

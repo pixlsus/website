@@ -2,13 +2,13 @@
 date: 2019-09-06
 title: "G'MIC 2.7 - Process Your Images with Style!"
 
-lede-img: "kanagawa.jpg"
-lede-img-thumb: "th_kanagawa.jpg"
-lede-attribution: "<a href='https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa'>Katsushika Hokusai</a>"
+lede_img: "kanagawa.jpg"
+lede_img_thumb: "th_kanagawa.jpg"
+lede_attribution: "<a href='https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa'>Katsushika Hokusai</a>"
 
 author: David Tschumperlé
-author-img: /images/authors/david-tschumperle.png
-author-bio: "I am <a title='David Tschumperlé' href='https://tschumperle.users.greyc.fr/' >David Tschumperlé</a>, a permanent researcher working in the field of image processing in a daily basis, since 1999. I work for the <a title='CNRS' href='http://www.cnrs.fr/' >CNRS</a> institute, more particularly in the <a title='Equipe Image du GREYC' href='https://www.greyc.fr/image' >Image Group </a>at the <a title='Laboratoire GREYC' href='http://www.greyc.fr' >GREYC</a> laboratory in Caen/France."
+author_img: /images/authors/david-tschumperle.png
+author_bio: "I am <a title='David Tschumperlé' href='https://tschumperle.users.greyc.fr/' >David Tschumperlé</a>, a permanent researcher working in the field of image processing in a daily basis, since 1999. I work for the <a title='CNRS' href='http://www.cnrs.fr/' >CNRS</a> institute, more particularly in the <a title='Equipe Image du GREYC' href='https://www.greyc.fr/image' >Image Group </a>at the <a title='Laboratoire GREYC' href='http://www.greyc.fr' >GREYC</a> laboratory in Caen/France."
 
 collection: blogposts
 layout: blog-posts.hbt

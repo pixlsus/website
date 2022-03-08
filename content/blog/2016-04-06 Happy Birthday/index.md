@@ -3,18 +3,18 @@ date: 2016-04-06T10:01:30-06:00
 title: Happy Birthday DISCUSS.PIXLS.US
 sub-title: Where did the time go?!
 
-lede-img: birthday-cake_1920.jpg
-lede-img-thumb: th_birthday-cake_1920.jpg
+lede_img: birthday-cake_1920.jpg
+lede_img_thumb: th_birthday-cake_1920.jpg
 lede-style: ""
-lede-attribution: ""
+lede_attribution: ""
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

@@ -3,14 +3,14 @@ date: 2016-11-22T10:16:49-06:00
 title: Giving Thanks
 sub-title: For an awesome community!
 
-lede-img: Thanksgiving-Brownscombe-1123.jpg
-lede-img-thumb: th_Thanksgiving-Brownscombe-1123.jpg
-lede-attribution: "<a title='Jennie Augusta Brownscombe [Public domain], via Wikimedia Commons' href='https://commons.wikimedia.org/wiki/File%3AThanksgiving-Brownscombe.jpg'>The First Thanksgiving at Plymouth</a> by <a href='https://en.wikipedia.org/wiki/Jennie_Augusta_Brownscombe' title='Jennie Augusta Brownscombe'>Jennie Brownscombe</a>"
+lede_img: Thanksgiving-Brownscombe-1123.jpg
+lede_img_thumb: th_Thanksgiving-Brownscombe-1123.jpg
+lede_attribution: "<a title='Jennie Augusta Brownscombe [Public domain], via Wikimedia Commons' href='https://commons.wikimedia.org/wiki/File%3AThanksgiving-Brownscombe.jpg'>The First Thanksgiving at Plymouth</a> by <a href='https://en.wikipedia.org/wiki/Jennie_Augusta_Brownscombe' title='Jennie Augusta Brownscombe'>Jennie Brownscombe</a>"
 lede-style: ''
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

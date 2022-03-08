@@ -4,18 +4,18 @@ date: 2015-07-30T16:56:42-05:00
 title: New Discuss Categories and Logging In
 sub-title: Software, Showcase, and Critiques. Oh My!
 
-lede-img: "R0001640-carvac-full.jpg"
+lede_img: "R0001640-carvac-full.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat; background-color: white;"
-#lede-attribution: ''
-lede-img-thumb: "th_R0001640-carvac-full.jpg"
+#lede_attribution: ''
+lede_img_thumb: "th_R0001640-carvac-full.jpg"
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

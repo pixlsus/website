@@ -3,14 +3,14 @@ date: 2016-07-04T06:48:16-05:00
 title: Texas Linux Fest 2016
 sub-title: Everything's Bigger in Texas!
 
-lede-img: txlf-lede.png
-lede-img-thumb: txlf-lede.png
-lede-attribution: 
+lede_img: txlf-lede.png
+lede_img_thumb: txlf-lede.png
+lede_attribution: 
 lede-style: 'background-size: contain;'
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

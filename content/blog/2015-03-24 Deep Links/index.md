@@ -2,11 +2,11 @@
 date: 2015-03-24T17:17:53-05:00
 title: "Deep Links"
 sub-title: "As well as a sort-of look for article/tutorial indexes"
-lede-img: "More Mairi Experiments.jpg"
+lede_img: "More Mairi Experiments.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/16590870321/'>More Mairi Experiments</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/16590870321/'>More Mairi Experiments</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
 author: "Pat David"
-author-bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

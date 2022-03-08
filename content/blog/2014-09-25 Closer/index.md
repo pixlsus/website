@@ -2,11 +2,11 @@
 date: 2014-09-25T17:18:12-05:00
 title: "Getting Closer"
 sub-title: "First article is mostly written"
-lede-img: "https://lh3.googleusercontent.com/-w_qFbIdXNzk/VCR_AeDB8zI/AAAAAAAAAJM/sOdDuQOra78/w1650-no/Dot%2BLeipzig%2BMarket.jpg"
+lede_img: "https://lh3.googleusercontent.com/-w_qFbIdXNzk/VCR_AeDB8zI/AAAAAAAAAJM/sOdDuQOra78/w1650-no/Dot%2BLeipzig%2BMarket.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "Dot in the Leipzig Market by <a href='http://blog.patdavid.net'>Pat David</a>"
+lede_attribution: "Dot in the Leipzig Market by <a href='http://blog.patdavid.net'>Pat David</a>"
 author: "Pat David"
-author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

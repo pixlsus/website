@@ -2,15 +2,15 @@
 date: 2017-02-10
 title: From the Community Vol. 2
 
-lede-img: grain-lede.jpg
-lede-img-thumb: th_grain-lede.jpg
-lede-attribution:
+lede_img: grain-lede.jpg
+lede_img_thumb: th_grain-lede.jpg
+lede_attribution:
 lede-style: 'background-repeat: repeat;'
 
 author: Mica
 author-url: 'https://silentumbrella.com'
-author-img: '/images/authors/paperdigits.png'
-author-bio: 'Editor of many, many things.'
+author_img: '/images/authors/paperdigits.png'
+author_bio: 'Editor of many, many things.'
 
 collection: blogposts
 layout: blog-posts.hbt

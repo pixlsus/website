@@ -2,11 +2,11 @@
 date: 2014-09-30T09:54:37-05:00
 title: "More Content"
 sub-title: "First article is done, more to come"
-lede-img: "will-write-for-food.jpg"
+lede_img: "will-write-for-food.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "Content writer by <a href='https://www.flickr.com/photos/itsmeritesh/10470324244'>Ritesh Nayak</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a>"
+lede_attribution: "Content writer by <a href='https://www.flickr.com/photos/itsmeritesh/10470324244'>Ritesh Nayak</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a>"
 author: "Pat David"
-author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

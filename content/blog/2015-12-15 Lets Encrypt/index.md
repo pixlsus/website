@@ -4,18 +4,18 @@ date: 2015-12-15T13:53:26-05:00
 title: Let's Encrypt!
 sub-title: Also a neat 2.5D parallax video for Wikipedia.
 
-lede-img: LE.jpg
-lede-img-thumb: th_LE.jpg
+lede_img: LE.jpg
+lede_img_thumb: th_LE.jpg
 lede-style: ""
-lede-attribution: ""
+lede_attribution: ""
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

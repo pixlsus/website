@@ -3,14 +3,14 @@ date: 2016-07-12T08:36:55-05:00
 title: HD Photo Slideshow with Blender
 sub-title: Because who doesn't love a challenge?
 
-lede-img: beck-roses.jpg
-lede-img-thumb: th_beck-roses.jpg
-lede-attribution: 
+lede_img: beck-roses.jpg
+lede_img_thumb: th_beck-roses.jpg
+lede_attribution: 
 lede-style: 'background-position: 0 0;'
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

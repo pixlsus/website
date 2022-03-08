@@ -4,18 +4,18 @@ date: 2015-11-25T08:25:15-05:00
 title: Happy Birthday GIMP!
 sub-title: Also, wallpapers and darktable 2.0 creeps even closer!
 
-lede-img: lede_Mimir.jpg
-lede-img-thumb: th_lede_Mimir.jpg
+lede_img: lede_Mimir.jpg
+lede_img_thumb: th_lede_Mimir.jpg
 lede-style: ""
-lede-attribution: "<a href='https://www.flickr.com/photos/philipphaegi/21155753321'>Sitting Here, Making Fun</a> by <a href='https://www.flickr.com/photos/philipphaegi/'>Philipp Haegi</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a>"
+lede_attribution: "<a href='https://www.flickr.com/photos/philipphaegi/21155753321'>Sitting Here, Making Fun</a> by <a href='https://www.flickr.com/photos/philipphaegi/'>Philipp Haegi</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a>"
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

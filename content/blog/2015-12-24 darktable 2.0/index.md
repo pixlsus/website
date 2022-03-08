@@ -4,18 +4,18 @@ date: 2015-12-24T21:56:56-05:00
 title: darktable 2.0
 sub-title: An awesome present for the end of 2015!
 
-lede-img: Lying in Ambush.jpg
-lede-img-thumb: th_Lying in Ambush.jpg
+lede_img: Lying in Ambush.jpg
+lede_img_thumb: th_Lying in Ambush.jpg
 lede-style: ""
-lede-attribution: "<a href='https://www.flickr.com/photos/80225884@N06/23867592615'>Lying in Ambush</a> by <a href='https://www.flickr.com/photos/80225884@N06/'>Jonas Wagner</a> <span class='cc'><a href='https://creativecommons.org/licenses/by/2.0/'>cb</a></span>"
+lede_attribution: "<a href='https://www.flickr.com/photos/80225884@N06/23867592615'>Lying in Ambush</a> by <a href='https://www.flickr.com/photos/80225884@N06/'>Jonas Wagner</a> <span class='cc'><a href='https://creativecommons.org/licenses/by/2.0/'>cb</a></span>"
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='//pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

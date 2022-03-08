@@ -3,13 +3,13 @@ date: 2015-05-07T16:25:16-05:00
 title: "It's Alive!"
 sub-title: "Time to finally launch..."
 
-lede-img: "nautilus.jpg"
+lede_img: "nautilus.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/14128626361'>Chambered Nautilus</a> by <a href='http://blog.patdavid.net'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cb</a>"
-lede-img-thumb: "th_nautilus.jpg"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/14128626361'>Chambered Nautilus</a> by <a href='http://blog.patdavid.net'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/' target='_blank'>cb</a>"
+lede_img_thumb: "th_nautilus.jpg"
 
 author: "Pat David"
-author-bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I <a href='http://blog.patdavid.net'>write things</a>.  I <a href='https://www.flickr.com/photos/patdavid/'>photograph</a> things.  Sometimes they meet.  <br/> I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

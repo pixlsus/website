@@ -3,13 +3,13 @@ date: 2016-05-18
 title: G'MIC 1.7.1
 sub-title: When the flowers are blooming, image filters abound!
 
-lede-img: then_we_shall_all_burn_together.jpg 
-lede-img-thumb: th_then_we_shall_all_burn_together.jpg 
-lede-attribution: "<a href='https://www.flickr.com/photos/philipphaegi/13987987466' title='Then we shall all burn together'>Then we shall all burn together</a> by <a href='https://www.flickr.com/photos/philipphaegi/'>Philipp Haegi</a> <a class='cc' href='https://creativecommons.org/licenses/by-nc-sa/2.0/'>cbna</a>"
+lede_img: then_we_shall_all_burn_together.jpg 
+lede_img_thumb: th_then_we_shall_all_burn_together.jpg 
+lede_attribution: "<a href='https://www.flickr.com/photos/philipphaegi/13987987466' title='Then we shall all burn together'>Then we shall all burn together</a> by <a href='https://www.flickr.com/photos/philipphaegi/'>Philipp Haegi</a> <a class='cc' href='https://creativecommons.org/licenses/by-nc-sa/2.0/'>cbna</a>"
 
 author: David Tschumperlé
-author-img: /images/authors/david-tschumperle.png
-author-bio: "I am <a title='David Tschumperlé' href='https://tschumperle.users.greyc.fr/' >David Tschumperlé</a>, a permanent researcher working in the field of image processing in a daily basis, since 1999. I work for the <a title='CNRS' href='http://www.cnrs.fr/' >CNRS</a> institute, more particularly in the <a title='Equipe Image du GREYC' href='https://www.greyc.fr/image' >Image Group </a>at the <a title='Laboratoire GREYC' href='http://www.greyc.fr' >GREYC</a> laboratory in Caen/France."
+author_img: /images/authors/david-tschumperle.png
+author_bio: "I am <a title='David Tschumperlé' href='https://tschumperle.users.greyc.fr/' >David Tschumperlé</a>, a permanent researcher working in the field of image processing in a daily basis, since 1999. I work for the <a title='CNRS' href='http://www.cnrs.fr/' >CNRS</a> institute, more particularly in the <a title='Equipe Image du GREYC' href='https://www.greyc.fr/image' >Image Group </a>at the <a title='Laboratoire GREYC' href='http://www.greyc.fr' >GREYC</a> laboratory in Caen/France."
 
 collection: blogposts
 layout: blog-posts.hbt

@@ -3,13 +3,13 @@ date: 2016-05-22
 title: New Rapid Photo Downloader
 sub-title: Damon Lynch brings us a new release!
 
-lede-img: about.jpg 
-lede-img-thumb: th_about.jpg
-lede-attribution: "<a href='http://www.damonlynch.net/'>Damon Lynch</a>"
+lede_img: about.jpg 
+lede_img_thumb: th_about.jpg
+lede_attribution: "<a href='http://www.damonlynch.net/'>Damon Lynch</a>"
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

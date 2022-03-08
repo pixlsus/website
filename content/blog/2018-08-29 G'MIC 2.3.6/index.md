@@ -3,13 +3,13 @@ date: 2018-08-29T10:39:18-05:00
 title: G'MIC 2.3.6
 sub-title: 10 Years of Open Source Image Processing!
 
-lede-img: "lede_happy-birthday.jpg"
-lede-img-thumb: "th_lede_happy-birthday.jpg"
-lede-attribution: ""
+lede_img: "lede_happy-birthday.jpg"
+lede_img_thumb: "th_lede_happy-birthday.jpg"
+lede_attribution: ""
 
 author: David Tschumperlé
-author-img: /images/authors/david-tschumperle.png
-author-bio: "I am <a title='David Tschumperlé' href='https://tschumperle.users.greyc.fr/' >David Tschumperlé</a>, a permanent researcher working in the field of image processing in a daily basis, since 1999. I work for the <a title='CNRS' href='http://www.cnrs.fr/' >CNRS</a> institute, more particularly in the <a title='Equipe Image du GREYC' href='https://www.greyc.fr/image' >Image Group </a>at the <a title='Laboratoire GREYC' href='http://www.greyc.fr' >GREYC</a> laboratory in Caen/France."
+author_img: /images/authors/david-tschumperle.png
+author_bio: "I am <a title='David Tschumperlé' href='https://tschumperle.users.greyc.fr/' >David Tschumperlé</a>, a permanent researcher working in the field of image processing in a daily basis, since 1999. I work for the <a title='CNRS' href='http://www.cnrs.fr/' >CNRS</a> institute, more particularly in the <a title='Equipe Image du GREYC' href='https://www.greyc.fr/image' >Image Group </a>at the <a title='Laboratoire GREYC' href='http://www.greyc.fr' >GREYC</a> laboratory in Caen/France."
 
 collection: blogposts
 layout: blog-posts.hbt

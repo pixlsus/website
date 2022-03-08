@@ -3,14 +3,14 @@ date: 2016-06-22T10:10:14-05:00
 title: Sharing is Caring
 sub-title: Letting it all hang out
 
-lede-img: SHARING.jpg
-lede-img-thumb: th_SHARING.jpg
-lede-attribution: "<a href='https://www.flickr.com/photos/hoffnungsschimmer/17264753128' title='SHARING by Lena on Flickr'>SHARING</a> by Lena <a class='cc' href='https://creativecommons.org/licenses/by/2.0/'>cb</a>"
+lede_img: SHARING.jpg
+lede_img_thumb: th_SHARING.jpg
+lede_attribution: "<a href='https://www.flickr.com/photos/hoffnungsschimmer/17264753128' title='SHARING by Lena on Flickr'>SHARING</a> by Lena <a class='cc' href='https://creativecommons.org/licenses/by/2.0/'>cb</a>"
 lede-style: 'background-position: 50% 25%;'
 
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

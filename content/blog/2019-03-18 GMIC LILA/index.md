@@ -3,12 +3,12 @@ date: 2019-03-23T12:06:10-05:00
 title: G'MIC Finally Accepts Donations
 sub-title: Help support an awesome team!
 
-lede-img: "david-spooky.jpg"
-lede-img-thumb: "th_david-spooky.jpg"
-lede-attribution: "by Pat David"
+lede_img: "david-spooky.jpg"
+lede_img_thumb: "th_david-spooky.jpg"
+lede_attribution: "by Pat David"
 author: Pat David
-author-img: 
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: 
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

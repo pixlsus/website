@@ -3,14 +3,14 @@ date: 2016-12-05T15:50:29-06:00
 title: Welcome Digital Painters
 sub-title: You mean there's art outside photography?
 
-lede-img: lede_Fisherman.jpg
-lede-img-thumb: th_lede_Fisherman.jpg
-lede-attribution: "Fisherman by <a href='http://www.deveze.com.ar/'>Gustavo Deveze</a>, 2016"
+lede_img: lede_Fisherman.jpg
+lede_img_thumb: th_lede_Fisherman.jpg
+lede_attribution: "Fisherman by <a href='http://www.deveze.com.ar/'>Gustavo Deveze</a>, 2016"
 lede-style: ''
 
 author: Pat David
-author-img: patdavid-by-deveze_sq.png
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_img: patdavid-by-deveze_sq.png
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts
 layout: blog-posts.hbt

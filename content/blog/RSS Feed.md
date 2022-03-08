@@ -2,11 +2,11 @@
 date: 2014-09-04T10:15:33-05:00
 title: "RSS Feed & Social Media"
 sub-title: "Finally getting the RSS feed working"
-lede-img: "https://lh6.googleusercontent.com/-LuDGEuWcAeQ/U_zlAWpDU-I/AAAAAAAARSA/wgRmO0BUoUw/s1920/Sarah-Original.jpg"
+lede_img: "https://lh6.googleusercontent.com/-LuDGEuWcAeQ/U_zlAWpDU-I/AAAAAAAARSA/wgRmO0BUoUw/s1920/Sarah-Original.jpg"
 lede-style: "background-size: cover; background-repeat: no-repeat;"
-lede-attribution: "Sarah by <a href='http://blog.patdavid.net'>Pat David</a>"
+lede_attribution: "Sarah by <a href='http://blog.patdavid.net'>Pat David</a>"
 author: "Pat David"
-author-bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
+author_bio: "I write things.  I photograph things.  Sometimes they meet.  <br/>I <a href='http://blog.patdavid.net'>blog</a> about various things. I write <a href='http://blog.patdavid.net/p/getting-around-in-gimp.html'>tutorials</a> too."
 collection: blogposts
 layout: blog-posts.hbt
 ---

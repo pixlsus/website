@@ -3,18 +3,18 @@ date: 2016-04-08T15:41:36-06:00
 title: Pre-LGM Photowalk
 sub-title: Time to take some photos!
 
-lede-img: at_thomaskirche.jpg
-lede-img-thumb: th_at_thomaskirche.jpg
+lede_img: at_thomaskirche.jpg
+lede_img_thumb: th_at_thomaskirche.jpg
 lede-style: ""
-lede-attribution: "<a href='https://www.flickr.com/photos/patdavid/13855619523'>At Thomaskirche</a> by Pat David <span class='cc'><a href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a></span>"
+lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/13855619523'>At Thomaskirche</a> by Pat David <span class='cc'><a href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a></span>"
 
 author: 'Pat David'
-author-img: ''
+author_img: ''
 author-url: 'http://blog.patdavid.net'
 author-twitter: ""
 author-gplus: ""
 author-fb: ""
-author-bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
+author_bio: "I <a href='http://blog.patdavid.net'>write</a> things.<br>I <a href='http://www.flickr.com/photos/patdavid'>photograph</a> things.<br>Sometimes they <a href='https://pixls.us'>meet</a>."
 
 collection: blogposts 
 layout: blog-posts.hbt

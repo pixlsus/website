@@ -3,13 +3,13 @@ date: 2017-06-08T10:22:52-06:00
 title: G'MIC 2.0
 sub-title: A second breath for open-source image processing.
 
-lede-img: Shrouded_in_clouds.jpg
-lede-img-thumb: th_Shrouded_in_clouds.jpg
-lede-attribution: "<a href='https://www.flickr.com/photos/80225884@N06/14329378176/' title='Shrouded in clouds by Jonas Wagner, on Flickr'>Shrouded in clouds</a> by <a href='https://29a.ch/' title'experiments by Jonas Wagner'>Jonas Wagner</a>"
+lede_img: Shrouded_in_clouds.jpg
+lede_img_thumb: th_Shrouded_in_clouds.jpg
+lede_attribution: "<a href='https://www.flickr.com/photos/80225884@N06/14329378176/' title='Shrouded in clouds by Jonas Wagner, on Flickr'>Shrouded in clouds</a> by <a href='https://29a.ch/' title'experiments by Jonas Wagner'>Jonas Wagner</a>"
 
 author: David Tschumperlé
-author-img: /images/authors/david-tschumperle.png
-author-bio: "I am a researcher working in the field of image processing in a daily basis. I work for the <a title='CNRS' href='http://www.cnrs.fr/' >CNRS</a> institute, in the <a title='Equipe Image du GREYC' href='https://www.greyc.fr/image' >Image Group </a>at the <a title='Laboratoire GREYC' href='http://www.greyc.fr' >GREYC</a> laboratory in Caen/France. I'm the manager and developer of <a href='http://gmic.eu'>G'MIC</a> and <a href='http://cimg.eu'>CImg</a>, two open-source projects for image processing."
+author_img: /images/authors/david-tschumperle.png
+author_bio: "I am a researcher working in the field of image processing in a daily basis. I work for the <a title='CNRS' href='http://www.cnrs.fr/' >CNRS</a> institute, in the <a title='Equipe Image du GREYC' href='https://www.greyc.fr/image' >Image Group </a>at the <a title='Laboratoire GREYC' href='http://www.greyc.fr' >GREYC</a> laboratory in Caen/France. I'm the manager and developer of <a href='http://gmic.eu'>G'MIC</a> and <a href='http://cimg.eu'>CImg</a>, two open-source projects for image processing."
 
 collection: blogposts
 layout: blog-posts.hbt
