@@ -13,9 +13,9 @@ let options = {
 }
 
 let report = (entries) => {
-  console.log( 'lede-hero did something...');
+  //console.log( 'lede-hero did something...');
   entries.forEach(entry => {
-    console.log( entry.isIntersecting );
+    //console.log( entry.isIntersecting );
     if( entry.isIntersecting ){
       nav.classList.remove('bg-dark');
       for(let lhead of latest_headings){
@@ -38,3 +38,22 @@ let report = (entries) => {
 
 let observer = new IntersectionObserver( report, options );
 observer.observe( document.getElementById('lede-hero') );
+
+function initialize( json ){
+  console.log( json );
+  console.log( json.date );
+  console.log( typeof(json) );
+}
+
+/* Testing fetch API */
+//fetch('http://time.jsontest.com')
+fetch('https://discuss.pixls.us/latest.json')
+  .then( response => {
+        if (!response.ok) {
+                throw new Error(`HTTP error: ${response.status}`);
+              }
+        return response.json();
+      })
+  .then( json => initialize(json) )
+  .catch( err => console.error(`Fetch problem: ${err.message}`) );
+
