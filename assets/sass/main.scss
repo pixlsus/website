@@ -56,11 +56,13 @@
 }
 .latest-heading {
   padding-top: 80px;
-  font-family: Arvo;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 
   img {
     vertical-align: sub;
+  }
+  h2 {
+    font-family: Arvo;
   }
 }
