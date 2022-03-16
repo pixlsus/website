@@ -45,10 +45,13 @@ function add_discuss_homepage( json ){
 
   json.topic_list.topics.forEach((topic)=> {
     //console.log(`${topic.fancy_title}`);
-    const h = document.createElement('h4');
     const a = document.createElement('article');
-    h.innerText = topic.fancy_title;
+    const h = document.createElement('h4');
+    const link = document.createElement('a');
+    link.innerHTML = topic.fancy_title;
+    link.href = `https://discuss.pixls.us/t/${topic.slug}/${topic.id}`;
 
+    h.appendChild( link );
     a.appendChild( h );
     ts.appendChild( a );
   });
