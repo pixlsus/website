@@ -39,6 +39,8 @@ let report = (entries) => {
 let observer = new IntersectionObserver( report, options );
 observer.observe( document.getElementById('lede-hero') );
 
+
+
 function add_discuss_homepage( json ){
   console.log( json );
   var ts = document.getElementById('discuss-col');
@@ -50,6 +52,20 @@ function add_discuss_homepage( json ){
     const link = document.createElement('a');
     link.innerHTML = topic.fancy_title;
     link.href = `https://discuss.pixls.us/t/${topic.slug}/${topic.id}`;
+
+    // Find a user object based on id
+    var user = json.users.find( function( user, idx ){
+      if ( user.id == 2 )
+        return true;
+    });
+
+    for( u of topic.posters ){
+      var user = json.users.find( function( user, idx ){
+        if ( user.id == u.user_id )
+          return true;
+      });
+      console.log( user );
+    }
 
     h.appendChild( link );
     a.appendChild( h );
