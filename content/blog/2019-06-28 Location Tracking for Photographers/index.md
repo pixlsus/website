@@ -2,9 +2,6 @@
 date: 2019-06-28
 title: "Location Tracking for Photographers with GPS Logger and Trekarta"
 
-lede_img: "/images/logo/pixls-atom.png"
-lede_img_thumb: ""
-lede-style: "background-size: auto"
 lede_attribution: ""
 
 author: "Dmitri Popov"

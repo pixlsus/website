@@ -2,8 +2,6 @@
 date: 2019-07-09
 title: "Quick digiKam Tip: Back up digikamrc file"
 
-lede_img: "/images/logo/pixls-atom.png"
-lede_img_thumb: ""
 lede-style: "background-size: auto"
 lede_attribution: ""
 
