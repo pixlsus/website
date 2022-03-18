@@ -74,9 +74,16 @@
               <h3>
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
               </h3>
+              {{/*
               <time class="date">
                 {{ .Date.Format "January 2, 2006" }}
               </time>
+              */}}
+              {{ with .Params.author }}
+              <span class='author'>
+                {{ . }}
+              </span>
+              {{ end }}
               <small class='read'>{{ .ReadingTime }} min read</small>
               <div>
                 {{ .Summary }}
@@ -99,7 +106,11 @@
           <div class='text-start'>
             {{- range ( where site.RegularPages "Section" "blog" | first 5 ) }}
             <article>
-              <img src="{{ .Permalink }}{{ .Params.lede_img }}" class='w-100'>
+              {{ if isset .Params "lede_img"}}
+                <img src="{{ .Permalink }}{{ .Params.lede_img }}" class='w-100'>
+              {{ else }}
+                <img src="/images/logo/pixls-atom.png" class='w-100'>
+              {{ end }}
               <h3>
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
               </h3>
