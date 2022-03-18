@@ -45,32 +45,57 @@ function add_discuss_homepage( json ){
   console.log( json );
   var ts = document.getElementById('discuss-col');
 
+  // Create new fragment to build our discuss list in
+  var discuss_fragment = new DocumentFragment();
+
   json.topic_list.topics.forEach((topic)=> {
     //console.log(`${topic.fancy_title}`);
+
+    // Setup dom objects to contain the post info
     const a = document.createElement('article');
     const h = document.createElement('h4');
     const link = document.createElement('a');
+    const users = document.createElement('div');
+    const post_info = document.createElement('div');
+
+    a.classList.add('mb-4');
+
     link.innerHTML = topic.fancy_title;
     link.href = `https://discuss.pixls.us/t/${topic.slug}/${topic.id}`;
 
-    // Find a user object based on id
-    var user = json.users.find( function( user, idx ){
-      if ( user.id == 2 )
-        return true;
-    });
+    const views = document.createElement('span');
+    views.innerHTML = `Views: ${topic.views}`;
 
+    // Find a user object based on id
     for( u of topic.posters ){
       var user = json.users.find( function( user, idx ){
         if ( user.id == u.user_id )
           return true;
       });
-      console.log( user );
+      var user_link = document.createElement('a');
+      var img = document.createElement('img');
+      var imgsrc = user.avatar_template.replace("{size}", "25");
+
+      img.src = `https://discuss.pixls.us/${imgsrc}`;
+      img.classList.add('me-1');
+      img.classList.add('rounded-circle');
+
+      user_link.href = `https://discuss.pixls.us/u/${user.username}`;
+      user_link.title = `${user.username} - ${u.description}`;
+
+      user_link.appendChild( img );
+      users.appendChild( user_link );
     }
 
     h.appendChild( link );
     a.appendChild( h );
-    ts.appendChild( a );
+    a.appendChild( users );
+    a.appendChild( views );
+    discuss_fragment.appendChild( a );
   });
+
+  // Add discuss list to discuss column
+  ts.appendChild( discuss_fragment );
 }
 
 /* Testing fetch API */
