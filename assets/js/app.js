@@ -53,18 +53,22 @@ function add_discuss_homepage( json ){
 
     // Setup dom objects to contain the post info
     const a = document.createElement('article');
-    const h = document.createElement('h4');
+    const h = document.createElement('h5');
     const link = document.createElement('a');
     const users = document.createElement('div');
     const post_info = document.createElement('div');
 
-    a.classList.add('mb-4');
+    a.classList.add('pb-2');
+    a.classList.add('pt-2');
+
+    users.classList.add('users-list');
+    users.classList.add('mb-1');
 
     link.innerHTML = topic.fancy_title;
     link.href = `https://discuss.pixls.us/t/${topic.slug}/${topic.id}`;
 
-    const views = document.createElement('span');
-    views.innerHTML = `Views: ${topic.views}`;
+    const views = document.createElement('div');
+    views.innerHTML = `<small title='Views' class='post-stats'><img src='/images/svg/eye.svg'> ${topic.views}</small>`;
 
     // Find a user object based on id
     for( u of topic.posters ){
@@ -74,11 +78,12 @@ function add_discuss_homepage( json ){
       });
       var user_link = document.createElement('a');
       var img = document.createElement('img');
-      var imgsrc = user.avatar_template.replace("{size}", "25");
+      var imgsrc = user.avatar_template.replace("{size}", "20");
 
+      img.src = '/images/logo/small-avatar.png';
       img.src = `https://discuss.pixls.us/${imgsrc}`;
+      //img.style.backgroundColor = "grey";
       img.classList.add('me-1');
-      img.classList.add('rounded-circle');
 
       user_link.href = `https://discuss.pixls.us/u/${user.username}`;
       user_link.title = `${user.username} - ${u.description}`;

@@ -44,6 +44,19 @@
 	}
 }
 
+/* Remove underline links from headings */
+@for $i from 1 through 6 {
+      h#{$i} {
+        a {
+          text-decoration: none;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+}
+
+
 /* Make some text outlines */
 @for $i from 1 through 3 {
 	.text-outline-#{$i} {
@@ -65,4 +78,20 @@
   h2 {
     font-family: Arvo;
   }
+}
+
+#blog-col article,
+#articles-col article {
+  margin: 2rem 0;
+}
+hr.small-rule {
+  width: 33%;
+  margin: 0 auto;
+}
+hr.small-rule:last-child {
+  display: none;
+}
+
+.post-stats img {
+  vertical-align: text-bottom;
 }

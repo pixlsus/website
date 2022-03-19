@@ -11,3 +11,8 @@ params:
     src_url: 'https://pixelbook.org/#15571604680226/15665684864167'
     by: 'Andreas Schneider'
     byurl: 'https://blog.pixelbook.org/'
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
