@@ -84,14 +84,32 @@
 #articles-col article {
   margin: 2rem 0;
 }
-hr.small-rule {
-  width: 33%;
-  margin: 0 auto;
-}
-hr.small-rule:last-child {
-  display: none;
-}
 
 .post-stats img {
   vertical-align: text-bottom;
 }
+
+/* Fancy bit camera rule */
+.fancy-hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  img {
+    height: 25px;
+    opacity: 0.65;
+  }
+}
+.fancy-hr::before { right: 0.5rem; }
+.fancy-hr::after { left: 0.5rem; }
+.fancy-hr::before,
+.fancy-hr::after {
+  content: "";
+  display: inline-block;
+  height: .2rem;
+  height: 0;
+  position: relative;
+  vertical-align: middle;
+  width: 25%;
+  border-top: solid 1px #dee2e6;
+  //border-bottom: solid 1px #dee2e6;
+}
+.fancy-hr:last-child { display: none; }
