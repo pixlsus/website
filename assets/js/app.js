@@ -69,7 +69,7 @@ function add_discuss_homepage( json ){
 
     const views = document.createElement('div');
     views.innerHTML = `<small title='${topic.views} views' class='post-stats'><img src='/images/svg/eye.svg'> ${topic.views}</small>`;
-    views.innerHTML = views.innerHTML + ` <small title='${topic.posts_count} posts' class='post-stats ms-2'><img src='/images/svg/pencil.svg'> ${topic.posts_count}</small>`;
+    views.innerHTML = views.innerHTML + ` <small title='${topic.posts_count} posts' class='post-stats ms-2'><img src='/images/svg/chat-left-text.svg'> ${topic.posts_count}</small>`;
 
     // Find a user object based on id
     for( u of topic.posters ){
