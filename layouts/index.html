@@ -79,12 +79,14 @@
                 {{ .Date.Format "January 2, 2006" }}
               </time>
               */}}
-              {{ with .Params.author }}
-              <span class='author'>
-                {{ . }}
-              </span>
-              {{ end }}
-              <small class='read'>{{ .ReadingTime }} min read</small>
+              <div class='byline'>
+                {{ with .Params.author }}
+                  <small class='author'>
+                    By {{ . }}
+                  </small>
+                {{ end }}
+                <small class='read'>{{ .ReadingTime }} min read</small>
+              </div>
               <div>
                 {{ .Summary }}
               </div>
@@ -117,10 +119,14 @@
               <h3>
                 <a href="{{ .Permalink }}">{{ .Title }}</a>
               </h3>
-              <time class="date">
-                {{ .Date.Format "January 2, 2006" }}
-              </time>
-              <small class='read'>{{ .ReadingTime }} min read</small>
+              <div class='byline'>
+                <small>
+                  <time class="date">
+                    {{ .Date.Format "January 2, 2006" }}
+                  </time>
+                </small>
+                <small class='read'>{{ .ReadingTime }} min read</small>
+              </div>
               <div>
                 {{ .Summary }}
               </div>

@@ -80,6 +80,42 @@
   }
 }
 
+.homepage {
+  article h3 {
+    margin-top: 0.5rem;
+  }
+
+  .byline{
+    margin-bottom: 0.5rem;
+    // border-bottom: solid 1px #CCC;
+    // border-top: solid 1px #CCC;
+  }
+
+  .author {
+    font-weight: 500;
+    background-color: #66A3D9;
+    background-color: #A6D5FF;
+    background-color: #C4E4FF;
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    padding: 0.25rem;
+    padding-right: 1rem;
+    z-index: 1;
+    position: relative;
+  }
+
+  .read {
+    margin-left: -1rem;
+    z-index: 0;
+    background-color: #FDECAC;
+    background-color: #FFD5BF;
+    background-color: #FFE9DE;
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    padding: 0.25rem;
+    padding-right: 1rem;
+    padding-left: 1.5rem;
+  }
+}
+
 #blog-col article,
 #articles-col article {
   margin: 2rem 0;
