@@ -83,6 +83,7 @@
 .homepage {
   article h3 {
     margin-top: 0.5rem;
+    font-family: Arvo;
   }
 
   .byline{
@@ -91,16 +92,21 @@
     // border-top: solid 1px #CCC;
   }
 
-  .author {
+  .author, small.date {
     font-weight: 500;
     background-color: #66A3D9;
     background-color: #A6D5FF;
     background-color: #C4E4FF;
+    background-color: #EEE;
     clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
-    padding: 0.35rem;
+    padding: 0.15rem 0.5rem;
     padding-right: 1rem;
     z-index: 1;
     position: relative;
+  }
+  small.date {
+    font-weight: normal;
+    background-color: #EEE;
   }
 
   .read {
@@ -109,8 +115,9 @@
     background-color: #FDECAC;
     background-color: #FFD5BF;
     background-color: #FFE9DE;
+    background-color: #DDD;
     clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
-    padding: 0.35rem;
+    padding: 0.15rem;
     padding-right: 1rem;
     padding-left: 1.5rem;
   }
