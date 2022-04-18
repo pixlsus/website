@@ -10,7 +10,10 @@
   transition: all 500ms ease;
 }
 
-img { max-width: 100%; }
+img { 
+  max-width: 100%; 
+  height: auto;
+}
 
 /* Homepage hero image */
 #lede-hero {

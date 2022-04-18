@@ -3,24 +3,59 @@
 {{ $dateFormat := default "Mon Jan 2, 2006" (index .Site.Params "date_format") }}
 
 <div class="page">
-    <article class="{{ .Title | urlize }}-page">
-	<h1 class="title">
-            {{ .Title | markdownify }}
-	</h1>
+  <article class="{{ .Title | urlize }}-page">
 
-	{{ .Content }}
+    <section id='lede-hero' class='mb-5'>
+      <div class='container mb-5 mt-5 mt-lg-0'>
+        <div class='row justify-content-center text-center text-light mt-5 mt-lg-0'>
 
-	{{ if .IsTranslated }}
-	<h4>{{ i18n "translations" }}</h4>
-	<ul>
-            {{ range .Translations }}
-            <li><a href="{{ .Permalink }}">
-		{{ .Lang }}: {{ .Title }}{{ if .IsPage }}{{ end }}
-            </a></li>
-            {{ end }}
-	</ul>
-	{{ end }}
-    </article>
+        <h1 class="title display-4 mt-4 mb-lg-5 text-outline-2">
+          {{ .Title | markdownify }}
+        </h1>
+
+        </div>
+      </div>
+
+      <img src='{{ .Params.lede_img }}' >
+
+      {{ with .Site.Params.ledeimg }}
+      <div class='mt-auto'>
+        <p class='text-light'>
+          <a href="{{ .src_url }}">
+            {{ .src_title }}
+          </a>
+          by
+          <a href="{{ .byurl }}">
+            {{ .by }}
+          </a>
+        </p>
+      </div>
+      {{ end }}
+
+    </section>
+
+    <section>
+      <div class='container'>
+        <div class='row justify-content-center'>
+          <div class='col-lg-8'>
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    {{ if .IsTranslated }}
+    <h4>{{ i18n "translations" }}</h4>
+    <ul>
+              {{ range .Translations }}
+              <li><a href="{{ .Permalink }}">
+      {{ .Lang }}: {{ .Title }}{{ if .IsPage }}{{ end }}
+              </a></li>
+              {{ end }}
+    </ul>
+    {{ end }}
+  </article>
 </div>
 
 {{ end }}
