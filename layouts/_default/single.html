@@ -13,21 +13,36 @@
           {{ .Title | markdownify }}
         </h1>
 
+        <div class='fancy-hr text-center'>
+          <img src='/images/svg/bitcam.svg' loading='lazy'>
+        </div>
+
+        {{ with .Params.sub_title }}
+        <h2 class='subtitle text-outline-2 mb-4'>
+          {{ . | markdownify }}
+        </h2>
+        {{ end }}
+
+        {{ with $author := .Params.author }}
+        <p class='text-outline-2'>
+          By         
+          {{ if isset $.Params "author_url" }}
+            <a href='{{ $.Params.author_url }}'>{{ $author }}</a>
+          {{ else }}
+            {{ $author }}
+          {{ end }}
+        </p>
+        {{ end }}
+
         </div>
       </div>
 
       <img src='{{ .Params.lede_img }}' >
 
-      {{ with .Site.Params.ledeimg }}
+      {{ with .Params.lede_attribution }}
       <div class='mt-auto'>
-        <p class='text-light'>
-          <a href="{{ .src_url }}">
-            {{ .src_title }}
-          </a>
-          by
-          <a href="{{ .byurl }}">
-            {{ .by }}
-          </a>
+        <p class='text-light text-outline-2 px-2 py-1'>
+        {{ . | safeHTML }}
         </p>
       </div>
       {{ end }}
