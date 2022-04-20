@@ -13,7 +13,7 @@
 
         <div class='row  justify-content-center mt-5 gx-5 text-outline-1'>
           <div class='col-md-4 mb-5'>
-            <img src='images/svg/pages.svg' style='height:80px;' height='80'>
+            <img src='images/svg/pages.svg' style='height:80px;' width='80' height='80'>
             <h2 class='mt-3'>Articles</h2>
             <p class='text-outline-1'>
               Tutorials for various effects, workflows, and a showcase for work from F/OSS photographers. 
@@ -21,7 +21,7 @@
           </div>
 
           <div class='col-md-4 mb-5'>
-            <img src='images/svg/speech-bubble.svg' style='height:80px;' height='80'>
+            <img src='images/svg/speech-bubble.svg' style='height:80px;' width='80' height='80'>
             <h2 class='mt-3'>Blog</h2>
             <p class='text-outline-1'>
               Upcoming article ideas, status of the website, and various observations in the world of photography. 
@@ -29,7 +29,7 @@
           </div>
 
           <div class='col-md-4 mb-5'>
-            <img src='images/svg/discussion.svg' style='height:80px;' height='80'>
+            <img src='images/svg/discussion.svg' style='height:80px;' width='80' height='80'>
             <h2 class='mt-3'>Discuss</h2>
             <p class='text-outline-1'>
               A forum for giving a voice to everyone in the F/OSS photography community. 
@@ -159,40 +159,41 @@
   {{ .Content }}
 
   {{/* Blog Posts Section */}}
-	<section class='container'>
-		{{ range .Paginator.Pages }}
-			<article>
-				<time class="date">
-					{{ .Date.Format "January 2, 2006" }}
-				</time>
-				<small class='read'>{{ .ReadingTime }} min read</small>
-				<h1>
-					<a href="{{ .Permalink }}">{{ .Title }}</a>
-				</h1>
-				<div>
-					{{ .Summary }}
-				</div>
+	{{/* <section class='container'> */}}
+	{{/* 	{{ range .Paginator.Pages }} */}}
+	{{/* 		<article> */}}
+	{{/* 			<time class="date"> */}}
+	{{/* 				{{ .Date.Format "January 2, 2006" }} */}}
+	{{/* 			</time> */}}
+	{{/* 			<small class='read'>{{ .ReadingTime }} min read</small> */}}
+	{{/* 			<h1> */}}
+	{{/* 				<a href="{{ .Permalink }}">{{ .Title }}</a> */}}
+	{{/* 			</h1> */}}
+	{{/* 			<div> */}}
+	{{/* 				{{ .Summary }} */}}
+	{{/* 			</div> */}}
 
-				{{ if .Truncated }}
-					<div class="readmore"><a href="{{ .RelPermalink }}">Read more...</a>
-					</div>
-				{{ end }}
-			</article>
-			<hr/>
-		{{ end }}
-	</section>
+	{{/* 			{{ if .Truncated }} */}}
+	{{/* 				<div class="readmore"><a href="{{ .RelPermalink }}">Read more...</a> */}}
+	{{/* 				</div> */}}
+	{{/* 			{{ end }} */}}
+	{{/* 		</article> */}}
+	{{/* 		<hr/> */}}
+	{{/* 	{{ end }} */}}
+	{{/* </section> */}}
 
 
-    {{ if .IsTranslated }}
-    <h4>{{ i18n "translations" }}</h4>
-    <ul>
-        {{ range .Translations }}
-        <li><a href="{{ .Permalink }}">
-            {{ .Lang }}: {{ .Title }}{{ if .IsPage }}{{ end }}
-        </a></li>
-        {{ end }}
-    </ul>
-    {{ end }}
+    {{/* {{ if .IsTranslated }} */}}
+    {{/* <h4>{{ i18n "translations" }}</h4> */}}
+    {{/* <ul> */}}
+    {{/*     {{ range .Translations }} */}}
+    {{/*     <li><a href="{{ .Permalink }}"> */}}
+    {{/*         {{ .Lang }}: {{ .Title }}{{ if .IsPage }}{{ end }} */}}
+    {{/*     </a></li> */}}
+    {{/*     {{ end }} */}}
+    {{/* </ul> */}}
+    {{/* {{ end }} */}}
+
 </div>
 
 
