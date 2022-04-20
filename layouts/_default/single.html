@@ -24,14 +24,14 @@
         {{ end }}
 
         {{ with $author := .Params.author }}
-        <p class='text-outline-2'>
-          By         
-          {{ if isset $.Params "author_url" }}
-            <a href='{{ $.Params.author_url }}'>{{ $author }}</a>
-          {{ else }}
-            {{ $author }}
-          {{ end }}
-        </p>
+          <h5 class='text-outline-2'>
+            By         
+            {{ if isset $.Params "author_url" }}
+              <a href='{{ $.Params.author_url }}'>{{ $author }}</a>
+            {{ else }}
+              {{ $author }}
+            {{ end }}
+          </h5>
         {{ end }}
 
         </div>
