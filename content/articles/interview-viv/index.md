@@ -163,11 +163,8 @@ By the way: I periodically take part in the events held by [Olympus Russia][], w
 
 This video shows that I use the RawTherapee as a raw converter  :)
 
-<div>
-    <div class='fluid-vid'>
-        <iframe src="https://www.youtube-nocookie.com/embed/t3QUVFkO0lU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-</div>
+{{< youtube t3QUVFkO0lU >}}
+
 
 [Olympus Russia]: https://www.olympus.com.ru/
 

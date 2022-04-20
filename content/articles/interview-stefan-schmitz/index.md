@@ -27,13 +27,16 @@ I stumbled upon his work during one of my searches for photographers using Free 
 <figure class='big-vid'>
 <img src='FS_SAS_6724.jpg' width='1020' height='684' alt='Franzi Skamet by Stefan  Schmitz'>
 <figcaption>
+
 [Franzi Skamet](https://www.flickr.com/photos/stefanschmitz/25163948263/) by Stefan Schmitz
 </figcaption>
+
 </figure>
 
 <figure class='big-vid'>
 <img src='KG_SAS_0277.jpg' width='1020' alt='Khiara Gray by Stefan  Schmitz'>
 <figcaption>
+
 [Khiara Gray](https://www.flickr.com/photos/stefanschmitz/29264777344/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -53,6 +56,7 @@ Every now and then some of my pictures are requested and published by some sort 
 <figure>
 <img src='KG_SAS_0338.jpg' width='760' height='1134' alt='Khiara Gray by Stefan Schmitz'>
 <figcaption>
+
 [Khiara Gray](https://www.flickr.com/photos/stefanschmitz/28484512994/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -65,6 +69,7 @@ Starting with photographers: [Andreas Feininger][], [Peter Lindbergh][] and [Alf
 <figure>
 <img src="https://pixls-discuss.s3.amazonaws.com/original/2X/6/60735c944175a51790319262278edc6b8acf2224.jpg" width="546" height="671">
 <figcaption>
+
 Georgia O'Keeffe by Alfred Stieglitz
 </figcaption>
 </figure>
@@ -86,6 +91,7 @@ I shoot portraits of women and most of the time they don’t wear clothes. The _
 <figure class='big-vid'>
 <img src='JP_SAS_7470.jpg' alt='Jennifer Polska by Stefan Schmitz' width='1020' height='683'>
 <figcaption>
+
 [Jennifer Polska](https://www.flickr.com/photos/stefanschmitz/38138319342/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -93,6 +99,7 @@ I shoot portraits of women and most of the time they don’t wear clothes. The _
 <figure class='big-vid'>
 <img src='FS_SAS_6693.jpg' alt='Franzi Skamet by Stefan Schmitz' width='1020' height='683'>
 <figcaption>
+
 [Franzi Skamet](https://www.flickr.com/photos/stefanschmitz/25163948263/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -113,6 +120,7 @@ The location is very important for me. Nothing is more boring than blinding a pe
 <figure class='big-vid'>
 <img src='JP_SAS_7274.jpg' width='1020' height='683' alt='Jennifer Polska by Stefan Schmitz'>
 <figcaption>
+
 [Jennifer Polska](https://www.flickr.com/photos/stefanschmitz/38138319342/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -124,6 +132,7 @@ I chose this photo because it's all about Jennifer's pose and facial expression.
 <figure class='big-vid'>
 <img src='Alice_SAS_6541.jpg' width='1020' height='1523' alt='Alice by Stefan Schmitz'>
 <figcaption>
+
 [Alice](https://www.flickr.com/photos/stefanschmitz/35542014503) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -135,6 +144,7 @@ She's at ease, the light is perfect - I just try to be invisible because I don't
 <figure class='big-vid'>
 <img src='KG_SAS_0318.jpg' alt='Khiara Gray by Stefan  Schmitz' width='1020' height='684'>
 <figcaption>
+
 [Khiara Gray](https://www.flickr.com/photos/stefanschmitz/29264777344/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -151,6 +161,7 @@ I already named Stieglitz' Georgia O'Keeffe as an inspiration further up - next 
 <figure>
 <img src='https://pixls-discuss.s3.amazonaws.com/original/2X/3/3aeac6cf999ad6efb06476da9f34457af86fb134.jpg' width='318' height='470'>
 <figcaption>
+
 _Big Nude III, Henrietta_, [Helmut Newton](https://en.wikipedia.org/wiki/Helmut_Newton)
 </figcaption>
 </figure>
@@ -168,6 +179,7 @@ Last but not least there’s a special competition among photographers; it’s t
 <figure class='big-vid'>
 <img src='Alice_SAS_6352.jpg' width='1020' width='684' alt='Alice by Stefan Schmitz'>
 <figcaption>
+
 [Alice](https://www.flickr.com/photos/stefanschmitz/35953665920/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -184,6 +196,7 @@ You will need some pictures in your portfolio in order to show that you are - in
 <figure class='big-vid'>
 <img src='Hannah_SAS_1216.jpg' width='1020' height='682' alt='Hannah by Stefan Schmitz'>
 <figcaption>
+
 [Hannah](https://www.flickr.com/photos/stefanschmitz/30576600621/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -208,6 +221,7 @@ Saying that, I own an alarming number of speedlights, umbrellas, triggers and so
 <figure>
 <img src='Karolina_SAS_1976.jpg' width='1020' height='683' alt='Karolina Lewschenko by Stefan Schmitz'>
 <figcaption>
+
 [Karolina Lewschenko](https://www.flickr.com/photos/stefanschmitz/31516298240/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -217,6 +231,7 @@ Here's a shot of Karolina Lewschenko. We took this photo in a hotel room by the 
 <figure class='big-vid'>
 <img src='FS_SAS_6415.jpg' width='1020' height='1522' alt='Franzi Skamet by Stefan  Schmitz'>
 <figcaption>
+
 [Franzi Skamet](https://www.flickr.com/photos/stefanschmitz/25163948263/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -232,6 +247,7 @@ When the model arrives, we take some time to walk around the locations and discu
 <figure class='big-vid'>
 <img src='Karolina_SAS_1730.jpg' width='1020' alt='Karolina Lewschenko by Stefan Schmitz'>
 <figcaption>
+
 [Karolina Lewschenko](https://www.flickr.com/photos/stefanschmitz/30900009814/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -245,6 +261,7 @@ The discussion with the model also includes what degree of nudity we consider. S
 <figure>
 <img src='FS_SAS_6091.jpg' width='686' height='1024' alt='Franzi Skamet by Stefan Schmitz'>
 <figcaption>
+
 [Franzi Skamet](https://www.flickr.com/photos/stefanschmitz/27984856976/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -270,6 +287,7 @@ Switching from [RAWstudio](https://rawstudio.org/) to [darktable](https://darkta
 <figure>
 <img src='FS_SAS_6408.jpg' width='686' height='1024' alt='Franzi Skamet by Stefan Schmitz'>
 <figcaption>
+
 [Franzi Skamet](https://www.flickr.com/photos/stefanschmitz/25464237123/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -284,6 +302,7 @@ It takes me some time before I add a shot to [my own website][Stefan Schmitz]. I
 <figure class='big-vid'>
 <img src='Aya_SAS_9200.jpg' alt='Aya Kashi by Stefan Schmitz' width='1020' height='1523'>
 <figcaption>
+
 [Aya Kashi](https://www.flickr.com/photos/stefanschmitz/28006743752/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -306,6 +325,7 @@ Don’t take any advise from me, i’m still learning myself. Or wait: be kind a
 <figure>
 <img src='Irina_SAS_2911.jpg' alt='Irina by Stefan Schmitz' width='760' height='1134'>
 <figcaption>
+
 [Irina](https://www.flickr.com/photos/stefanschmitz/17790276476/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -317,6 +337,7 @@ In general the model will check your portfolio/website and expect to do more or 
 <figure>
 <img src='Irina_SAS_3059_bw.jpg' width='722' height='1080' alt='Irina by Stefan Schmitz'>
 <figcaption>
+
 [Irina](https://www.flickr.com/photos/stefanschmitz/17196207163/) by Stefan Schmitz
 </figcaption>
 </figure>
@@ -328,6 +349,7 @@ Want to spend 300 €/$ on new gear? Spend it on a workshop. Learn how to commun
 <figure class='big-vid'>
 <img src='Isabelle_SAS_8498.jpg' width='723' height='1080' alt='Arwen Kimara by Stefan Schmitz'>
 <figcaption>
+
 [Arwen Kimara](https://www.flickr.com/photos/stefanschmitz/39424595835/) by Stefan Schmitz
 </figcaption>
 </figure>
