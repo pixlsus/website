@@ -41,20 +41,23 @@ To build the site, you'll need the [hugo][] binary, extended version:
 https://gohugo.io/getting-started/quick-start/#step-1-install-hugo
 
 We're currently using:
-```
-hugo v0.93.0-07469082+extended
-```
+
+    hugo v0.93.0-07469082+extended
 
 Once you've got hugo, you can clone the site:
 
-    $ git clone https://github.com/pixlsus/website.git
-    $ git checkout hugo
+    git clone --branch hugo https://github.com/pixlsus/website.git
 
-(Remember to checkout this new `hugo` branch while we migrate.
+(We're cloning the `hugo` branch specifically.)
 
 ### Building the Site
 
-Once the requirements are installed, the site can be built locally with:
+You'll also need to fetch @paperdigits fabulous `hugo-bootstrap-bare` theme
+that we use as a basis for almost all of our work these days:
+
+    git clone -b bootstrap5 --single-branch git@gitlab.com:pixlsus/hugo-bootstrap-bare.git themes/hugo-bootstrap-bare
+
+Once done, the site can be built locally with:
 
     $ hugo
 
