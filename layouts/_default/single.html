@@ -37,7 +37,12 @@
         </div>
       </div>
 
-      <img src='{{ .Params.lede_img }}' >
+      {{/* <img src='{{ .Params.lede_img }}' > */}}
+      {{ if isset .Params "lede_img"}}
+        <img src="{{ .Permalink }}{{ .Params.lede_img }}" class='w-100' loading='lazy'>
+      {{ else }}
+        <img src="/images/logo/pixls-atom.png" class='w-100' loading='lazy'>
+      {{ end }}
 
       {{ with .Params.lede_attribution }}
       <div class='mt-auto'>
