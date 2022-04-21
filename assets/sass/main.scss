@@ -164,3 +164,20 @@ img {
   //border-bottom: solid 1px #dee2e6;
 }
 .fancy-hr:last-child { display: none; }
+
+
+/* Page template styles */
+.page {
+
+  @for $i from 1 through 6 {
+
+      // h#{$i} { font-family: Arvo; }
+
+      p + h#{$i}, code + h#{$i},
+      ul + h#{$i}, ol + h#{$i},
+      blockquote + h#{$i}, div + h#{$i} {
+          margin-top: 2rem;
+      }
+  }
+
+}
