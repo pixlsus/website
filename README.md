@@ -1,5 +1,8 @@
 
+<!-- 
 [![Build Status](https://travis-ci.org/pixlsus/website.svg?branch=master)](https://travis-ci.org/pixlsus/website) 
+-->
+
 
 <img src='/src/images/pixls.us-logo-250px.png' width='100'>
 
@@ -29,51 +32,37 @@ Building
 
 ### Requirements
 
-The site is built using a static site generator, [metalsmith][].
+The site is built using a static site generator, [hugo][].
 
-To build the site, you'll need:
+[hugo]: https://gohugo.io/
 
-* [Node.js][]  
-    Currently,
-    * `node --version` shows: `v4.4.4`.
-    * `npm --version` is `2.15.1`  
+To build the site, you'll need the [hugo][] binary, extended version:
 
-Once you've installed Node.js, you can clone the site, then use Node Package Manager (npm)
-to install the rest of the dependencies:
+https://gohugo.io/getting-started/quick-start/#step-1-install-hugo
+
+We're currently using:
+```
+hugo v0.93.0-07469082+extended
+```
+
+Once you've got hugo, you can clone the site:
 
     $ git clone https://github.com/pixlsus/website.git
-    $ cd website
-    $ npm install
+    $ git checkout hugo
 
-This command should install all of the required dependencies for building the site.
-If you want to see exactly what they all are, take a look inside the [package.json][] file.
-
-
-<del>There will likely be some warnings declared until I finish upgrading and testing packages.</del>  
-The site has been updated to all of the latest packages.  Any residual WARNings are due to packages calling old(er) dependencies.
-
-
-
+(Remember to checkout this new `hugo` branch while we migrate.
 
 ### Building the Site
 
 Once the requirements are installed, the site can be built locally with:
 
-    $ node index.js
+    $ hugo
 
-This will output all of the site files into a directory, `build/`.
+This will output all of the site files into a directory, `public/`.
 
-If you don't have an http server ready to use, you can install one:
+Hugo has a built-in webserver:
 
-    $ npm install -g http-server
+    $ hugo server
 
-and then start it up to view the built site:
+You can then see it in a browser: `localhost:1313`.
 
-    $ http-server build/
-
-You can then see it in a browser: `localhost:8080`.
-
-
-[metalsmith]: http://www.metalsmith.io
-[Node.js]: https://nodejs.org
-[package.json]: https://github.com/pixlsus/website/blob/master/package.json
