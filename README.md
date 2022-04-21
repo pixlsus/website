@@ -4,7 +4,7 @@
 -->
 
 
-<img src='/static/images/logo/pixls-atom.png' width='400'>
+<img src='/static/images/logo/pixls-atom.png'>
 
 PIXLS.US Website
 ================
