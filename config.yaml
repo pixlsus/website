@@ -4,6 +4,10 @@ title: 'PIXLS.US'
 theme: 'hugo-bootstrap-bare'
 
 params:
+  Logo: 'images/logo/pixls.us-logo-url.svg'
+  image: 'images/logo/pixls-atom.png'
+  description: 'To provide tutorials, workflows and a showcase for high-quality photography and cinematography using Free/Open Source Software.'
+  Copyright: 'https://creativecommons.org/licenses/by-sa/4.0/legalcode'
   # The image should go in /static/images/main-lede/
   ledeimg:
     src: 'Steinbock_Andreas_Schneider.jpg'
