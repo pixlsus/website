@@ -24,14 +24,20 @@
         {{ end }}
 
         {{ with $author := .Params.author }}
-          <h5 class='text-outline-2'>
+          <h4 class='text-outline-2'>
             By         
             {{ if isset $.Params "author_url" }}
               <a href='{{ $.Params.author_url }}'>{{ $author }}</a>
             {{ else }}
               {{ $author }}
             {{ end }}
-          </h5>
+          </h4>
+        {{ end }}
+
+        {{ with .Params.date }}
+          <h6 class='text-outline-2 mt-2'>
+            {{ .Format "02 Jan 2006" }}
+          </h6>
         {{ end }}
 
         </div>
