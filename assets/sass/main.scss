@@ -1,5 +1,8 @@
 /* Override any bootstrap variables here before importing bootstrap itself */
 
+// $primary: #268bd2; // Testing different primary color for links
+// $primary: #497bad; // Link color from old site
+
 /* Import bootstrap's sass */
 @import 'bootstrap';
 
