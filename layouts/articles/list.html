@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<div class="page">
+  <section id='lede-hero'>
+    <div class='container mb-5 mt-5 mt-lg-0'>
+      <div class='row justify-content-center text-center text-light mt-5 mt-lg-0'>
+        <h1 class='display-1 text-outline-2'>Articles</h1>
+      </div>
+    </div>
+
+    <img src='/images/main-lede/{{ .Site.Params.ledeimg.src }}' >
+
+    {{ with .Site.Params.ledeimg }}
+    <div class='mt-auto'>
+			<p class='text-light'>
+        <a href="{{ .src_url }}">
+          {{ .src_title }}
+        </a>
+        by
+        <a href="{{ .byurl }}">
+          {{ .by }}
+        </a>
+			</p>
+    </div>
+    {{ end }}
+
+  </section>
+  <section class="{{ .Title | urlize }}-page">
+    <h1 class="title">{{ .Title }}</h1>
+    <ul>
+      {{ range .Data.Pages -}}
+        <li>
+          <a href="{{ .Permalink }}">
+              <span>
+            {{ .Title }}
+              </span>
+              {{ if not .Date.IsZero }}
+              <time>
+            {{- .Date.Format (.Site.Params.dateform | default "Jan 02, 2006") -}}
+              </time>
+              {{end}}
+          </a>
+        </li>
+      {{- end }}
+    </ul>
+  </section>
+</div>
+
+{{ end }}
