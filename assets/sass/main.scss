@@ -184,3 +184,39 @@ img {
   }
 
 }
+
+@media (prefers-color-scheme: light) {
+  #latest {
+    background-color: white;
+    * {
+      background-color: inherit;
+    }
+  }
+}
+
+/* For dark color scheme preferences */
+@media (prefers-color-scheme: dark) {
+  #latest {
+    background-color: #fefefe;
+    filter: invert(100%);
+
+    * {
+      background-color: inherit;
+    }
+
+    img:not([src*=".svg"]), video {
+      filter: invert(100%);
+    }
+
+  }
+  // #latest {
+  //   background-color: #fefefe;
+  //   filter: invert(100%);
+  // }
+  // #latest * {
+  //   // background-color: inherit;
+  // }
+  // #latest img:not([src*='.svg']), video {
+  //   filter: invert(100%);
+  // }
+}
