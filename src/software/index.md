@@ -81,7 +81,7 @@ stylesheet: software-page
             </p>
         </div>
         <div class="sw-entry">
-            <a href='http://lightzoneproject.org/'>Lightzone</a>
+            <a href='https://github.com/ktgw0316/LightZone'>Lightzone</a>
             <i class="fa fa-nix-win-osx"></i>
 			<p>
 				LightZone is raw processing software that lets the user build up a stack of tools which can be rearranged and readjusted.
