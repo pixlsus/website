@@ -4,3 +4,7 @@ build
 *.swp
 backstop_data
 package-lock.json
+public/
+resources/
+themes/
+.hugo_build.lock
