@@ -104,6 +104,9 @@ img {
     // border-top: solid 1px #CCC;
   }
 
+  small.author {
+    z-index: 2;
+  }
   .author, small.date {
     font-weight: 500;
     background-color: #66A3D9;
@@ -121,6 +124,9 @@ img {
     font-weight: normal;
     background-color: #EEE;
     background-color: #F27781;
+    background-color: #FF9FA7;
+    margin-left: -1rem;
+    padding-left: 1.5rem;
   }
 
   .read {
