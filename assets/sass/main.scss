@@ -79,12 +79,16 @@ img {
   padding-top: 80px;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
+  padding-top: 65px;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 10px 10px -12px rgba(0,0,0,0.5);
 
   img {
     vertical-align: sub;
   }
   h2 {
     font-family: Arvo;
+    font-size: 1.5rem;
   }
 }
 
