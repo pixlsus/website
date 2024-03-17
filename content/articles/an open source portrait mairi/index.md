@@ -3,6 +3,8 @@ date: 2015-05-18T12:04:49-05:00
 title: "An Open Source Portrait (Mairi)"
 sub_title: "Processing a portrait session"
 
+slug: an-open-source-portrait-mairi
+
 lede_img: "Mairi.jpg"
 lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/8493807318'>Mairi 6</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
 

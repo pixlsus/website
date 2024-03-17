@@ -5,6 +5,8 @@ title: Users Guide to High Bit Depth GIMP 2.9.2, Part 1
 #sub_title: New high bit depth precision options, new color space
 sub_title: "Part 1: New high bit depth precision options, new color space algorithms, and new color management options"
 
+slug: users-guide-to-high-bit-depth-gimp-2-9-2-part-1
+
 lede_img: 'flying-bird-between-trees.jpg'
 lede-style: 'background-color: white; background-position: 0;'
 lede_attribution: "&copy;2015 <a href='http://ninedegreesbelow.com/'>Elle Stone</a>"

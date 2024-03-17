@@ -4,6 +4,8 @@ date: 2015-07-27T10:26:49-05:00
 title: Basic Color Curves
 sub_title: An introduction and simple color grading/toning
 
+slug: basic-color-curves
+
 lede_img: 'tranquil.jpg'
 lede-style: 'background-position: 50% 0;'
 lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/4624063643'>Tranquil</a> by <a href='http://blog.patdavid.net'>Pat David</a> <a class='cc' href='https://creativecommons.org/licenses/by-sa/2.0/'>cba</a>"

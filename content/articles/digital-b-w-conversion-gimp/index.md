@@ -2,6 +2,9 @@
 date: 2014-09-16T13:36:26-05:00
 title: "Digital B&W Conversion (GIMP)" #required
 sub_title: "Methods for converting to B&W"
+
+slug: digital-b-w-conversion-gimp
+
 #lede_img: "https://lh4.googleusercontent.com/-RVauHGzbPRQ/UwvCg3d4Q6I/AAAAAAAAOS4/pLGsqpAM_8E/w1650-no/Into%2Bthe%2BFog.jpg"
 lede_img: "Into-the-Fog.jpg"
 lede_attribution: "Into the Fog by <a href='http://blog.patdavid.net'>Pat David</a>"

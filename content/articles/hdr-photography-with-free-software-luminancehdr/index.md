@@ -4,6 +4,8 @@ date: 2016-01-26T14:57:59-05:00
 title: HDR Photography with Free Software (LuminanceHDR)
 sub_title: A first approach to creating and mapping HDR images
 
+slug: hdr-photography-with-free-software-luminancehdr
+
 lede_img: 'HDRLayers.jpg'
 lede-style: 'background-color: white; background-position: 0;'
 lede_attribution: "<a href='http://www.flickr.com/photos/fredvdd/236863839/'>HDR Layers</a> by <a href='http://www.flickr.com/photos/fredvdd'>dontmindme</a> <a href='https://creativecommons.org/licenses/by-nc-sa/2.0/' title='Creative Commons, BY-NC-SA'><span class='cc'>cbna</span></a>"

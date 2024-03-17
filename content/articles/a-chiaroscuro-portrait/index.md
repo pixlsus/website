@@ -3,6 +3,8 @@ date: 2016-07-27T13:16:07-05:00
 title: "A Chiaroscuro Portrait"
 sub_title: "Following the Old Masters"
 
+slug: a-chiaroscuro-portrait
+
 lede_img: "mairi-lede.jpg"
 lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/16259030889'>Mairi Troisième</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
 

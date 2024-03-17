@@ -4,6 +4,8 @@ date: 2017-03-24T13:17:10-06:00
 title: RawTherapee and Pentax Pixel Shift
 sub_title: Supporting multi-file raw formats
 
+slug: rawtherapee-and-pentax-pixel-shift
+
 lede_img: 'nosle-lede.jpg'
 lede-style: 'background-color: white; background-position: 50%;'
 lede_attribution: "by <a href='https://discuss.pixls.us/users/nosle/summary'>@nosle</a>"

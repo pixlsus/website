@@ -4,6 +4,8 @@ date: 2016-06-09T16:50:08-06:00
 title: Display Color Profiling on Linux
 sub_title: A work in progress
 
+slug: display-color-profiling-on-linux
+
 lede_img: 'pixels.jpg'
 lede-style: 'background-color: white; background-position: 0;'
 lede_attribution: "Real Pixels"

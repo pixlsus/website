@@ -4,6 +4,8 @@ date: 2018-07-23T16:03:11-06:00
 title: From Russia with Love
 sub_title: An Interview with Photographer Ilya Varivchenko
 
+slug: from-russia-with-love
+
 lede_img: "PA150205.jpg"
 lede-style: 'background-color: white; background-size: cover; background-position: 0 20%;'
 lede_attribution: "by <a href='http://varivchenko.com/blog/' title='Ilya Varivchenko Blog'>Ilya Varivchenko</a>"

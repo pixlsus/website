@@ -4,6 +4,8 @@ date: 2019-02-17T14:11:42-06:00
 title: A Q&A with the CHDK Developers
 sub_title: "Adding Features to a Camera: Hacker Meets Photographer"
 
+slug: a-q-a-with-the-chdk-developers
+
 lede_img: "reyalp-chdk-md-fireworks-20180704-9082-c2.jpg"
 lede-style: 'background-color: white; background-size: cover;'
 lede_attribution: "Fireworks with CHDK motion detection script <a href='https://chdk.setepontos.com/index.php?topic=10864.0' target='_blank'>MDFB2013</a>, by reyalp, licensed under CC BY-NC 2.0."

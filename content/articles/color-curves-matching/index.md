@@ -4,6 +4,8 @@ date: 2015-08-04T14:10:36-05:00
 title: Color Curves Matching
 sub_title: Sample points and matching tones 
 
+slug: color-curves-matching
+
 lede_img: 'dorothy.jpg'
 lede-style: 'background-color: white; background-position: 0;'
 lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/16270435838'>Dorothy</a> by <a href='http://blog.patdavid.net'>Pat David</a>"

@@ -4,6 +4,8 @@ date: 2016-10-12T13:47:35-05:00
 title: Highlight Bloom and Photoillustration Look
 sub_title: Replicating a 'Lucisart'/Dave Hill type illustrative look
 
+slug: highlight-bloom-and-photoillustration-look
+
 lede_img: 'lede-woman.jpg'
 lede-style: 'background-color: white; background-position: 0;'
 lede_attribution: "by <a href='https://pixabay.com/en/fashion-woman-beauty-leisure-model-1636868/'>ELANUSA</a> on <a href='https://pixabay.com/en/users/ELANUSA-3179289/'>pixabay</a>"

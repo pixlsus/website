@@ -4,6 +4,8 @@ date: 2019-04-16T09:08:28-06:00
 title: "Processing a nightscape in Siril"
 sub_title: "A basic tutorial"
 
+slug: processing-a-nightscape-in-siril
+
 lede_img: "resultat_03_final.jpg"
 lede-style: 'background-color: white; background-size: cover;'
 lede_attribution: "The Creations, by Sebastien Guyader <a href='https://creativecommons.org/licenses/by-nc/4.0/' class='cc' title='Licensed under Creative Commons Attribution-NonCommercial 4.0 International License'>cbn</a>"

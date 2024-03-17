@@ -4,6 +4,8 @@ date: 2015-08-31T14:33:50-05:00
 title: Freaky Details (Calvin Hollywood)
 sub_title: Replicating Calvin Hollywood's Freaky Details in GIMP
 
+slug: freaky-details-calvin-hollywood
+
 lede_img: 'freaky.jpg'
 lede-style: 'background-color: white; background-position: 0;'
 lede_attribution: "<a href='https://www.flickr.com/photos/thenationalguard/15941126053'>NY National Guard</a> by <a href='https://www.flickr.com/photos/thenationalguard/'>U.S. National Guard</a>"

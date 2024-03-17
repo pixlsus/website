@@ -4,6 +4,8 @@ date: 2018-05-04T14:11:42-06:00
 title: (NSFW) What Stefan Sees
 sub_title: An Interview with Photographer Stefan Schmitz
 
+slug: nsfw-what-stefan-sees
+
 lede_img: "JP_SAS_4429.jpg"
 lede-style: 'background-color: white; background-size: cover;'
 lede_attribution: "by <a href='https://whatstefansees.com/' title='Stefan Schmitz - what stefan sees'>Stefan Schmitz</a>"

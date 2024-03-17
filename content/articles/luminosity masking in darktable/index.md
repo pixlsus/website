@@ -2,6 +2,8 @@
 date: 2015-01-06T13:41:08-05:00
 title: "Luminosity Masking in darktable"
 sub_title: "Making targeted adjustments to your RAWs"
+
+slug: luminosity-masking-in-darktable
 lede_img: "luminosity masks in darktable tutorial lede.jpeg"
 lede_attribution: "Luminosity Masking by <a href='http://lightsweep.co.uk/'>Ian Hex</a>"
 author: "Ian Hex" #required

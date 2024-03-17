@@ -2,6 +2,8 @@
 date: 2015-04-20T11:47:07-05:00
 title: "Skin Retouching with Wavelet Decompose" #required
 sub_title: "A better alternative to smearing textures"
+
+slug: skin-retouching-with-wavelet-decompose
 lede_img: "Nikki-after-opt.jpg"
 lede_attribution: "<a href='https://www.flickr.com/photos/patdavid/14490236250/'>Nikki</a> by <a href='http://blog.patdavid.net'>Pat David</a>"
 author: "Pat David" #required

@@ -3,6 +3,8 @@ date: 2015-07-15T08:47:30-05:00
 title: A Q&A with Photographer Riley Brandt
 sub_title: On creating a F/OSS photography course
 
+slug: a-q-a-with-photographer-riley-brandt
+
 lede_img: 'riley-brandt-lede.jpg'
 lede-style: 'background-position: 50% 0;'
 lede_attribution: "Images by <a href='http://www.rileybrandt.com/'>Riley Brandt</a>"

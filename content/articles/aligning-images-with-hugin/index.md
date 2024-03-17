@@ -3,6 +3,8 @@ date: 2016-11-04T13:12:04-06:00
 title: "Aligning Images with Hugin"
 sub_title: "Easily process your bracketed exposures"
 
+slug: aligning-images-with-hugin
+
 lede_img: "hugin_lede.jpg"
 lede_attribution: "Beach Umbrellas by <a href='https://discuss.pixls.us/users/isaac/activity'>@isaac</a>"
 lede-style: "background-position: 50% 100%;"

@@ -4,6 +4,8 @@ date: 2017-12-05T09:17:37-06:00
 title: Simple Exposure Mapping in GIMP
 sub_title: A simple approach to blending exposures
 
+slug: simple-exposure-mapping-in-gimp
+
 lede_img: lede-sample.jpg
 lede-style: ''
 lede_attribution: "by <a href='https://patdavid.net' title='Pat David'>Pat David</a>"

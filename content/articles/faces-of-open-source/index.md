@@ -4,6 +4,8 @@ date: 2017-10-17T13:20:28-06:00
 title: Faces of Open Source
 sub_title: Peter Adams’s Portraits of Revolutionaries
 
+slug: faces-of-open-source
+
 lede_img: face-montage.jpg
 lede-style: 'background-color: white; background-size: contain; background-repeat: repeat;'
 lede_attribution: "by <a href='http://facesofopensource.com/' title='Portraits from Faces of Open Source by Peter Adams'>Peter Adams</a>"

@@ -5,6 +5,8 @@ title: "Users Guide to High Bit Depth GIMP 2.9.2, Part 2"
 #sub_title: Radiometrically correct editing, unbounded ICC profile conversions, and unclamped editing
 sub_title: "Part 2: Radiometrically correct editing, unbounded ICC profile conversions, and unclamped editing"
 
+slug: users-guide-to-high-bit-depth-gimp-2-9-2-part-2
+
 lede_img: 'flying-bird-between-trees.jpg'
 lede-style: 'background-color: white; background-position: 0;'
 lede_attribution: "&copy;2015 <a href='http://ninedegreesbelow.com/'>Elle Stone</a>"

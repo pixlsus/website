@@ -3,6 +3,8 @@ date: 2016-11-28T13:25:21-06:00
 title: "A Masashi Wakui look with GIMP"
 sub_title: "A color bloom fit for night urban landscapes"
 
+slug: a-masashi-wakui-look-with-gimp
+
 lede_img: "lede_Akihabara.jpg"
 lede_attribution: "<a href='https://www.flickr.com/photos/147159025@N07/30786032301' title='Akihabara Night by McCap'>Akihabara Night</a> by <a href='https://discuss.pixls.us/users/mccap/activity'>@McCap</a>"
 lede-style: ""

@@ -3,6 +3,8 @@ date: 2015-06-26T11:31:39-05:00
 title: A Blended Panorama with PhotoFlow
 sub_title: Creating panoramas with Hugin and PhotoFlow
 
+slug: a-blended-panorama-with-photoflow
+
 lede_img: 'pano_lede.jpg'
 lede_attribution: "<a href='http://photoflowblog.blogspot.fr'>Andrea Ferrero</a>"
 

@@ -4,6 +4,8 @@ date: 2020-01-26T00:00:00-00:00
 title: "Darktable 3:RGB or Lab? Which Modules? Help!"
 sub_title: ""
 
+slug: darktable-3-rgb-or-lab-which-modules-help
+
 lede_img: "hanny-naibaho-correct-blur-scaled.jpg"
 lede_attribution: "by <a href='https://unsplash.com/photos/oTP4xd9SAkc/'>Hanny Naibaho</a>"
 

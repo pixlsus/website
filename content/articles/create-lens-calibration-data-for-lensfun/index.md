@@ -3,6 +3,8 @@ date: 2018-11-15T08:00:00-05:00
 title: "Create lens calibration data for lensfun"
 sub_title: "Adding support for your lens"
 
+slug: create-lens-calibration-data-for-lensfun
+
 lede_img: "lede_vignetting.jpg"
 lede_attribution: "by <a href='https://pixelbook.org'>Andreas Schneider</a>"
 

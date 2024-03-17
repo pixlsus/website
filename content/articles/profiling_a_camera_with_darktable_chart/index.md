@@ -3,6 +3,8 @@ date: 2018-04-25T19:00:07-05:00
 title: "Profiling a camera with darktable-chart"
 sub_title: "Figure out the development process of your camera"
 
+slug: profiling-a-camera-with-darktable-chart
+
 lede_img: "darktable_colorpicker.png"
 lede_attribution: "by <a href='https://pixelbook.org'>Andreas Schneider</a>"
 

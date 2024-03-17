@@ -6,6 +6,8 @@ sub_title: "Exploring exposure blending entirely in GIMP"
 lede_img: "basic landscape exposure blend lede.jpg"
 lede_attribution: "by <a href='http://lightsweep.co.uk/'>Ian Hex</a>"
 
+slug: basic-landscape-exposure-blending-with-gimp-and-g-mic
+
 author: "Pat David" #required
 author_img: ""
 author_url: "http://blog.patdavid.net"
