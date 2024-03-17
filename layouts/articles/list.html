@@ -1,14 +1,14 @@
 {{ define "main" }}
 
 <div class="page">
-  <section id='lede-hero'>
+  <section id='lede-hero' style='height: 50vh;min-height: 50vh;'>
     <div class='container mb-5 mt-5 mt-lg-0'>
       <div class='row justify-content-center text-center text-light mt-5 mt-lg-0'>
         <h1 class='display-1 text-outline-2'>Articles</h1>
       </div>
     </div>
 
-    <img src='/images/main-lede/{{ .Site.Params.ledeimg.src }}' >
+    <img src='/images/main-lede/{{ .Site.Params.ledeimg.src }}' style='height: 50vh;'>
 
     {{ with .Site.Params.ledeimg }}
     <div class='mt-auto'>
@@ -25,25 +25,44 @@
     {{ end }}
 
   </section>
-  <section class="{{ .Title | urlize }}-page">
-    <h1 class="title">{{ .Title }}</h1>
-    <ul>
-      {{ range .Data.Pages -}}
-        <li>
-          <a href="{{ .Permalink }}">
-              <span>
-            {{ .Title }}
-              </span>
-              {{ if not .Date.IsZero }}
-              <time>
-            {{- .Date.Format (.Site.Params.dateform | default "Jan 02, 2006") -}}
-              </time>
-              {{end}}
-          </a>
-        </li>
-      {{- end }}
-    </ul>
-  </section>
+
+  <div class=''>
+    <div class=''>
+      <div class='row row-cols-1 row-cols-lg-2 g-0'>
+        {{ range .Data.Pages }}
+          <div class='col'>
+            <div class='article card border-0' style='height:33vh;'>
+              <img src="{{ .Permalink }}{{ .Params.lede_img }}" class='card-img' style='object-fit: cover; object-position: center; height: 100%;' loading='lazy'>
+              <div class='card-img-overlay text-light'>
+                <h3>{{ .Title  }}</h3>
+              </div>
+            </div>
+          </div>
+        {{end}}
+      </div>
+    </div>
+  </div>
+
+  {{/* <section class="{{ .Title | urlize }}-page"> */}}
+  {{/*   <h1 class="title">{{ .Title }}</h1> */}}
+  {{/*   <ul> */}}
+  {{/*     {{ range .Data.Pages -}} */}}
+  {{/*       <li> */}}
+  {{/*         <a href="{{ .Permalink }}"> */}}
+  {{/*             <span> */}}
+  {{/*           {{ .Title }} */}}
+  {{/*             </span> */}}
+  {{/*             {{ if not .Date.IsZero }} */}}
+  {{/*             <time> */}}
+  {{/*           {{- .Date.Format (.Site.Params.dateform | default "Jan 02, 2006") -}} */}}
+  {{/*             </time> */}}
+  {{/*             {{end}} */}}
+  {{/*         </a> */}}
+  {{/*       </li> */}}
+  {{/*     {{- end }} */}}
+  {{/*   </ul> */}}
+  {{/* </section> */}}
+
 </div>
 
 {{ end }}

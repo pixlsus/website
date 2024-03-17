@@ -18,6 +18,8 @@ img {
   height: auto;
 }
 
+.no-underline { text-decoration: none; }
+
 /* Homepage hero image */
 #lede-hero {
     display: grid;
@@ -85,6 +87,7 @@ img {
 
   img {
     vertical-align: sub;
+    height:80px;
   }
   h2 {
     font-family: Arvo;
