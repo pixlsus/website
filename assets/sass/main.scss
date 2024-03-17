@@ -57,6 +57,7 @@ img {
 /* Remove underline links from headings */
 @for $i from 1 through 6 {
       h#{$i} {
+        font-family: "Arvo";
         a {
           text-decoration: none;
         }
@@ -100,6 +101,9 @@ img {
     margin-top: 0.5rem;
     font-family: Arvo;
   }
+}
+
+.homepage, .articles {
 
   .byline{
     margin-bottom: 0.5rem;
@@ -144,6 +148,22 @@ img {
     padding: 0.15rem;
     padding-right: 1rem;
     padding-left: 1.5rem;
+  }
+}
+
+.articles {
+  .col.article-info {
+    z-index: 0;
+    transition: transform 0.3s ease;
+  }
+  .col.article-info:hover {
+    z-index: 2;
+    box-shadow: 0 0 20px 10px black;
+    transform: scale3d(1.015,1.015,1.015);
+    
+    .card-img-overlay {
+      margin-top: -1px;
+    }
   }
 }
 

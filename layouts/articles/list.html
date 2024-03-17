@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="page">
+<div class="page articles">
   <section id='lede-hero' style='height: 50vh;min-height: 50vh;'>
     <div class='container mb-5 mt-5 mt-lg-0'>
       <div class='row justify-content-center text-center text-light mt-5 mt-lg-0'>
@@ -26,20 +26,36 @@
 
   </section>
 
-  <div class=''>
-    <div class=''>
-      <div class='row row-cols-1 row-cols-lg-2 g-0'>
-        {{ range .Data.Pages }}
-          <div class='col'>
-            <div class='article card border-0' style='height:33vh;'>
-              <img src="{{ .Permalink }}{{ .Params.lede_img }}" class='card-img' style='object-fit: cover; object-position: center; height: 100%;' loading='lazy'>
-              <div class='card-img-overlay text-light'>
-                <h3>{{ .Title  }}</h3>
+  <div class='bg-light'>
+    <div class='row row-cols-1 row-cols-lg-2 g-0'>
+      {{ range .Data.Pages }}
+        <div class='col article-info'>
+
+          <a href='{{ .Permalink }}'>
+
+            <div class='article card border-0' style='height:33vh; border-radius: 0;'>
+
+              <img src="{{ .Permalink }}{{ .Params.lede_img }}" class='card-img' style='object-fit: cover; object-position: center; height: 100%; border-radius: 0;' loading='lazy'>
+
+              <div class='card-img-overlay text-light d-flex p-0' style='background: linear-gradient(180deg, rgba(0,0,0,0.8) 10%, rgba(0,0,0,0) 70%); flex-direction: column;'>
+                <h2 class='text-outline-2 rounded-3 p-3' style='flex-grow: 1;'>{{ .Title  }}</h2>
+
+                <div class='byline text-dark' style='overflow: hidden; height: 2rem;'>
+                  <span style='box-shadow: -8px 6px 6px 0 black;'>
+                    {{ with .Params.author }}
+                      <small class='author' style='padding-left: 1rem;'>
+                        <small>By</small> {{ . }}
+                      </small>
+                    {{ end }}
+                    <small class='read'>{{ .ReadingTime }} min read</small>
+                  </span>
+                </div>
+
               </div>
             </div>
-          </div>
-        {{end}}
-      </div>
+          </a>
+        </div>
+      {{end}}
     </div>
   </div>
 
