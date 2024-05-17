@@ -104,10 +104,13 @@ function add_discuss_homepage( json ){
   ts.appendChild( discuss_fragment );
 }
 
+
+var host = window.location.hostname == 'localhost' ? 'http://localhost:1313' : 'https://discuss.pixls.us';
+
 /* Testing fetch API */
 //fetch('http://time.jsontest.com')
 //fetch('https://discuss.pixls.us/latest.json', { mode: 'no-cors',})
-fetch('http://localhost:1313/latest.json')
+fetch( host + '/latest.json')
   .then( response => {
         if (!response.ok) {
                 throw new Error(`HTTP error: ${response.status}`);
