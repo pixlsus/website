@@ -69,6 +69,7 @@ Outside of work, I am a supporter of Linux and open source software. I am also a
 <figure>
 <img src='Pixls-Interview-Riley-B_Web_10.jpg' alt='Univ. Calgary Prosthetic Rooster' width='640' height='419' title='Gentlemen, we can rebuild him.  We have the technology.'>
 <figcaption>
+
 <small>[*ed. note: He's not kidding - That's a rooster with prosthetic legs...*]</small>
 </figcaption>
 </figure>
@@ -85,7 +86,9 @@ However, I recently became an uncle for the first time to a baby boy, so I imagi
 <figure class='big-vid'>
 <img src='Pixls-Interview-Riley-B_Web_07.jpg' alt='Riley Brandt Environment Portrait Sample' width='960' height='592'>
 <figcaption>
+
 [Environmental Portrait](http://www.rileybrandt.com/project/enviro-portraits/) by Riley Brandt 
+
 </figcaption>
 </figure>
 
@@ -112,6 +115,7 @@ It would be hard for me to choose between candids or portraits. I enjoy them bot
 <figure class='big-vid'>
 <img src='Project_Portraits_Update_0003.jpg' alt='Riley Brandt Portraits' width='940' height='715'>
 <figcaption>
+
 [Portraits](http://www.rileybrandt.com/project/portraits/) by Riley Brandt
 </figcaption>
 </figure>
@@ -153,6 +157,7 @@ Ubuntu doesn't offer an up to date version of the Gnome desktop environment. It 
 <img src='Pixls-Interview-Riley-B_Web_02.jpg' alt='Riley Brandt Summer Days' width='960' height='470' >
 <img src='Pixls-Interview-Riley-B_Web_03.jpg' alt='Riley Brandt Summer Days' width='960' height='598' >
 <figcaption>
+
 [Lifestyle](http://www.rileybrandt.com/project/lifestyle/) by Riley Brandt
 </figcaption>
 </figure>
