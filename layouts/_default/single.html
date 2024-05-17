@@ -2,12 +2,12 @@
 {{ define "main" }}
 {{ $dateFormat := default "Mon Jan 2, 2006" (index .Site.Params "date_format") }}
 
-<div class="page">
-  <article class="{{ .Title | urlize }}-page">
 
-    <section id='lede-hero' class='mb-5'>
-      <div class='container mb-5 mt-5 mt-lg-0'>
-        <div class='row justify-content-center text-center text-light mt-5 mt-lg-0'>
+<article class="{{ .Title | urlize }}-page">
+
+  <section id='lede-hero' class='mb-5'>
+    <div class='container mb-5 mt-5 mt-lg-0'>
+      <div class='row justify-content-center text-center text-light mt-5 mt-lg-0'>
 
         <h1 class="title display-4 mt-4 mb-lg-5 text-outline-2">
           {{ .Title | markdownify }}
@@ -18,9 +18,9 @@
         </div>
 
         {{ with .Params.sub_title }}
-        <h2 class='subtitle text-outline-2 mb-4'>
-          {{ . | markdownify }}
-        </h2>
+          <h2 class='subtitle text-outline-2 mb-4'>
+            {{ . | markdownify }}
+          </h2>
         {{ end }}
 
         {{ with $author := .Params.author }}
@@ -40,48 +40,48 @@
           </h6>
         {{ end }}
 
-        </div>
       </div>
+    </div>
 
-      {{/* <img src='{{ .Params.lede_img }}' > */}}
-      {{ if isset .Params "lede_img"}}
-        <img src="{{ .Permalink }}{{ .Params.lede_img }}" class='w-100' loading='lazy'>
-      {{ else }}
-        <img src="/images/logo/pixls-atom.png" class='w-100' loading='lazy'>
-      {{ end }}
+    {{/* <img src='{{ .Params.lede_img }}' > */}}
+    {{ if isset .Params "lede_img"}}
+      <img src="{{ .Permalink }}{{ .Params.lede_img }}" class='w-100' loading='lazy'>
+    {{ else }}
+      <img src="/images/logo/pixls-atom.png" class='w-100' loading='lazy'>
+    {{ end }}
 
-      {{ with .Params.lede_attribution }}
+    {{ with .Params.lede_attribution }}
       <div class='mt-auto'>
         <p class='text-light text-outline-2 px-2 py-1'>
-        {{ . | safeHTML }}
+          {{ . | safeHTML }}
         </p>
       </div>
-      {{ end }}
+    {{ end }}
 
-    </section>
+  </section>
 
-    <section>
-      <div class='container'>
-        <div class='row justify-content-center'>
-          <div class='col-lg-8'>
-            {{ .Content }}
-          </div>
+  <section class='content'>
+    <div class='container'>
+      <div class='row justify-content-center'>
+        <div class='col-lg-8'>
+          {{ .Content }}
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
 
-    {{ if .IsTranslated }}
+  {{ if .IsTranslated }}
     <h4>{{ i18n "translations" }}</h4>
     <ul>
-              {{ range .Translations }}
-              <li><a href="{{ .Permalink }}">
-      {{ .Lang }}: {{ .Title }}{{ if .IsPage }}{{ end }}
-              </a></li>
-              {{ end }}
+      {{ range .Translations }}
+        <li><a href="{{ .Permalink }}">
+            {{ .Lang }}: {{ .Title }}{{ if .IsPage }}{{ end }}
+          </a></li>
+        {{ end }}
     </ul>
-    {{ end }}
-  </article>
-</div>
+  {{ end }}
+</article>
+
 
 {{ end }}
