@@ -139,7 +139,8 @@
                 {{ end }}
                 <small class='date'>
                   <time class="date">
-                    {{ .Date.Format "January 2, 2006" }}
+                    {{/* {{ .Date.Format "January 2, 2006" }} */}}
+                    {{ .Date.Format "2 Jan 2006" }}
                   </time>
                 </small>
                 <small class='read'>{{ .ReadingTime }} min read</small>
