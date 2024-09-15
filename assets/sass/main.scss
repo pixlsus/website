@@ -9,6 +9,10 @@
 /* Custom SASS imports */
 @import 'partials/typography';
 
+article {
+  font-size: 1.3rem;
+}
+
 .navbar {
   transition: all 500ms ease;
 }
