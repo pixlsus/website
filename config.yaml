@@ -16,6 +16,10 @@ params:
     by: 'Andreas Schneider'
     byurl: 'https://blog.pixelbook.org/'
 
+permalinks:
+  page:
+    blog: /blog/:year/:month/:slug/
+
 markup:
   goldmark:
     renderer:
