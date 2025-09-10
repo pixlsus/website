@@ -1,5 +1,5 @@
 ---
-date: 2014-09-2T11:49:28-05:00
+date: 2014-09-02T11:49:28-05:00
 title: "Building PIXLS.US" 
 sub_title: "A journey of enlightenment..."
 slug: building-pixls-us
