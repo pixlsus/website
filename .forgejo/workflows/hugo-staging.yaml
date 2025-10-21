@@ -1,0 +1,19 @@
+# https://forgejo.org/docs/next/user/actions/
+on:
+  push:
+    branches:
+      - hugo
+jobs:
+  pages:
+    runs-on: hugo
+    env:
+      DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+      DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+      DEPLOY_TARGET: ${{ secrets.DEPLOY_TARGET_STAGING }}
+    steps:
+      - uses: https://data.forgejo.org/actions/checkout@v4
+        with:
+          submodules: true
+      - run: cd themes/hugo-bootstrap-bare/assets; npm install; cd ../../../;
+      - run: hugo --config config.yaml -b 'https://staging.pixls.us/' -d public
+      - run: hugo-deployer
