@@ -14,5 +14,6 @@ jobs:
       - uses: https://data.forgejo.org/actions/checkout@v4
         with:
           submodules: true
-      - run: hugo -d public
+      - run: cd themes/hugo-bootstrap-bare/assets; npm install; cd ../../../;
+      - run: hugo --config config.yaml -b 'https://staging.pixls.us/' -d public
       - run: hugo-deployer
